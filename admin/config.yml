@@ -1,0 +1,7 @@
+backend:
+  name: github
+  repo: service-design-tools/sdt-website
+
+media_folder: "assets/images/uploads"
+
+# collections:

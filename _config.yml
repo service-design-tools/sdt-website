@@ -1,0 +1,15 @@
+collections:
+  tools:
+    output: true
+    permalink: /:collection/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "tools"
+    values:
+      layout: "tool"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
