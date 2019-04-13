@@ -4,4 +4,122 @@ backend:
 
 media_folder: "assets/images/uploads"
 
-# collections:
+collections:
+# tools config fields
+#   - label: "tools"
+#     name: "tools"
+#     label_singular: "tool"
+#     description: "Section to manage the tools."
+#     editor:
+#       preview: false
+#     folder: "_tools"
+#     extension: "md"
+#     format: "frontmatter"
+#     create: true
+#     fields:
+#       - {label: "title", name: "title", widget: "string"}
+#       - {label: "subtitle", name: "subtitle", widget: "string"}
+#       - {label: "also called", name: "synonyms", widget: "string"}
+#       - {label: "svg icon", name: "icon", widget: "string", hint: "Paste here the svg code of the icon. Optional: pass the code here first to clean it better - https://petercollingridge.appspot.com/svg-editor"}
+#       - label: "related content"
+#         name: "related"
+#         widget: "object"
+#         fields:
+#           - label: "tools"
+#             name: "tools"
+#             widget: "list"
+#             field:
+#               label: "tool name"
+#               name: "tool"
+#               widget: "relation"
+#               collection: "tools"
+#               searchFields: ["title"]
+#               valueField: "title"
+#           - label: "oblotips"
+#             name: "tips"
+#             widget: "list"
+#             fields:
+#               - {label: "title", name: "title", widget: "string"}
+#               - {label: "link", name: "link", widget: "string", hint: "Must be a proper url (make sure it works)"}
+#       - {label: "description - what it is", name: "body", widget: "text"}
+#       - {label: "description - use it to", name: "use", widget: "text"}
+#       - {label: "description - remember to", name: "reminder", widget: "text"}
+#       - label: "references"
+#         name: "references"
+#         widget: "list"
+#         field: {label: "link", name: "link", widget: "string", hint: "Must be a proper url (make sure it works)"}
+
+# # tutorials config fields
+#   - label: "tutorials"
+#     name: "tutorials"
+#     label_singular: "tutorial"
+#     description: "Section to manage the tutorials."
+#     editor:
+#       preview: false
+#     folder: "_tutorials"
+#     extension: "md"
+#     format: "frontmatter"
+#     create: true
+#     fields:
+#       - {label: "title", name: "title", widget: "string"}
+#       - label: "steps"
+#         name: "steps"
+#         widget: "list"
+#         fields:
+#           - {label: "step title", name: "title", widget: "string"}
+#           - {label: "description", name: "description", widget: "text"}
+#           - {label: "tips", name: "tips", widget: "markdown"}
+#           - label: "main tool"
+#             name: "tool"
+#             widget: "relation"
+#             collection: "tools"
+#             searchFields: ["title"]
+#             valueField: "title"
+
+# # case studies config fields
+#   - label: "case studies"
+#     name: "case_studies"
+#     label_singular: "case study"
+#     description: "Add here all the case studies that need to be referenced throughout the website."
+#     editor:
+#       preview: false
+#     folder: "_case_studies"
+#     extension: "yml"
+#     format: "yaml-frontmatter"
+#     create: true
+#     fields:
+#       - {label: "title", name: "title", widget: "string"}
+#       - {label: "link", name: "title", widget: "string", hint: "Must be a proper url (make sure it works)"}
+#       - label: "related tools"
+#         name: "tools"
+#         widget: "list"
+#         hint: "List here all the tools where this case study will be shown"
+#         field:
+#           label: "tool name"
+#           name: "tool"
+#           widget: "relation"
+#           collection: "tools"
+#           searchFields: ["title"]
+#           valueField: "title"
+#       - label: "company"
+#         name: "company"
+#         widget: "object"
+#         fields:
+#           - {label: "name", name: "name", widget: "string"}
+#           - {label: "link", name: "link", widget: "string"}
+#       - {label: "industry", name: "industry", widget: "string"}
+#       - {label: "project name", name: "project", widget: "string"}
+#       - {label: "description", name: "description", widget: "text"}
+#       - label: "images"
+#         name: "images"
+#         widget: "list"
+#         field: {label: "image", name: "image", widget: image}
+  - label: "test"
+    name: "test"
+    files:
+      - label: "svg"
+        name: "svg"
+        file: "_data/svg.yml"
+        fields:
+          - {label: "title", name: "title", widget: "string"}
+          - {label: "code", name: "code", widget: "text"}
