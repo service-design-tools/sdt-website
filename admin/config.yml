@@ -19,6 +19,30 @@ collections:
     fields:
       - {label: "title", name: "title", widget: "string"}
       - {label: "subtitle", name: "subtitle", widget: "string"}
+      - label: "tool properties"
+        name: "properties"
+        widget: "object"
+        fields:
+          - label: "when"
+            name: "when"
+            widget: "select"
+            multiple: true
+            options: ["Ideation", "Immersion", "Implementation", "Prototyping"]
+          - label: "who"
+            name: "who"
+            widget: "select"
+            multiple: true
+            options: ["Experts", "Service Staff", "Stakeholders", "Users"]
+          - label: "what"
+            name: "what"
+            widget: "select"
+            multiple: true
+            options: ["Context", "Experience", "Offering", "System"]
+          - label: "how"
+            name: "how"
+            widget: "select"
+            multiple: true
+            options: ["Narratives", "Map", "Simulation", "Text"]
       - {label: "also called", name: "synonyms", widget: "string"}
       - {label: "svg icon", name: "icon", widget: "text", hint: "Paste here the svg code of the icon."}
       - label: "related content"
@@ -28,22 +52,25 @@ collections:
           - label: "tools"
             name: "tools"
             widget: "list"
+            required: false
             field:
               label: "tool name"
               name: "tool"
               widget: "relation"
               collection: "tools"
-              searchFields: ["title"]
+              searchFields: ["title", "properties.when", "properties.who", "properties.what", "properties.how"]
               valueField: "title"
           - label: "oblotips"
             name: "tips"
             widget: "list"
+            required: false
             fields:
               - {label: "title", name: "title", widget: "string"}
               - {label: "link", name: "link", widget: "string", hint: "Must be a proper url (make sure it works)"}
       - {label: "description - what it is", name: "body", widget: "text"}
       - {label: "description - use it to", name: "use", widget: "text"}
       - {label: "description - remember to", name: "reminder", widget: "text"}
+      # template and poster to be added
       - label: "references"
         name: "references"
         widget: "list"
@@ -62,6 +89,7 @@ collections:
     create: true
     fields:
       - {label: "title", name: "title", widget: "string"}
+      - {label: "subtitle", name: "subtitle", widget: "string"}
       - label: "steps"
         name: "steps"
         widget: "list"
@@ -73,7 +101,7 @@ collections:
             name: "tool"
             widget: "relation"
             collection: "tools"
-            searchFields: ["title"]
+            searchFields: ["title", "properties.when", "properties.who", "properties.what", "properties.how"]
             valueField: "title"
 
 # case studies config fields
@@ -99,18 +127,51 @@ collections:
           name: "tool"
           widget: "relation"
           collection: "tools"
-          searchFields: ["title"]
+          searchFields: ["title", "properties.when", "properties.who", "properties.what", "properties.how"]
           valueField: "title"
       - label: "company"
         name: "company"
         widget: "object"
         fields:
           - {label: "name", name: "name", widget: "string"}
-          - {label: "link", name: "link", widget: "string"}
+          - {label: "link", name: "link", widget: "string", hint: "Must be a proper url (make sure it works)"}
       - {label: "industry", name: "industry", widget: "string"}
       - {label: "project name", name: "project", widget: "string"}
       - {label: "description", name: "description", widget: "text"}
+      - {label: "what was interesting", name: "insights", widget: "text"}
       - label: "images"
         name: "images"
         widget: "list"
         field: {label: "image", name: "image", widget: image}
+
+# resources config fields
+  - label: "resources"
+    name: "resources"
+    description: "Here you can add media and publications"
+    editor:
+      preview: false
+    files:
+      - label: "media files"
+        name: "media"
+        file: "_data/media.yml"
+        fields:
+          - label: "medium"
+            name: "medium"
+            widget: "list"
+            fields:
+              - {label: "title", name: "title", widget: "string"}
+              - {label: "type", name: "type", widget: "string", hint: "Video, image, pdf, etc."}
+              - {label: "file", name: "file", widget: "file", hint: "If you are uploading a video, make sure it is an mp4"}
+      - label: "publications"
+        name: "publications"
+        file: "_data/publications.yml"
+        fields:
+          - label: "publication"
+            name: "publication"
+            widget: "list"
+            fields:
+              - {label: "title", name: "title", widget: "string"}
+              - {label: "type", name: "type", widget: "string", hint: "Paper, proceedings, book, etc."}
+              - {label: "link", name: "link", widget: "string", hint: "Must be a proper url (make sure it works)", required: false}
+              - {label: "description", name: "description", widget: "text"}
+              - {label: "file", name: "file", widget: "file", required: false}
