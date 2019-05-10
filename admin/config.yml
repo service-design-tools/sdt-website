@@ -75,14 +75,14 @@ collections:
         widget: "object"
         required: false
         fields:
-          - {label: "image", name: "image", widget: "image", hint: "Preview image on website"}
-          - {label: "file", name: "file", widget: "file", hint: "File that will be downloaded"}
+          - {label: "image", name: "image", widget: "image", hint: "Preview image on website", required: false}
+          - {label: "file", name: "file", widget: "file", hint: "File that will be downloaded", required: false}
       - {label: "poster", name: "poster", widget: "file", required: false}
       - label: "references"
         name: "references"
         widget: "list"
         required: false
-        field:
+        fields:
           - label: "link"
             name: "link"
             widget: "object"
@@ -107,6 +107,7 @@ collections:
       - label: "steps"
         name: "steps"
         widget: "list"
+        required: false
         fields:
           - {label: "step title", name: "title", widget: "string"}
           - {label: "description", name: "description", widget: "text"}
