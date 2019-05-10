@@ -43,7 +43,7 @@ collections:
             widget: "select"
             multiple: true
             options: ["Narratives", "Map", "Simulation", "Text"]
-      - {label: "also called", name: "synonyms", widget: "string"}
+      - {label: "also called", name: "synonyms", widget: "string", required: false}
       - {label: "svg icon", name: "icon", widget: "text", hint: "Paste here the svg code of the icon."}
       - label: "related content"
         name: "related"
@@ -70,11 +70,25 @@ collections:
       - {label: "description - what it is", name: "body", widget: "text"}
       - {label: "description - use it to", name: "use", widget: "text"}
       - {label: "description - remember to", name: "reminder", widget: "text"}
-      # template and poster to be added
+      - label: "template"
+        name: "template"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "image", name: "image", widget: "image", hint: "Preview image on website"}
+          - {label: "file", name: "file", widget: "file", hint: "File that will be downloaded"}
+      - {label: "poster", name: "poster", widget: "file", required: false}
       - label: "references"
         name: "references"
         widget: "list"
-        field: {label: "link", name: "link", widget: "string", hint: "Must be a proper url (make sure it works)"}
+        required: false
+        field:
+          - label: "link"
+            name: "link"
+            widget: "object"
+            fields:
+              - {label: "name", name: "name", widget: "string"}
+              - {label: "url", name: "url", widget: "string", hint: "Must be a proper url (make sure it works)", required: false}
 
 # tutorials config fields
   - label: "tutorials"
@@ -116,8 +130,10 @@ collections:
     format: "yaml-frontmatter"
     create: true
     fields:
+    # add a field for typology of case study: contributed or found
       - {label: "title", name: "title", widget: "string"}
       - {label: "link", name: "title", widget: "string", hint: "Must be a proper url (make sure it works)"}
+      - {label: "typology", name: "typology", widget: "select", options: ["contributed from others", "written by oblo"]}
       - label: "related tools"
         name: "tools"
         widget: "list"
@@ -137,7 +153,7 @@ collections:
           - {label: "link", name: "link", widget: "string", hint: "Must be a proper url (make sure it works)"}
       - {label: "industry", name: "industry", widget: "string"}
       - {label: "project name", name: "project", widget: "string"}
-      - {label: "description", name: "description", widget: "text"}
+      - {label: "description", name: "description", widget: "text", hint: "Pay attention to max character limit"} 
       - {label: "what was interesting", name: "insights", widget: "text"}
       - label: "images"
         name: "images"
