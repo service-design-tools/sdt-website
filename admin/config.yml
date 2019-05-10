@@ -48,6 +48,7 @@ collections:
       - label: "related content"
         name: "related"
         widget: "object"
+        hint: "If you want this to be empty, remove any entry that might have been added by default by the backend"
         fields:
           - label: "tools"
             name: "tools"
@@ -83,12 +84,13 @@ collections:
         widget: "list"
         required: false
         fields:
-          - label: "link"
-            name: "link"
+          - label: "reference"
+            name: "reference"
             widget: "object"
+            hint: "If you want this to be empty, remove any entry that might have been added by default by the backend"
             fields:
               - {label: "name", name: "name", widget: "string"}
-              - {label: "url", name: "url", widget: "string", hint: "Must be a proper url (make sure it works)", required: false}
+              - {label: "link", name: "link", widget: "string", hint: "Must be a proper url (make sure it works)", required: false}
 
 # tutorials config fields
   - label: "tutorials"
@@ -108,6 +110,7 @@ collections:
         name: "steps"
         widget: "list"
         required: false
+        hint: "Before publishing, remove any entry that is empty"
         fields:
           - {label: "step title", name: "title", widget: "string"}
           - {label: "description", name: "description", widget: "text"}
@@ -138,7 +141,7 @@ collections:
       - label: "related tools"
         name: "tools"
         widget: "list"
-        hint: "List here all the tools where this case study will be shown"
+        hint: "List here all the tools where this case study will be shown. Before publishing, remove any entry that is empty"
         field:
           label: "tool name"
           name: "tool"
@@ -159,6 +162,7 @@ collections:
       - label: "images"
         name: "images"
         widget: "list"
+        hint: "Before publishing, remove any entry that is empty"
         field: {label: "image", name: "image", widget: image}
 
 # resources config fields
