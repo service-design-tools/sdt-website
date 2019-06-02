@@ -1,0 +1,7 @@
+<header>
+    <div class="header__column">
+        <h1>{{ include.title }}</h1>
+        <p>{{ include.desc }}</p>
+    </div>
+    {% include_relative {{ include.svg | prepend: '_includes/svgs/' }} %}
+</header>

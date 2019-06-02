@@ -1,0 +1,70 @@
+html {
+    --container-width: 1140px;
+    --color-dark: #262D32;
+    --color-light: #FFFFFF;
+    --color-main: #00D2E6;
+    --color-support: #846DF9;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: var(--color-dark);
+    --font-display: 'Libre Baskerville', serif;
+    --font-light: 300;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-bold: 600;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 5rem 0 1.6rem;
+    font-family: var(--font-display);
+    font-size: 4rem;
+    font-weight: var(--font-regular);
+    line-height: 1.2;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: var(--color-dark);
+    text-decoration: none;
+}
+
+.btn--action {
+    color: var(--color-light);
+    background-color: var(--color-support);
+    border-radius: 5px;
+    font-weight: var(--font-medium);
+}
+
+.svg--outline {
+    fill: none;
+    stroke: #262D32;
+    stroke-width: 0.8px;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+}
+
+.svg--shadow {
+    fill: #F0F1F2;
+}
+
+.svg--filled-main {
+    fill: var(--color-main);
+}
+
+.svg--filled-light {
+    fill: var(--color-light);
+}
+
+.svg--filled-dark {
+    fill: var(--color-dark);
+}

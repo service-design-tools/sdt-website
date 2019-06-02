@@ -1,0 +1,21 @@
+header {
+    width: calc(var(--container-width) - 10rem);
+    margin: 4rem auto;
+    padding: 0 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__column {
+    width: 45%;
+}
+
+.header__column p {
+    width: 75%;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+header svg {
+    width: 42%;
+}
