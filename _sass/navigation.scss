@@ -2,8 +2,12 @@ nav {
     width: var(--container-width);
     margin: 1.8rem auto;
     max-height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .nav__logo {
@@ -15,6 +19,8 @@ nav {
 }
 
 nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 

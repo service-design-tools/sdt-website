@@ -1,9 +1,16 @@
 html {
     --container-width: 1140px;
+    --container-gap: 30px;
+    --container-columns: 12;
+    --column-width: calc((var(--container-width) - var(--container-gap) * (var(--container-columns) - 1)) / var(--container-columns));
+
     --color-dark: #262D32;
     --color-light: #FFFFFF;
     --color-main: #00D2E6;
     --color-support: #846DF9;
+    --color-background-light: #F5F7F9;
+    --color-line-light: #D8D8D8;
+
     font-family: 'IBM Plex Sans', sans-serif;
     color: var(--color-dark);
     --font-display: 'Libre Baskerville', serif;
@@ -12,7 +19,9 @@ html {
     --font-medium: 500;
     --font-bold: 600;
     -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale;
+    
+    --radius: 5px;
 }
 
 body {
@@ -25,6 +34,28 @@ h1 {
     font-size: 4rem;
     font-weight: var(--font-regular);
     line-height: 1.2;
+}
+
+h2 {
+    margin: 0 0 2.25rem;
+    font-family: var(--font-display);
+    font-size: 2.25rem;
+    font-weight: var(--font-regular);
+}
+
+h3 {
+    margin: 0 0 0.875rem;
+    font-size: 0.875rem;
+    font-weight: var(--font-bold);
+    color: var(--color-main);
+    text-transform: uppercase;
+}
+
+h4 {
+    margin: 1.75rem 0 0;
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: var(--font-regular);
 }
 
 ul {
@@ -41,13 +72,13 @@ a {
 .btn--action {
     color: var(--color-light);
     background-color: var(--color-support);
-    border-radius: 5px;
+    border-radius: var(--radius);
     font-weight: var(--font-medium);
 }
 
 .svg--outline {
     fill: none;
-    stroke: #262D32;
+    stroke: var(--color-dark);
     stroke-width: 0.8px;
     stroke-linecap:round;
     stroke-linejoin:round;
@@ -61,10 +92,26 @@ a {
     fill: var(--color-main);
 }
 
+.svg--filled-support {
+    fill: var(--color-support);
+}
+
 .svg--filled-light {
     fill: var(--color-light);
 }
 
 .svg--filled-dark {
     fill: var(--color-dark);
+}
+
+.svg--stroke-thick {
+    stroke-width: 1.5px;
+}
+
+.svg--stroke-thick2 {
+    stroke-width: 3px;
+}
+
+.svg--stroke-main {
+    stroke: var(--color-main);
 }

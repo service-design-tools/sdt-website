@@ -1,5 +1,5 @@
 <header>
-    <div class="header__column">
+    <div class="header__column {% if include.svg == 'home-svg.html' %}home{% endif %}">
         <h1>{{ include.title }}</h1>
         <p>{{ include.desc }}</p>
     </div>

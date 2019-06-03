@@ -2,3 +2,89 @@
 title: Home
 ---
 {% include header.html title="Service Design Tools" desc="An open collection of communication tools used in design processes that deal with complex systems." svg="home-svg.html" %}
+<main>
+    <div class="tools__sneakpeak">
+        <div class="questions__section">
+            <div class="question">
+                <div class="question__title">
+                    {% include_relative _includes/svgs/clock.html %}
+                    <h3>When</h3>
+                </div>
+                <p>What stage of the design process are you in?</p>
+            </div>
+            <div class="question">
+                <div class="question__title">
+                    {% include_relative _includes/svgs/user.html %}
+                    <h3>Who</h3>
+                </div>
+                <p>Who are you trying to engage in the process?</p>
+            </div>
+            <div class="question">
+                <div class="question__title">
+                    {% include_relative _includes/svgs/dots.html %}
+                    <h3>What</h3>
+                </div>
+                <p>What elements of the service you need to describe?</p>
+            </div>
+            <div class="question">
+                <div class="question__title">
+                    {% include_relative _includes/svgs/network.html %}
+                    <h3>How</h3>
+                </div>
+                <p>What type of techniques you'd like to use?</p>
+            </div>
+        </div>
+        <a href="{{ '/tools' | relative_url }}" class="btn--action">explore tools</a>
+    </div>
+
+    <div class="highlights">
+        <h3>Tools & Tutorials</h3>
+        <h2>Highlights</h2>
+        <div class="highlights__cards">
+            <div class="highlights__column">
+                <a href="{{ '/tools' | relative_url }}"><div class="card square--4">
+                    <h2>Tools</h2>
+                    {% include_relative _includes/svgs/tools-svg.html %}
+                </div></a>
+                <a href="{{ '/tutorials' | relative_url }}"><div class="card square--2">
+                    <div class="tutorial__card">
+                        {% include_relative _includes/svgs/dotgrid.html class="dotgrid" %}
+                        <p>02</p>
+                        {% include_relative _includes/svgs/zigzag.html class="zigzag" %}
+                        <h4>How to improve an existing experience?</h4>
+                    </div>
+                </div></a>
+                <div class="highlights__tools">
+                    <a href="{{ '/tools' | relative_url }}"><div class="card square--1">
+                        <p>personas</p>
+                    </div></a>
+                    <a href="{{ '/tools' | relative_url }}"><div class="card square--1">
+                        <p>personas</p>
+                    </div></a>
+                </div>
+            </div>
+            <div class="highlights__column">
+                <div class="highlights__tools">
+                    <a href="{{ '/tools' | relative_url }}"><div class="card square--1">
+                        <p>personas</p>
+                    </div></a>
+                    <a href="{{ '/tools' | relative_url }}"><div class="card square--1">
+                        <p>personas</p>
+                    </div></a>
+                </div>
+                <a href="{{ '/tutorials' | relative_url }}"><div class="card square--2">
+                    <div class="tutorial__card">
+                        {% include_relative _includes/svgs/dotgrid.html class="dotgrid" %}
+                        <p>01</p>
+                        {% include_relative _includes/svgs/zigzag.html class="zigzag" %}
+                        <h4>How to find new exciting opportunities?</h4>
+                    </div>
+                </div></a>
+                <a href="{{ '/tutorials' | relative_url }}"><div class="card square--4">
+                    <h2>Tutorials</h2>
+                    {% include_relative _includes/svgs/tutorials-svg.html %}
+                </div></a>
+            </div>
+        </div>
+    </div>
+</main>
