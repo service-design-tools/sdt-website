@@ -170,6 +170,7 @@ collections:
   - label: "resources"
     name: "resources"
     description: "Here you can add media and publications"
+    delete: false
     editor:
       preview: false
     files:
