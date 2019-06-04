@@ -6,6 +6,8 @@ footer {
 }
 
 .footer__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-bottom: 3.75rem;
     border-bottom: 0.5px solid var(--color-light);
