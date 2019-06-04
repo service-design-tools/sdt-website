@@ -74,6 +74,7 @@ a {
     background-color: var(--color-support);
     border-radius: var(--radius);
     font-weight: var(--font-medium);
+    padding: 0.7rem 3.4rem;
 }
 
 .svg--outline {
@@ -112,6 +113,14 @@ a {
     stroke-width: 3px;
 }
 
+.svg--dashed {
+    stroke-dasharray: 5,5;
+}
+
 .svg--stroke-main {
     stroke: var(--color-main);
+}
+
+.svg--stroke-light {
+    stroke: var(--color-light);
 }
