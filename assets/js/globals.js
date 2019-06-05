@@ -67,4 +67,19 @@ const filterValues = {
 
 const sorting = "process";
 
-export {filterValues, sorting};
+const questions = [
+    {
+        "type": "when",
+        "text": "for"
+    }, {
+        "type": "who",
+        "text": "to engage"
+    }, {
+        "type": "what",
+        "text": "to describe"
+    }, {
+        "type": "how",
+        "text": "that use"
+    }];
+
+export {filterValues, sorting, questions};

@@ -15,9 +15,17 @@ main {
     font-weight: var(--font-medium);
 }
 
+.breadcrumb {
+    width: 80%;
+}
+
 .breadcrumb p {
     font-size: 2rem;
     font-weight: var(--font-light);
+}
+
+.breadcrumb p span {
+    color: var(--color-support);
 }
 
 .sorting {

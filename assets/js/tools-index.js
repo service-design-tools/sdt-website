@@ -1,4 +1,4 @@
-import {filterValues, sorting} from "/assets/js/globals.js";
+import {filterValues, sorting, questions} from "/assets/js/globals.js";
 
 (function () {
     // localStorage.clear();
@@ -10,7 +10,6 @@ import {filterValues, sorting} from "/assets/js/globals.js";
     }
     const sessionFilters = filtersCache === null ? filterValues : JSON.parse(filtersCache);
     const sessionSorting = filtersCache === null ? sorting : JSON.parse(sortingCache);
-    // console.log(sessionFilters, sessionSorting);
 
     const $filters = document.querySelectorAll('.filter input');
     const $breadcrumb = document.querySelector('.breadcrumb p');
@@ -28,6 +27,34 @@ import {filterValues, sorting} from "/assets/js/globals.js";
     }
 
     function updateGallery() {
-        console.log($breadcrumb)
+        const $activeFilters = document.querySelectorAll(`.filter input:checked`);
+        const selectionArray = [];
+        $activeFilters.forEach(filter => {
+            selectionArray.push(`:not(.${filter.id})`)
+        })
+        const newSelection = selectionArray.length ? `.tool${selectionArray.join('')}` : '.tool';
+        // console.log(newSelection);
+
+        updateBreadcrumb($activeFilters.length);
+    }
+
+    function updateBreadcrumb(filtersLength) {
+        let breadcrumbString = (filtersLength === 0 || filtersLength === 16) ? 'All tools' : 'Tools';
+        questions.forEach(question => {
+            const filtersChecked = Array.from(document.querySelectorAll(`[name="${question.type}"]:checked`), el => el.nextSibling.innerText);
+            const activeNumber = filtersChecked.length;
+            if (activeNumber) {
+                let newString = question.text;
+                if (activeNumber === 1) {
+                    newString += ` <span>${filtersChecked[0]}</span> `
+                } else {
+                    for (let i = 0; i < filtersChecked.length; i++) {
+                        newString += i === (filtersChecked.length - 1) ? ` or <span>${filtersChecked[i]}</span>` : i === (filtersChecked.length - 2) ? ` <span>${filtersChecked[i]}</span>` : ` <span>${filtersChecked[i]}</span>,`;
+                    }
+                }
+                breadcrumbString += ` ${newString}`;
+            }
+        });
+        $breadcrumb.innerHTML = breadcrumbString;
     }
 })();
