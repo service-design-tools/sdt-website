@@ -10,6 +10,9 @@
         {% case url %}
         {% when '/' %}
         <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+        {% when '/tools.html' %}
+        <link rel="stylesheet" href="{{ '/assets/css/tools-index.css' | relative_url }}">
+        <script src="{{ '/assets/js/tools-index.js' | relative_url }}" type="module" defer></script>
         {% else %}
         {% endcase %}
     </head>

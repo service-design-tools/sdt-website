@@ -1,5 +1,16 @@
 ---
 ---
-@import "home/home";
+main {
+    width: var(--container-width);
+    padding: 0 calc((100% - var(--container-width)) / 2);
+    background-color: var(--color-background-light);
+}
+
+main > div {
+    position: relative;
+    top: -70px;
+}
+
 @import "home/questions";
 @import "home/highlights";
+@import "contribute";

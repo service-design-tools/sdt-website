@@ -1,15 +1,4 @@
-main {
-    width: var(--container-width);
-    padding: 0 calc((100% - var(--container-width)) / 2);
-    background-color: var(--color-background-light);
-}
-
-main > div {
-    position: relative;
-    top: -70px;
-}
-
-.home__contribute {
+.contribute {
     width: var(--container-width);
     padding: 6rem calc((100% - var(--container-width)) / 2);
     background-color: var(--color-support);
@@ -24,7 +13,7 @@ main > div {
             align-items: center;
 }
 
-.home__contribute svg {
+.contribute svg {
     height: 285px;
     margin-right: calc(var(--column-width) * 2 + var(--container-gap) * 2);
 }

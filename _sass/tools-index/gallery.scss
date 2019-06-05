@@ -1,0 +1,72 @@
+main {
+    width: var(--container-width);
+    padding: 0 calc((100% - var(--container-width)) / 2);
+    background-color: var(--color-background-light);
+}
+
+.tools__navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.tools__navigation h3 {
+    color: var(--color-dark);
+    font-weight: var(--font-medium);
+}
+
+.breadcrumb p {
+    font-size: 2rem;
+    font-weight: var(--font-light);
+}
+
+.sorting {
+    display: flex;
+}
+
+.sorting h3 {
+    margin-right: 0.7rem;
+}
+
+.sorting ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sorting li {
+    position: relative;
+    display: inline-block;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-weight: var(--font-medium);
+    margin-bottom: 0.4rem;
+    padding-bottom: 0.1rem;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.sorting li::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid var(--color-support);
+    transform: scaleX(0);
+    transition: transform 0.5s ease;
+    transform-origin: 100% 0%;
+}
+
+.sorting li:hover {
+    color: var(--color-support);
+}
+
+.sorting li.selected {
+    color: var(--color-support);
+}
+
+.sorting li.selected::after {
+    transform: scaleX(1);
+    transform-origin: 0% 0%;
+}

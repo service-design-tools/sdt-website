@@ -69,6 +69,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin: 0;
+}
+
 .btn--action {
     color: var(--color-light);
     background-color: var(--color-support);

@@ -27,7 +27,7 @@ collections:
             name: "when"
             widget: "select"
             multiple: true
-            options: ["Ideation", "Immersion", "Implementation", "Prototyping"]
+            options: ["Ideation", "Implementation", "Prototyping", "Research"]
           - label: "who"
             name: "who"
             widget: "select"
@@ -42,7 +42,7 @@ collections:
             name: "how"
             widget: "select"
             multiple: true
-            options: ["Narratives", "Map", "Simulation", "Text"]
+            options: ["Narratives", "Maps", "Simulations", "Text"]
       - {label: "also called", name: "synonyms", widget: "string", required: false}
       - {label: "svg icon", name: "icon", widget: "text", hint: "Paste here the svg code of the icon."}
       - label: "related content"
