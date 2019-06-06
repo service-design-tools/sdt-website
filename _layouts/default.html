@@ -17,6 +17,9 @@
         <script src="{{ '/assets/js/tools-index.js' | relative_url }}" type="module" defer></script>
         {% else %}
         {% endcase %}
+        {% if page.layout == "tool" %}
+        <link rel="stylesheet" href="{{ '/assets/css/tool.css' | relative_url }}">
+        {% endif %}
     </head>
     <body>
         {% include navigation.html %}

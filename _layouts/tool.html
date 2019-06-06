@@ -1,3 +1,60 @@
 ---
 layout: default
 ---
+{% assign templateNumber = page.template | size %}
+{% assign referencesNumber = page.references | size %}
+<header>
+    <div class="header__icon">
+        {{ page.icon }}
+    </div>
+    <div class="header__content">
+        <h1>{{ page.title }}</h1>
+        <h2>{{ page.subtitle }}</h2>
+        <h5>also called</h5>
+        <p>{{ page.synonyms }}</p>
+        <div class="header__social">
+            <a href="https://" target="_blank" rel="noopener noreferrer">{% include svgs/twitter.html %}</a>
+            <a href="https://" target="_blank" rel="noopener noreferrer">{% include svgs/facebook.html %}</a>
+            <a href="https://" target="_blank" rel="noopener noreferrer">{% include svgs/linkedin.html %}</a>
+            <a href="https://" target="_blank" rel="noopener noreferrer">{% include svgs/link.html %}</a>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="related__content">
+        
+    </div>
+    <div class="main__content">
+        <h3>what is it</h3>
+        <p>{{ content }}</p>
+        <div class="additional__content">
+            <div>
+                <h3>use it to</h3>
+                <p>{{ page.use }}</p>
+            </div>
+            <div>
+                <h3>remember to</h3>
+                <p>{{ page.reminder }}</p>
+            </div>
+        </div>
+        {% if templateNumber > 0 %}
+        <img src="{{ page.template.image }}" alt="Preview image of the template for {{ page.title }}">
+        <div class="download__links">
+            <a href="{{ page.template.file }}" class="btn--action" download>download template</a>
+        </div>
+        {% endif %}
+        {% if referencesNumber > 0 %}
+        <div class="references">
+            <h3>references</h3>
+            {% for el in page.references %}
+            {% if el.reference.link %}
+            <a href="{{ el.reference.link }}" target="_blank" rel="noopener noreferrer">{{ el.reference.name }}</a>
+            {% else %}
+            <p>{{ el.reference.name }}</p>
+            {% endif %}
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</main>
+{% include contribute.html %}
