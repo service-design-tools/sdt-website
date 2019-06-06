@@ -45,7 +45,8 @@ icon: >-
   </svg>
 related:
   tips: []
-  tools: []
+  tools:
+    - Empathy Map
 use: Describe your user and remember who you design for.
 reminder: >-
   Avoid including the details that are misleading and not relevant for your
