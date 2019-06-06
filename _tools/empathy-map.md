@@ -1,6 +1,6 @@
 ---
 title: Empathy Map
-subtitle: Share key assumptions around user attitudes and behaviors.
+subtitle: Share key assumptions around user attitudes and behaviors
 properties:
   how:
     - Maps
