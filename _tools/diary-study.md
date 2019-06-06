@@ -41,7 +41,8 @@ icon: >-
   </svg>
 related:
   tips: []
-  tools: []
+  tools:
+    - Observation Notes
 use: >-
   Analyse repetitive actions and daily behaviours, things we don't pay attention
   to.
