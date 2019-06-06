@@ -25,7 +25,7 @@ icon: >-
       <path class="svg--filled-main" d="M41.7 53.6v-7.2c0-5.1-3.5-10.3-7.8-12.2 0 0-3.4 2.3-6.6 2.3 -3.3 0-6.5-2.6-6.5-2.6 -4.4 1.9-8 7.3-8 12.4v7.2"/>
       <rect x="52.1" y="78" class="svg--filled-main" width="22.8" height="21.6"/>
     </g>
-    <g class="base">
+    <g class="bw">
       <rect x="0.9" y="0.9" class="svg--outline svg--stroke-thick" width="85.3" height="109.4"/>
       <line class="svg--outline svg--stroke-thick" x1="0.9" y1="53.9" x2="86.2" y2="53.9"/>
       <line class="svg--outline svg--stroke-thick" x1="46.4" y1="20.8" x2="75.5" y2="20.8"/>
