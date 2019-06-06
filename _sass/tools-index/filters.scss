@@ -90,6 +90,12 @@
     color: var(--color-support);
 }
 
+.filter input.disabled + label {
+    color: var(--color-dark);
+    opacity: 0.3;
+    pointer-events: none;
+}
+
 .filter input + label::before {
     content: "";
     position: absolute;
