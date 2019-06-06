@@ -2,7 +2,7 @@
 title: Diary Study
 subtitle: >-
   Collect deep insights by asking users or employees to track and observe their
-  behaviours over time.
+  behaviours over time
 properties:
   how:
     - Text
