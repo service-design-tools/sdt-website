@@ -1,6 +1,6 @@
 nav {
     width: var(--container-width);
-    margin: 1.8rem auto;
+    padding: 1.8rem calc((100% - var(--container-width)) / 2);
     max-height: 60px;
     display: -webkit-box;
     display: -ms-flexbox;

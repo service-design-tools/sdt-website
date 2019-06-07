@@ -1,0 +1,50 @@
+header {
+    --header-padding: calc(var(--column-width) + var(--container-gap));
+    width: calc(var(--container-width) - var(--header-padding) * 2);
+    padding: 4rem calc((100% - var(--container-width)) / 2 + var(--header-padding));
+    margin: 0;
+    background-color: var(--color-main);
+    display: flex;
+}
+
+.header__content {
+    width: 66%;
+}
+
+.tutorial__number {
+    display: flex;
+    align-items: center;
+}
+
+.tutorial__number p {
+    font-size: 1.25rem;
+    font-weight: var(--font-medium);
+    color: var(--color-light);
+    margin-right: 1.25rem;
+}
+
+.tutorial__number .zigzag {
+    height: 0.8rem;
+}
+
+.tutorial__number .zigzag .svg--stroke-main {
+    stroke: var(--color-light);
+    opacity: 0.5;
+}
+
+.header__content h1 {
+    margin: 1.375rem 0 1.5rem;
+    font-size: 3.125rem;
+    color: var(--color-light);
+}
+
+header .dotgrid {
+    align-self: flex-end;
+    height: 280px;
+    margin-top: 4rem;
+}
+
+header .dotgrid .svg--filled-support {
+    fill: var(--color-light);
+    opacity: 0.4;
+}

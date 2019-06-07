@@ -1,0 +1,15 @@
+---
+---
+nav {
+    background-color: var(--color-main);
+}
+
+nav .logo path {
+    fill: var(--color-light);
+}
+
+nav ul a {
+    color: var(--color-light);
+    font-weight: var(--font-medium);
+}
+@import "tutorial/tutorial-header";

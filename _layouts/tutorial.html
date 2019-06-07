@@ -1,3 +1,21 @@
 ---
 layout: default
 ---
+{% for tutorial in site.tutorials %}
+{% if tutorial.title == page.title %}
+{% assign number = forloop.index %}
+{% endif %}
+{% endfor %}
+<header>
+    <div class="header__content">
+        <div class="tutorial__number">
+            {% if number > 9 %}<p>{{ number }}</p>{% else %}<p>0{{ number }}</p>{% endif %}
+            {% include svgs/zigzag.html class="zigzag" %}
+        </div>
+        <h1>{{ page.title }}</h1>
+        {% if page.subtitle %}
+        <p>{{ page.subtitle }}</p>
+        {% endif %}
+    </div>
+    {% include svgs/dotgrid.html class="dotgrid" %}
+</header>
