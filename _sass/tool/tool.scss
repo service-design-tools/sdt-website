@@ -83,6 +83,19 @@ main {
     width: calc(var(--column-width) * 4 + var(--container-gap) * 4);
 }
 
+.related__content h5 {
+    margin-bottom: 1rem;
+}
+
+.related__content .tip {
+    text-decoration: underline;
+}
+
+.tip svg {
+    margin-left: 0.2rem;
+    height: 0.75rem;
+}
+
 .related__tool {
     width: 210px;
     padding: 1.125rem;
@@ -170,4 +183,9 @@ main {
 
 .references a {
     text-decoration: underline;
+}
+
+.references a svg {
+    margin-left: 0.2rem;
+    height: 0.75rem;
 }

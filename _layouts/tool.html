@@ -40,6 +40,9 @@ layout: default
         {% endif %}
         {% if tipsNumber > 0 %}
         <h5>#oblotips</h5>
+        {% for tip in page.related.tips %}
+        <a href="{{ tip.link }}" target="_blank" rel="noopener noreferrer" class="tip">{{ tip.title }} {% include svgs/external-link.html %}</a>
+        {% endfor %}
         {% endif %}
         {% endif %}
     </div>
@@ -67,7 +70,7 @@ layout: default
             <h3>references</h3>
             {% for reference in page.references %}
             {% if reference.link %}
-            <a href="{{ reference.link }}" target="_blank" rel="noopener noreferrer">{{ reference.name }}</a>
+            <a href="{{ reference.link }}" target="_blank" rel="noopener noreferrer">{{ reference.name }} {% include svgs/external-link.html %}</a>
             {% else %}
             <p>{{ reference.name }}</p>
             {% endif %}
