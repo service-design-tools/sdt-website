@@ -110,7 +110,7 @@ collections:
         hint: "Before publishing, remove any entry that might have been left empty"
         fields:
           - {label: "step title", name: "title", widget: "string"}
-          - {label: "description", name: "description", widget: "text"}
+          - {label: "description", name: "description", widget: "markdown"}
           - {label: "tips", name: "tips", widget: "markdown"}
           - label: "main tool"
             name: "tool"
