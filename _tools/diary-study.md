@@ -40,7 +40,9 @@ icon: >-
     </g>
   </svg>
 related:
-  tips: []
+  tips:
+    - link: 'https://micheleinvernizzi.com'
+      title: Test Tip
   tools:
     - Observation Notes
 use: >-
