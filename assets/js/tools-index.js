@@ -6,34 +6,66 @@ import {filterValues, sorting, questions} from "/assets/js/globals.js";
     const sortingCache = localStorage.getItem('sortingCache');
     if (filtersCache === null) {
         localStorage.setItem('filtersCache', JSON.stringify(filterValues));
-        localStorage.setItem('sortingsCache', sorting);
+    }
+    if (sortingCache === null) {
+        localStorage.setItem('sortingCache', sorting);
     }
     const sessionFilters = filtersCache === null ? filterValues : JSON.parse(filtersCache);
-    const sessionSorting = filtersCache === null ? sorting : JSON.parse(sortingCache);
+    let sessionSorting = sortingCache === null ? sorting : sortingCache;
+    document.getElementById(sessionSorting).classList.add('selected');
 
     const iso = new Isotope('.tools__gallery', {
-        itemSelector: '.tool'
+        itemSelector: '.tool',
+        getSortData: {
+            alphabetical: '[data-name]',
+            process: function(el) {
+                const processArray = el.getAttribute('data-process').slice(1).split(' ');
+                const orderArray = processArray.map(process => filterValues[process].order);
+                const order = d3.least(orderArray);
+                return order;
+            }
+        }
     });
     const $filters = document.querySelectorAll('.filter input');
     const $breadcrumb = document.querySelector('.breadcrumb p');
     const $tools = document.querySelectorAll(`.tool`);
+    const $sortingButtons = document.querySelectorAll(`.sorting li`);
     $filters.forEach(el => {
         el.checked = sessionFilters[el.id].checked;
-        el.onclick = updateView;
+        el.onclick = filterView;
     });
-    $tools.forEach(tool => {
-        // console.log(tool.classList)
+    $sortingButtons.forEach(el => {
+        el.onclick = sortView;
     });
 
-    updateGallery();
+    sortGallery(sessionSorting);
+    filterGallery();
 
-    function updateView() {
+    function filterView() {
         sessionFilters[this.id].checked = !sessionFilters[this.id].checked;
         localStorage.setItem('filtersCache', JSON.stringify(sessionFilters));
-        updateGallery();
+        filterGallery();
     }
 
-    function updateGallery() {
+    function sortView() {
+        const newSorting = this.id;
+
+        if(newSorting != sessionSorting) {
+            localStorage.setItem('sortingCache', newSorting);
+            sessionSorting = newSorting;
+            $sortingButtons.forEach(button => button.classList.remove('selected'));
+            this.classList.add('selected');
+            sortGallery(newSorting);
+        }
+    }
+
+    function sortGallery(sortingOrder) {
+        iso.arrange({
+            sortBy: sortingOrder === 'process' ? ['process', 'alphabetical'] : ['alphabetical', 'process']
+        });
+    }
+
+    function filterGallery() {
         const $activeFilters = document.querySelectorAll('.filter input:checked');
         let checkedFiltersByGroup = [];
         let combinationArray = [];
@@ -54,12 +86,8 @@ import {filterValues, sorting, questions} from "/assets/js/globals.js";
             let prefix = currentIndex > 0 ? ', .tool' : '.tool';
             return accumulator + prefix + currentValue.join('');
         }, '') : '.tool';
-        // console.log(newSelection);
 
-        iso.arrange({
-            // sortBy: 'number',
-            filter: newSelection
-        });
+        iso.arrange({ filter: newSelection });
         $tools.forEach(tool => tool.classList.add('hidden'));
         const $selectedTools = document.querySelectorAll(newSelection);
         $selectedTools.forEach(tool => tool.classList.remove('hidden'));

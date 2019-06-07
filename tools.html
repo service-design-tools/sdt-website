@@ -65,14 +65,14 @@ title: Tools
         <div class="sorting">
             <h3>Sort by:</h3>
             <ul>
-                <li class="selected">Process phase</li>
-                <li>Alphabetical</li>
+                <li id="process">Process phase</li>
+                <li id="alphabetical">Alphabetical</li>
             </ul>
         </div>
     </div>
     <div class="tools__gallery">
         {% for tool in site.tools %}
-        <a href="{{ tool.title | slugify | prepend: '/tools/' | relative_url }}" class="tool {% for question in tool.properties.when %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.who %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.what %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.how %} {{ question | slugify }}{% endfor %}">
+        <a href="{{ tool.title | slugify | prepend: '/tools/' | relative_url }}" class="tool{% for question in tool.properties.when %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.who %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.what %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.how %} {{ question | slugify }}{% endfor %}" data-name="{{ tool.title | slugify }}" data-process="{% for question in tool.properties.when %} {{ question | slugify }}{% endfor %}">
             <div class="card">
                 {{ tool.icon }}
                 <p>{{ tool.title }}</p>

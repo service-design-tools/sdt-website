@@ -1,19 +1,23 @@
 const filterValues = {
     "research": {
         "type": "when",
-        "checked": false
+        "checked": false,
+        "order": 0
     },
     "ideation": {
         "type": "when",
-        "checked": false
+        "checked": false,
+        "order": 1
     },
     "prototyping": {
         "type": "when",
-        "checked": false
+        "checked": false,
+        "order": 2
     },
     "implementation": {
         "type": "when",
-        "checked": false
+        "checked": false,
+        "order": 3
     },
     "experts": {
         "type": "who",
