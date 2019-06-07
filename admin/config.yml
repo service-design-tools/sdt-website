@@ -153,7 +153,7 @@ collections:
           - {label: "name", name: "name", widget: "string"}
           - {label: "link", name: "link", widget: "string", hint: "Must be a proper url (make sure it works)"}
       - {label: "industry", name: "industry", widget: "string"}
-      - {label: "project name", name: "project", widget: "string"}
+      - {label: "project name/brief", name: "project", widget: "string"}
       - {label: "description", name: "description", widget: "text", hint: "Pay attention to max character limit"} 
       - {label: "what was interesting", name: "insights", widget: "text"}
       - label: "images"

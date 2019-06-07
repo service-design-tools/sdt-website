@@ -1,78 +1,3 @@
-header {
-    width: var(--container-width);
-    padding: 6rem calc((100% - var(--container-width)) / 2) 0;
-    background-color: var(--color-light);
-    display: flex;
-    position: relative;
-}
-
-header::after {
-    content: "";
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    width: 100%;
-    height: 14px;
-    border-radius: 50%;
-    opacity: 0.1;
-    box-shadow: 2px 2px 20px var(--color-dark);
-    z-index: -1;
-}
-
-.header__icon {
-    width: calc(var(--column-width) * 4 + var(--container-gap) * 4);
-    display: flex;
-    justify-content: center;
-}
-
-.header__icon svg {
-    max-height: 130px;
-}
-
-.header__content {
-    width: calc(var(--column-width) * 8 + var(--container-gap) * 7);
-}
-
-.header__content h1 {
-    margin: 0 0 1rem;
-    font-size: 3rem;
-}
-
-.header__content h2 {
-    width: calc(var(--column-width) * 5 + var(--container-gap) * 5);
-    margin: 0 0 2.5rem;
-    font-family: var(--font-corpus);
-    font-size: 1.375rem;
-    font-weight: var(--font-light);
-    line-height: 1.6;
-}
-
-.header__content p {
-    margin: 0 0 2.5rem;
-}
-
-.header__social {
-    display: flex;
-    margin-bottom: 4rem;
-}
-
-.header__social a {
-    margin-right: 1rem;
-}
-
-.header__social svg {
-    max-width: 100%;
-    height: 35px;
-}
-
-.header__social .twitter .svg--filled-light {
-    fill: var(--color-main);
-}
-
-.header__social .twitter .svg--filled-dark {
-    fill: var(--color-light);
-}
-
 main {
     width: var(--container-width);
     margin: 3rem auto 5rem;
@@ -172,7 +97,7 @@ main {
 
 .references {
     padding-top: 1rem;
-    border-top: 0.5px solid var(--color-line-light);
+    // border-top: 0.5px solid var(--color-line-light);
 }
 
 .references p {

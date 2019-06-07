@@ -37,7 +37,22 @@
             justify-content: center;
 }
 
+.highlights__tools svg {
+    max-height: 32%;
+}
+
+.highlights__tools svg .svg--filled-main {
+    opacity: 0;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.highlights__tools .card:hover .svg--filled-main {
+    opacity: 1;
+}
+
 .highlights__tools p {
+    margin-top: 1.2rem;
     font-size: 0.875rem;
     font-weight: var(--font-medium);
     text-transform: uppercase;
