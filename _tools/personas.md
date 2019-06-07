@@ -55,16 +55,13 @@ template:
   file: /assets/images/uploads/template_personas.pdf
   image: /assets/images/uploads/preview-template_personas.jpg
 references:
-  - reference:
-      name: '(1998) Alan Cooper, The Inmates Are Running the Asylum, Sams.'
-  - reference:
-      name: >-
-        (2009) Frank Long, Real or Imaginary: The effectiveness of using
-        personas in product design, research paper published in the Irish
-        Ergonomics Review, Proceedings of the IES Conference 2009, Dublin
-  - reference:
-      name: >-
-        (2009) Kim Goodwin, Designing for the Digital Age: How to Create
-        Human-centered Products and Services, John Wiley & Sons.
+  - name: '(1998) Alan Cooper, The Inmates Are Running the Asylum, Sams.'
+  - name: >-
+      (2009) Frank Long, Real or Imaginary: The effectiveness of using
+      personas in product design, research paper published in the Irish
+      Ergonomics Review, Proceedings of the IES Conference 2009, Dublin
+  - name: >-
+      (2009) Kim Goodwin, Designing for the Digital Age: How to Create
+      Human-centered Products and Services, John Wiley & Sons.
 ---
 A Persona is a fictional character whose profile gathers up the features of an existing social group. In this way the personas assume the attributes of the groups they represent: from their social and demographic characteristics, to their own needs, desires, habits and cultural backgrounds.

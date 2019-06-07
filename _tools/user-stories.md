@@ -45,8 +45,7 @@ use: Connect design research with actionable input for IT development.
 reminder: 'Write these as seen from the user’s perspective, using simple, concise words.'
 template: {}
 references:
-  - reference:
-      link: 'https://www.thisisservicedesigndoing.com/methods/writing-user-stories'
-      name: Writing User Stories
+  - link: 'https://www.thisisservicedesigndoing.com/methods/writing-user-stories'
+    name: Writing User Stories
 ---
 User stories are used to define requirements from a user perspective, in contrast to often rather product-based requirement documents. They can be used in various stages of a design process.

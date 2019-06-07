@@ -53,8 +53,7 @@ reminder: >-
   play with it.
 template: {}
 references:
-  - reference:
-      link: 'https://www.nngroup.com/articles/diary-studies/'
-      name: 'Diary Studies: Understanding Long-Term User Behavior and Experiences'
+  - link: 'https://www.nngroup.com/articles/diary-studies/'
+    name: 'Diary Studies: Understanding Long-Term User Behavior and Experiences'
 ---
 The diary study is a research method inspired by cultural probes, in which participants are asked to monitor and report specific data over a defined period of time. The diary can be analog or digital, request to simply log specific information or even take photos and videos. It could help with remote research, and facilitate self-reflection prior to an in-depth interview.

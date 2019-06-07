@@ -40,9 +40,8 @@ use: 'Make the ideation process smooth, open and fun, avoiding the creative bloc
 reminder: Keep the content of the cards heterogenous and simple.
 template: {}
 references:
-  - reference:
-      name: >-
-        (2009) Donna Spencer, Card Sorting. Designing Usable Categories,
-        Rosenfeld Media.
+  - name: >-
+      (2009) Donna Spencer, Card Sorting. Designing Usable Categories,
+      Rosenfeld Media.
 ---
 An Issue Card can contain an insight, a picture, a drawing or a description. They acts as prompts to suggest new interpretations of the problem and to induce the assumption of a different perpective. The result is the identification of new criticalities and opportunities in the context of reference.

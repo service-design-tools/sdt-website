@@ -53,8 +53,7 @@ template:
   file: /assets/images/uploads/template_empathy-map.pdf
   image: /assets/images/uploads/preview-template_empathy-map.jpg
 references:
-  - reference:
-      link: 'https://www.nngroup.com/articles/empathy-mapping/'
-      name: 'Empathy Mapping: The First Step in Design Thinking'
+  - link: 'https://www.nngroup.com/articles/empathy-mapping/'
+    name: 'Empathy Mapping: The First Step in Design Thinking'
 ---
 The empathy map is a canvas split into four quadrants (_says_, _thinks_, _does_, and _feels_), all positioned around the user. Filling the map allows to produce an overview of who the user is, and to identify inconsistencies in the perception of the same user from various team members (and so intervene to mitigate the conflict).

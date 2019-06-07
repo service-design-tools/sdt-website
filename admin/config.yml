@@ -86,12 +86,8 @@ collections:
         required: false
         hint: "Before publishing, remove any entry that might have been left empty"
         fields:
-          - label: "reference"
-            name: "reference"
-            widget: "object"
-            fields:
-              - {label: "name", name: "name", widget: "string"}
-              - {label: "link", name: "link", widget: "string", hint: "Must be a proper url (make sure it works)", required: false}
+          - {label: "name", name: "name", widget: "string"}
+          - {label: "link", name: "link", widget: "string", hint: "Must be a proper url (make sure it works)", required: false}
 
 # tutorials config fields
   - label: "tutorials"

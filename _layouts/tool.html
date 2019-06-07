@@ -65,11 +65,11 @@ layout: default
         {% if referencesNumber > 0 %}
         <div class="references">
             <h3>references</h3>
-            {% for el in page.references %}
-            {% if el.reference.link %}
-            <a href="{{ el.reference.link }}" target="_blank" rel="noopener noreferrer">{{ el.reference.name }}</a>
+            {% for reference in page.references %}
+            {% if reference.link %}
+            <a href="{{ reference.link }}" target="_blank" rel="noopener noreferrer">{{ reference.name }}</a>
             {% else %}
-            <p>{{ el.reference.name }}</p>
+            <p>{{ reference.name }}</p>
             {% endif %}
             {% endfor %}
         </div>
