@@ -102,7 +102,7 @@ collections:
     create: true
     fields:
       - {label: "title", name: "title", widget: "string"}
-      - {label: "subtitle", name: "subtitle", widget: "string"}
+      - {label: "subtitle", name: "subtitle", widget: "string", required: false}
       - label: "steps"
         name: "steps"
         widget: "list"
