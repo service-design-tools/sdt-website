@@ -3,16 +3,20 @@ title: Tutorials
 ---
 {% include header.html title="Tutorials" desc="The personas are archetypes built after an exhaustive observation of the potential users." svg="tutorials-svg.html" %}
 <main class="tutorials__gallery">
-    <a href="">
-        <div class="card"></div>
+    {% for tutorial in site.tutorials %}
+    <a href="{{ tutorial.url | relative_url }}">
+        <div class="card">
+            <div class="tutorial__card">
+                {% include svgs/dotgrid.html class="dotgrid" %}
+                {% if forloop.index > 9 %}
+                <p>{{ forloop.index }}</p>
+                {% else %}
+                <p>0{{ forloop.index }}</p>
+                {% endif %}
+                {% include svgs/zigzag.html class="zigzag" %}
+                <h4>{{ tutorial.title }}</h4>
+            </div>
+        </div>
     </a>
-    <a href="">
-        <div class="card"></div>
-    </a>
-    <a href="">
-        <div class="card"></div>
-    </a>
-    <a href="">
-        <div class="card"></div>
-    </a>
+    {% endfor %}
 </main>
