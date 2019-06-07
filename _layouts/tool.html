@@ -3,6 +3,8 @@ layout: default
 ---
 {% assign templateNumber = page.template | size %}
 {% assign referencesNumber = page.references | size %}
+{% assign relatedToolsNumber = page.related.tools | size %}
+{% assign tipsNumber = page.related.tips | size %}
 <header>
     <div class="header__icon">
         {{ page.icon }}
@@ -22,7 +24,24 @@ layout: default
 </header>
 <main>
     <div class="related__content">
-        
+        {% if relatedToolsNumber > 0 or tipsNumber > 0 %}
+        <h3>related content</h3>
+        {% if relatedToolsNumber > 0 %}
+        <h5>tools</h5>
+        {% for tool in page.related.tools %}
+        {% assign match = site.tools | where:"title",tool %}
+        <a href="{{ match[0].url }}">
+            <div class="related__tool card">
+                {{ match[0].icon }}
+                <p>{{ tool }}</p>
+            </div>
+        </a>
+        {% endfor %}
+        {% endif %}
+        {% if tipsNumber > 0 %}
+        <h5>#oblotips</h5>
+        {% endif %}
+        {% endif %}
     </div>
     <div class="main__content">
         <h3>what is it</h3>

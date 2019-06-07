@@ -43,13 +43,6 @@
     text-transform: uppercase;
 }
 
-.card {
-    background-color: var(--color-light);
-    border-radius: var(--radius);
-    -webkit-box-shadow: 2px 2px 20px rgba(26,59,94,0.08);
-            box-shadow: 2px 2px 20px rgba(26,59,94,0.08);
-}
-
 .card.square--1 {
     width: var(--square-module);
     height: var(--square-module);

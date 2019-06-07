@@ -83,6 +83,37 @@ main {
     width: calc(var(--column-width) * 4 + var(--container-gap) * 4);
 }
 
+.related__tool {
+    width: 210px;
+    padding: 1.125rem;
+    margin: 1.5rem 0 2.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.related__tool svg {
+    max-height: 46px;
+    margin-left: 0.75rem;
+}
+
+.related__tool svg .svg--filled-main {
+    opacity: 0;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.related__tool:hover svg .svg--filled-main {
+    opacity: 1;
+}
+
+.related__tool p {
+    width: 50%;
+    font-size: 0.8rem;
+    font-weight: var(--font-medium);
+    text-transform: uppercase;
+    margin-left: 1.4rem;
+}
+
 .main__content {
     width: calc(var(--column-width) * 8 + var(--container-gap) * 7);
 }
