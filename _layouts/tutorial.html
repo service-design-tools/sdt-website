@@ -28,7 +28,7 @@ layout: default
         {% for step in page.steps %}
         <div class="timeline__step">
             {% assign match = site.tools | where:"title",step.tool %}
-            {{ match[0].icon }}
+            {{ match[0].icon | strip_newlines | normalize_whitespace }}
             <p class="timeline__number">0{{ forloop.index }}</p>
             <p class="timeline__tool">{{ step.tool }}</p>
         </div>
@@ -42,7 +42,7 @@ layout: default
             {% assign match = site.tools | where:"title",step.tool %}
             <a href="{{ match[0].url }}">
                 <div class="card">
-                    {{ match[0].icon }}
+                    {{ match[0].icon | strip_newlines | normalize_whitespace }}
                     <p>{{ step.tool }}</p>
                 </div>
             </a>

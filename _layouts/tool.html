@@ -32,7 +32,7 @@ layout: default
         {% assign match = site.tools | where:"title",tool %}
         <a href="{{ match[0].url }}">
             <div class="related__tool card">
-                {{ match[0].icon }}
+                {{ match[0].icon | strip_newlines | normalize_whitespace }}
                 <p>{{ tool }}</p>
             </div>
         </a>
