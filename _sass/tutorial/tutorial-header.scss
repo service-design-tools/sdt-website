@@ -1,9 +1,14 @@
+html {
+    --extra-padding: calc(var(--column-width) + var(--container-gap));
+}
+
 header {
-    --header-padding: calc(var(--column-width) + var(--container-gap));
-    width: calc(var(--container-width) - var(--header-padding) * 2);
-    padding: 4rem calc((100% - var(--container-width)) / 2 + var(--header-padding));
+    width: calc(var(--container-width) - var(--extra-padding) * 2);
+    padding: 4rem calc((100% - var(--container-width)) / 2 + var(--extra-padding));
     margin: 0;
     background-color: var(--color-main);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -12,8 +17,12 @@ header {
 }
 
 .tutorial__number {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .tutorial__number p {
@@ -39,7 +48,8 @@ header {
 }
 
 header .dotgrid {
-    align-self: flex-end;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
     height: 280px;
     margin-top: 4rem;
 }

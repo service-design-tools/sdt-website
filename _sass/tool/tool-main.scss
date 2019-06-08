@@ -1,11 +1,13 @@
 main {
     width: var(--container-width);
     margin: 3rem auto 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-}
-
-.related__content {
-    width: calc(var(--column-width) * 4 + var(--container-gap) * 4);
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    
 }
 
 .related__content h5 {
@@ -25,8 +27,12 @@ main {
     width: 210px;
     padding: 1.125rem;
     margin: 1.5rem 0 2.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .related__tool svg {
@@ -64,6 +70,8 @@ main {
 .additional__content {
     margin: 2.5rem 0;
     padding: 1.6rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     border-top: 0.5px solid var(--color-line-light);
     border-bottom: 0.5px solid var(--color-line-light);

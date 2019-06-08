@@ -52,11 +52,11 @@ layout: default
         <div class="additional__content">
             <div>
                 <h3>use it to</h3>
-                <p>{{ page.use }}</p>
+                {{ page.use | markdownify }}
             </div>
             <div>
                 <h3>remember to</h3>
-                <p>{{ page.reminder }}</p>
+                {{ page.reminder | markdownify }}
             </div>
         </div>
         {% if templateNumber > 0 %}

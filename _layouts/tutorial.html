@@ -19,3 +19,40 @@ layout: default
     </div>
     {% include svgs/dotgrid.html class="dotgrid" %}
 </header>
+<main>
+    <div class="tutorial__timeline">
+        <div class="timeline__start">
+            {% include svgs/arrow-right.html %}
+            <p>main tools used</p>
+        </div>
+        {% for step in page.steps %}
+        <div class="timeline__step">
+            {% assign match = site.tools | where:"title",step.tool %}
+            {{ match[0].icon }}
+            <p class="timeline__number">0{{ forloop.index }}</p>
+            <p class="timeline__tool">{{ step.tool }}</p>
+        </div>
+        {% endfor %}
+    </div>
+    {% for step in page.steps %}
+    <div class="step" data-step="{{ forloop.index0 }}">
+        <div class="step__tool">
+            <p class="step__number">0{{ forloop.index }}</p>
+            <h5>main tool used</h5>
+            {% assign match = site.tools | where:"title",step.tool %}
+            <a href="{{ match[0].url }}">
+                <div class="card">
+                    {{ match[0].icon }}
+                    <p>{{ step.tool }}</p>
+                </div>
+            </a>
+        </div>
+        <div class="step__content">
+            <h2>{{ step.title }}</h2>
+            {{ step.description | markdownify }}
+            <h5>tips</h5>
+            {{ step.tips | markdownify }}
+        </div>
+    </div>
+    {% endfor %}
+</main>
