@@ -1,5 +1,5 @@
 <nav>
-    <a href="{{ '/' | relative_url }}">
+    <a href="{{ '/' | relative_url }}" class="logo__link">
         {% include svgs/logo.html %}
     </a>
     <ul>
@@ -9,4 +9,10 @@
         <li><a href="{{ '/resources' | relative_url }}">resources</a></li>
         <li><a href="https://oblo.typeform.com/to/zO9uLj" class="btn--action" target="_blank" rel="noreferrer noopener">contribute</a></li>
     </ul>
+    <div class="nav__burger">
+        <div class="burger__line"></div>
+        <div class="burger__line line--center"></div>
+        <div class="burger__line line--center"></div>
+        <div class="burger__line"></div>
+    </div>
 </nav>

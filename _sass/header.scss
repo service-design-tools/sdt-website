@@ -1,36 +1,99 @@
 header {
     --header-padding: calc(var(--column-width) + var(--container-gap));
     width: calc(var(--container-width) - var(--header-padding) * 2);
-    margin: 4rem auto 8rem;
+    margin: 6.8rem auto 4.6rem;
     padding: 0 var(--header-padding);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header__column {
-    width: 36%;
-}
-
-.header__column.home {
-    width: 45%;
+    width: 70%;
+    text-align: center;
 }
 
 .header__column p {
-    width: 96%;
     font-size: 1.1rem;
     font-weight: var(--font-light);
     line-height: 1.6;
 }
 
-.header__column.home p {
-    width: 78%;
+header svg {
+    max-width: 75%;
+    height: 334px;
+    margin-top: 1rem;
 }
 
-header svg {
-    max-width: 60%;
-    height: 445px;
+.header__column.home + svg {
+    margin-bottom: 6.6rem;
+}
+
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+    header {
+        --header-padding: 2.5rem;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        flex-direction: row;
+    }
+    .header__column {
+        width: 50%;
+        text-align: left;
+    }
+    header svg {
+        max-width: 60%;
+        height: 282px;
+        margin-top: 0;
+    }
+    .header__column.home + svg {
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    header {
+        --header-padding: calc(var(--column-width) + var(--container-gap));
+        margin: 4rem auto 8rem;
+    }
+    .header__column {
+        width: 36%;
+    }
+    .header__column.home {
+        width: 54%;
+    }
+    .header__column p {
+        width: 96%;
+    }
+    .header__column.home p {
+        width: 75%;
+    }
+    header svg {
+        height: 398px;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    header svg {
+        height: 445px;
+    }
+    .header__column {
+        width: 36%;
+    }
+    .header__column.home {
+        width: 45%;
+    }
+    .header__column p {
+        width: 96%;
+    }
+    .header__column.home p {
+        width: 78%;
+    }
 }

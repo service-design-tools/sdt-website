@@ -1,15 +1,23 @@
+.highlights h2,
+.highlights h3 {
+    text-align: center;
+}
+
 .highlights__cards {
+    --square-module: calc(var(--column-width) * 3 + var(--container-gap) * 2);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: column;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    --square-module: calc(var(--column-width) * 3 + var(--container-gap) * 2);
 }
 
 .highlights__column {
-    width: calc(var(--column-width) * 6 + var(--container-gap) * 5);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .highlights__tools {
@@ -19,6 +27,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    order: 2;
 }
 
 .highlights__tools .card {
@@ -35,20 +44,11 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-bottom: var(--container-gap);
 }
 
 .highlights__tools svg {
     max-height: 32%;
-}
-
-.highlights__tools svg .svg--filled-main {
-    opacity: 0;
-    -webkit-transition: opacity 0.5s;
-    transition: opacity 0.5s;
-}
-
-.highlights__tools .card:hover .svg--filled-main {
-    opacity: 1;
 }
 
 .highlights__tools p {
@@ -63,12 +63,19 @@
     height: var(--square-module);
 }
 
+.highlights__column:first-child .tutorial__links {
+    order: 3;
+}
+.highlights__column:last-child .tutorial__links {
+    order: 1;
+}
+
 .card.square--2 {
     --square-2-padding: 1.4rem;
     width: calc(var(--square-module) * 2 + var(--container-gap) - var(--square-2-padding) * 2);
     height: calc(var(--square-module) + 40px - var(--square-2-padding) * 2);
     padding: var(--square-2-padding);
-    margin: var(--container-gap) 0;
+    margin: 0 0 var(--container-gap);
 }
 
 .tutorial__card {
@@ -95,36 +102,171 @@
     grid-row: 3 / span 2;
     grid-column: 5 / span 4;
     align-self: flex-end;
-    height: 0.8rem;
+    height: 0.6rem;
     position: relative;
-    bottom: 3px;
+    bottom: 5px;
+    right: 10px;
 }
 
 .tutorial__card .dotgrid {
-    grid-row: 3 / -2;
-    grid-column: -10 / -2;
+    grid-row: 2 / -3;
+    grid-column: -11 / -3;
     align-self: flex-end;
     opacity: 0.15;
 }
 
+.highlights__column:first-child > a:not(.tutorial__links) {
+    order: 1;
+}
+
+.highlights__column:last-child > a:not(.tutorial__links) {
+    order: 3;
+}
+
 .card.square--4 {
-    --square-4-padding: 3rem;
+    --square-4-padding: 2rem;
     width: calc(var(--square-module) * 2 + var(--container-gap) - var(--square-4-padding) * 2);
-    height: calc(var(--square-module) * 2 + var(--container-gap) - var(--square-4-padding) * 2);
+    height: calc(var(--square-module) + var(--container-gap) - var(--square-4-padding) * 2);
     padding: var(--square-4-padding);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin-bottom: var(--container-gap);
+}
+
+.highlights__column:last-child > a:not(.tutorial__links) .square--4 {
+    margin-bottom: 0;
+}
+
+.square--4 h2 {
+    font-size: 2.5rem;
 }
 
 .square--4 svg {
     -ms-flex-item-align: end;
         align-self: flex-end;
+    max-height: calc(var(--square-module) + var(--container-gap) - var(--square-4-padding) * 2);
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+    .highlights h2,
+    .highlights h3 {
+        text-align: left;
+    }
+    .highlights__cards {
+        --square-module: calc(var(--column-width) * 2 + var(--container-gap) * 1);
+    }
+    .highlights__column {
+        width: calc(var(--column-width) * 6 + var(--container-gap) * 5);
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .highlights__tools {
+        flex-direction: column;
+    }
+    .card.square--2 {
+        width: calc(var(--square-module) * 3 + var(--container-gap) * 2 - var(--square-2-padding) * 2);
+    }
+    .tutorial__card h4 {
+        grid-column: 3 / -10;
+    }
+    .tutorial__card .dotgrid {
+        grid-row: 2 / -2;
+        grid-column: -8 / -2;
+    }
+    .tutorial__card .zigzag {
+        grid-column: 4 / span 4;
+        right: -4px;
+    }
+    .card.square--4 {
+        --square-4-padding: 3rem;
+        height: calc(var(--square-module) * 2 + var(--container-gap) - var(--square-4-padding) * 2);
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .highlights__column:first-child > a:not(.tutorial__links) .square--4 {
+        margin-right: var(--container-gap);
+    }
+    .highlights__column:last-child > a:not(.tutorial__links) .square--4 {
+        margin-left: var(--container-gap);
+    }
+    .square--4 h2 {
+        font-size: 2.25rem;
+    }
+    .square--4 svg {
+        max-height: calc(var(--square-module) * 2 + var(--container-gap) - var(--square-4-padding) * 2);
+    }
+}
+
+@media (min-width: 992px) {
+    .highlights__cards {
+        --square-module: calc(var(--column-width) * 3 + var(--container-gap) * 2);
+        flex-direction: row;
+    }
+    .highlights__column {
+        display: block;
+    }
+    .highlights__column:first-child .highlights__tools {
+        order: 3;
+    }
+    .highlights__column:last-child .highlights__tools {
+        order: 1;
+    }
+    .highlights__tools {
+        flex-direction: row;
+    }
+    .highlights__tools .card {
+        margin-bottom: 0;
+    }
+    .highlights__tools svg .svg--filled-main {
+        opacity: 0;
+        -webkit-transition: opacity 0.5s;
+        transition: opacity 0.5s;
+    }
+    .highlights__tools .card:hover .svg--filled-main {
+        opacity: 1;
+    }
+    .tutorial__links {
+        order: 2;
+    }
+    .card.square--2 {
+        width: calc(var(--square-module) * 2 + var(--container-gap) - var(--square-2-padding) * 2);
+        margin: var(--container-gap) 0;
+    }
+    .tutorial__card h4 {
+        grid-column: 3 / -2;
+    }
+    .tutorial__card .zigzag {
+        grid-column: 5 / span 4;
+        height: 0.8rem;
+        bottom: 3px;
+        right: 0;
+    }
+    .tutorial__card .dotgrid {
+        grid-row: 3 / -2;
+        grid-column: -12 / -2;
+    }
+    .card.square--4 {
+        margin: 0;
+    }
+    .highlights__column:first-child > a:not(.tutorial__links) .square--4 {
+        margin-right: 0;
+    }
+    .highlights__column:last-child > a:not(.tutorial__links) .square--4 {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .tutorial__card h4 {
+        grid-column: 3 / -5;
+    }
 }
