@@ -7,6 +7,9 @@ collections:
     permalink: /:collection/:name
   case_studies:
 
+sass:
+  style: compressed
+
 defaults:
   - scope:
       path: ""
