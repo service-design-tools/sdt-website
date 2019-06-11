@@ -163,16 +163,6 @@
     margin-bottom: 0.75rem;
 }
 
-.step__tool svg .svg--filled-main {
-    opacity: 0;
-    -webkit-transition: opacity 0.5s;
-    transition: opacity 0.5s;
-}
-
-.step__tool .card:hover svg .svg--filled-main {
-    opacity: 1;
-}
-
 .step__tool .card p {
     font-size: 0.8rem;
     font-weight: var(--font-medium);
@@ -210,4 +200,15 @@
     font-weight: var(--font-light);
     line-height: 1.6;
     margin-bottom: 0;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .step__tool svg .svg--filled-main {
+        opacity: 0;
+        -webkit-transition: opacity 0.5s;
+        transition: opacity 0.5s;
+    }
+    .step__tool .card:hover svg .svg--filled-main {
+        opacity: 1;
+    }
 }

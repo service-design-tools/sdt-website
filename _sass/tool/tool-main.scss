@@ -40,16 +40,6 @@ main {
     margin-left: 0.75rem;
 }
 
-.related__tool svg .svg--filled-main {
-    opacity: 0;
-    -webkit-transition: opacity 0.5s;
-    transition: opacity 0.5s;
-}
-
-.related__tool:hover svg .svg--filled-main {
-    opacity: 1;
-}
-
 .related__tool p {
     width: 50%;
     font-size: 0.8rem;
@@ -121,4 +111,15 @@ main {
 .references a svg {
     margin-left: 0.2rem;
     height: 0.75rem;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .related__tool svg .svg--filled-main {
+        opacity: 0;
+        -webkit-transition: opacity 0.5s;
+        transition: opacity 0.5s;
+    }
+    .related__tool:hover svg .svg--filled-main {
+        opacity: 1;
+    }
 }

@@ -29,6 +29,11 @@ body {
     margin: 0;
 }
 
+.menu--open,
+.filters--open {
+    overflow-y: hidden;
+}
+
 h1 {
     margin: 0 0 1rem;
     font-family: var(--font-display);
@@ -144,19 +149,6 @@ p {
     border-radius: var(--radius);
     -webkit-box-shadow: 2px 2px 20px rgba(26,59,94,0.08);
             box-shadow: 2px 2px 20px rgba(26,59,94,0.08);
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transition: -webkit-transform 0.3s cubic-bezier(.4,0,.4,1), -webkit-box-shadow 0.3s cubic-bezier(.4,0,.4,1);
-    transition: -webkit-transform 0.3s cubic-bezier(.4,0,.4,1), -webkit-box-shadow 0.3s cubic-bezier(.4,0,.4,1);
-    transition: transform 0.3s cubic-bezier(.4,0,.4,1), box-shadow 0.3s cubic-bezier(.4,0,.4,1);
-    transition: transform 0.3s cubic-bezier(.4,0,.4,1), box-shadow 0.3s cubic-bezier(.4,0,.4,1), -webkit-transform 0.3s cubic-bezier(.4,0,.4,1), -webkit-box-shadow 0.3s cubic-bezier(.4,0,.4,1);
-}
-
-.card:hover {
-    -webkit-transform: scale(1.03);
-            transform: scale(1.03);
-    -webkit-box-shadow: 2px 2px 20px rgba(26,59,94,0.2);
-            box-shadow: 2px 2px 20px rgba(26,59,94,0.2);
 }
 
 @media (min-width: 576px) {
@@ -193,5 +185,22 @@ p {
 @media (min-width: 1200px) {
     html {
         --container-width: 1140px;
+    }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .card {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+        -webkit-transition: -webkit-transform 0.3s cubic-bezier(.4,0,.4,1), -webkit-box-shadow 0.3s cubic-bezier(.4,0,.4,1);
+        transition: -webkit-transform 0.3s cubic-bezier(.4,0,.4,1), -webkit-box-shadow 0.3s cubic-bezier(.4,0,.4,1);
+        transition: transform 0.3s cubic-bezier(.4,0,.4,1), box-shadow 0.3s cubic-bezier(.4,0,.4,1);
+        transition: transform 0.3s cubic-bezier(.4,0,.4,1), box-shadow 0.3s cubic-bezier(.4,0,.4,1), -webkit-transform 0.3s cubic-bezier(.4,0,.4,1), -webkit-box-shadow 0.3s cubic-bezier(.4,0,.4,1);
+    }
+    .card:hover {
+        -webkit-transform: scale(1.03);
+                transform: scale(1.03);
+        -webkit-box-shadow: 2px 2px 20px rgba(26,59,94,0.2);
+                box-shadow: 2px 2px 20px rgba(26,59,94,0.2);
     }
 }

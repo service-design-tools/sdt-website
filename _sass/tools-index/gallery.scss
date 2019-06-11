@@ -8,10 +8,9 @@ main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    padding: 2rem calc(var(--container-gap) / 2);
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 2rem calc(var(--container-gap) / 2) 0;
 }
 
 .tools__navigation h3 {
@@ -20,22 +19,42 @@ main {
 }
 
 .breadcrumb {
-    width: 80%;
+    width: 100%;
+    margin-bottom: 2rem;
 }
 
 .breadcrumb p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: var(--font-light);
 }
 
 .breadcrumb p span {
     color: var(--color-support);
+    cursor: pointer;
+    position: relative;
+    padding-right: 0.7rem;
+    font-weight: var(--font-medium);
+}
+
+.breadcrumb p span::after {
+    content: "+";
+    position: absolute;
+    top: -3px;
+    left: calc(100% - 0.7rem);
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    font-size: 1.3rem;
+    font-weight: var(--font-light);
 }
 
 .sorting {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
 }
 
 .sorting h3 {
@@ -85,10 +104,6 @@ main {
             transform-origin: 100% 0%;
 }
 
-.sorting li:hover {
-    color: var(--color-support);
-}
-
 .sorting li.selected {
     color: var(--color-support);
 }
@@ -135,19 +150,68 @@ main {
     max-height: 32%;
 }
 
-.tool svg .svg--filled-main {
-    opacity: 0;
-    -webkit-transition: opacity 0.5s;
-    transition: opacity 0.5s;
-}
-
-.tool:hover svg .svg--filled-main {
-    opacity: 1;
-}
-
 .tool p {
     margin-top: 1.2rem;
     font-size: 0.875rem;
     font-weight: var(--font-medium);
     text-transform: uppercase;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+    .tools__navigation {
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        padding: 2rem calc(var(--container-gap) / 2);
+    }
+    .breadcrumb {
+        width: 74%;
+        margin-bottom: 0;
+    }
+    .sorting {
+        width: 26%;
+    }
+    .tool div {
+        width: calc(var(--column-width) * 2 + var(--container-gap) * 1);
+        height: calc(var(--column-width) * 2 + var(--container-gap) * 1);
+    }
+}
+
+@media (min-width: 992px) {
+    .breadcrumb {
+        width: 80%;
+    }
+    .breadcrumb p {
+        font-size: 2rem;
+    }
+    .breadcrumb p span::after {
+        top: 0;
+        font-size: 1.5rem;
+    }
+    .sorting {
+        width: 20%;
+    }
+    .tool div {
+        width: calc(var(--column-width) * 3 + var(--container-gap) * 2);
+        height: calc(var(--column-width) * 3 + var(--container-gap) * 2);
+    }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .sorting li:hover {
+        color: var(--color-support);
+    }
+    .tool svg .svg--filled-main {
+        opacity: 0;
+        -webkit-transition: opacity 0.5s;
+        transition: opacity 0.5s;
+    }
+    .tool:hover svg .svg--filled-main {
+        opacity: 1;
+    }
 }

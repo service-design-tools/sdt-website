@@ -26,6 +26,19 @@ import {filterValues, sorting, questions} from "/assets/js/globals.js";
             }
         }
     });
+
+    const $body = document.querySelector('body');
+    const $filtersButton = document.querySelector('.filters__button');
+    const $filtersHeader = document.querySelector('.filters__header');
+    const $filtersApply = document.querySelector('.filters__apply');
+    const $filtersTitle = document.querySelectorAll('.filter__title');
+    $filtersButton.onclick = () => $body.classList.add('filters--open');
+    $filtersHeader.onclick = () => $body.classList.remove('filters--open');
+    $filtersApply.onclick = () => $body.classList.remove('filters--open');
+    $filtersTitle.forEach(el => {
+        el.onclick = (ev) => ev.target.classList.contains('closed') ? ev.target.classList.remove('closed') : ev.target.classList.add('closed');
+    })
+
     const $filters = document.querySelectorAll('.filter input');
     const $breadcrumb = document.querySelector('.breadcrumb p');
     const $tools = document.querySelectorAll(`.tool`);
@@ -41,9 +54,13 @@ import {filterValues, sorting, questions} from "/assets/js/globals.js";
     sortGallery(sessionSorting);
     filterGallery();
 
-    function filterView() {
-        sessionFilters[this.id].checked = !sessionFilters[this.id].checked;
+    function filterView(ev) {
+        let selector = ev.target.id.length > 0 ? ev.target.id : ev.target.textContent.toLowerCase().replace(/\s/, "-");
+        sessionFilters[selector].checked = !sessionFilters[selector].checked;
         localStorage.setItem('filtersCache', JSON.stringify(sessionFilters));
+        if (ev.target.id.length === 0) {
+            document.getElementById(selector).checked = false;
+        }
         filterGallery();
     }
 
@@ -130,5 +147,9 @@ import {filterValues, sorting, questions} from "/assets/js/globals.js";
             }
         }
         $breadcrumb.innerHTML = breadcrumbString;
+        const $breadcrumbTags = document.querySelectorAll('.breadcrumb span');
+        $breadcrumbTags.forEach(el => {
+            el.onclick = filterView;
+        })
     }
 })();
