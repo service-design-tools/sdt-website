@@ -48,6 +48,7 @@ layout: default
             </a>
         </div>
         <div class="step__content">
+            <p class="step__number">0{{ forloop.index }}</p>
             <h2>{{ step.title }}</h2>
             {{ step.description | markdownify }}
             <h5>tips</h5>

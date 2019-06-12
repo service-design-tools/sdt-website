@@ -2,18 +2,24 @@ html {
     --extra-padding: calc(var(--column-width) + var(--container-gap));
 }
 
+.burger__line {
+    background-color: var(--color-light); 
+}
+
 header {
-    width: calc(var(--container-width) - var(--extra-padding) * 2);
-    padding: 4rem calc((100% - var(--container-width)) / 2 + var(--extra-padding));
+    width: calc(var(--container-width));
+    padding: 4rem calc((100% - var(--container-width)) / 2);
     margin: 0;
     background-color: var(--color-main);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(calc(var(--container-columns)), var(--column-width));
+    grid-gap: var(--container-gap);
 }
 
 .header__content {
-    width: 66%;
+    grid-column: 1 / -1;
+    align-self: flex-start;
+    text-align: center;
 }
 
 .tutorial__number {
@@ -23,6 +29,9 @@ header {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .tutorial__number p {
@@ -34,6 +43,7 @@ header {
 
 .tutorial__number .zigzag {
     height: 0.8rem;
+    margin-top: 0;
 }
 
 .tutorial__number .zigzag .svg--stroke-main {
@@ -43,24 +53,89 @@ header {
 
 .header__content h1 {
     margin: 1.375rem 0 1.5rem;
-    font-size: 3.125rem;
+    padding: 0 1rem;
+    font-size: 2.5rem;
     color: var(--color-light);
 }
 
 .header__content .tutorial__subtitle {
-    width: 75%;
-    font-size: 1.375rem;
+    padding: 0 var(--column-width);
+    font-size: 1.25rem;
     color: var(--color-light);
 }
 
 header .dotgrid {
-    -ms-flex-item-align: end;
-        align-self: flex-end;
-    height: 280px;
-    margin-top: 4rem;
+    grid-column: -4 / -1;
+    justify-self: flex-end;
+    height: 152px;
+    margin-top: 4.3rem;
+    margin-right: 1.75rem;
 }
 
 header .dotgrid .svg--filled-support {
     fill: var(--color-light);
     opacity: 0.4;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+    .header__content {
+        grid-row: 1 / span 1;
+        grid-column: 1 / span 5;
+        text-align: left;
+        margin-left: 2rem;
+    }
+    .tutorial__number {
+        -webkit-box-pack: normal;
+            -ms-flex-pack: normal;
+                justify-content: normal;
+    }
+    .header__content h1 {
+        padding: 0;
+    }
+    .header__content .tutorial__subtitle {
+        width: 75%;
+        padding: 0;
+    }
+    header .dotgrid {
+        grid-row: 1 / span 1;
+        grid-column: -4 / -1;
+        justify-self: flex-end;
+        height: 200px;
+        margin-top: 6rem;
+        margin-right: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    header {
+        grid-template-columns: repeat(calc(var(--container-columns) - 2), var(--column-width));
+    }
+    .header__content {
+        grid-column: 2 / span 7;
+        margin-left: 0;
+    }
+    .header__content h1 {
+        font-size: 3.125rem;
+    }
+    .header__content .tutorial__subtitle {
+        font-size: 1.375rem;
+    }
+    header .dotgrid {
+        grid-column: -7 / span 5;
+        height: 280px;
+        margin-top: 3.4rem;
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header__content {
+        grid-column: 2 / span 6;
+    }
+    header .dotgrid {
+        grid-column: -6 / span 4;
+    }
 }
