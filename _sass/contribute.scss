@@ -18,7 +18,7 @@
 }
 
 .contribute svg {
-    height: 246px;
+    height: 194px;
     margin-bottom: 2.875rem;
 }
 
@@ -34,7 +34,6 @@
 .contribute__column p {
     line-height: 1.6;
     margin-bottom: 2.7rem;
-    padding: 0 3rem;
 }
 
 .contribute__column .btn--action {
@@ -42,7 +41,12 @@
     color: var(--color-support);
 }
 @media (min-width: 576px) {
-    
+    .contribute svg {
+        height: 246px;
+    }
+    .contribute__column p {
+        padding: 0 3rem;
+    }
 }
 
 @media (min-width: 768px) {

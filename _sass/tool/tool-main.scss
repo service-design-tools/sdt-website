@@ -76,7 +76,7 @@ main {
 }
 
 .additional__content p {
-    width: 60%;
+    width: 95%;
     font-size: 1rem;
     font-weight: var(--font-light);
     line-height: 1.5;
@@ -112,6 +112,9 @@ main {
 }
 
 @media (min-width: 576px) {
+    .additional__content p {
+        width: 60%;
+    }
 }
 
 @media (min-width: 768px) {

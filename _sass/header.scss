@@ -1,8 +1,7 @@
 header {
     --header-padding: calc(var(--column-width) + var(--container-gap));
-    width: calc(var(--container-width) - var(--header-padding) * 2);
-    margin: 6.8rem auto 4.6rem;
-    padding: 0 var(--header-padding);
+    width: var(--container-width);
+    margin: 6.8rem auto 4.6rem;;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -16,7 +15,7 @@ header {
 }
 
 .header__column {
-    width: 70%;
+    width: 100%;
     text-align: center;
 }
 
@@ -37,7 +36,13 @@ header svg {
 }
 
 @media (min-width: 576px) {
-    
+    header {
+        width: calc(var(--container-width) - var(--header-padding) * 2);
+        padding: 0 var(--header-padding);
+    }
+    .header__column {
+        width: 70%;
+    }
 }
 
 @media (min-width: 768px) {

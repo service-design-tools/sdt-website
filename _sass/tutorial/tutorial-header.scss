@@ -38,11 +38,11 @@ header {
     font-size: 1.25rem;
     font-weight: var(--font-medium);
     color: var(--color-light);
-    margin-right: 1.25rem;
+    margin-right: 0.85rem;
 }
 
 .tutorial__number .zigzag {
-    height: 0.8rem;
+    height: 0.6rem;
     margin-top: 0;
 }
 
@@ -53,23 +53,20 @@ header {
 
 .header__content h1 {
     margin: 1.375rem 0 1.5rem;
-    padding: 0 1rem;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     color: var(--color-light);
 }
 
 .header__content .tutorial__subtitle {
-    padding: 0 var(--column-width);
     font-size: 1.25rem;
     color: var(--color-light);
 }
 
 header .dotgrid {
-    grid-column: -4 / -1;
+    grid-column: -6 / -1;
     justify-self: flex-end;
     height: 152px;
-    margin-top: 4.3rem;
-    margin-right: 1.75rem;
+    margin-right: 1.5rem;
 }
 
 header .dotgrid .svg--filled-support {
@@ -78,6 +75,24 @@ header .dotgrid .svg--filled-support {
 }
 
 @media (min-width: 576px) {
+    .tutorial__number p {
+        margin-right: 1.25rem;
+    }
+    .tutorial__number .zigzag {
+        height: 0.8rem;
+    }
+    .header__content h1 {
+        padding: 0 1rem;
+        font-size: 2.5rem;
+    }
+    .header__content .tutorial__subtitle {
+        padding: 0 var(--column-width);
+    }
+    header .dotgrid {
+        grid-column: -4 / -1;
+        margin-top: 4.3rem;
+        margin-right: 1.75rem;
+    }
 }
 
 @media (min-width: 768px) {

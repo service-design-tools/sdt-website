@@ -16,6 +16,8 @@ main {
 .tools__navigation h3 {
     color: var(--color-dark);
     font-weight: var(--font-medium);
+    margin: 0 0 0.75rem;
+    font-size: 0.75rem;
 }
 
 .breadcrumb {
@@ -77,7 +79,7 @@ main {
 .sorting li {
     position: relative;
     display: inline-block;
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     text-transform: uppercase;
     font-weight: var(--font-medium);
     margin-bottom: 0.4rem;
@@ -129,8 +131,8 @@ main {
 }
 
 .tool div {
-    width: calc(var(--column-width) * 3 + var(--container-gap) * 2);
-    height: calc(var(--column-width) * 3 + var(--container-gap) * 2);
+    width: calc(var(--column-width) * 3 + var(--container-gap) * 2 - 2.2rem);
+    height: calc(var(--column-width) * 3 + var(--container-gap) * 2 - 1rem);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -144,10 +146,11 @@ main {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding: 0.5rem 1.1rem;
 }
 
 .tool svg {
-    max-height: 32%;
+    max-height: 46%;
 }
 
 .tool p {
@@ -158,6 +161,21 @@ main {
 }
 
 @media (min-width: 576px) {
+    .tools__navigation h3 {
+        margin: 0 0 0.875rem;
+        font-size: 0.875rem;
+    }
+    .sorting li {
+        font-size: 0.875rem;
+    }
+    .tool div {
+        width: calc(var(--column-width) * 3 + var(--container-gap) * 2);
+        height: calc(var(--column-width) * 3 + var(--container-gap) * 2);
+        padding: 0;
+    }
+    .tool svg {
+        max-height: 32%;
+    }
 }
 
 @media (min-width: 768px) {

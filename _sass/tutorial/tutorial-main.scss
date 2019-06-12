@@ -113,7 +113,7 @@
 .step {
     position: relative;
     width: var(--container-width);
-    padding: 3.75rem calc((100% - var(--container-width)) / 2);
+    padding: 2rem calc((100% - var(--container-width)) / 2);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -145,8 +145,8 @@
 }
 
 .step__tool .card {
-    width: calc(var(--column-width) + var(--container-gap) * 2 - 2.4rem);
-    min-height: calc(var(--column-width) + var(--container-gap) * 2 - 2.4rem);
+    width: calc(var(--column-width) * 2 + var(--container-gap) * 3 - 2rem);
+    min-height: calc(var(--column-width) * 2 + var(--container-gap) * 3 - 2rem);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -160,7 +160,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 1.2rem;
+    padding: 1rem;
 }
 
 .step__tool svg {
@@ -186,8 +186,8 @@
 }
 
 .step__content h2 {
-    width: calc(var(--column-width) * 4 + var(--container-gap) * 4);
-    font-size: 2rem;
+    width: calc(var(--column-width) * 5 + var(--container-gap) * 5);
+    font-size: 1.75rem;
     font-family: var(--font-corpus);
     font-weight: var(--font-medium);
     line-height: 1.2;
@@ -200,14 +200,14 @@
 }
 
 .step__content p {
-    width: calc(var(--column-width) * 5 + var(--container-gap) * 4);
+    width: calc(var(--column-width) * 6 + var(--container-gap) * 5);
     font-weight: var(--font-light);
     line-height: 1.6;
     margin-bottom: 2rem;
 }
 
 .step__content h5 + p {
-    width: calc(var(--column-width) * 4 + var(--container-gap) * 4);
+    width: calc(var(--column-width) * 5 + var(--container-gap) * 5);
     font-size: 0.875rem;
     font-weight: var(--font-light);
     line-height: 1.6;
@@ -215,6 +215,24 @@
 }
 
 @media (min-width: 576px) {
+    .step {
+        padding: 3.75rem calc((100% - var(--container-width)) / 2);
+    }
+    .step__tool .card {
+        width: calc(var(--column-width) + var(--container-gap) * 2 - 2.4rem);
+        min-height: calc(var(--column-width) + var(--container-gap) * 2 - 2.4rem);
+    }
+    .step__content h2 {
+        width: calc(var(--column-width) * 4 + var(--container-gap) * 4);
+        font-size: 2rem;
+    }
+    .step__content p {
+        width: calc(var(--column-width) * 5 + var(--container-gap) * 4);
+    }
+    
+    .step__content h5 + p {
+        width: calc(var(--column-width) * 4 + var(--container-gap) * 4);
+    }
 }
 
 @media (min-width: 768px) {
