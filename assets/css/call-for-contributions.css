@@ -1,0 +1,254 @@
+html {
+    --color-dark: #262D32;
+    --color-light: #ffffff;
+    --color-main: #00D2E6;
+    --color-secondary: #846DF9;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    --font-bold: 600;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+main {
+    width: 85vw;
+    height: 90vh;
+    min-height: 590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem auto 0;
+    z-index: 2;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+.highlight {
+    color: var(--color-main);
+    font-weight: var(--font-bold);
+}
+
+p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+p.strong {
+    margin-top: 1rem;
+    font-weight: var(--font-bold);
+}
+
+p.smaller {
+    font-size: 0.9rem;
+}
+
+a {
+    text-decoration: none
+}
+
+a.button {
+    padding: 1rem 2.5rem;
+    margin: 1.5rem 0;
+    border-radius: 5px;
+    color: var(--color-light);
+    background-color: var(--color-secondary);
+    text-decoration: none;
+}
+
+a.twitter {
+    position: relative;
+}
+
+a.twitter::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-main);
+    transform: scaleX(1);
+}
+
+br.small-screen {
+    display: inline;
+}
+
+br.big-screen {
+    display: none;
+}
+
+.svg__container {
+    position: relative;
+    height: 4rem;
+    display: flex;
+}
+
+.container__top {
+    justify-content: flex-end;
+    height: 0px;
+}
+
+svg {
+    position: absolute;
+    z-index: -1;
+}
+
+.svg__top {
+    width: 330px;
+    top: -3.2rem;
+    right: -5.8rem;
+}
+
+.svg__bottom {
+    width: 200px;
+    bottom: -2.2rem;
+    left: -0.7rem;
+}
+
+.hide-small {
+    display: none;
+}
+
+.black-white {
+    fill: var(--color-light);
+    stroke: var(--color-dark);
+    stroke-width: 1.1672;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.secondary {
+    fill: var(--color-secondary);
+}
+
+.main {
+    fill: var(--color-main);
+}
+
+.dark {
+    fill: var(--color-dark);
+}
+
+.black-outline {
+    fill: none;
+    stroke: var(--color-dark);
+    stroke-width: 1.1672;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.light {
+    fill: var(--color-light);
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    main {
+        width: 500px;
+        height: calc(100vh - 6vmin);
+        margin: 6vmin auto 0;
+    }
+
+    p.strong {
+        margin-top: 2rem;
+    }
+
+    a.button {
+        position: relative;
+        margin: 2.5rem 0;
+        z-index: 1;
+    }
+
+    a.button::after {
+        content: "";
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        width: calc(100% - 6px);
+        height: calc(100% - 6px);
+        background-color: #6A56CF;
+        border-radius: 3px;
+        z-index: -1;
+        transform-origin: 100% 50%;
+        transform: scaleX(0);
+        transition: transform 0.3s ease;
+        /* clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+        transition: clip-path 0.3s ease; */
+    }
+    a.button:hover::after {
+        transform-origin: 0% 50%;
+        transform: scaleX(1);
+        /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); */
+    }
+
+    a.twitter::after {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: var(--color-main);
+        transform-origin: 100% 50%;
+        transform: scaleX(0);
+        transition: transform 0.3s ease;
+    }
+
+    a.twitter:hover::after {
+        transform-origin: 0% 50%;
+        transform: scaleX(1);
+    }
+
+    br.small-screen {
+        display: none;
+    }
+    
+    br.big-screen {
+        display: inline;
+    }
+
+    .svg__container {
+        height: 0px;
+    }
+
+    .svg__top {
+        width: 620px;
+        top: -3.8rem;
+        right: -3.2rem;
+    }
+
+    .svg__bottom {
+        width: 520px;
+        bottom: -3.8rem;
+        left: 1rem;
+    }
+
+    .hide-small {
+        display: block;
+    }
+}
