@@ -10,6 +10,8 @@ collections:
 sass:
   style: compressed
 
+include: [_redirects]
+
 defaults:
   - scope:
       path: ""
