@@ -77,7 +77,8 @@ footer {
 }
 
 @media (min-width: 768px) {
-    .info {
+    .info,
+    .info:nth-child(3) {
         width: 28%;
         margin-right: 5%;
     }
@@ -85,7 +86,8 @@ footer {
 
 @media (min-width: 992px) {
     .info,
-    .info:first-child {
+    .info:first-child,
+    .info:nth-child(3) {
         width: 20%;
         margin-right: 5%;
         margin-bottom: 0;
