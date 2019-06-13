@@ -27,6 +27,7 @@
             flex-direction: column;
     background-color: var(--color-light);
     overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     pointer-events: none;
     opacity: 0;
     z-index: 11;
@@ -112,7 +113,7 @@
     content: "‹";
     position: absolute;
     top: -6px;
-    right: 0;
+    right: 6px;
     color: var(--color-light);
     font-size: 3rem;
     font-weight: var(--font-light);

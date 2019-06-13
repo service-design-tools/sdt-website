@@ -126,6 +126,8 @@
 .tutorial__card .dotgrid {
     grid-row: 2 / -3;
     grid-column: -12 / -3;
+    max-width: 100%;
+    max-height: 100%;
     align-self: flex-end;
     opacity: 0.15;
 }
@@ -171,7 +173,8 @@
 .square--4 svg {
     -ms-flex-item-align: end;
         align-self: flex-end;
-    max-height: calc(var(--square-module) + var(--container-gap) - var(--square-4-padding) * 2);
+    height: calc(var(--square-module) + var(--container-gap) - var(--square-4-padding) * 2);
+    max-width: 50%;
 }
 
 @media (min-width: 576px) {
@@ -269,7 +272,8 @@
         font-size: 2.25rem;
     }
     .square--4 svg {
-        max-height: calc(var(--square-module) * 2 + var(--container-gap) - var(--square-4-padding) * 2);
+        height: calc(var(--square-module) * 2 + var(--container-gap) - var(--square-4-padding) * 2);
+        max-width: 100%;
     }
 }
 
