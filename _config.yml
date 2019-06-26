@@ -10,7 +10,7 @@ collections:
 sass:
   style: compressed
 
-include: [_redirects, _headers]
+include: [_redirects]
 
 defaults:
   - scope:
