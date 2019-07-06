@@ -12,7 +12,7 @@ properties:
   who:
     - Experts
     - Stakeholders
-synonyms: 'User Archetype, User Profile'
+synonyms: 'Human Archetypes, Behavioural Archetypes, User Profiles'
 icon: >-
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
   viewBox="0 0 102.4 126.5" xml:space="preserve">
@@ -53,13 +53,14 @@ reminder: >-
   design.
 template:
   file: /assets/images/uploads/template_personas.pdf
-  image: /assets/images/uploads/preview-template_personas.jpg
+  image: /assets/images/uploads/template_personas_preview.jpg
+poster: /assets/images/uploads/posters_personas.pdf
 references:
   - name: '(1998) Alan Cooper, The Inmates Are Running the Asylum, Sams.'
   - name: >-
-      (2009) Frank Long, Real or Imaginary: The effectiveness of using
-      personas in product design, research paper published in the Irish
-      Ergonomics Review, Proceedings of the IES Conference 2009, Dublin
+      (2009) Frank Long, Real or Imaginary: The effectiveness of using personas
+      in product design, research paper published in the Irish Ergonomics
+      Review, Proceedings of the IES Conference 2009, Dublin
   - name: >-
       (2009) Kim Goodwin, Designing for the Digital Age: How to Create
       Human-centered Products and Services, John Wiley & Sons.
