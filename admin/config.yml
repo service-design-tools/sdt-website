@@ -133,7 +133,7 @@ collections:
     fields:
     # add a field for typology of case study: contributed or found
       - {label: "title", name: "title", widget: "string"}
-      - {label: "link", name: "title", widget: "string", hint: "Must be a proper url (make sure it works)"}
+      - {label: "link", name: "link", widget: "string", hint: "Must be a proper url (make sure it works)"}
       - {label: "typology", name: "typology", widget: "select", options: ["contributed from others", "written by oblo"]}
       - label: "related tools"
         name: "tools"
