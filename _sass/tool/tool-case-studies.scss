@@ -1,0 +1,121 @@
+.case-studies__container {
+    width: var(--container-width);
+    padding: 3rem calc((100% - var(--container-width)) / 2) 0;
+    background-color: var(--color-background-light);
+}
+
+.case-studies__container h4 {
+    font-family: var(--font-corpus);
+    font-weight: var(--font-medium);
+    margin: 0;
+}
+
+.case-studies__container h3 {
+    color: var(--color-dark);
+}
+
+.case-studies__container h5 {
+    margin-top: 2rem;
+    padding-left: 0;
+    border-left: none;
+}
+
+.external-link-icon {
+    margin-left: 0.2rem;
+    height: 0.75rem;
+}
+
+.case-study {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding: 2rem 0 3.75rem;
+}
+
+.case-study:not(:last-of-type) {
+    border-bottom: 1px solid var(--color-line-light);
+}
+
+.case-study__image {
+    width: calc(var(--column-width) * 4 + var(--container-gap) * 4);
+}
+
+.case-study__image > div {
+    position: relative;
+}
+
+.case-study__image .images__details {
+    position: absolute;
+    top: 0.5rem;
+    right: calc(20% + 1rem);
+    color: var(--color-support);
+    font-weight: var(--font-medium);
+}
+
+.images__details svg {
+    height: 1.3rem;
+    position: relative;
+    top: 0.3rem;
+}
+
+.case-study__image img {
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.case-study__content {
+    width: calc(var(--column-width) * 8 + var(--container-gap) * 7);
+    overflow: hidden;
+}
+
+.case--reduced .case-study__content {
+    height: 285px;
+}
+
+.case-study__content p, .case-study__image p {
+    font-weight: var(--font-light);
+    line-height: 1.5;
+}
+
+.case-study__metadata {
+    display: flex;
+}
+
+.case-study__metadata :first-child {
+    width: calc(var(--column-width) * 2 + var(--container-gap) * 1);
+}
+
+.case-study__description {
+    overflow: hidden;
+}
+
+.case--reduced .case-study__description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.case-study__content .outside--link {
+    display: inline-block;
+    margin: 2rem 0;
+}
+
+.btn--view-more {
+    position: relative;
+    margin-right: 1.25rem;
+    cursor: pointer;
+}
+
+.btn--view-more::after {
+    content: "-";
+    position: absolute;
+    right: -1.25rem;
+    bottom: -4px;
+    font-size: 1.4rem;
+    font-weight: var(--font-medium);
+    color: var(--color-main);
+}
+
+.case--reduced .btn--view-more::after {
+    content: "+";
+}

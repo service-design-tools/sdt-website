@@ -6,6 +6,10 @@ html {
     background-color: var(--color-light); 
 }
 
+.nav--active::after {
+    border-top: 3px solid var(--color-light);
+}
+
 header {
     width: calc(var(--container-width));
     padding: 4rem calc((100% - var(--container-width)) / 2);

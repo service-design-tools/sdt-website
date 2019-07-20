@@ -90,6 +90,28 @@ main {
 .download__links {
     margin: 2rem 0 3.75rem;
     text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.download__links svg {
+    fill-rule: evenodd;
+    width: 1rem;
+    position: relative;
+    top: 2px;
+    right: 4px;
+}
+
+.download__links .outside--link{
+    margin-top: 1.25rem;
 }
 
 .references {
@@ -106,7 +128,7 @@ main {
     text-decoration: underline;
 }
 
-.references a svg {
+.references .external-link-icon {
     margin-left: 0.2rem;
     height: 0.75rem;
 }

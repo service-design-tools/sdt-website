@@ -97,6 +97,11 @@ p {
     padding: 0.7rem 3.4rem;
 }
 
+.outside--link {
+    color: var(--color-support);
+    text-decoration: underline;
+}
+
 .svg--outline {
     fill: none;
     stroke: var(--color-dark);

@@ -5,6 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>{{ page.title }}{% unless page.url == '/' %} | Service Design Tools{% endunless %}</title>
         <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,500,600|Libre+Baskerville&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicons/apple-touch-icon.png' | relative_url }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicons/favicon-32x32.png' | relative_url }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicons/favicon-16x16.png' | relative_url }}">
+        <link rel="manifest" href="{{ '/assets/images/favicons/site.webmanifest' | relative_url }}">
+        <link rel="mask-icon" href="{{ '/assets/images/favicons/safari-pinned-tab.svg' | relative_url }}" color="#5bbad5">
+        <link rel="shortcut icon" href="{{ '/assets/images/favicons/favicon.ico' | relative_url }}">
+        <meta name="msapplication-TileColor" content="#262d32">
+        <meta name="msapplication-config" content="{{ '/assets/images/favicons/browserconfig.xml' | relative_url }}">
+        <meta name="theme-color" content="#ffffff">
         <link rel="stylesheet" href="{{ '/assets/css/master.css' | relative_url }}">
         {% assign url = page.url %}
         {% case url %}
@@ -23,6 +32,7 @@
         {% endcase %}
         {% if page.layout == "tool" %}
         <link rel="stylesheet" href="{{ '/assets/css/tool.css' | relative_url }}">
+        <script src="{{ '/assets/js/tool.js' | relative_url }}" defer></script>
         {% elsif page.layout == "tutorial" %}
         <link rel="stylesheet" href="{{ '/assets/css/tutorial.css' | relative_url }}">
         <script src="https://unpkg.com/enter-view@2.0.0/enter-view.min.js" defer></script>

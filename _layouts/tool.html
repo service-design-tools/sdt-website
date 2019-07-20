@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-{% assign templateNumber = page.template | size %}
+{% assign hasTemplate = page.template.file %}
+{% assign hasPoster = page.poster %}
 {% assign referencesNumber = page.references | size %}
 {% assign relatedToolsNumber = page.related.tools | size %}
 {% assign tipsNumber = page.related.tips | size %}
@@ -31,7 +32,7 @@ layout: default
         {% if relatedToolsNumber > 0 %}
         <h5>tools</h5>
         {% for tool in page.related.tools %}
-        {% assign match = site.tools | where:"title",tool %}
+        {% assign match = site.tools | where:"title", tool %}
         <a href="{{ match[0].url }}">
             <div class="related__tool card">
                 {{ match[0].icon | strip_newlines | normalize_whitespace }}
@@ -43,7 +44,7 @@ layout: default
         {% if tipsNumber > 0 %}
         <h5>#oblotips</h5>
         {% for tip in page.related.tips %}
-        <a href="{{ tip.link }}" target="_blank" rel="noopener noreferrer" class="tip">{{ tip.title }} {% include svgs/external-link.html %}</a>
+        <a href="{{ tip.link }}" target="_blank" rel="noopener noreferrer" class="tip">{{ tip.title }} {% include svgs/external-link.html color="dark" %}</a>
         {% endfor %}
         {% endif %}
         {% endif %}
@@ -61,10 +62,11 @@ layout: default
                 {{ page.reminder | markdownify }}
             </div>
         </div>
-        {% if templateNumber > 0 %}
+        {% if hasTemplate %}
         <img src="{{ page.template.image }}" alt="Preview image of the template for {{ page.title }}">
         <div class="download__links">
             <a href="{{ page.template.file }}" class="btn--action" download>download template</a>
+            <a href="{{ page.poster }}" class="outside--link" download>{% include svgs/present.html %} get the poster!</a>
         </div>
         {% endif %}
         {% if referencesNumber > 0 %}
@@ -72,7 +74,7 @@ layout: default
             <h3>references</h3>
             {% for reference in page.references %}
             {% if reference.link %}
-            <a href="{{ reference.link }}" target="_blank" rel="noopener noreferrer">{{ reference.name }} {% include svgs/external-link.html %}</a>
+            <a href="{{ reference.link }}" target="_blank" rel="noopener noreferrer">{{ reference.name }} {% include svgs/external-link.html color="dark" %}</a>
             {% else %}
             <p>{{ reference.name }}</p>
             {% endif %}
@@ -81,4 +83,41 @@ layout: default
         {% endif %}
     </div>
 </main>
+{% assign caseStudies = site.case_studies | where_exp:"case", "case.tools contains page.title" %}
+{% assign caseStudiesNumber = caseStudies | size %}
+{% if caseStudiesNumber > 0 %}
+<section class="case-studies__container">
+    <h3>case studies</h3>
+    {% for case in caseStudies %}
+    <div class="case-study case--reduced">
+        <div class="case-study__image">
+            <div>
+                <p class="images__details">{{ case.images | size }} {% include svgs/picture.html %}</p>
+                <img src="{{ case.images[0] }}" alt="feature image of '{{ case.title }}' case study">
+            </div>
+            <p>Example by <a href="{{ case.company.link }}" target="_blank" rel="noopener noreferrer" class="outside--link">{{ case.company.name }} {% include svgs/external-link.html color="support" %}</a></p>
+        </div>
+        <div class="case-study__content">
+            <h4>{{ case.title }}</h4>
+            <div class="case-study__metadata">
+                <div>
+                    <h5>industry</h5>
+                    <p>{{ case.industry }}</p>
+                </div>
+                <div>
+                    <h5>project</h5>
+                    <p>{{ case.project }}</p>
+                </div>
+            </div>
+            <h5>description</h5>
+            <p class="case-study__description">{{ case.description }}</p>
+            <h5>what was interesting</h5>
+            <p>{{ case.insights }}</p>
+            <a href="{{ case.link }}" target="_blank" rel="noopener noreferrer" class="outside--link">Read more about this case study {% include svgs/external-link.html color="support" %}</a>
+        </div>
+        <p class="btn--view-more">View more</p>
+    </div>
+    {% endfor %}
+</section>
+{% endif %}
 {% include contribute.html %}
