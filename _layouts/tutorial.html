@@ -27,15 +27,17 @@ layout: default
         </div>
         {% for step in page.steps %}
         <div class="timeline__step">
-            {% assign match = site.tools | where:"title",step.tool %}
-            {{ match[0].icon | strip_newlines | normalize_whitespace }}
-            <p class="timeline__number">0{{ forloop.index }}</p>
-            <p class="timeline__tool">{{ step.tool }}</p>
+            <a href="#{{ step.tool | slugify }}">
+                {% assign match = site.tools | where:"title",step.tool %}
+                {{ match[0].icon | strip_newlines | normalize_whitespace }}
+                <p class="timeline__number">0{{ forloop.index }}</p>
+                <p class="timeline__tool">{{ step.tool }}</p>
+            </a>
         </div>
         {% endfor %}
     </div>
     {% for step in page.steps %}
-    <div class="step" data-step="{{ forloop.index0 }}">
+    <div class="step" data-step="{{ forloop.index0 }}" id="{{ step.tool | slugify }}">
         <div class="step__tool">
             <p class="step__number">0{{ forloop.index }}</p>
             <h5>main tool used</h5>

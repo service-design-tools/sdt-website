@@ -26,4 +26,10 @@
         },
         offset: 0.5
     });
+    const scroll = new SmoothScroll('.timeline__step a[href*="#"]', {
+        speed: 1000,
+        easeing: 'easeInOutCubic',
+        speedAsDuration: true,
+        offset: function () { return window.innerWidth > 768 ? 180 : 70 }
+    });
 })();

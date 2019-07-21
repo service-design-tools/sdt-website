@@ -123,7 +123,7 @@ header::after {
 
 @media (min-width: 768px) {
     header {
-        padding: 6rem calc((100% - var(--container-width)) / 2) 0;
+        padding: 2rem calc((100% - var(--container-width)) / 2) 0;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
