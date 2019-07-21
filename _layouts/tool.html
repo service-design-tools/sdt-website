@@ -90,8 +90,8 @@ layout: default
     <h3>case studies</h3>
     {% for case in caseStudies %}
     <div class="case-study case--reduced">
-        <div class="case-study__image">
-            <div>
+        <div class="case-study__left-column">
+            <div class="case-study__image" data-images="{{ case.images | join: ',' }}" data-title="{{ case.title }}">
                 <p class="images__details">{{ case.images | size }} {% include svgs/picture.html %}</p>
                 <img src="{{ case.images[0] }}" alt="feature image of '{{ case.title }}' case study">
             </div>
