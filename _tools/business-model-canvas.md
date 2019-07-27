@@ -1,8 +1,8 @@
 ---
 title: Business Model Canvas
 subtitle: >-
-  First diverge and generate as many idea as you can, then converge around solid
-  concepts
+  Plan and understand in advance the business model and constraints of the
+  service you are designing.
 properties:
   how:
     - Text
@@ -45,11 +45,13 @@ icon: >
     <line class="svg--filled-light svg--outline" x1="115.4" y1="15" x2="133" y2="15"/>
     <line class="svg--filled-light svg--outline" x1="115.4" y1="21.1" x2="125.3" y2="21.1"/>
   </svg>
-use: >-
-  Explore a wide range of ideas and solutions without feeling limited by
-  possible constraints.
-reminder: >-
-  Stay open: there's not a right or wrong ideas, everything could have
-  potential.
+use: 'Describe, design, challenge and pivot your business model.'
+reminder: 'Focus on the big picture, also the smallest details come with a cost.'
+references:
+  - link: >-
+      https://www.wiley.com/en-us/Business+Model+Generation%3A+A+Handbook+for+Visionaries%2C+Game+Changers%2C+and+Challengers-p-9780470876411
+    name: >-
+      (2010) Osterwalder A & Pignuer. Business Model Generation: A Handbook for
+      Visionaries, Game Changers, and Challengers. Wiley Publication
 ---
-Brainstorming is a common technique used to generate ideas. The brainstorming is often organized by first allowing each participant to collect their own thoughts individually, then start sharing and building one on top of each other idea, in order to get to a broad set of possibilities (divergent moment). In the final part of the brainstorming, the goal is usually to cluster, analyse and prioritise the different items in order to identify the most promising solutions or directions, and define next steps (convergent moment).
+The business model canvas is a synthetic chart providing an overview of the service in terms of value proposition, infrastructure, types of customers and financial model. It helps  understand what activities are needed in order to build and deliver a service, and identify potential trade-offs.
