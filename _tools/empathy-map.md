@@ -14,13 +14,13 @@ properties:
 synonyms: User Understanding
 icon: >-
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-  viewBox="0 0 138.5 126.5" xml:space="preserve">
+  viewBox="0 0 139.5 126.5" xml:space="preserve">
     <rect x="25.5" y="37.6" class="svg--filled-main" width="14" height="12.8"/>
     <rect x="77.6" y="102.9" class="svg--filled-main" width="14" height="12.8"/>
     <rect x="22.7" y="94.9" class="svg--filled-main" width="14" height="12.8"/>
-    <rect x="25.5" y="37.6" class="svg--outline svg-bw" width="14" height="12.8"/>
-    <rect x="77.6" y="102.9" class="svg--outline svg-bw" width="14" height="12.8"/>
-    <rect x="22.7" y="94.9" class="svg--outline svg-bw" width="14" height="12.8"/>
+    <rect x="25.5" y="37.6" class="svg--outline svg--bw" width="14" height="12.8"/>
+    <rect x="77.6" y="102.9" class="svg--outline svg--bw" width="14" height="12.8"/>
+    <rect x="22.7" y="94.9" class="svg--outline svg--bw" width="14" height="12.8"/>
     <path class="svg--filled-main" d="M72.8 88.4V83c0-3.8-2.3-7.1-5.6-8.5H56.7c-3.3 1.4-5.6 4.7-5.6 8.5v5.4c0 0 4.4 2.8 10.9 2.8C68.4 91.2 72.8 88.4 72.8 88.4z"/>
     <path class="svg--filled-main" d="M121.6 1V92c8.1 0.4 16.3 9.3 16.3 14.4V17.2C137.9 8.2 130.6 0.9 121.6 1"/>
     <rect x="15.5" y="28.7" class="svg--filled-light svg--outline" width="14" height="12.8"/>
