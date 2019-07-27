@@ -152,6 +152,10 @@ p {
     stroke: var(--color-light);
 }
 
+.svg--bw {
+    opacity: 0;
+}
+
 .card {
     background-color: var(--color-light);
     border-radius: var(--radius);
@@ -228,6 +232,9 @@ p {
 }
 
 @media (hover: hover) and (pointer: fine) {
+    .svg--bw {
+        opacity: 1;
+    }
     .card {
         -webkit-transform: scale(1);
                 transform: scale(1);

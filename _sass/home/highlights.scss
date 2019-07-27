@@ -355,4 +355,12 @@
     .highlights__tools .card:hover .svg--filled-main {
         opacity: 1;
     }
+    .highlights__tools svg .svg--bw {
+        opacity: 1;
+        -webkit-transition: opacity 0.5s;
+        transition: opacity 0.5s;
+    }
+    .highlights__tools .card:hover .svg--bw {
+        opacity: 0;
+    }
 }

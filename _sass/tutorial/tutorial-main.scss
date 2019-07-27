@@ -349,4 +349,12 @@
     .step__tool .card:hover svg .svg--filled-main {
         opacity: 1;
     }
+    .step__tool svg .svg--bw {
+        opacity: 1;
+        -webkit-transition: opacity 0.5s;
+        transition: opacity 0.5s;
+    }
+    .step__tool .card:hover svg .svg--bw {
+        opacity: 0;
+    }
 }
