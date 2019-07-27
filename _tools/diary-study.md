@@ -29,9 +29,9 @@ icon: >-
     <path class="svg--outline" d="M44.4 49.1v-4c0-2.8 1.7-5.2 4.2-6.3"/>
     <path class="svg--outline" d="M56.3 38.9c2.4 1 4.2 3.5 4.2 6.3v4"/>
     <circle class="svg--outline" cx="52.4" cy="37.1" r="14.5"/>
-    <rect x="93.3" y="14.4" class="svg--outline" width="9" height="20.3"/>
-    <rect x="93.3" y="40.3" class="svg--outline" width="9" height="20.3"/>
-    <rect x="93.3" y="66" class="svg--outline" width="9" height="20.3"/>
+    <rect x="93.3" y="14.4" class="svg--outline svg--bw" width="9" height="20.3"/>
+    <rect x="93.3" y="40.3" class="svg--outline svg--bw" width="9" height="20.3"/>
+    <rect x="93.3" y="66" class="svg--outline svg--bw" width="9" height="20.3"/>
   </svg>
 related:
   tips: []
