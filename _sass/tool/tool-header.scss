@@ -41,6 +41,10 @@ header::after {
     max-height: 100px;
 }
 
+.header__icon .svg--bw {
+    opacity: 0;
+}
+
 .header__content {
     width: calc(var(--column-width) * 6 + var(--container-gap) * 5);
     text-align: center;

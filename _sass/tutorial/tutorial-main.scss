@@ -93,8 +93,20 @@
     transition: opacity 0.5s;
 }
 
-.timeline__step.active svg .svg--filled-main {
+.timeline__step.active svg .svg--filled-main,
+.timeline__step.active-backward svg .svg--filled-main {
     opacity: 1;
+}
+
+.timeline__step svg .svg--bw {
+    opacity: 1;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.timeline__step.active svg .svg--bw,
+.timeline__step.active-backward svg .svg--bw {
+    opacity: 0;
 }
 
 .timeline__step .timeline__number {
