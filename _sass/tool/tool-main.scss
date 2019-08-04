@@ -126,6 +126,9 @@ main {
 
 .references a {
     text-decoration: underline;
+    display: block;
+    margin-bottom: 1rem;
+    line-height: 1.5;
 }
 
 .references .external-link-icon {
