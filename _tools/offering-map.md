@@ -37,6 +37,12 @@ icon: >
     <line class="svg--outline" x1="38.9" y1="27.2" x2="51.9" y2="27.2"/>
     <line class="svg--outline" x1="64.9" y1="18.4" x2="38.9" y2="18.4"/>
   </svg>
+related:
+  tools:
+    - Value Proposition Canvas
+    - Experience Principles
+    - User Scenarios
+    - User Stories
 use: to be filled
 reminder: to be filled
 references:
