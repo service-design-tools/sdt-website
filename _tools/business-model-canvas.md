@@ -45,6 +45,10 @@ icon: >
     <line class="svg--filled-light svg--outline" x1="115.4" y1="15" x2="133" y2="15"/>
     <line class="svg--filled-light svg--outline" x1="115.4" y1="21.1" x2="125.3" y2="21.1"/>
   </svg>
+related:
+  tools:
+    - Value Proposition Canvas
+    - Offering Map
 use: 'Describe, design, challenge and pivot your business model.'
 reminder: 'Focus on the big picture, also the smallest details come with a cost.'
 references:
