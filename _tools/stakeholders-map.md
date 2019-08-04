@@ -19,7 +19,7 @@ icon: >
   viewBox="0 0 157.3 126.5" xml:space="preserve">
     <rect x="14.7" y="15.2" class="svg--filled-main" width="141.7" height="110.4"/>
     <rect x="14.7" y="15.2" class="svg--outline svg--bw" width="141.7" height="110.4"/>
-    <rect x="0.9" y="0.9" class="svg--filled-light svg--outline" width="140.3" height="110.9"/>
+    <rect x="0.9" y="0.9" class="svg--outline svg--filled-light" width="140.3" height="110.9"/>
     <path class="svg--filled-main" d="M83.3 71.4V66c0-3.8-2.3-7.1-5.6-8.5H67.2c-3.3 1.4-5.6 4.7-5.6 8.5v5.4c0 0 4.4 2.8 10.9 2.8S83.3 71.4 83.3 71.4z"/>
     <path class="svg--outline" d="M78.8 51.9c0 3.6-2.9 6.5-6.4 6.5 -3.5 0-6.4-2.9-6.4-6.5v-2.2c0-3.6 2.9-6.5 6.4-6.5 3.5 0 6.4 2.9 6.4 6.5V51.9z"/>
     <path class="svg--outline" d="M61.6 70.7v-5.4c0-3.8 2.3-7.1 5.6-8.5"/>
