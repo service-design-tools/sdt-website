@@ -48,6 +48,11 @@ icon: >
     <line class="svg--outline" x1="80.1" y1="66" x2="80.1" y2="81.8"/>
     <line class="svg--outline" x1="91.5" y1="66" x2="91.5" y2="81.8"/>
   </svg>
+related:
+  tools:
+    - Experience Prototypes
+    - Issue Cards
+    - Evaluation Matrix
 use: Engage with users at very early stages and gain quick feedback on your idea.
 reminder: Give yourself time to set the context before starting the walkthrough.
 references:
