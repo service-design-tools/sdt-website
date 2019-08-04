@@ -47,6 +47,12 @@ icon: >
     <circle class="svg--outline" cx="27.8" cy="45.5" r="14.5"/>
     <line class="svg--outline" x1="121" y1="1" x2="121" y2="92.3"/>
   </svg>
+related:
+  tools:
+    - Personas
+    - Emotional Journey
+    - User Scenarios
+    - Service Blueprint
 use: >-
   Depict the whole user experience, representing the process as well as pain
   points and emotional flows.
