@@ -58,6 +58,11 @@ icon: >
     <line class="svg--outline svg--bw" x1="62.5" y1="94.5" x2="92.8" y2="94.5"/>
     <path class="svg--filled-light svg--outline" d="M111.3 97c0 2.3-2.5 4.2-5.5 4.2h-8.9c-3 0-5.5-1.9-5.5-4.2 0-2.3 2.5-4.2 5.5-4.2h8.9C108.8 92.8 111.3 94.7 111.3 97z"/>
   </svg>
+related:
+  tools:
+    - Role Playing
+    - Recruiting Screener
+    - Success Metrics
 use: >-
   Visualize human behavior and share non descriptive qualities with the specific
   recipients.
