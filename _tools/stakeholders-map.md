@@ -29,7 +29,7 @@ icon: >
     <circle class="svg--outline" cx="72.4" cy="55" r="45.5"/>
     <circle class="svg--filled-light svg--outline" cx="107.8" cy="31.9" r="13.6"/>
     <circle class="svg--filled-light svg--outline" cx="31.9" cy="86.9" r="13.6"/>
-    <circle class="svg--filled-light svg--outline" cx="50.4" cy="31.9" r="6.4"/>
+    <circle class="svg--filled-light" cx="50.4" cy="31.9" r="6.4"/>
     <path class="svg--filled-main" d="M115.3 43.6v-3.7c0-2.6-1.6-4.9-3.9-5.9h-7.2c-2.3 1-3.9 3.2-3.9 5.9v3.7c0 0 3.1 1.9 7.5 1.9C112.2 45.5 115.3 43.6 115.3 43.6z"/>
     <path class="svg--filled-main" d="M39.4 98.6v-3.7c0-2.6-1.6-4.9-3.9-5.9h-7.2c-2.3 1-3.9 3.2-3.9 5.9v3.7c0 0 3.1 1.9 7.5 1.9C36.3 100.5 39.4 98.6 39.4 98.6z"/>
     <circle class="svg--filled-main" cx="50.4" cy="31.9" r="6.4"/>
