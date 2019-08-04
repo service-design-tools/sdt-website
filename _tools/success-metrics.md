@@ -38,6 +38,10 @@ icon: >
     <line class="svg--outline" x1="12.9" y1="56.5" x2="109.9" y2="56.5"/>
     <line class="svg--outline" x1="12.9" y1="87.4" x2="109.9" y2="87.4"/>
   </svg>
+related:
+  tools:
+    - Service Prototype
+    - User Stories
 use: to be filled
 reminder: to be filled
 ---
