@@ -48,6 +48,10 @@ icon: >
     <line class="svg--outline" x1="57.7" y1="52.5" x2="41.7" y2="52.5"/>
     <rect x="35.6" y="45.4" class="svg--outline" width="27.8" height="21.1"/>
   </svg>
+related:
+  tools:
+    - Issue Cards
+    - System Map
 use: Foster unconstrained thinking and uncover interesting connections.
 reminder: 'Use very short phrases or even single words, include images.'
 references:
