@@ -48,6 +48,11 @@ icon: >
     <line class="svg--outline" x1="14" y1="54.8" x2="28.2" y2="54.8"/>
     <line class="svg--outline" x1="42.2" y1="45.2" x2="14" y2="45.2"/>
   </svg>
+related:
+  tools:
+    - Tomorrow's Narratives
+    - Offering Map
+    - Value Proposition Canvas
 use: to be filled
 reminder: Use a simple visual language.
 references:
