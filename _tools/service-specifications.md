@@ -28,6 +28,11 @@ icon: >
     <line class="svg--outline" x1="43.5" y1="50.5" x2="77.2" y2="50.5"/>
     <line class="svg--outline" x1="43.5" y1="67.9" x2="66.3" y2="67.9"/>
   </svg>
+related:
+  tools:
+    - User Stories
+    - Service Blueprint
+    - Service Roadmap
 use: to be filled
 reminder: to be filled
 ---
