@@ -14,7 +14,7 @@ synonyms: 'How-Now-Wow Matrix, Evaluation Metrics, Dot Voting'
 icon: >
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
   viewBox="0 0 138.3 126.3" xml:space="preserve">
-    <rect x="17.1" y="34.1" class="svg--outline svg--filled-light" width="17.3" height="17.3"/>
+    <polygon class="svg--outline svg--filled-light" points="29.5,51.4 17.1,51.4 17.1,34.1 34.4,34.1 34.4,44.8 29.5,44.8 "/>
     <rect x="29.5" y="44.8" class="svg--filled-main" width="17.3" height="17.3"/>
     <rect x="82.8" y="32.6" class="svg--filled-main" width="17.3" height="17.3"/>
     <rect x="87.8" y="90.3" class="svg--filled-main" width="17.3" height="17.3"/>
