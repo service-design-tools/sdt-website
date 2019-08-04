@@ -32,6 +32,9 @@ icon: >
     <path class="svg--outline" d="M18.6 55.7v-4c0-2.8 1.7-5.2 4.2-6.3"/>
     <path class="svg--outline" d="M30.5 45.5c2.4 1 4.2 3.5 4.2 6.3v4"/>
   </svg>
+related:
+  tools:
+    - Empathy Map
 use: Add a more qualitative dimension to the analysis of the functional experience.
 reminder: >-
   Give it enough space in the map, to immediately guide the journey
