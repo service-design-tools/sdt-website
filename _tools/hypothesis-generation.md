@@ -47,6 +47,11 @@ icon: >
     <path class="svg--outline" d="M121 0.9c9.2 0 16.6 7.5 16.6 16.6"/>
     <line class="svg--outline" x1="137.6" y1="17.5" x2="137.6" y2="109"/>
   </svg>
+related:
+  tools:
+    - Research Plan
+    - Interview Guide
+    - Empathy Map
 use: Ground the first step of the project on existing knowledge.
 reminder: 'Put everything on the table, without hiding or saving ideas for later.'
 ---
