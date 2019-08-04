@@ -34,7 +34,10 @@ icon: >
   </svg>
 related:
   tips: []
-  tools: []
+  tools:
+    - Rough Prototyping
+    - Experience Prototypes
+    - Service Prototype
 use: >-
   Elicit a response, whether from you, your team, a partner, or whomever you’re
   designing for.
