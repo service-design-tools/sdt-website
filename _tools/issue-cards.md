@@ -34,7 +34,9 @@ icon: >
   </svg>
 related:
   tips: []
-  tools: []
+  tools:
+    - Concept Walkthrough
+    - Mindmap
 use: 'Make the ideation process smooth, open and fun, avoiding the creative block.'
 reminder: Keep the content of the cards heterogenous and simple.
 template: {}
