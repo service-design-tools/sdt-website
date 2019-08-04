@@ -35,6 +35,11 @@ icon: >
     <line class="svg--filled-light svg--outline" x1="41.9" y1="80.5" x2="52.4" y2="80.5"/>
     <line class="svg--filled-light svg--outline" x1="41.9" y1="89.3" x2="74.6" y2="89.3"/>
   </svg>
+related:
+  tools:
+    - Research Plan
+    - Interview Guide
+    - Personas
 use: to be filled
 reminder: to be filled
 ---
