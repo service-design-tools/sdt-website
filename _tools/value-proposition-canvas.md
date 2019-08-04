@@ -31,6 +31,11 @@ icon: >
     <rect x="11.3" y="45.7" class="svg--outline svg--bw" width="44.5" height="9.6"/>
     <rect x="11.3" y="80.1" class="svg--outline svg--bw" width="30.2" height="9.6"/>
   </svg>
+related:
+  tools:
+    - Offering Map
+    - Business Model Canvas
+    - Experience Principles
 use: to be filled
 reminder: >-
   Look at gains as hidden ambitions and goals people have and not simply the
