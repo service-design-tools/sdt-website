@@ -41,7 +41,9 @@ icon: >+
 
 related:
   tips: []
-  tools: []
+  tools:
+    - Interview Guide
+    - Synthesis Wall
 use: >-
   Align different team members on the same methodology for insight collection,
   and enable multiple research sessions in parallel.
