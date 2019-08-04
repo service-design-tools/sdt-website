@@ -38,6 +38,11 @@ icon: >
     <line class="svg--outline svg--dashed" x1="12.9" y1="63.9" x2="111.4" y2="63.9"/>
     <line class="svg--outline svg--dashed" x1="12.9" y1="93.9" x2="111.4" y2="93.9"/>
   </svg>
+related:
+  tools:
+    - Offering Map
+    - Service Blueprint
+    - User Stories
 use: to be filled
 reminder: to be filled
 ---
