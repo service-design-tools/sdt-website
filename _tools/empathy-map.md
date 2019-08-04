@@ -38,7 +38,10 @@ icon: >-
   </svg>
 related:
   tips: []
-  tools: []
+  tools:
+    - Personas
+    - Hypothesis Generation
+    - Emotional Journey
 use: Put all the existing knowledge on the table and identify missing information.
 reminder: >-
   Follow the rule "one persona per map": focus on building empathy with a
