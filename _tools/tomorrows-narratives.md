@@ -33,6 +33,11 @@ icon: >
     <rect x="15.7" y="76" class="svg--filled-main" width="18.5" height="34.7"/>
     <rect x="15.7" y="76" class="svg--outline svg--bw" width="18.5" height="34.7"/>
   </svg>
+related:
+  tools:
+    - Service Image
+    - Offering Map
+    - User Scenarios
 use: Develop and sustain the relationships with the users of the service.
 reminder: >-
   Try this out during strategic conversations or at early stages of the
