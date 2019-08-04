@@ -37,6 +37,10 @@ icon: >
     <polygon class="svg--outline" points="48.1 101.7 48.1 98.3 68 98.3 68 115.8 48.1 115.8 48.1 112 "/>
     <polygon class="svg--outline" points="13.6 57.8 13.6 54.4 33.5 54.4 33.5 71.9 13.6 71.9 13.6 68.1 "/>
   </svg>
+related:
+  tools:
+    - Service Specifications
+    - Service Roadmap
 use: >-
   Understand cross-functional relationships and align front-stage and back-stage
   processes.
