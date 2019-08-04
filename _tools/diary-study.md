@@ -36,7 +36,8 @@ icon: >-
 related:
   tips: []
   tools:
-    - Observation Notes
+    - Research Plan
+    - Interview Guide
 use: >-
   Analyse repetitive actions and daily behaviours, things we don't pay attention
   to.
