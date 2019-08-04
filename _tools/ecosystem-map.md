@@ -38,6 +38,10 @@ icon: >
     <circle class="svg--outline" cx="87.1" cy="96.6" r="15.4"/>
     <circle class="svg--outline" cx="87.1" cy="44.8" r="15.4"/>
   </svg>
+related:
+  tools:
+    - Stakeholders Map
+    - System Map
 use: Uncover existing gaps and identify valuable opportunities for synergies.
 reminder: >-
   Map all the relationships as a giving and a receiving: the value is in the
