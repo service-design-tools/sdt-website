@@ -45,6 +45,11 @@ icon: >
     <circle class="svg--outline svg--bw" cx="118.6" cy="92.3" r="6.4"/>
     <circle class="svg--outline svg--bw" cx="50.4" cy="31.9" r="6.4"/>
   </svg>
+related:
+  tools:
+    - Ecosystem Map
+    - System Map
+    - Success Metrics
 use: to be filled
 reminder: to be filled
 references:
