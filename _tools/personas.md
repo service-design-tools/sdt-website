@@ -41,6 +41,8 @@ related:
   tips: []
   tools:
     - Empathy Map
+    - User Scenarios
+    - User Stories
 use: Describe your user and remember who you design for.
 reminder: >-
   Avoid including the details that are misleading and not relevant for your
