@@ -39,6 +39,11 @@ icon: >
     <line class="svg--outline" x1="12.6" y1="15.4" x2="30.9" y2="15.4"/>
     <line class="svg--outline" x1="12.6" y1="25" x2="69.5" y2="25"/>
   </svg>
+related:
+  tools:
+    - Offering Map
+    - Value Proposition Canvas
+    - User Scenarios
 use: >-
   Guide multiple teams or work-streams to pursue the same goals in terms of user
   experience.
