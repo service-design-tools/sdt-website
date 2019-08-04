@@ -35,6 +35,12 @@ icon: >
     <line class="svg--filled-light svg--outline" x1="31.1" y1="92.8" x2="72" y2="92.8"/>
     <path class="svg--outline" d="M118.8 28.4c-2.9-1.8-6.8-0.9-8.6 2L79.5 80l-1 13.5 11.6-6.9L120.8 37C122.7 34.1 121.8 30.2 118.8 28.4z"/>
   </svg>
+related:
+  tools:
+    - Research Plan
+    - Recruiting Screener
+    - Diary Study
+    - Observation Notes
 use: Get prepared to moderate the interview and make the most out of it.
 reminder: >-
   Build on what the participants say and investigate the reasons behind their
