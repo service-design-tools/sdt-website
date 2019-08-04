@@ -41,6 +41,10 @@ icon: >
     <rect x="77.3" y="56.1" class="svg--outline svg--bw" width="17.3" height="17.3"/>
     <rect x="106.7" y="31" class="svg--outline svg--bw" width="17.3" height="17.3"/>
   </svg>
+related:
+  tools:
+    - Observation Notes
+    - Personas
 use: to be filled
 reminder: to be filled
 ---
