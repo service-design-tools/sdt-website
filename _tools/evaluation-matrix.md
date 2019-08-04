@@ -36,6 +36,11 @@ icon: >
     <line class="svg--outline svg--filled-light" x1="110.3" y1="70.2" x2="14.4" y2="70.2"/>
     <polyline class="svg--outline" points="106.2 64.6 110.8 70.1 106.2 75.7 "/>
   </svg>
+related:
+  tools:
+    - Concept Walkthrough
+    - Tomorrow's Narratives
+    - Service Image
 use: >-
   Have a comprehensive view of all the possibilities, and choose carefully what
   to do.
