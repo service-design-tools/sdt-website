@@ -16,7 +16,7 @@ icon: >
   viewBox="0 0 157.3 126.5" xml:space="preserve">
     <rect x="14.7" y="15.2" class="svg--filled-main" width="141.7" height="110.4"/>
     <rect x="14.7" y="15.2" class="svg--outline svg--bw" width="141.7" height="110.4"/>
-    <rect x="0.9" y="0.9" class="svg--filled-light svg--outline" width="140.3" height="110.9"/>
+    <rect x="0.9" y="0.9" class="svg--outline svg--filled-light" width="140.3" height="110.9"/>
     <rect x="18.4" y="31" class="svg--outline" width="17.3" height="17.3"/>
     <rect x="18.4" y="81.2" class="svg--outline" width="17.3" height="17.3"/>
     <line class="svg--outline" x1="18" y1="21.5" x2="35.7" y2="21.5"/>
