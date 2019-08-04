@@ -156,6 +156,10 @@ p {
     opacity: 0;
 }
 
+.svg--filled-light.svg--outline {
+    fill: var(--color-light);
+}
+
 .card {
     background-color: var(--color-light);
     border-radius: var(--radius);
