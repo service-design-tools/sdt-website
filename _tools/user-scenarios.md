@@ -53,6 +53,10 @@ icon: >
     <rect x="92.8" y="94.8" class="svg--outline svg--bw" width="16.5" height="14.5"/>
     <rect x="41.5" y="94.8" class="svg--outline svg--bw" width="16.5" height="14.5"/>
   </svg>
+related:
+  tools:
+    - Experience Prototypes
+    - Service Prototype
 use: Determine the most important areas to test during usability testing.
 reminder: Base the scenarios on different user personas.
 references:
