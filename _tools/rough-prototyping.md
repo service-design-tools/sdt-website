@@ -52,6 +52,10 @@ icon: >
     <rect x="70.9" y="99.5" class="svg--outline svg--bw" width="30.1" height="7.5"/>
     <rect x="69.9" y="47.6" class="svg--outline svg--bw" width="30.1" height="18.6"/>
   </svg>
+related:
+  tools:
+    - Concept Walkthrough
+    - Experience Prototypes
 use: Make the designing process more interactive and concrete.
 reminder: Make it fast and simple to only trigger dialogue.
 references:
