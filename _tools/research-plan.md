@@ -38,6 +38,11 @@ icon: >
     <circle class="svg--filled-light svg--outline" cx="119.2" cy="76.4" r="8.9"/>
     <rect x="124.4" y="1.8" class="svg--filled-light svg--outline" width="25.6" height="25.6"/>
   </svg>
+related:
+  tools:
+    - Hypothesis Generation
+    - Interview Guide
+    - Diary Study
 use: to be filled
 reminder: to be filled
 references:
