@@ -44,7 +44,11 @@ icon: >+
 
 related:
   tips: []
-  tools: []
+  tools:
+    - Service Specifications
+    - User Scenarios
+    - Service Prototype
+    - Service Roadmap
 use: Connect design research with actionable input for IT development.
 reminder: 'Write these as seen from the user’s perspective, using simple, concise words.'
 template: {}
