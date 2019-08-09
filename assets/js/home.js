@@ -2,7 +2,7 @@
 layout: null
 ---
 (function () {
-    const toolsArray = [{% for tool in site.tools %}{'tool': '{{ tool.title }}', 'url': '{{ tool.url }}', 'svg': `{{ tool.icon | strip_newlines | normalize_whitespace }}`}{% unless forloop.last %},{% endunless %}{% endfor %}];
+    const toolsArray = [{% for tool in site.tools %}{'tool': "{{ tool.title }}", 'url': '{{ tool.url }}', 'svg': `{{ tool.icon | strip_newlines | normalize_whitespace }}`}{% unless forloop.last %},{% endunless %}{% endfor %}];
     const randomToolPicks = d3.shuffle(toolsArray).slice(0,4);
 
     const $toolCards = document.querySelectorAll('.highlights__tools a');
