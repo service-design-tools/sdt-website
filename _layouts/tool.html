@@ -83,13 +83,13 @@ layout: default
         {% endif %}
     </div>
 </main>
-{% assign caseStudies = site.case_studies | where_exp:"case", "case.tools contains page.title" %}
+{% assign caseStudies = site.case_studies | where_exp:"case", "case.tool contains page.title" %}
 {% assign caseStudiesNumber = caseStudies | size %}
 {% if caseStudiesNumber > 0 %}
 <section class="case-studies__container">
     <h3>case studies</h3>
     {% for case in caseStudies %}
-    <div class="case-study case--reduced">
+    <div class="case-study case--reduced" id="{{ case.title | slugify }}">
         <div class="case-study__left-column">
             <div class="case-study__image" data-images="{{ case.images | join: ',' }}" data-title="{{ case.title }}">
                 <p class="images__details">{{ case.images | size }} {% include svgs/picture.html %}</p>
@@ -110,9 +110,11 @@ layout: default
                 </div>
             </div>
             <h5>description</h5>
-            <p class="case-study__description">{{ case.description }}</p>
+            <div class="case-study__description">
+                {{ case.description | markdownify }}
+            </div>
             <h5>what was interesting</h5>
-            <p>{{ case.insights }}</p>
+            {{ case.insights | markdownify }}
             <a href="{{ case.link }}" target="_blank" rel="noopener noreferrer" class="outside--link">Read more about this case study {% include svgs/external-link.html color="support" %}</a>
         </div>
         <p class="btn--view-more">View more</p>

@@ -31,6 +31,10 @@ header svg {
     margin-top: 1rem;
 }
 
+header svg .svg--outline {
+    stroke-width: 1px;
+}
+
 .header__column.home + svg {
     margin-bottom: 6.6rem;
 }
@@ -41,7 +45,7 @@ header svg {
         padding: 0 var(--header-padding);
     }
     .header__column {
-        width: 70%;
+        width: 85%;
     }
 }
 

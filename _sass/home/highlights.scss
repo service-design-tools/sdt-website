@@ -177,6 +177,10 @@
     max-width: 50%;
 }
 
+.square--4 svg .svg--outline {
+    stroke-width: 1px;
+}
+
 @media (min-width: 576px) {
     .square--4 h2 {
         font-size: 2.5rem;

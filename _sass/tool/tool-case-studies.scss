@@ -106,6 +106,14 @@ body.modal--open {
     -webkit-line-clamp: 3;
 }
 
+.case-study__content ul {
+    font-weight: var(--font-light);
+    line-height: 1.5;
+    list-style-type: circle;
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+}
+
 .case-study__content .outside--link {
     display: inline-block;
     margin: 2rem 0;
