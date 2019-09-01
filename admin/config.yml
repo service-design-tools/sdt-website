@@ -149,8 +149,8 @@ collections:
           - {label: "link", name: "link", widget: "string", hint: "Must be a proper url (make sure it works)"}
       - {label: "industry", name: "industry", widget: "string"}
       - {label: "project name/brief", name: "project", widget: "string"}
-      - {label: "description", name: "description", widget: "text", hint: "Pay attention to max character limit"} 
-      - {label: "what was interesting", name: "insights", widget: "text"}
+      - {label: "description", name: "description", widget: "markdown", hint: "Pay attention to max character limit"} 
+      - {label: "what was interesting", name: "insights", widget: "markdown"}
       - label: "images"
         name: "images"
         widget: "list"
