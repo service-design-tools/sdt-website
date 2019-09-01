@@ -135,17 +135,12 @@ collections:
       - {label: "title", name: "title", widget: "string"}
       - {label: "link", name: "link", widget: "string", hint: "Must be a proper url (make sure it works)"}
       - {label: "typology", name: "typology", widget: "select", options: ["contributed from others", "written by oblo"]}
-      - label: "related tools"
-        name: "tools"
-        widget: "list"
-        hint: "List here all the tools where this case study will be shown. Before publishing, remove any entry that might have been left empty"
-        field:
-          label: "tool name"
-          name: "tool"
-          widget: "relation"
-          collection: "tools"
-          searchFields: ["title", "properties.when", "properties.who", "properties.what", "properties.how"]
-          valueField: "title"
+      - label: "related tool"
+        name: "tool"
+        widget: "relation"
+        collection: "tools"
+        searchFields: ["title", "properties.when", "properties.who", "properties.what", "properties.how"]
+        valueField: "title"
       - label: "company"
         name: "company"
         widget: "object"
