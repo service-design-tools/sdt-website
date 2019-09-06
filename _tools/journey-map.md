@@ -1,6 +1,6 @@
 ---
 title: Journey Map
-subtitle: 'Describe how the user interact with the service, throughout its touchpoints.'
+subtitle: 'Describe how the user interact with the service, throughout its touchpoints'
 properties:
   how:
     - Maps
