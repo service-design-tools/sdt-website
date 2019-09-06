@@ -1,6 +1,8 @@
 ---
 title: Synthesis Wall
-subtitle: to be filled
+subtitle: >-
+  Use a physical wall and post-it notes to debrief the research sessions and
+  cluster important insights
 properties:
   how:
     - Maps
@@ -45,7 +47,15 @@ related:
   tools:
     - Observation Notes
     - Personas
-use: to be filled
-reminder: to be filled
+    - Journey Map
+use: >-
+  Collaboratively discuss insights and analyse user profiles or experience
+  journeys.
+reminder: >-
+  Define a structure to place the notes on the wall before starting the
+  analysis.
+references:
+  - link: 'https://www.thisisservicedesigndoing.com/methods/building-a-research-wall'
+    name: Building a research wall
 ---
-to be filled
+The synthesis wall is a key support in the moment of debriefing and analysis of the research outcomes. The team writes down all the relevant notes from the research on single post-it notes, and organize them on the wall in order to start identifying clusters, relevant themes, important insights that can inform and inspire the design process. The wall could be set in a structured way, listing all the notes under each interviewee (helpful to identify personas and transversal patterns), or under each step of the journey (helpful to analyse an experience and its pain points).
