@@ -45,6 +45,7 @@ reminder: >-
 template:
   file: /assets/images/uploads/value-proposition-canvas_template.pdf
   image: /assets/images/uploads/value-proposition-canvas-preview.jpg
+poster: /assets/images/uploads/value-proposition-canvas_poster.pdf
 references:
   - link: 'https://www.strategyzer.com/canvas/value-proposition-canvas'
     name: The Value Proposition Canvas
