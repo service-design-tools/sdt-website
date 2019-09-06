@@ -55,8 +55,8 @@ reminder: >-
   Avoid enriching their descriptions with details that are not relevant in that
   context: they could be misleading.
 template:
-  file: /assets/images/uploads/template_personas.pdf
-  image: /assets/images/uploads/template_personas_preview.jpg
+  file: /assets/images/uploads/personas_template.pdf
+  image: /assets/images/uploads/personas-preview.jpg
 poster: /assets/images/uploads/posters_personas.pdf
 references:
   - name: '(1998) Alan Cooper, The Inmates Are Running the Asylum, Sams.'
