@@ -1,8 +1,6 @@
 ---
 title: Service Image
-subtitle: >-
-  A unique picture that instantly gives the idea of the main features of the
-  service.
+subtitle: Capture the essence of a service experience in a single frame.
 properties:
   how:
     - Narratives
@@ -53,8 +51,10 @@ related:
     - Tomorrow's Narratives
     - Offering Map
     - Value Proposition Canvas
-use: to be filled
-reminder: Use a simple visual language.
+use: 'Let people imagine what the service would be, and how it will come to life.'
+reminder: >-
+  Think of the aesthetics of the experience too: explaining the service is not
+  about functionalities only.
 references:
   - name: '(2006) Joe, P., Visualisation, Design Council'
   - name: >-
@@ -63,4 +63,4 @@ references:
       at Rethinking Service Design, First Nordic Conference on Service Design
       and Service Innovation, 24th-26th November, Oslo
 ---
-The Service Concept image is aimed at supporting the dialogue with the stakeholders, bringing them envision the service, but also at supporting the discussion around concepts, facilitating a quick elicitation of the prominent aspects of every ideas and the comparison between them.
+The service image is aimed at presenting a concept in a memorable way, by helping the audience immediately understand, perceive, immerse into the envisioned experience. The service image is often realistic (e.g. a montage of different photos and scenes, or a post-produced photo realised ad hoc) and focused on a hero moment that is able to encapsulate the core value of the service experience. The service image may be used in public presentations as well as in the landing page of the project website, becoming aclear visual reference and contributing in shaping the service brand.
