@@ -57,7 +57,7 @@ reminder: >-
 template:
   file: /assets/images/uploads/personas_template.pdf
   image: /assets/images/uploads/personas-preview.jpg
-poster: /assets/images/uploads/posters_personas.pdf
+poster: /assets/images/uploads/personas_poster.pdf
 references:
   - name: '(1998) Alan Cooper, The Inmates Are Running the Asylum, Sams.'
   - name: >-
