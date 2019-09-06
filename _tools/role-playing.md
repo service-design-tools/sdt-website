@@ -1,17 +1,18 @@
 ---
 title: Role Playing
-subtitle: Performing a hypothetical service experience
+subtitle: Perform a hypothetical service experience
 properties:
   how:
     - Simulations
   what:
-    - System
     - Experience
   when:
+    - Ideation
     - Prototyping
   who:
     - Service Staff
     - Users
+    - Stakeholders
 synonyms: Bodystorming
 icon: >
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
@@ -39,12 +40,12 @@ related:
     - Experience Prototypes
     - Service Prototype
 use: >-
-  Elicit a response, whether from you, your team, a partner, or whomever you’re
-  designing for.
+  Express the value of an idea, gradually unvealing both functional and
+  emotional layers.
 reminder: >-
-  Think that the service really exists and then build a potential journey
-  through some of its functionalities.
+  Set up a context for the scene that is relevant and easy to understand, so the
+  audience can focus on the story and proposed solution.
 template: {}
 references: []
 ---
-A Role-Play involves performance of a  scenario several times, changing  the character profiles on each scene in order to understand how different users would act in the same situation.
+The role play is a representation technique often used during co-design sessions; it allows to explain a service or product idea by acting out an exemplificatory scenario of use. The role play typically requires to define some roles (e.g. the user, the service employee, etc.) and prepare rough prototypes or other materials that can facilitate the performance. While a team is acting out their story, the rest of the audience learn about the idea, understand the high-level sequence of actions required and get to know the hero moments.
