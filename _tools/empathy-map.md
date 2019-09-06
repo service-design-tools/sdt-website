@@ -46,8 +46,8 @@ reminder: >-
   Follow the rule "one persona per map": focus on building empathy with a
   specific user profile.
 template:
-  file: /assets/images/uploads/template_empathy-map.pdf
-  image: /assets/images/uploads/preview-template_empathy-map.jpg
+  file: /assets/images/uploads/empathy-map__template.pdf
+  image: /assets/images/uploads/empathy-map-preview.jpg
 references:
   - link: >-
       https://www.researchgate.net/publication/276207468_Designing_Personas_with_Empathy_Map
