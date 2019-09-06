@@ -42,6 +42,9 @@ use: >-
 reminder: >-
   Look at gains as hidden ambitions and goals (not simply the opposite of
   pains).
+template:
+  file: /assets/images/uploads/value-proposition-canvas_template.pdf
+  image: /assets/images/uploads/value-proposition-canvas-preview.jpg
 references:
   - link: 'https://www.strategyzer.com/canvas/value-proposition-canvas'
     name: The Value Proposition Canvas
