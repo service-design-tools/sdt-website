@@ -48,6 +48,7 @@ reminder: >-
 template:
   file: /assets/images/uploads/empathy-map__template.pdf
   image: /assets/images/uploads/empathy-map-preview.jpg
+poster: /assets/images/uploads/empathy-map-poster.pdf
 references:
   - link: >-
       https://www.researchgate.net/publication/276207468_Designing_Personas_with_Empathy_Map
