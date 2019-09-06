@@ -50,5 +50,9 @@ use: >-
 reminder: >-
   Create strong statements to explain the principles, and add visuals that help
   memorizing them.
+references:
+  - name: >-
+      Kumar, V. (2012). 101 design methods: A structured approach for driving
+      innovation in your organization. John Wiley & Sons.
 ---
 Experience principles are inspiring values that help create a shared experience vision within an organization, by applying then consistently across several projects and initiatives. They are based on research, and incorporate insights about what users expect from the relationship with a specific organization or service.
