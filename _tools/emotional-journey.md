@@ -40,5 +40,8 @@ use: Add a more qualitative dimension to the analysis of the functional experien
 reminder: >-
   Give it enough space in the map, to immediately guide the journey
   understanding.
+template:
+  file: /assets/images/uploads/emotional-journey_template.pdf
+  image: /assets/images/uploads/emotiona-journey-preview.jpg
 ---
 The emotional journey is an extension of the usual experience journey map (or customer journey map) that associates an indication of the emotional status of the user at each stage of the experience. The emotion can be represented by a curve floating from moments of frustration to delight, or by adding emojis and pictograms to the specific steps of the journey.
