@@ -35,6 +35,7 @@ icon: >
 related:
   tools:
     - Empathy Map
+    - Journey Map
 use: Add a more qualitative dimension to the analysis of the functional experience.
 reminder: >-
   Give it enough space in the map, to immediately guide the journey
