@@ -50,5 +50,9 @@ template: {}
 references:
   - link: 'https://www.researchgate.net/publication/300482737_Diary_Studies'
     name: '(2015) Baxter, Kathy & Courage, Chatherine & Caine, Kelly. Diary Studies. '
+  - name: >-
+      (2012) Goodman, E & Kuniavsky, M & Moed, A. Observing the User Experience,
+      Second Edition: A Practitioner's Guide to User Research. Morgan Kaufmann
+      Publishers Inc.
 ---
 The diary study is a research method inspired by cultural probes, in which participants are asked to monitor and report specific data over a defined period of time. The diary can be analog or digital, request to simply log specific information or even take photos and videos. It could help with remote research, and facilitate self-reflection prior to an in-depth interview.
