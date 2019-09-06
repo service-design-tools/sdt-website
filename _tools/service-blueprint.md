@@ -51,6 +51,7 @@ reminder: >-
 template:
   file: /assets/images/uploads/service-blueprint_template.pdf
   image: /assets/images/uploads/service-blueprint-preview.jpg
+poster: /assets/images/uploads/service-blueprint_poster.pdf
 references:
   - name: >-
       (1977) Lynn G. Shostack, Breaking Free from Product Marketing, in Journal
