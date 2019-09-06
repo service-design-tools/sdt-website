@@ -48,6 +48,9 @@ use: >-
 reminder: >-
   Use it to analyse an existing service or specify a well defined concept, not
   as an ideation tool.
+template:
+  file: /assets/images/uploads/service-blueprint_template.pdf
+  image: /assets/images/uploads/service-blueprint-preview.jpg
 references:
   - name: >-
       (1977) Lynn G. Shostack, Breaking Free from Product Marketing, in Journal
