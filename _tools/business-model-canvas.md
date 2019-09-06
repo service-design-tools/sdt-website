@@ -55,8 +55,7 @@ references:
   - link: >-
       https://www.wiley.com/en-us/Business+Model+Generation%3A+A+Handbook+for+Visionaries%2C+Game+Changers%2C+and+Challengers-p-9780470876411
     name: >-
-      Osterwalder, A., & Pigneur, Y. (2010). Business model generation: a
-      handbook for visionaries, game changers, and challengers. John Wiley &
-      Sons.
+      (2010) Osterwalder A & Pignuer. Business Model Generation: A Handbook for
+      Visionaries, Game Changers, and Challengers. Wiley Publication
 ---
 The business model canvas is a synthetic chart providing an overview of the service in terms of value proposition, infrastructure, types of customers and financial model. It helps  understand what activities are needed in order to build and deliver a service, and identify potential trade-offs.
