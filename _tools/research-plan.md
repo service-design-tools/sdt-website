@@ -1,6 +1,8 @@
 ---
 title: Research Plan
-subtitle: A plan and preparation before starting the actual research or field work.
+subtitle: >-
+  Define how to conduct a research activity by writing the protocol before
+  starting.
 properties:
   how:
     - Text
@@ -43,10 +45,14 @@ related:
     - Hypothesis Generation
     - Interview Guide
     - Diary Study
-use: to be filled
-reminder: to be filled
+use: >-
+  Design the research and explain the approach to other team members or
+  stakeholders.
+reminder: >-
+  Include debriefing sessions in the schedule in order to make the work
+  effective and avoid team burnout.
 references:
   - link: 'https://www.thisisservicedesigndoing.com/methods/preparatory-research'
     name: Preparatory Research
 ---
-to be filled
+The research plan is a document that clarifies how to approach the research, touching upon research goals, selected methodologies, types of participants and tools used, timeline and locations. This planning activity needs to be done upfront, before starting the actual research, and help maximizing the effort and modeling the activities in the best way possible, according to the specific research purpose. The plan becomes even more important when the research requires to travel in the field, or coordinate different teams in various locations.
