@@ -1,8 +1,6 @@
 ---
 title: Observation Notes
-subtitle: >-
-  A structure to make contextual observation more efficient in complex field
-  settings
+subtitle: Make contextual observation highly efficient in complex field settings
 properties:
   how:
     - Text
@@ -12,7 +10,7 @@ properties:
     - Research
   who:
     - Experts
-synonyms: Field Study Notes
+synonyms: Field Notes
 icon: >+
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
   viewBox="0 0 136.3 126.5" xml:space="preserve">
@@ -45,12 +43,12 @@ related:
     - Interview Guide
     - Synthesis Wall
 use: >-
-  Align different team members on the same methodology for insight collection,
-  and enable multiple research sessions in parallel.
+  Align different team members on the same methodology for data collection and
+  be able to run multiple observation sessions in parallel.
 reminder: >-
-  Keep the format as printed A5 booklet with spiral binding for convenient use
-  while standing or moving from one place to another within the site.
+  Go for a convenient format to be used while standing or moving on the site
+  (e.g. small printed booklet with spiral binding).
 template: {}
 references: []
 ---
-The Observation notebook is designed ad hoc according to the specific investigation areas, and filled during the observation sessions with notes and comments collected on the spot.  It guides the researcher by suggesting data points to capture, but also includes plenty of blank spaces to add extra-elements.
+Writing notes during observations sessions help make the most out of that research activity, making sure to capture insights as well as data concerning what's happening around (e.g. how many times an action is repeated, how long it takes, steps covered, etc.). Preparing a dedicated support such as a printed grid or notebook with specific investigation areas to fill during the session could be valuable to guide the researcher by suggesting data points to capture, and so avoid to forget any important aspects.
