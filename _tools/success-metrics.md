@@ -3,7 +3,7 @@ title: Success Metrics
 subtitle: to be filled
 properties:
   how:
-    - Maps
+    - Map
   what:
     - Experience
   when:

@@ -3,7 +3,7 @@ title: User Scenarios
 subtitle: A fictitious story of a user accomplishing an action or goal via a service.
 properties:
   how:
-    - Narratives
+    - Narrative
   what:
     - Experience
   when:

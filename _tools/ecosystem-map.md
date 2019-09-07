@@ -5,7 +5,7 @@ subtitle: >-
   surrounding ecosystem.
 properties:
   how:
-    - Maps
+    - Map
   what:
     - System
   when:

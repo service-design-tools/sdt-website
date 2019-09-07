@@ -3,7 +3,7 @@ title: Service Roadmap
 subtitle: to be filled
 properties:
   how:
-    - Maps
+    - Map
   what:
     - Offering
   when:

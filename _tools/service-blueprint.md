@@ -5,7 +5,7 @@ subtitle: >-
   interaction.
 properties:
   how:
-    - Maps
+    - Map
   what:
     - Experience
   when:

@@ -3,7 +3,7 @@ title: System Map
 subtitle: A visual description of the technical organization of a service.
 properties:
   how:
-    - Maps
+    - Map
   what:
     - System
   when:

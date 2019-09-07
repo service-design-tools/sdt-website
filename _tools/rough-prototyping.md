@@ -5,7 +5,7 @@ subtitle: >-
   available in that specific moment and location.
 properties:
   how:
-    - Simulations
+    - Simulation
   what:
     - Experience
   when:

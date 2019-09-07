@@ -42,7 +42,7 @@ collections:
             name: "how"
             widget: "select"
             multiple: true
-            options: ["Narratives", "Maps", "Simulations", "Text"]
+            options: ["Narrative", "Map", "Simulation", "Text"]
       - {label: "also called", name: "synonyms", widget: "string", required: false}
       - {label: "svg icon", name: "icon", widget: "text", hint: "Paste here the svg code of the icon."}
       - label: "related content"

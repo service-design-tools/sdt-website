@@ -6,7 +6,7 @@ subtitle: >-
 properties:
   how:
     - Text
-    - Narratives
+    - Narrative
   what:
     - Context
     - System

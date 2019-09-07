@@ -3,7 +3,7 @@ title: Emotional Journey
 subtitle: Analyse how the user perception changes throughout a service experience.
 properties:
   how:
-    - Maps
+    - Map
   what:
     - Experience
   when:

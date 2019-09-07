@@ -3,7 +3,7 @@ title: Evaluation Matrix
 subtitle: Prioritize ideas based on the most relevant success criteria for the project.
 properties:
   how:
-    - Maps
+    - Map
   what:
     - Offering
   when:
@@ -39,7 +39,7 @@ icon: >
 related:
   tools:
     - Concept Walkthrough
-    - Tomorrow's Narratives
+    - Tomorrow's Narrative
     - Service Image
 use: >-
   Have a comprehensive view of all the possibilities, and choose carefully what

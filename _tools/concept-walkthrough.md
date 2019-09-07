@@ -5,7 +5,7 @@ subtitle: >-
   imaginary tour.
 properties:
   how:
-    - Simulations
+    - Simulation
   what:
     - Experience
   when:

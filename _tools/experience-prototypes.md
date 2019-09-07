@@ -3,7 +3,7 @@ title: Experience Prototypes
 subtitle: Simulate the service experience by prototyping one or more touchpoints.
 properties:
   how:
-    - Simulations
+    - Simulation
   what:
     - Experience
   when:

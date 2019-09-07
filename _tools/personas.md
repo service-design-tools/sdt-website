@@ -3,7 +3,7 @@ title: Personas
 subtitle: Archetypes built after an exhaustive observation of the potential users
 properties:
   how:
-    - Maps
+    - Map
   what:
     - Context
     - Experience

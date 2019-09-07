@@ -55,15 +55,15 @@ const filterValues = {
         "type": "how",
         "checked": false
     },
-    "maps": {
+    "map": {
         "type": "how",
         "checked": false
     },
-    "narratives": {
+    "narrative": {
         "type": "how",
         "checked": false
     },
-    "simulations": {
+    "simulation": {
         "type": "how",
         "checked": false
     }

@@ -5,7 +5,7 @@ subtitle: >-
   service.
 properties:
   how:
-    - Maps
+    - Map
   what:
     - System
   when:

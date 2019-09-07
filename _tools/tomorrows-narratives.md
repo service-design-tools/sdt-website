@@ -1,12 +1,12 @@
 ---
-title: Tomorrow's Narratives
+title: Tomorrow's Narrative
 subtitle: >-
   A way to project into the future to understand the social of impact of a
   service.
 properties:
   how:
-    - Narratives
-    - Simulations
+    - Narrative
+    - Simulation
   what:
     - Offering
   when:
@@ -48,4 +48,4 @@ references:
       (2002) IDEO, Method Cards, William Stout Architectural Books, San
       Francisco.
 ---
-The Tomorrow's Narratives are fictional articles published in magazines or journals  which help designers ask themselves how the service will be presented to the potential users and what reactions it will cause.This tool is also a way to visualize the idea and make it more tangible, more real and more univocally perceived among the team and the stakeholders.
+The Tomorrow's Narrative are fictional articles published in magazines or journals  which help designers ask themselves how the service will be presented to the potential users and what reactions it will cause.This tool is also a way to visualize the idea and make it more tangible, more real and more univocally perceived among the team and the stakeholders.

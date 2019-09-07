@@ -3,7 +3,7 @@ title: Synthesis Wall
 subtitle: to be filled
 properties:
   how:
-    - Maps
+    - Map
   what:
     - Context
   when:

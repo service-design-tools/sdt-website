@@ -5,7 +5,7 @@ subtitle: >-
   service.
 properties:
   how:
-    - Narratives
+    - Narrative
   what:
     - Experience
   when:
@@ -50,7 +50,7 @@ icon: >
   </svg>
 related:
   tools:
-    - Tomorrow's Narratives
+    - Tomorrow's Narrative
     - Offering Map
     - Value Proposition Canvas
 use: to be filled

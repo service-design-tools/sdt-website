@@ -3,7 +3,7 @@ title: Offering Map
 subtitle: A synthetic description of what the service offers to its users.
 properties:
   how:
-    - Maps
+    - Map
   what:
     - Offering
   when:

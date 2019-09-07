@@ -5,7 +5,7 @@ subtitle: >-
   prototype of the service put in real context.
 properties:
   how:
-    - Simulations
+    - Simulation
   what:
     - Experience
   when:

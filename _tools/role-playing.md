@@ -3,7 +3,7 @@ title: Role Playing
 subtitle: Performing a hypothetical service experience
 properties:
   how:
-    - Simulations
+    - Simulation
   what:
     - System
     - Experience

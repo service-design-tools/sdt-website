@@ -93,7 +93,7 @@ body.modal--open {
 }
 
 .case-study__metadata :first-child {
-    width: calc(var(--column-width) * 2 + var(--container-gap) * 1);
+	width: calc(var(--column-width) * 3 + var(--container-gap) * 2);
 }
 
 .case-study__description {
@@ -260,8 +260,11 @@ body.modal--open {
     .case-study__content {
         width: calc(var(--column-width) * 4 + var(--container-gap) * 3);
     }
+    .case-study__metadata :first-child {
+        width: calc(var(--column-width) * 2 + var(--container-gap) * 1);
+    }
     .case--reduced .case-study__content {
-        height: 265px;
+        height: 275px;
     }
     .images__details {
         right: calc(20% + 1rem);
