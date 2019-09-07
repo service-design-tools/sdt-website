@@ -1,6 +1,6 @@
 ---
 title: Offering Map
-subtitle: A synthetic description of what the service offers to its users.
+subtitle: Describe what benefits a service can bring to its users
 properties:
   how:
     - Map
@@ -43,8 +43,10 @@ related:
     - Experience Principles
     - User Scenarios
     - User Stories
-use: to be filled
-reminder: to be filled
+use: Shape and explain the service model to an expert audience.
+reminder: >-
+  Flash it out from the user perspective: what can the service organization do
+  for them?
 references:
   - name: >-
       (2004) Sangiorgi, Daniela, Il Design dei Servizi come Design dei Sistemi
@@ -53,4 +55,4 @@ references:
       Giuliano Simonelli, relatore Elena Pacenti, co-relatore Stefano Maffei,
       Politecnico di Milano.
 ---
-The Offering Map has no standard format. The offering could be described by words or could be illustrated by images, but most frequently it is visualized through a graph. It supports the elaboration of the service idea, development of some specific solutions, implementations well as communication of the service to the final user. In each one of these situations, the offering map will assume different configurations and languages with reference to the specific aims and receivers involved.
+The goal of the offering map is to clarify what the service provides to the users, detailing the value proposition into more specific clusters of features. There's not a standard model for this tool: the offering could be described with words, images or through a simple graph. As services grow in complexity, the offering map can also become more articulated, showing distinct macro-areas of offer, and then narrowing them down into more specific areas and functions.

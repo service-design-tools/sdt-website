@@ -3,15 +3,14 @@ title: Empathy Map
 subtitle: Share key assumptions around user attitudes and behaviors
 properties:
   how:
-    - Map
+    - Text
   what:
-    - Experience
+    - Context
   when:
     - Research
   who:
-    - Experts
-    - Users
-synonyms: User Understanding
+    - Stakeholders
+synonyms: Proto-Personas
 icon: >-
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
   viewBox="0 0 139.5 126.5" xml:space="preserve">
@@ -47,10 +46,14 @@ reminder: >-
   Follow the rule "one persona per map": focus on building empathy with a
   specific user profile.
 template:
-  file: /assets/images/uploads/template_empathy-map.pdf
-  image: /assets/images/uploads/preview-template_empathy-map.jpg
+  file: /assets/images/uploads/empathy-map__template.pdf
+  image: /assets/images/uploads/empathy-map-preview.jpg
+poster: /assets/images/uploads/empathy-map-poster.pdf
 references:
-  - link: 'https://www.nngroup.com/articles/empathy-mapping/'
-    name: 'Empathy Mapping: The First Step in Design Thinking'
+  - link: >-
+      https://www.researchgate.net/publication/276207468_Designing_Personas_with_Empathy_Map
+    name: >-
+      (2015) Ferreira, Bruna & Silva, Williamson & Oliveira, Edson & Conte,
+      Tayana. Designing Personas with Empathy Map.
 ---
 The empathy map is a canvas split into four quadrants (_says_, _thinks_, _does_, and _feels_), all positioned around the user. Filling the map allows to produce an overview of who the user is, and to identify inconsistencies in the perception of the same user from various team members (and so intervene to mitigate the conflict).

@@ -1,6 +1,6 @@
 ---
 title: System Map
-subtitle: A visual description of the technical organization of a service.
+subtitle: Visualise all the actors and components involved in a service delivery
 properties:
   how:
     - Map
@@ -21,11 +21,13 @@ related:
     - Ecosystem Map
     - Mindmap
     - Offering Map
-use: Get a bird's eye view of the relational model.
-reminder: to be filled
+use: 'Understand the service dynamics, detect gaps and opportunities.'
+reminder: >-
+  Connect the components in loops: there is always an input and output under
+  each exchange.
 references:
   - name: >-
       (2007) Nicola Morelli, New representation techniques for designing in a
       systemic perspective, paper presented at Design Inquires, Stokholm.
 ---
-A System Map shows the different actors involved, their mutual links and the flows of materials, energy, information and money through the service system.
+A system map is a synthetic representation that shows in one single frame all the different actors involved in a service delivery, and their mutual links (e.g. flows of materials, energy, information, money, documents, etc.). The system map clarifies how the different service components and roles are connected one to the other, highlighting the values they exchange.

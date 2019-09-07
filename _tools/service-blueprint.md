@@ -1,8 +1,8 @@
 ---
 title: Service Blueprint
 subtitle: >-
-  A detailed description of the nature and the characteristics of the service
-  interaction.
+  Map out the entire process of service delivery, above and below the line of
+  visibility
 properties:
   how:
     - Map
@@ -41,12 +41,17 @@ related:
   tools:
     - Service Specifications
     - Service Roadmap
+    - Journey Map
 use: >-
   Understand cross-functional relationships and align front-stage and back-stage
   processes.
 reminder: >-
-  Create separate blueprints for each core service and involve inputs from
-  diverse teams.
+  Use it to analyse an existing service or specify a well defined concept, not
+  as an ideation tool.
+template:
+  file: /assets/images/uploads/service-blueprint_template.pdf
+  image: /assets/images/uploads/service-blueprint-preview.jpg
+poster: /assets/images/uploads/service-blueprint_poster.pdf
 references:
   - name: >-
       (1977) Lynn G. Shostack, Breaking Free from Product Marketing, in Journal
@@ -70,4 +75,4 @@ references:
   - link: 'http://www.31v.nl/2010/05/the-service-blueprints-overview/'
     name: The Service Blueprints Overview
 ---
-A Service Blueprint is a graphical visualization that displays the process functions above and below the line of visibility to the customer: all the touchpoints and the back-stage processes are documented and aligned to the user experience. It helps to point out assumptions and unknowns, and discover weaknesses and opportunities.
+A service blueprint is a diagram that displays the entire process of service delivery, by listing all the activities that happen at each stage, performed by the different roles involved. The service blueprint is built by first listing all the actors involved in the service process on a vertical axis, and all the steps required to deliver the service on the horizontal axis. The resulting matrix allows to represent the flow of actions that each role needs to perform along the process, highlighting the actions that the user can see (above the line of visibility) and the ones that happen in the back-office (below the line of visibility). Roles can be performed by human beings or other types of entities (organizations, departments, artificial intelligences, machines, etc.)

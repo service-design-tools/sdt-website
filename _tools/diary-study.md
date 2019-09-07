@@ -5,13 +5,15 @@ subtitle: >-
   behaviours over time
 properties:
   how:
-    - Text
+    - Narratives
   what:
-    - Experience
+    - Context
   when:
     - Research
   who:
     - Users
+    - Service Staff
+synonyms: Cural Probes
 icon: >-
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
   viewBox="0 0 103.1 126.5" xml:space="preserve">
@@ -46,7 +48,11 @@ reminder: >-
   play with it.
 template: {}
 references:
-  - link: 'https://www.nngroup.com/articles/diary-studies/'
-    name: 'Diary Studies: Understanding Long-Term User Behavior and Experiences'
+  - link: 'https://www.researchgate.net/publication/300482737_Diary_Studies'
+    name: '(2015) Baxter, Kathy & Courage, Chatherine & Caine, Kelly. Diary Studies. '
+  - name: >-
+      (2012) Goodman, E & Kuniavsky, M & Moed, A. Observing the User Experience,
+      Second Edition: A Practitioner's Guide to User Research. Morgan Kaufmann
+      Publishers Inc.
 ---
 The diary study is a research method inspired by cultural probes, in which participants are asked to monitor and report specific data over a defined period of time. The diary can be analog or digital, request to simply log specific information or even take photos and videos. It could help with remote research, and facilitate self-reflection prior to an in-depth interview.

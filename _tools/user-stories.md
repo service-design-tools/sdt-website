@@ -1,20 +1,18 @@
 ---
 title: User Stories
-subtitle: >-
-  A summary of users needs and goal to bridge design research with defining
-  requirements for service development
+subtitle: Detail the features that need to be developed in the form of user interactions
 properties:
   how:
     - Text
-    - Narrative
   what:
     - Offering
+    - Experience
   when:
     - Implementation
+    - Prototyping
   who:
     - Experts
-    - Stakeholders
-synonyms: 'Agile User Stories, Feature Description'
+synonyms: Agile User Stories
 icon: >+
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
   viewBox="0 0 157.3 126.5" xml:space="preserve">
@@ -49,11 +47,15 @@ related:
     - User Scenarios
     - Service Prototype
     - Service Roadmap
-use: Connect design research with actionable input for IT development.
-reminder: 'Write these as seen from the user’s perspective, using simple, concise words.'
+use: >-
+  Connect the design and development of digital services to deliver high-quality
+  experiences.
+reminder: >-
+  Split the user actions into micro-interactions in order to better monitor the
+  process and run quality checks on every feature.
 template: {}
 references:
   - link: 'https://www.thisisservicedesigndoing.com/methods/writing-user-stories'
     name: Writing User Stories
 ---
-User stories are used to define requirements from a user perspective, in contrast to often rather product-based requirement documents. They can be used in various stages of a design process.
+User stories are a technique coming from the Agile methodology, used to describe the requirements of a digital service from a user perspective (in contrast with product-based requirement documents). The user stories detail all the elements and interactions that enable the envisioned user experience with a mobile app or website, and connect the work of the design team (developing interaction flows and UI components) with the process of back-end and front-end development, enabling a better integrated workflow in sprints (rather than a water-fall development process).

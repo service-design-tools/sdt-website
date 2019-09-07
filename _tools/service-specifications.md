@@ -1,8 +1,8 @@
 ---
 title: Service Specifications
 subtitle: >-
-  A written document that describes the aim of the project in a detailed way and
-  the evolution of the ideas developed.
+  Describe every touchpoints, features and interaction in details to support
+  detailed design and implementation
 properties:
   how:
     - Text
@@ -33,7 +33,11 @@ related:
     - User Stories
     - Service Blueprint
     - Service Roadmap
-use: to be filled
-reminder: to be filled
+use: >-
+  Provide a brief to external experts or staff members involved in detailed
+  design and service implementation.
+reminder: >-
+  Describe everything in detail, so that the document could be easily
+  distributed, understood and used without your support.
 ---
-The service specification helps the team to share the design principles they are working on. It can include drawings, pictures and other relevant documents. This tool is essential in case of long-term processes or projects involving a wide range of figures.
+The service specifications are written guidelines that clarify all the requirements and objectives of each specific stage of the service experience and touchpoint. The service specifications typically mention also the design principles that inspired the entire project, defining the foundation of the overall experience. Each step in the experience and touchpoints are then described in detail, including drawings, pictures or any other relevant material that can help understanding the specific indications. The service specifications can be used to engage experts within the design and development process (briefing them on specific activities) and to coordinate the implementation of the service (giving guidance on how the different components are used).

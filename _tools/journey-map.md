@@ -1,6 +1,6 @@
 ---
 title: Journey Map
-subtitle: 'Describe how the user interact with the service, throughout its touchpoints.'
+subtitle: 'Describe how the user interact with the service, throughout its touchpoints'
 properties:
   how:
     - Map
@@ -59,5 +59,9 @@ use: >-
 reminder: >-
   Cover what happens before and after the core experience, even when it includes
   the interaction with other services and providers.
+template:
+  file: /assets/images/uploads/journey-map_template.pdf
+  image: /assets/images/uploads/journey-map-preview.jpg
+poster: /assets/images/uploads/journey-map_poster.pdf
 ---
 The journey map is a synthetic representation that describes step-by-step how a user interacts with a service. The process is mapped from the user perspective, describing what happens at each stage of the interaction, what touchpoints are involved, what obstacles and barriers they may encounter. The journey map is often integrated an additional layers representing the level of positive/negative emotions experienced throughout the interaction.

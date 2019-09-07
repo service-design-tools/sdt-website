@@ -1,14 +1,18 @@
 ---
 title: Personas
-subtitle: Archetypes built after an exhaustive observation of the potential users
+subtitle: >-
+  Narrate the different types of users, based on clusters of behaviours and
+  needs.
 properties:
   how:
-    - Map
+    - Narrative
   what:
     - Context
-    - Experience
   when:
     - Research
+    - Ideation
+    - Prototyping
+    - Implementation
   who:
     - Experts
     - Stakeholders
@@ -43,14 +47,17 @@ related:
     - Empathy Map
     - User Scenarios
     - User Stories
-use: Describe your user and remember who you design for.
+    - Journey Map
+use: >-
+  Remember who you design for and get inspired by their specific life and
+  challenges.
 reminder: >-
-  Avoid including the details that are misleading and not relevant for your
-  design.
+  Avoid enriching their descriptions with details that are not relevant in that
+  context: they could be misleading.
 template:
-  file: /assets/images/uploads/template_personas.pdf
-  image: /assets/images/uploads/template_personas_preview.jpg
-poster: /assets/images/uploads/posters_personas.pdf
+  file: /assets/images/uploads/personas_template.pdf
+  image: /assets/images/uploads/personas-preview.jpg
+poster: /assets/images/uploads/personas_poster.pdf
 references:
   - name: '(1998) Alan Cooper, The Inmates Are Running the Asylum, Sams.'
   - name: >-
@@ -61,4 +68,4 @@ references:
       (2009) Kim Goodwin, Designing for the Digital Age: How to Create
       Human-centered Products and Services, John Wiley & Sons.
 ---
-A Persona is a fictional character whose profile gathers up the features of an existing social group. In this way the personas assume the attributes of the groups they represent: from their social and demographic characteristics, to their own needs, desires, habits and cultural backgrounds.
+Each persona is a reference model representative of a specific type of users.Technically, they can be called behavioural archetypes when they focus on capturing the different behaviors (e.g. "the conscious chooser") without expressing a defined personality or socio-demographics. The more the archetypes assume a realistic feeling (e.g. name, age, household composition, etc.), the more they become real personas, fully expressing the needs, desires, habits and cultural backgrounds of specific groups of users.

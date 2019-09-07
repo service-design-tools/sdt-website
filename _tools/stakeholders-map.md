@@ -1,8 +1,6 @@
 ---
 title: Stakeholders Map
-subtitle: >-
-  A visual representation of the various groups involved in a particular
-  service.
+subtitle: 'Identify the role of each stakeholder, and relation dynamics'
 properties:
   how:
     - Map
@@ -50,8 +48,10 @@ related:
     - Ecosystem Map
     - System Map
     - Success Metrics
-use: to be filled
-reminder: to be filled
+use: Reflect on the different positions and define how to deal with each of them.
+reminder: >-
+  Consider the broader ecosystem that sorrounds the project: you may discover
+  additional partners to involve or blockers to avoid.
 references:
   - link: 'http://www.servdes.org/wp/wp-content/uploads/2018/07/48.pdf'
     name: >-
@@ -59,4 +59,4 @@ references:
       The stakeholder map: A conversation tool for designing people-led public
       services.
 ---
-to be filled
+The stakeholder map is a representation of all the stakeholder involved in a project, aimed at clarifying roles and relationships. Depending on the specific need, the map can be created as a simple quadrant with two axis (level of influence and level of interest or engagement in the process), or as a more complex motivation matrix (detailing what each stakeholder brings to each of the other ones through the service project).

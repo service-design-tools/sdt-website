@@ -1,6 +1,6 @@
 ---
 title: Value Proposition Canvas
-subtitle: A map to position a product or service around the customer values and needs.
+subtitle: Describe the value offered by the service in simple words
 properties:
   how:
     - Text
@@ -36,12 +36,18 @@ related:
     - Offering Map
     - Business Model Canvas
     - Experience Principles
-use: to be filled
+use: >-
+  Validate and strenghten a concept solution before moving forward with
+  development.
 reminder: >-
-  Look at gains as hidden ambitions and goals people have and not simply the
-  opposite of pains.
+  Look at gains as hidden ambitions and goals (not simply the opposite of
+  pains).
+template:
+  file: /assets/images/uploads/value-proposition-canvas_template.pdf
+  image: /assets/images/uploads/value-proposition-canvas-preview.jpg
+poster: /assets/images/uploads/value-proposition-canvas_poster.pdf
 references:
   - link: 'https://www.strategyzer.com/canvas/value-proposition-canvas'
     name: The Value Proposition Canvas
 ---
-The Value Proposition Canvas, developed by Dr Alexander Osterwalder is a framework to ensure that there is a fit between the product and market. It is a detailed look at the relationship between customer segments and value propositions. It highlights a user's jobs, pains and gains and how it matches with the proposition and its pain relievers and gain creators.
+The value proposition canvas is a framework that helps designers ensure that there is a fit between the product-service idea and the market. It gives a detailed look at the relationship between customer segments and value propositions, highlights roles involved, pains and gains and how the service eventually matches with the proposition and its pain relievers and gain creators.

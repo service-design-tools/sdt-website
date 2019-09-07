@@ -51,6 +51,10 @@ related:
     - Offering Map
 use: 'Describe, design, challenge and pivot your business model.'
 reminder: 'Focus on the big picture, also the smallest details come with a cost.'
+template:
+  file: /assets/images/uploads/business-model-canvas_template.pdf
+  image: /assets/images/uploads/business-model-canvas-preview.jpg
+poster: /assets/images/uploads/business-model-canvas_poster.pdf
 references:
   - link: >-
       https://www.wiley.com/en-us/Business+Model+Generation%3A+A+Handbook+for+Visionaries%2C+Game+Changers%2C+and+Challengers-p-9780470876411

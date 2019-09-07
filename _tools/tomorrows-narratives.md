@@ -1,8 +1,6 @@
 ---
-title: Tomorrow's Narrative
-subtitle: >-
-  A way to project into the future to understand the social of impact of a
-  service.
+title: Tomorrow's Narratives
+subtitle: Project into the future to elicit a common vision
 properties:
   how:
     - Narrative
@@ -38,14 +36,14 @@ related:
     - Service Image
     - Offering Map
     - User Scenarios
-use: Develop and sustain the relationships with the users of the service.
-reminder: >-
-  Try this out during strategic conversations or at early stages of the
-  development of a solution.
+use: >-
+  Brainstorm ideas during co-design sessions and align on key values and
+  visions.
+reminder: 'Push the boundaries: be provocative and creative when writing it.'
 references:
   - link: 'http://www.ideo.com/work/item/method-cards'
     name: >-
       (2002) IDEO, Method Cards, William Stout Architectural Books, San
       Francisco.
 ---
-The Tomorrow's Narrative are fictional articles published in magazines or journals  which help designers ask themselves how the service will be presented to the potential users and what reactions it will cause.This tool is also a way to visualize the idea and make it more tangible, more real and more univocally perceived among the team and the stakeholders.
+The tomorrow's narratives is an envisioning technique based on the idea of writing fictional articles that simulate the moment in which the product or service will be launched in the maket: how will the service be introduced to its potential users? What values and features will be highlighted? Who is going to talk about it? Writing and sharing these fictional articles with the project team (e.g. during ideation workshop) help explore different possibilities and align on a common vision. The article could be replaced with simulated blog posts, ADV posters or movies, TED talks, etc.: any form of communication that help projecting in the moment in which the service will be available to its users.

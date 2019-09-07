@@ -1,8 +1,8 @@
 ---
 title: Rough Prototyping
 subtitle: >-
-  A quick method to build prototypes using all the objects and materials
-  available in that specific moment and location.
+  Quickly mock-up ideas using simple assets and materials, already available on
+  the spot
 properties:
   how:
     - Simulation
@@ -56,9 +56,11 @@ related:
   tools:
     - Concept Walkthrough
     - Experience Prototypes
-use: Make the designing process more interactive and concrete.
-reminder: Make it fast and simple to only trigger dialogue.
+use: >-
+  Make the vision immediately tangible, and start discussing and iterating on
+  it.
+reminder: Keep the mock-up simple enough not to get distracted by detailed features.
 references:
   - name: '(2009) How to Prototype: The Awesome Guide, by Lindsay Gordon'
 ---
-A Rough Prototype simulates the service components in order to better explain an idea in front of the other members of the team. It is a tool supporting the visualization of ideas and a way to be sure that all the members of the team are talking about the same thing.
+Rough prototypes simulate specific service components with the goal of better explaining a service idea in front of other team members, and start discussing the specific requirements of each touchpoint. Rough prototypes can be simply built with paper (e.g. a flyer, a wayfinding signage, a mobile phone interface, etc.) or with pre-assembled interface elements (e.g. wireframe kits, UI kits, etc.). They are a powerful tool during co-design sessions, to allow everyone to visually translate specific thoughts into tangible objects and interfaces, and make design considerations.

@@ -1,6 +1,6 @@
 ---
 title: User Scenarios
-subtitle: A fictitious story of a user accomplishing an action or goal via a service.
+subtitle: Explain the envisioned experience by narrating a relevant story of use
 properties:
   how:
     - Narrative
@@ -57,10 +57,15 @@ related:
   tools:
     - Experience Prototypes
     - Service Prototype
-use: Determine the most important areas to test during usability testing.
-reminder: Base the scenarios on different user personas.
+    - Journey Map
+use: >-
+  Guide the definition of specific features and start the detailed design
+  (especially for digital services).
+reminder: >-
+  Express the value of the service experience and how it contributes to people's
+  life.
 references:
   - link: 'https://www.interaction-design.org/literature/topics/user-scenarios'
     name: User Scenarios
 ---
-A User Scenario focuses on a user’s motivations, and documents the process by which the user might use a service. It helps designers get useful considerations for ideation and usability testing.
+A user scenario is a story that describes, in an exemplificatory and narrative manner, how the user is going to interact with the service during a specific situation of everyday life. Writing user scenarios require to identify a specific context in which the action takes place, as well as characters and needs that defines the attitude of the user. The scenarios can be first written as stories, describing the experience step by step, and then supported with drawings, pictures or clips of the experience, adding a visual layer to it.

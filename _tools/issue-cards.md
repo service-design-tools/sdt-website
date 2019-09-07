@@ -1,22 +1,23 @@
 ---
 title: Issue Cards
 subtitle: >-
-  A physical instrument used as a peg to induce and feed interactive dynamics
-  inside a team
+  Support the conversation around complex matters by breaking down the subject
+  into physical cards.
 properties:
   how:
     - Text
-    - Narrative
   what:
-    - Context
+    - Offering
     - System
-    - Experience
   when:
+    - Research
     - Ideation
   who:
+    - Experts
+    - Stakeholders
     - Service Staff
     - Users
-synonyms: 'Cue Cards, Challenge Cards, Trigger cards'
+synonyms: 'Challenge Cards, Trigger Cards, Card Sorting'
 icon: >
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
   viewBox="0 0 119.1 126.1" xml:space="preserve">
@@ -37,12 +38,16 @@ related:
   tools:
     - Concept Walkthrough
     - Mindmap
-use: 'Make the ideation process smooth, open and fun, avoiding the creative block.'
-reminder: Keep the content of the cards heterogenous and simple.
+use: >-
+  Guide a creative conversation, making it open and fun, avoiding the creative
+  block.
+reminder: >-
+  Keep the content of the cards clear and simple, reducing the risk of bias and
+  misinterpretations.
 template: {}
 references:
   - name: >-
       (2009) Donna Spencer, Card Sorting. Designing Usable Categories, Rosenfeld
       Media.
 ---
-An Issue Card can contain an insight, a picture, a drawing or a description. They acts as prompts to suggest new interpretations of the problem and to induce the assumption of a different perpective. The result is the identification of new criticalities and opportunities in the context of reference.
+The basic concept behind issue cards is to isolate a specific element into each card, and then use the cards as starting point for a 1:1 or group conversation. An issue card can contain an insight, a picture, a drawing, a feature, a keyworkd, a description, etc. based on the specific need. They act as prompts to suggest new interpretations of a problem and induce considering a different perpective; they can be used in many different ways, from identifying priorities to discussing relationships or simply facilitating the conversation.
