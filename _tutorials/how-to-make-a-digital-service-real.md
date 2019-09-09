@@ -32,7 +32,7 @@ steps:
       Make the stories simple and contained enough to enable a continuous cycle
       of design-development and QA.
     title: Describe all the features to be executed
-    tool: Business Model Canvas
+    tool: User Stories
   - description: >-
       As the development process move forward, start planning all the steps and
       activities needed in order to bring it to the market, sustain its regular
