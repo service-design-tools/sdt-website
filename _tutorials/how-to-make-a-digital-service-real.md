@@ -20,7 +20,7 @@ steps:
       Include moments of validation at each step, from initial concept test to
       closed beta and open pilot.
     title: Define a strategy for service implementation
-    tool: Business Model Canvas
+    tool: Service Roadmap
   - description: >-
       Document all the features needed to build the MVP and next releases
       through user stories, that describe each functionality in a way that is
