@@ -46,7 +46,7 @@ steps:
       Don't forget important aspects such as how to handle customer care and
       support, even at initial stages.
     title: Design the internal workflow and assign roles for service delivery
-    tool: Business Model Canvas
+    tool: Service Blueprint
   - description: >-
       Describe in detail everything has been defined in terms of service
       delivery process so that every team member or external party can
