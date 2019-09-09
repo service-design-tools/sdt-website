@@ -75,6 +75,6 @@ steps:
       research.
     tips: Embed organization goals and strategic perspective at this stage.
     title: Develop one or more relevant user scenarios
-    tool: Concept Walkthrough
+    tool: User Scenarios
 ---
 
