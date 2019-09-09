@@ -16,7 +16,7 @@ steps:
       Printing out each potential value proposition on a single poster could
       help discuss benefits and barriers of each direction.
     title: Look at the service concept from different perspectives
-    tool: Business Model Canvas
+    tool: Value Proposition Canvas
   - description: >-
       In order to make a decision on the value proposition and strategic
       direction for the service, beyond considering the market trends and
