@@ -64,7 +64,7 @@ steps:
       invest in project documentation: get inspired from opensource development
       practice.
     title: Document all your choices and reccomendations
-    tool: Business Model Canvas
+    tool: Service Specifications
   - description: >-
       Once the development is almost complete, organize a closed-beta to test
       the interaction with the digital service and refine the implementation.
