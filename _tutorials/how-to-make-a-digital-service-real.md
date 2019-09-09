@@ -79,6 +79,6 @@ steps:
       people and objects in a defined space, organize the simulation as a big
       role-playing game.
     title: Simulate the final experience before the official launch
-    tool: Business Model Canvas
+    tool: Service Prototype
 ---
 
