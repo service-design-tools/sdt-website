@@ -1,5 +1,8 @@
 ---
 title: How to find new exciting opportunities? (test)
+subtitle: >-
+  When you are interested in a new field but don't know much about it, and want
+  to discover and get inspired.
 steps:
   - description: >-
       Gather with your team to generate hypothesis around the needs and
@@ -9,10 +12,10 @@ steps:
       hypothesis into key assumptions and initial concepts to be verified during
       the research.
     tips: >-
-      Techniques like _what if_ provocations or _how might we_ statements may
+      Techniques like _what if_ provocations or _how might_ we statements may
       help come up with hypothesis to work on.
-    title: Imagine brand new horizons
-    tool: Diary Study
+    title: Explore brand new horizons
+    tool: Hypothesis Generation
   - description: >-
       Plan a field study to discover more about your target audience and
       challenge, validate or refine the initial hypothesis. Building a plan help
@@ -24,7 +27,7 @@ steps:
       Be creative in your recruiting to engage highly-motivated participants.
       Social networks and online traces may help :)
     title: Carefully prepare to go in the field
-    tool: Issue Cards
+    tool: Research Plan
   - description: >-
       The in-depth interview is the most precious technique whenever you are
       conducting a research aimed at understanding user values, met or unmet
@@ -36,7 +39,7 @@ steps:
       Hands-on exercises help better engage the participants when dealing with
       very abstract or sensitive topics.
     title: Turn the assumptions into questions
-    tool: Observation Notes
+    tool: Interview Guide
   - description: >-
       When back from the research, map out all your insights and the key
       differences in the behaviours you encountered. You can use personas to
