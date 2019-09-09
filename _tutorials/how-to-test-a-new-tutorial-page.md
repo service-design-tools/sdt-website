@@ -31,7 +31,7 @@ steps:
       Connect the actors in loops allows to build a comprehensive
       representation, clarify redundances and gaps.
     title: Analyse how the service is structured
-    tool: Ecosystem Map
+    tool: System Map
   - description: >-
       Before jumping into ideation, take some time to reflect on the outcomes of
       the analysis of the system and experience, and identify some key goals you
