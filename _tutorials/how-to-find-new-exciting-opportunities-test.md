@@ -61,6 +61,6 @@ steps:
       Print out a big poster displaying the opportunity map as starting point to
       come up with ideas under each opportunity.
     title: Craft the best strategy to move forward
-    tool: Empathy Map
+    tool: Offering Map
 ---
 
