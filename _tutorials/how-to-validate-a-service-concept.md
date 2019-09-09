@@ -64,7 +64,7 @@ steps:
       and building the next session on top of the findings coming from the
       previous one.
     title: Cluster and analyse the emerging findings
-    tool: Business Model Canvas
+    tool: Synthesis Wall
   - description: >-
       Based on the outcomes of the research, one or more significant user
       scenarios may emerge, as a way to consolidate the value proposition and
