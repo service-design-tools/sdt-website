@@ -16,7 +16,8 @@
 .case-studies__container {
     width: var(--container-width);
     height: 400px;
-    clip-path: polygon(-1.8rem -3rem, calc(100% + 1.8rem) -2rem, calc(100% + 1.8rem) calc(100% + 3rem), -1.8rem calc(100% + 2rem));
+    -webkit-clip-path: polygon(-1.8rem -3rem, calc(100% + 1.8rem) -2rem, calc(100% + 1.8rem) calc(100% + 3rem), -1.8rem calc(100% + 2rem));
+            clip-path: polygon(-1.8rem -3rem, calc(100% + 1.8rem) -2rem, calc(100% + 1.8rem) calc(100% + 3rem), -1.8rem calc(100% + 2rem));
 }
 
 .flickity-viewport {
@@ -41,6 +42,7 @@
 .case-studies__container a {
     opacity: 0;
     margin: 0 calc(var(--container-gap) / 2);
+    -webkit-transition: opacity 0.3s;
     transition: opacity 0.3s;
 }
 
