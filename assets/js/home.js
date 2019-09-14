@@ -64,7 +64,6 @@ layout: null
                     let secondNextCard = (this.selectedIndex + 2) % this.slides.length;
                     Array.from($caseStudiesCards)[secondNextCard].classList.add('is--visible');
                 }
-                console.log(this)
             },
             select: function() {
                 $caseStudiesCards.forEach(card => card.classList.remove('is--visible'));
