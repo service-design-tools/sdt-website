@@ -3,6 +3,7 @@ layout: null
 ---
 (function () {
     let viewportWidth = window.innerWidth;
+    let resizeTimer;
 
     const toolsArray = [{% for tool in site.tools %}{'tool': "{{ tool.title }}", 'url': '{{ tool.url }}', 'svg': `{{ tool.icon | strip_newlines | normalize_whitespace }}`}{% unless forloop.last %},{% endunless %}{% endfor %}];
     const randomToolPicks = d3.shuffle(toolsArray).slice(0,4);
@@ -34,7 +35,7 @@ layout: null
     const $caseStudiesCards = document.querySelectorAll('.case-studies__container a');
     const caseCardsWidth = Array.from($caseStudiesCards)[0].getBoundingClientRect().width;
     const caseCardGap = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--container-gap').replace(/px/, ''), 10);
-    let cardsToHide = viewportWidth > 991 ? 1 : viewportWidth > 575 ? 2 : 3;
+    let cardsToShow = viewportWidth > 991 ? 3 : viewportWidth > 575 ? 2 : 1;
     
     $caseStudiesCards.forEach((card, index) => {
         const caseStudiesPick = randomCaseStudiesPicks[index];
@@ -45,10 +46,55 @@ layout: null
             <h3>${caseStudiesPick.tool}</h3>
             <p>${caseStudiesPick.title}</p>
         `;
-        card.style.position = 'absolute';
-        card.style.left = (caseCardsWidth + caseCardGap) * index + 'px';
-        if (index !== $caseStudiesCards.length - cardsToHide) {
-            card.classList.add('card--shown');
+    });
+
+    const carousel = new Flickity( '.case-studies__container', {
+        prevNextButtons: false,
+        wrapAround: true,
+        cellAlign: 'left',
+        autoPlay: 4500,
+        on: {
+            ready: function() {
+                $caseStudiesCards.forEach(card => card.classList.remove('is--visible'));
+                if (cardsToShow > 1) {
+                    let nextCard = (this.selectedIndex + 1) % this.slides.length;
+                    Array.from($caseStudiesCards)[nextCard].classList.add('is--visible');
+                }
+                if (cardsToShow > 2) {
+                    let secondNextCard = (this.selectedIndex + 2) % this.slides.length;
+                    Array.from($caseStudiesCards)[secondNextCard].classList.add('is--visible');
+                }
+                console.log(this)
+            },
+            select: function() {
+                $caseStudiesCards.forEach(card => card.classList.remove('is--visible'));
+                if (cardsToShow > 1) {
+                    let nextCard = (this.selectedIndex + 1) % this.slides.length;
+                    Array.from($caseStudiesCards)[nextCard].classList.add('is--visible');
+                }
+                if (cardsToShow > 2) {
+                    let secondNextCard = (this.selectedIndex + 2) % this.slides.length;
+                    Array.from($caseStudiesCards)[secondNextCard].classList.add('is--visible');
+                }
+            },
+            dragStart: function() {
+                $caseStudiesCards.forEach(card => card.classList.add('is--moving'));
+            },
+            dragEnd: function() {
+                $caseStudiesCards.forEach(card => card.classList.remove('is--moving'));
+                carousel.playPlayer();
+            }
         }
     });
+
+    // Credits to Chris Coyier https://css-tricks.com/snippets/jquery/done-resizing-event/ 
+    window.onresize = function (e) {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(function () {
+            viewportWidth = window.innerWidth;
+            cardsToShow = viewportWidth > 991 ? 3 : viewportWidth > 575 ? 2 : 1;
+            carousel.resize();
+        }, 250);
+    }
+
 })();

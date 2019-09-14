@@ -14,27 +14,40 @@
 }
 
 .case-studies__container {
-    position: relative;
     width: var(--container-width);
     height: 400px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    clip-path: polygon(-1.8rem -3rem, calc(100% + 1.8rem) -2rem, calc(100% + 1.8rem) calc(100% + 3rem), -1.8rem calc(100% + 2rem));
+}
+
+.flickity-viewport {
+    overflow: visible;
+}
+
+.flickity-page-dots {
+    bottom: -2.5rem;
+}
+
+.flickity-page-dots .dot {
+    width: 0.75rem;
+    height: 0.75rem;
+    opacity: 1;
+    background: var(--color-light);
+}
+
+.flickity-page-dots .dot.is-selected {
+    background: var(--color-support);
 }
 
 .case-studies__container a {
     opacity: 0;
+    margin: 0 calc(var(--container-gap) / 2);
     transition: opacity 0.3s;
-    pointer-events: none;
 }
 
-.case-studies__container a.card--shown {
+.case-studies__container a.is-selected,
+.case-studies__container a.is--visible, 
+.case-studies__container a.is--moving {
     opacity: 1;
-    pointer-events: auto;
-    cursor: pointer;
 }
 
 .case-studies__card {
@@ -42,6 +55,7 @@
     height: 380px;
     -webkit-box-shadow: 2px 2px 20px rgba(26,59,94,0.3);
             box-shadow: 2px 2px 20px rgba(26,59,94,0.3);
+    // margin: calc(var(--container-gap) / 2);
 }
 
 .case-studies__card img {
