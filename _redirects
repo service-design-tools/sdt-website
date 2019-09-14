@@ -1,7 +1,13 @@
+/glossary   /resources
+/credits   /about
+/repository   /tools
+/taxonomy/term/*   /tools
 /tools/8   /tools/journey-map
+/tools/10   /tools/service-prototype
 /tools/11   /tools/concept-walkthrough
 /tools/14   /tools/tomorrows-narratives
 /tools/15   /tools/mindmap
+/tools/16   /tools/evaluation-matrix
 /tools/20   /tools/stakeholders-map
 /tools/21   /tools/experience-prototypes
 /tools/23   /tools/synthesis-wall
@@ -15,4 +21,5 @@
 /tools/38   /tools/offering-map
 /tools/40   /tools/personas
 /tools/42   /tools/role-playing
+/tools/108   /tools/system-map
 /tools/121   /tools/service-image
