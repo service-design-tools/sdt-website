@@ -1,17 +1,14 @@
 import {filterValues, sorting, questions} from "/assets/js/globals.js";
 
 (function () {
-    // localStorage.clear();
+    let state;
     const filtersCache = localStorage.getItem('filtersCache');
     const sortingCache = localStorage.getItem('sortingCache');
-    if (filtersCache === null) {
-        localStorage.setItem('filtersCache', JSON.stringify(filterValues));
-    }
-    if (sortingCache === null) {
-        localStorage.setItem('sortingCache', sorting);
-    }
-    const sessionFilters = filtersCache === null ? filterValues : JSON.parse(filtersCache);
-    let sessionSorting = sortingCache === null ? sorting : sortingCache;
+    let sessionFilters = history.state ? history.state.filters : filtersCache === null ? filterValues : JSON.parse(filtersCache);
+    let sessionSorting = history.state ? history.state.sorting : sortingCache === null ? sorting : sortingCache;
+    updateState(!history.state);
+    updateCache();
+
     document.getElementById(sessionSorting).classList.add('selected');
 
     const iso = new Isotope('.tools__gallery', {
@@ -54,24 +51,54 @@ import {filterValues, sorting, questions} from "/assets/js/globals.js";
     sortGallery(sessionSorting);
     filterGallery();
 
+    window.onpopstate = function () {
+        if (history.state) {
+            sessionSorting = history.state.sorting;
+            $sortingButtons.forEach(button => button.id === history.state.sorting ? button.classList.add('selected') : button.classList.remove('selected'));
+            sessionFilters = history.state.filters;
+            $filters.forEach(el => {
+                el.checked = history.state.filters[el.id].checked;
+            });
+            updateCache();
+            sortGallery(sessionSorting);
+            filterGallery();
+        }
+    };
+
+    function updateCache() {
+        localStorage.setItem('sortingCache', sessionSorting);
+        localStorage.setItem('filtersCache', JSON.stringify(sessionFilters));
+    }
+
+    function updateState(updateHistory) {
+        state = {
+            filters: sessionFilters,
+            sorting: sessionSorting
+        }
+    
+        if (updateHistory) {
+            history.pushState(state, '', '');
+        }
+    }
+
     function filterView(ev) {
         let selector = ev.target.id.length > 0 ? ev.target.id : ev.target.textContent.toLowerCase().replace(/\s/, "-");
         sessionFilters[selector].checked = !sessionFilters[selector].checked;
-        localStorage.setItem('filtersCache', JSON.stringify(sessionFilters));
         if (ev.target.id.length === 0) {
             document.getElementById(selector).checked = false;
         }
+        updateState(true);
+        updateCache();
         filterGallery();
     }
 
-    function sortView() {
-        const newSorting = this.id;
-
+    function sortView(ev) {
+        const newSorting = ev.target.id;
         if(newSorting != sessionSorting) {
-            localStorage.setItem('sortingCache', newSorting);
             sessionSorting = newSorting;
-            $sortingButtons.forEach(button => button.classList.remove('selected'));
-            this.classList.add('selected');
+            $sortingButtons.forEach(button => button.id === newSorting ? button.classList.add('selected') : button.classList.remove('selected'));
+            updateState(true);
+            updateCache();
             sortGallery(newSorting);
         }
     }

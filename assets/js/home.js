@@ -33,10 +33,7 @@ layout: null
     const randomCaseStudiesPicks = d3.shuffle(caseStudiesArray).slice(0,4);
 
     const $caseStudiesCards = document.querySelectorAll('.case-studies__container a');
-    const caseCardsWidth = Array.from($caseStudiesCards)[0].getBoundingClientRect().width;
-    const caseCardGap = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--container-gap').replace(/px/, ''), 10);
     let cardsToShow = viewportWidth > 991 ? 3 : viewportWidth > 575 ? 2 : 1;
-    
     $caseStudiesCards.forEach((card, index) => {
         const caseStudiesPick = randomCaseStudiesPicks[index];
         const toolMatch = toolsArray.find(tool => tool.tool === caseStudiesPick.tool);
