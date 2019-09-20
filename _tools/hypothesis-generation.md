@@ -54,5 +54,8 @@ related:
     - Empathy Map
 use: Ground the first step of the project on existing knowledge.
 reminder: 'Put everything on the table, without hiding or saving ideas for later.'
+template:
+  file: /assets/images/uploads/hypothesis-generation_template.pdf
+  image: /assets/images/uploads/hypothesis-generation-preview.jpg
 ---
 Hypothesis generation is a quick exercise that allows to reflect on all the already-known assumptions and insights related to user needs and behaviours, share them amongst team members, and derive initial ideas for service experiences or features that could be offered.
