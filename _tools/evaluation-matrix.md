@@ -45,6 +45,9 @@ use: >-
   Have a comprehensive view of all the possibilities, and choose carefully what
   to do.
 reminder: Spot the ideas with highest impact as well as quick low-hanging fruits.
+template:
+  file: /assets/images/uploads/evaluation-matrix_template.pdf
+  image: /assets/images/uploads/evaluation-matrix-preview.jpg
 references:
   - link: >-
       https://www.researchgate.net/publication/283425054_A_Model_of_Idea_Evaluation_and_Selection_for_Product_Innovation
