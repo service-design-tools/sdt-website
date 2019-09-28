@@ -1,1 +1,27 @@
-
+medium:
+  - author: Birgit Mager
+    image: /assets/images/uploads/image-test.png
+    title: Introduction to service design
+    type: video
+    url: 'https://www.youtube.com/watch?v=f5oP_RlU91g'
+  - author: Marc Fonteijn
+    image: /assets/images/uploads/image-test.png
+    title: Design Thinking versus Service Design. Is there difference?!
+    type: video
+    url: 'https://www.youtube.com/watch?v=RrvNXH4U8wg'
+  - author: Roberta Tassi
+    image: /assets/images/uploads/image-test.png
+    title: Visual tools to design
+    type: keynote
+    url: >-
+      https://www.slideshare.net/robertatassi/visual-tools-to-design?next_slideshow=1
+  - author: Roberta Tassi
+    image: /assets/images/uploads/image-test.png
+    title: The commodisation of design tools
+    type: keynote
+    url: 'https://www.slideshare.net/robertatassi/the-commodisation-of-design-tools'
+  - author: Marzia Aricò
+    image: /assets/images/uploads/image-test.png
+    title: 'Service design, the next ten years'
+    type: keynote
+    url: 'https://www.slideshare.net/Livework/service-design-the-next-ten-years'
