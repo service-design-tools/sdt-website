@@ -160,7 +160,7 @@ collections:
 # resources config fields
   - label: "resources"
     name: "resources"
-    description: "Here you can add media and publications"
+    description: "Here you can add things to the resources page: Media, Publications, Things we love"
     delete: false
     editor:
       preview: false
@@ -174,8 +174,10 @@ collections:
             widget: "list"
             fields:
               - {label: "title", name: "title", widget: "string"}
-              - {label: "type", name: "type", widget: "string", hint: "Video, image, pdf, etc."}
-              - {label: "file", name: "file", widget: "file", hint: "If you are uploading a video, make sure it is an mp4"}
+              - {label: "author/authors", name: "author", widget: "string"}
+              - {label: "type", name: "type", widget: "string", hint: "Video, keynote, etc."}
+              - {label: "url", name: "url", widget: "string", hint: "Must be a proper url (make sure it works)"}
+              - {label: "preview image", name: "image", widget: "image", hint: "Pay attention to dimension, size, format and compression of the image, because it will impact the performance of the website."}
       - label: "publications"
         name: "publications"
         file: "_data/publications.yml"
@@ -185,13 +187,13 @@ collections:
             widget: "list"
             fields:
               - {label: "title", name: "title", widget: "string"}
+              - {label: "author/authors", name: "author", widget: "string"}
               - {label: "type", name: "type", widget: "string", hint: "Paper, proceedings, book, etc."}
-              - {label: "link", name: "link", widget: "string", hint: "Must be a proper url (make sure it works)", required: false}
+              - {label: "url", name: "url", widget: "string", hint: "Must be a proper url (make sure it works)", required: false}
               - {label: "description", name: "description", widget: "text"}
-              - {label: "file", name: "file", widget: "file", required: false}
-      - label: "links"
-        name: "links"
-        file: "_data/links.yml"
+      - label: "things we love"
+        name: "thingswelove"
+        file: "_data/thingswelove.yml"
         fields:
           - label: "link"
             name: "link"
@@ -201,5 +203,5 @@ collections:
               - label: "type"
                 name: "type"
                 widget: "select"
-                options: ["Toolkit", "Website"]
+                options: ["Toolkit", "Magazines", "Events"]
               - {label: "url", name: "url", widget: "string", hint: "Must be a proper url (make sure it works)"}
