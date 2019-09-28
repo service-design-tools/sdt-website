@@ -5,6 +5,22 @@ backend:
 media_folder: "assets/images/uploads"
 
 collections:
+# about config fields
+  - label: "about page"
+    name: "about-page"
+    description: "Here you can edit the content of the About page"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - label: "about"
+        name: "about"
+        file: "_data/about.yml"
+        fields:
+          - {label: "text", name: "text", widget: "markdown"}
+          - {label: "map", name: "map", widget: "image", hint: "Pay attention to dimension, size, format and compression of the image, because it will impact the performance of the website."}
+          - {label: "original map", name: "file", widget: "file", hint: "Map file that will be downloaded", required: false}
+
 # tools config fields
   - label: "tools"
     name: "tools"
@@ -155,11 +171,11 @@ collections:
         name: "images"
         widget: "list"
         hint: "Before publishing, remove any entry that might have been left empty"
-        field: {label: "image", name: "image", widget: image}
+        field: {label: "image", name: "image", widget: image, hint: "Pay attention to dimension, size, format and compression of the image, because it will impact the performance of the website."}
 
 # resources config fields
-  - label: "resources"
-    name: "resources"
+  - label: "resources page"
+    name: "resources-page"
     description: "Here you can add things to the resources page: Media, Publications, Things we love"
     delete: false
     editor:
@@ -203,5 +219,5 @@ collections:
               - label: "type"
                 name: "type"
                 widget: "select"
-                options: ["Toolkit", "Magazines", "Events"]
+                options: ["Toolkit", "Magazine", "Event"]
               - {label: "url", name: "url", widget: "string", hint: "Must be a proper url (make sure it works)"}

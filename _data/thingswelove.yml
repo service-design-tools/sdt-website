@@ -12,21 +12,21 @@ link:
     type: Toolkit
     url: 'https://www.systemicdesigntoolkit.org/'
   - title: Touchpoint - The Journal of Service Design
-    type: Magazines
+    type: Magazine
     url: 'https://www.service-design-network.org/touchpoint'
   - title: The Service Gazette
-    type: Magazines
+    type: Magazine
     url: 'https://medium.com/the-service-gazette'
   - title: Service Design Magazine
-    type: Magazines
+    type: Magazine
     url: 'https://service-design.co/'
   - title: SDN Global Conference
-    type: Events
+    type: Event
     url: >-
       https://www.service-design-network.org/headlines/service-design-global-conference-2019
   - title: Service Design Drinks
-    type: Events
+    type: Event
     url: 'https://www.servicedesignmilan.com/'
   - title: Rethink Festival
-    type: Events
+    type: Event
     url: 'http://rethinkfestival.it/'
