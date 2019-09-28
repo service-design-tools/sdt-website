@@ -1,0 +1,48 @@
+publication:
+  - author: G. Lynn Shostack
+    description: >-
+      The very first paper that in 1984 introduced the notion of service design,
+      capturing the need of analysing and planning the way in which services are
+      executed, in order to better meet users' expectations.
+    title: Designing Services That Deliver
+    type: article
+    url: 'https://hbr.org/1984/01/designing-services-that-deliver'
+  - author: 'Marc Stickdorn, Adam Lawrence, Markus Hormeß, Jakob Schneider'
+    description: >-
+      After the success of This is Service Design Thinking (2010), This is
+      Service Design Doing describes the value, secrets, methods and processes
+      of a practice that has reached its maturity.
+    title: This is Service Design Doing
+    type: book
+    url: ''
+  - author: Roberta Tassi
+    description: >-
+      A book (in Italian) about the role and challenges a service design
+      practitioners deals with nowadays, with a detailed analysis of hard and
+      soft skills needed.
+    title: 'Service Designer. Un progettista alle prese con sistemi complessi. '
+    type: book
+  - author: Ezio Manzini
+    description: >-
+      A masterpiece to reflect on the role that design has in our current
+      society, and the potential of addressing social innovation and develop a
+      culture of sustaionability and resilience.
+    title: 'Design When Everybody Designs '
+    type: book
+    url: 'https://mitpress.mit.edu/books/design-when-everybody-designs'
+  - author: Benedict Singleton
+    description: >-
+      PhD dissertation exploring the way in which service design focuses on
+      human behaviours, and the ethical implications around it.
+    title: On craft and being crafty. Human behaviour as the object of design.
+    type: dissertation
+    url: >-
+      PhD dissertation exploring the way in which service design focuses on
+      human behaviours, and the ethical implications around it.
+  - author: 'Agata Brilli, Donato Ricci, Roberta Tassi'
+    description: >-
+      A research about the development of new methodologies that look at online
+      traces as interesting inspirations to reflect on service design and
+      development.
+    title: Digital Methods for Service Design
+    type: paper
