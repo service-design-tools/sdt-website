@@ -3,3 +3,59 @@ title: Resources
 desc: The open collection of tools and tutorials that helps dealing with complex design challenges.
 ---
 {% include header.html title="Resources" desc="A selection of links and references to discover more about service design tools and practice." svg="resources-svg.html" %}
+<main>
+    <section>
+        <h2>Media</h2>
+        <div class="resources__gallery">
+        {% for medium in site.data.media.medium %}
+            <a href="{{ medium.url }}" target="_blank" rel="noopener noreferrer">
+                <div class="resource">
+                    <img src="{{ medium.image | relative_url }}" alt="Preview image of the {{ medium.type }}">
+                    <h3>{{ medium.type }}</h3>
+                    <h4>{{ medium.title }}</h4>
+                    <p class="author">{{ medium.author }}</p>
+                </div>
+            </a>
+        {% endfor %}
+        </div>
+    </section>
+    <section>
+        <h2>Publications</h2>
+        <div class="resources__gallery">
+        {% for publication in site.data.publications.publication %}
+            {% if publication.url and publication.url != '' %}
+            <a href="{{ publication.url }}" target="_blank" rel="noopener noreferrer">
+            {% endif %}
+                <div class="resource">
+                    <h3>{{ publication.type }}</h3>
+                    <h4>{{ publication.title }}</h4>
+                    <p class="author">{{ publication.author }}</p>
+                    <p>{{ publication.description }}</p>
+                </div>
+            {% if publication.url and publication.url != '' %}
+            </a>
+            {% endif %}
+        {% endfor %}
+        </div>
+    </section>
+</main>
+{% assign inspirations = site.data.thingswelove.link | group_by: "type" %}
+<section class="resources__inspiration">
+    <div class="inspiration__container">
+        <div class="inspiration__image">
+            {% include svgs/thingswelove-svg.html %}
+        </div>
+        <div class="inspiration__content">
+            <h2>Things we love</h2>
+            <p>Other toolkits and resources we recommend to visit when searching for examples and inspirations.</p>
+            {% for inspiration in inspirations %}
+            <h3>{{ inspiration.name }}s</h3>
+            <ul>
+                {% for link in inspiration.items %}
+                <li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.title }} {% include svgs/external-link.html color="light" %}</a></li>
+                {% endfor %}
+            </ul>
+            {% endfor %}
+        </div>
+    </div>
+</section>

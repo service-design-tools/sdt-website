@@ -32,6 +32,8 @@
         <link rel="stylesheet" href="{{ '/assets/css/tutorials-index.css' | relative_url }}">
         {% when '/about.html' %}
         <link rel="stylesheet" href="{{ '/assets/css/about.css' | relative_url }}">
+        {% when '/resources.html' %}
+        <link rel="stylesheet" href="{{ '/assets/css/resources.css' | relative_url }}">
         {% else %}
         {% endcase %}
         {% if page.layout == "tool" %}
