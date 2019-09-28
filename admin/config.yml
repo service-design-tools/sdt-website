@@ -5,22 +5,6 @@ backend:
 media_folder: "assets/images/uploads"
 
 collections:
-# about config fields
-  - label: "about page"
-    name: "about-page"
-    description: "Here you can edit the content of the About page"
-    delete: false
-    editor:
-      preview: false
-    files:
-      - label: "about"
-        name: "about"
-        file: "_data/about.yml"
-        fields:
-          - {label: "text", name: "text", widget: "markdown"}
-          - {label: "map", name: "map", widget: "image", hint: "Pay attention to dimension, size, format and compression of the image, because it will impact the performance of the website."}
-          - {label: "original map", name: "file", widget: "file", hint: "Map file that will be downloaded", required: false}
-
 # tools config fields
   - label: "tools"
     name: "tools"
@@ -172,6 +156,22 @@ collections:
         widget: "list"
         hint: "Before publishing, remove any entry that might have been left empty"
         field: {label: "image", name: "image", widget: image, hint: "Pay attention to dimension, size, format and compression of the image, because it will impact the performance of the website."}
+
+# about config fields
+  - label: "about page"
+    name: "about-page"
+    description: "Here you can edit the content of the About page"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - label: "about"
+        name: "about"
+        file: "_data/about.yml"
+        fields:
+          - {label: "text", name: "text", widget: "markdown"}
+          - {label: "map", name: "map", widget: "image", hint: "Pay attention to dimension, size, format and compression of the image, because it will impact the performance of the website."}
+          - {label: "original map", name: "file", widget: "file", hint: "Map file that will be downloaded", required: false}
 
 # resources config fields
   - label: "resources page"
