@@ -16,7 +16,8 @@ header::after {
     border-radius: 50%;
     /* opacity: 0.1; */
     background-color: var(--color-light);
-    clip-path: polygon(0% 50%, 100% 50%, 100% 200%, 0% 200%);
+    -webkit-clip-path: polygon(0% 50%, 100% 50%, 100% 200%, 0% 200%);
+            clip-path: polygon(0% 50%, 100% 50%, 100% 200%, 0% 200%);
     -webkit-box-shadow: 2px 2px 20px rgba(38,45,50,0.1);
             box-shadow: 2px 2px 20px rgba(38,45,50,0.1);
     z-index: -1;
@@ -52,8 +53,10 @@ main > section:not(:first-child) {
 .resource img {
     width: 100%;
     height: 200px;
-    object-fit: cover;
-    object-position: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
     margin-bottom: 1.5rem;
 }
 
@@ -132,7 +135,8 @@ main > section:not(:first-child) {
     }
     .resources__gallery {
         grid-template-columns: repeat(2, calc(var(--column-width) * 3 + var(--container-gap) * 2));
-        column-gap: var(--container-gap);
+        -webkit-column-gap: var(--container-gap);
+                column-gap: var(--container-gap);
     }
     .inspiration__image svg {
         width: calc(var(--column-width) * 2 + var(--container-gap) * 1);
@@ -153,6 +157,8 @@ main > section:not(:first-child) {
         padding: 5.375rem calc((100% - var(--container-width)) / 2) 8.5rem;
     }
     .inspiration__container {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
     .inspiration__image {
@@ -161,6 +167,7 @@ main > section:not(:first-child) {
     }
     .inspiration__image svg {
         top: 5.375rem;
+        position: -webkit-sticky;
         position: sticky;
         width: calc(var(--column-width) * 2 + var(--container-gap) * 1);
     }
