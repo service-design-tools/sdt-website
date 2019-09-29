@@ -95,24 +95,24 @@ header::after {
 .header__social a:last-child::before {
     content: "";
     position: absolute;
-    left: calc(100% + 0.4rem);
-    top: 0.7rem;
+    left: 0.7rem;
+    top: 3.5rem;
     width: 0;
     height: 0;
-    border-right: 0.4rem solid var(--color-dark);
-    border-top: 0.4rem solid transparent;
-    border-bottom: 0.4rem solid transparent;
+    border-right: 0.4rem solid transparent;
+    border-left: 0.4rem solid transparent;
+    border-bottom: 0.4rem solid var(--color-dark);
     opacity: 0;
-    -webkit-transition: opacity 0.8s;
-    transition: opacity 0.8s;
+    -webkit-transition: opacity 0.6s;
+    transition: opacity 0.6s;
     pointer-events: none;
 }
 
 .header__social a:last-child::after {
     content: "Link copied to clipboard!";
     position: absolute;
-    left: calc(100% + 0.8rem);
-    top: 0.2rem;
+    left: -4rem;
+    top: 3.8rem;
     width: 158px;
     padding: 0.2rem 0.5rem;
     border-radius: 0.2rem;
@@ -121,8 +121,8 @@ header::after {
     font-weight: var(--font-medium);
     color: var(--color-light);
     opacity: 0;
-    -webkit-transition: opacity 0.8s;
-    transition: opacity 0.8s;
+    -webkit-transition: opacity 0.6s;
+    transition: opacity 0.6s;
     pointer-events: none;
 }
 
@@ -192,6 +192,18 @@ header::after {
             -ms-flex-pack: normal;
                 justify-content: normal;
         margin-bottom: 4rem;
+    }
+    .header__social a:last-child::before {
+        left: calc(100% + 0.5rem);
+        top: 0.7rem;
+        border-right: 0.4rem solid var(--color-dark);
+        border-left: none;
+        border-top: 0.4rem solid transparent;
+        border-bottom: 0.4rem solid transparent;
+    }
+    .header__social a:last-child::after {
+        left: calc(100% + 0.8rem);
+        top: 0.2rem;
     }
 }
 

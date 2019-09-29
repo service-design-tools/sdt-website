@@ -13,7 +13,7 @@
         copyBtn.classList.add('btn--clicked');
         setTimeout(function() {
             copyBtn.classList.remove('btn--clicked');
-        }, 2000)
+        }, 2000);
     }
 
     const $viewMoreBtns = document.querySelectorAll('.btn--view-more');
