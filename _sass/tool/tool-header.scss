@@ -103,6 +103,7 @@ header::after {
     border-top: 0.4rem solid transparent;
     border-bottom: 0.4rem solid transparent;
     opacity: 0;
+    -webkit-transition: opacity 0.8s;
     transition: opacity 0.8s;
     pointer-events: none;
 }
@@ -120,12 +121,14 @@ header::after {
     font-weight: var(--font-medium);
     color: var(--color-light);
     opacity: 0;
+    -webkit-transition: opacity 0.8s;
     transition: opacity 0.8s;
     pointer-events: none;
 }
 
 .header__social a.btn--clicked:last-child::before,
 .header__social a.btn--clicked:last-child::after {
+    -webkit-transition: opacity 0.15s;
     transition: opacity 0.15s;
     opacity: 1;
 }
