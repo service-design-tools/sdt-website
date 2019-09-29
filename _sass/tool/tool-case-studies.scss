@@ -274,7 +274,7 @@ body.modal--open {
         width: calc(var(--column-width) * 8 + var(--container-gap) * 7);
     }
     .case--reduced .case-study__content {
-        height: 284px;
+        height: 283px;
     }
     .tool__modal {
         grid-template-columns: 1fr calc(var(--column-width) + var(--container-gap)) calc(var(--column-width) * 10 + var(--container-gap) * 9) calc(var(--column-width) + var(--container-gap)) 1fr;
