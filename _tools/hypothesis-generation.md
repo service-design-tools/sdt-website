@@ -57,5 +57,6 @@ reminder: 'Put everything on the table, without hiding or saving ideas for later
 template:
   file: /assets/images/uploads/hypothesis-generation_template.pdf
   image: /assets/images/uploads/hypothesis-generation-preview.jpg
+socialimage: /assets/images/uploads/hypothesis-generation-social-img.png
 ---
 Hypothesis generation is a quick exercise that allows to reflect on all the already-known assumptions and insights related to user needs and behaviours, share them amongst team members, and derive initial ideas for service experiences or features that could be offered.

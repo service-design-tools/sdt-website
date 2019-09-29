@@ -49,5 +49,6 @@ references:
   - link: >-
       https://medium.com/design-research-methods/tips-for-writing-a-discussion-guide-c08459131a54
     name: Tips for writing a Discussion Guide
+socialimage: /assets/images/uploads/interview-guide-social-img.png
 ---
 The interview guide (or discussion guide) is a logical sequence of topics and questions that help the researcher conduct an interview session. The guide is organized in sections according to the different topics that need to be explored during the research; each section comes with a detailed set of questions that help cover that topic. While during the interviews the conversation may go in many different directions, the guide helps the researcher remember all the key aspects to explore.

@@ -14,6 +14,19 @@
         <meta name="msapplication-TileColor" content="#262d32">
         <meta name="msapplication-config" content="{{ '/assets/images/favicons/browserconfig.xml' | relative_url }}">
         <meta name="theme-color" content="#ffffff">
+        <meta property="og:title" content="{{ page.title }}{% unless page.url == '/' %} | Service Design Tools{% endunless %}">
+        {% if page.layout == "tool" %}
+        <meta property="og:description" content="{{ page.subtitle }}">
+        <meta property="og:image" content="{{ 'https://elastic-bell-883ac6.netlify.com' | append: page.socialimage }}">
+        {% elsif page.layout == "tutorial" %}
+        <meta property="og:description" content="{{ page.subtitle }}">
+        <meta property="og:image" content="{{ 'https://elastic-bell-883ac6.netlify.com' | append: '/assets/images/home-social-img.png' }}">
+        {% else %}
+        <meta property="og:description" content="{{ page.desc }}">
+        <meta property="og:image" content="{{ 'https://elastic-bell-883ac6.netlify.com' | append: '/assets/images/home-social-img.png' }}">
+        {% endif %}
+        <meta property="og:url" content="{{ 'https://elastic-bell-883ac6.netlify.com' | append: page.url }}">
+        <meta name="twitter:card" content="summary_large_image">
         <link rel="stylesheet" href="{{ '/assets/css/master.css' | relative_url }}">
         {% assign url = page.url %}
         {% case url %}

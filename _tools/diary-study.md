@@ -54,5 +54,6 @@ references:
       (2012) Goodman, E & Kuniavsky, M & Moed, A. Observing the User Experience,
       Second Edition: A Practitioner's Guide to User Research. Morgan Kaufmann
       Publishers Inc.
+socialimage: /assets/images/uploads/diary-study-social-img.png
 ---
 The diary study is a research method inspired by cultural probes, in which participants are asked to monitor and report specific data over a defined period of time. The diary can be analog or digital, request to simply log specific information or even take photos and videos. It could help with remote research, and facilitate self-reflection prior to an in-depth interview.

@@ -56,5 +56,6 @@ use: Foster unconstrained thinking and uncover interesting connections.
 reminder: 'Use very short phrases or even single words, include images.'
 references:
   - name: '(2006) Bill Moggridge, Designing Interactions, The MIT Press, Cambridge'
+socialimage: /assets/images/uploads/mindmap-social-img.png
 ---
 Start by putting a topic, idea or problem at the center of a blank surface, and then write down other words, signs, drawings around it. Write them as they come to your mind, always showing the connection with the initial point, or how they are linked one to each other. Let your mind free to explore, diverge and connect points, growing the map bigger and bigger - there will be time later on to review and rationalise it.

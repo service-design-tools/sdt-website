@@ -71,5 +71,6 @@ references:
   - name: >-
       2007) Dan Saffer, Designing for Interaction. Creating Smart Applications
       and Clever Devices, New Riders Book.
+socialimage: /assets/images/uploads/service-prototype-social-img.png
 ---
 The service prototype has the objective of replicating, as much as possible, the final experience of interacting with the service, in order to test and validate all the design choices. The complexity in the simulation is due to the fact that the service only exists once it's delivered, and while testing the experience of using a specific touchpoint (such as a mobile app) could be relatively, verifying the whole journey touching upon different service components is always challenging (especially when there are physical places or interactions with service staff involved). The more the service expands across different touchpoints, the more the service prototype needs to be orchestrated as a big 'mise en scène', with a specific plot to follow. Touchpoints could be simulated with different levels of fidelity but at this stage are typically quite well-defined.

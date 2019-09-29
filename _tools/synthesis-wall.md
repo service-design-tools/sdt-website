@@ -57,5 +57,6 @@ reminder: >-
 references:
   - link: 'https://www.thisisservicedesigndoing.com/methods/building-a-research-wall'
     name: Building a research wall
+socialimage: /assets/images/uploads/synthesis-wall-social-img.png
 ---
 The synthesis wall is a key support in the moment of debriefing and analysis of the research outcomes. The team writes down all the relevant notes from the research on single post-it notes, and organize them on the wall in order to start identifying clusters, relevant themes, important insights that can inform and inspire the design process. The wall could be set in a structured way, listing all the notes under each interviewee (helpful to identify personas and transversal patterns), or under each step of the journey (helpful to analyse an experience and its pain points).

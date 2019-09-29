@@ -68,5 +68,6 @@ references:
       (1992) Polson, P. G., Lewis, C., Rieman, J. and Wharton, C., Cognitive
       walkthroughs: a method for theory-based evaluation of user interfaces,
       International Journal of Man-Machine Studies, 36.
+socialimage: /assets/images/uploads/concept-walkthrough-social-img.png
 ---
 The concept walkthrough allows to gain feedback on a service idea at very early stages, by walking some users or experts through the new desired experience and ask to comment. The concept walkthrough only needs some low-fidelity mock-ups, sketches or images to support the explanation.

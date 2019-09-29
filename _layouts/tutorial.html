@@ -27,7 +27,7 @@ layout: default
         </div>
         {% for step in page.steps %}
         <div class="timeline__step">
-            <a href="#{{ step.tool | slugify }}">
+            <a href="#{{ step.tool | escape | replace: '&#39;', '' | slugify }}">
                 {% assign match = site.tools | where:"title",step.tool %}
                 {{ match[0].icon | strip_newlines | normalize_whitespace }}
                 <p class="timeline__number">0{{ forloop.index }}</p>

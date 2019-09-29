@@ -67,5 +67,6 @@ references:
   - name: >-
       (2009) Kim Goodwin, Designing for the Digital Age: How to Create
       Human-centered Products and Services, John Wiley & Sons.
+socialimage: /assets/images/uploads/personas-social-img.png
 ---
 Each persona is a reference model representative of a specific type of users.Technically, they can be called behavioural archetypes when they focus on capturing the different behaviors (e.g. "the conscious chooser") without expressing a defined personality or socio-demographics. The more the archetypes assume a realistic feeling (e.g. name, age, household composition, etc.), the more they become real personas, fully expressing the needs, desires, habits and cultural backgrounds of specific groups of users.

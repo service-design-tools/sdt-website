@@ -88,6 +88,7 @@ collections:
         fields:
           - {label: "name", name: "name", widget: "string"}
           - {label: "link", name: "link", widget: "string", hint: "Must be a proper url (make sure it works)", required: false}
+      - {label: "image for social networks", name: "socialimage", widget: image, hint: "To be correctly recognized by both Facebook and Twitter, image must be 1200x630 pixels and less than 1MB in size."}
 
 # tutorials config fields
   - label: "tutorials"

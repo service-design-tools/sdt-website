@@ -88,7 +88,46 @@ header::after {
 }
 
 .header__social a:last-child {
+    position: relative;
     margin-right: 0;
+}
+
+.header__social a:last-child::before {
+    content: "";
+    position: absolute;
+    left: calc(100% + 0.4rem);
+    top: 0.7rem;
+    width: 0;
+    height: 0;
+    border-right: 0.4rem solid var(--color-dark);
+    border-top: 0.4rem solid transparent;
+    border-bottom: 0.4rem solid transparent;
+    opacity: 0;
+    transition: opacity 0.8s;
+    pointer-events: none;
+}
+
+.header__social a:last-child::after {
+    content: "Link copied to clipboard!";
+    position: absolute;
+    left: calc(100% + 0.8rem);
+    top: 0.2rem;
+    width: 158px;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
+    background-color: var(--color-dark);
+    font-size: 0.875rem;
+    font-weight: var(--font-medium);
+    color: var(--color-light);
+    opacity: 0;
+    transition: opacity 0.8s;
+    pointer-events: none;
+}
+
+.header__social a.btn--clicked:last-child::before,
+.header__social a.btn--clicked:last-child::after {
+    transition: opacity 0.15s;
+    opacity: 1;
 }
 
 .header__social svg {

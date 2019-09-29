@@ -46,5 +46,6 @@ use: 'Select who to engage in a research activity, building an exhaustive panel.
 reminder: >-
   Add one or two open-ended questions that help better understand the approach
   and personality.
+socialimage: /assets/images/uploads/recruiting-screener-social-img.png
 ---
 A key part of research preparation consist in the identification of the right mix of participants for the sessions, especially when the research is qualitative. The recruiting screener is a short questionnaire that can be circulated through your own networks, specific communities or specialised recruiting agencies, to help assess if a candidate is compatible with a set of defined criteria. The answers help exclude respondants that don't match the recruiting criteria, as well as balance different variables within small groups of selected participants.

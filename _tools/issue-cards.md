@@ -49,5 +49,6 @@ references:
   - name: >-
       (2009) Donna Spencer, Card Sorting. Designing Usable Categories, Rosenfeld
       Media.
+socialimage: /assets/images/uploads/issue-cards-social-img.png
 ---
 The basic concept behind issue cards is to isolate a specific element into each card, and then use the cards as starting point for a 1:1 or group conversation. An issue card can contain an insight, a picture, a drawing, a feature, a keyworkd, a description, etc. based on the specific need. They act as prompts to suggest new interpretations of a problem and induce considering a different perpective; they can be used in many different ways, from identifying priorities to discussing relationships or simply facilitating the conversation.

@@ -1,6 +1,6 @@
 ---
 title: Tools
-desc: The open collection of tools and tutorials that helps dealing with complex design challenges.
+desc: Browse the collection to find the best resources and materials, based on your specific needs.
 ---
 {% include header.html title="Tools" desc="Browse the collection to find the best resources and materials, based on your specific needs." svg="tools-svg.html" %}
 <div class="filters__button">
@@ -91,7 +91,7 @@ desc: The open collection of tools and tutorials that helps dealing with complex
     </div>
     <div class="tools__gallery">
         {% for tool in site.tools %}
-        <a href="{{ tool.title | slugify | prepend: '/tools/' | relative_url }}" class="tool{% for question in tool.properties.when %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.who %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.what %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.how %} {{ question | slugify }}{% endfor %}" data-name="{{ tool.title | slugify }}" data-process="{% for question in tool.properties.when %} {{ question | slugify }}{% endfor %}">
+        <a href="{{ tool.title | escape | replace: '&#39;', '' | slugify | prepend: '/tools/' | relative_url }}" class="tool{% for question in tool.properties.when %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.who %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.what %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.how %} {{ question | slugify }}{% endfor %}" data-name="{{ tool.title | slugify }}" data-process="{% for question in tool.properties.when %} {{ question | slugify }}{% endfor %}">
             <div class="card">
                 {{ tool.icon | strip_newlines | normalize_whitespace }}
                 <p>{{ tool.title }}</p>

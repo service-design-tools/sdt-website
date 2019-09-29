@@ -1,4 +1,21 @@
 (function () {
+    const copyBtn = document.querySelector('#copyLink');
+    copyBtn.onclick = function(e) {
+        e.preventDefault();
+        let bodyContainer = document.querySelector('body');
+        let tempInput = document.createElement('input');
+        bodyContainer.appendChild(tempInput);
+        tempInput.value = copyBtn.href;
+        tempInput.select();
+        tempInput.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+        bodyContainer.removeChild(tempInput);
+        copyBtn.classList.add('btn--clicked');
+        setTimeout(function() {
+            copyBtn.classList.remove('btn--clicked');
+        }, 2000)
+    }
+
     const $viewMoreBtns = document.querySelectorAll('.btn--view-more');
     if ($viewMoreBtns.length) {
         const $caseStudies = document.querySelectorAll('.case-study');

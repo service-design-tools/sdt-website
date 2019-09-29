@@ -58,5 +58,6 @@ references:
       (2018) Giordano Fanny, Morelli Nicola, De Götzen Amalia, Hunziker Judith.
       The stakeholder map: A conversation tool for designing people-led public
       services.
+socialimage: /assets/images/uploads/stakeholders-map-social-img.png
 ---
 The stakeholder map is a representation of all the stakeholder involved in a project, aimed at clarifying roles and relationships. Depending on the specific need, the map can be created as a simple quadrant with two axis (level of influence and level of interest or engagement in the process), or as a more complex motivation matrix (detailing what each stakeholder brings to each of the other ones through the service project).

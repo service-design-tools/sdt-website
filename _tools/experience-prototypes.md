@@ -54,5 +54,6 @@ references:
   - name: >-
       (2000) Marion Buchenau, Jane Fulton Suri, Experience Prototyping, paper
       presented at the Symposium on Designing Interactive Systems.
+socialimage: /assets/images/uploads/experience-prototypes-social-img.png
 ---
 Experience prototypes allow designers to show and test the solution through an active participation of the final users, that interact with mock-ups of specific service touchpoints. There could be one (or more) prototype for each touchpoint, to collect input on that specific interaction as well as on the overall flow from one touchpoint to the other.

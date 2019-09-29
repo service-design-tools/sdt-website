@@ -54,5 +54,6 @@ reminder: >-
 references:
   - link: 'https://www.thisisservicedesigndoing.com/methods/preparatory-research'
     name: Preparatory Research
+socialimage: /assets/images/uploads/research-plan-social-img.png
 ---
 The research plan is a document that clarifies how to approach the research, touching upon research goals, selected methodologies, types of participants and tools used, timeline and locations. This planning activity needs to be done upfront, before starting the actual research, and help maximizing the effort and modeling the activities in the best way possible, according to the specific research purpose. The plan becomes even more important when the research requires to travel in the field, or coordinate different teams in various locations.

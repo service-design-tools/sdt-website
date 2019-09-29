@@ -54,5 +54,6 @@ references:
       Servizi, tesi di dottorato di ricerca in Disegno Industriale, tutor
       Giuliano Simonelli, relatore Elena Pacenti, co-relatore Stefano Maffei,
       Politecnico di Milano.
+socialimage: /assets/images/uploads/offering-map-social-img.png
 ---
 The goal of the offering map is to clarify what the service provides to the users, detailing the value proposition into more specific clusters of features. There's not a standard model for this tool: the offering could be described with words, images or through a simple graph. As services grow in complexity, the offering map can also become more articulated, showing distinct macro-areas of offer, and then narrowing them down into more specific areas and functions.

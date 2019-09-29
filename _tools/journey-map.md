@@ -63,5 +63,6 @@ template:
   file: /assets/images/uploads/journey-map_template.pdf
   image: /assets/images/uploads/journey-map-preview.jpg
 poster: /assets/images/uploads/journey-map_poster.pdf
+socialimage: /assets/images/uploads/journey-map-social-img.png
 ---
 The journey map is a synthetic representation that describes step-by-step how a user interacts with a service. The process is mapped from the user perspective, describing what happens at each stage of the interaction, what touchpoints are involved, what obstacles and barriers they may encounter. The journey map is often integrated an additional layers representing the level of positive/negative emotions experienced throughout the interaction.

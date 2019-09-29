@@ -74,5 +74,6 @@ references:
       Leadership, Arizona State University, paper.
   - link: 'http://www.31v.nl/2010/05/the-service-blueprints-overview/'
     name: The Service Blueprints Overview
+socialimage: /assets/images/uploads/service-blueprint-social-img.png
 ---
 A service blueprint is a diagram that displays the entire process of service delivery, by listing all the activities that happen at each stage, performed by the different roles involved. The service blueprint is built by first listing all the actors involved in the service process on a vertical axis, and all the steps required to deliver the service on the horizontal axis. The resulting matrix allows to represent the flow of actions that each role needs to perform along the process, highlighting the actions that the user can see (above the line of visibility) and the ones that happen in the back-office (below the line of visibility). Roles can be performed by human beings or other types of entities (organizations, departments, artificial intelligences, machines, etc.)

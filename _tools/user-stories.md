@@ -57,5 +57,6 @@ template: {}
 references:
   - link: 'https://www.thisisservicedesigndoing.com/methods/writing-user-stories'
     name: Writing User Stories
+socialimage: /assets/images/uploads/user-stories-social-img.png
 ---
 User stories are a technique coming from the Agile methodology, used to describe the requirements of a digital service from a user perspective (in contrast with product-based requirement documents). The user stories detail all the elements and interactions that enable the envisioned user experience with a mobile app or website, and connect the work of the design team (developing interaction flows and UI components) with the process of back-end and front-end development, enabling a better integrated workflow in sprints (rather than a water-fall development process).

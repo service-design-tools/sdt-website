@@ -49,5 +49,6 @@ poster: /assets/images/uploads/value-proposition-canvas_poster.pdf
 references:
   - link: 'https://www.strategyzer.com/canvas/value-proposition-canvas'
     name: The Value Proposition Canvas
+socialimage: /assets/images/uploads/value-proposition-canvas-social-img.png
 ---
 The value proposition canvas is a framework that helps designers ensure that there is a fit between the product-service idea and the market. It gives a detailed look at the relationship between customer segments and value propositions, highlights roles involved, pains and gains and how the service eventually matches with the proposition and its pain relievers and gain creators.

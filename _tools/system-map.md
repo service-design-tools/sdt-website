@@ -29,5 +29,6 @@ references:
   - name: >-
       (2007) Nicola Morelli, New representation techniques for designing in a
       systemic perspective, paper presented at Design Inquires, Stokholm.
+socialimage: /assets/images/uploads/system-map-social-img.png
 ---
 A system map is a synthetic representation that shows in one single frame all the different actors involved in a service delivery, and their mutual links (e.g. flows of materials, energy, information, money, documents, etc.). The system map clarifies how the different service components and roles are connected one to the other, highlighting the values they exchange.

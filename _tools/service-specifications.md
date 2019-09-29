@@ -39,5 +39,6 @@ use: >-
 reminder: >-
   Describe everything in detail, so that the document could be easily
   distributed, understood and used without your support.
+socialimage: /assets/images/uploads/service-specifications-social-img.png
 ---
 The service specifications are written guidelines that clarify all the requirements and objectives of each specific stage of the service experience and touchpoint. The service specifications typically mention also the design principles that inspired the entire project, defining the foundation of the overall experience. Each step in the experience and touchpoints are then described in detail, including drawings, pictures or any other relevant material that can help understanding the specific indications. The service specifications can be used to engage experts within the design and development process (briefing them on specific activities) and to coordinate the implementation of the service (giving guidance on how the different components are used).

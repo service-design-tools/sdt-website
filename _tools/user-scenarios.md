@@ -67,5 +67,6 @@ reminder: >-
 references:
   - link: 'https://www.interaction-design.org/literature/topics/user-scenarios'
     name: User Scenarios
+socialimage: /assets/images/uploads/user-scenarios-social-img.png
 ---
 A user scenario is a story that describes, in an exemplificatory and narrative manner, how the user is going to interact with the service during a specific situation of everyday life. Writing user scenarios require to identify a specific context in which the action takes place, as well as characters and needs that defines the attitude of the user. The scenarios can be first written as stories, describing the experience step by step, and then supported with drawings, pictures or clips of the experience, adding a visual layer to it.

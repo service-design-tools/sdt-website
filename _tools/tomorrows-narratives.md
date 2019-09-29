@@ -45,5 +45,6 @@ references:
     name: >-
       (2002) IDEO, Method Cards, William Stout Architectural Books, San
       Francisco.
+socialimage: /assets/images/uploads/tomorrows-narratives-social-img.png
 ---
 The tomorrow's narratives is an envisioning technique based on the idea of writing fictional articles that simulate the moment in which the product or service will be launched in the maket: how will the service be introduced to its potential users? What values and features will be highlighted? Who is going to talk about it? Writing and sharing these fictional articles with the project team (e.g. during ideation workshop) help explore different possibilities and align on a common vision. The article could be replaced with simulated blog posts, ADV posters or movies, TED talks, etc.: any form of communication that help projecting in the moment in which the service will be available to its users.

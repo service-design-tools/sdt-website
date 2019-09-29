@@ -50,5 +50,6 @@ reminder: >-
   (e.g. small printed booklet with spiral binding).
 template: {}
 references: []
+socialimage: /assets/images/uploads/observation-notes-social-img.png
 ---
 Writing notes during observations sessions help make the most out of that research activity, making sure to capture insights as well as data concerning what's happening around (e.g. how many times an action is repeated, how long it takes, steps covered, etc.). Preparing a dedicated support such as a printed grid or notebook with specific investigation areas to fill during the session could be valuable to guide the researcher by suggesting data points to capture, and so avoid to forget any important aspects.

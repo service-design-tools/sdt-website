@@ -44,5 +44,6 @@ related:
     - User Stories
 use: Monitor the project and service outcomes and keep iterating to improve.
 reminder: Identify strategies and tools to measure the metrics in advance.
+socialimage: /assets/images/uploads/success-metrics-social-img.png
 ---
 The success metrics are a set of criteria defined alongside the service development as key factors that will define the success of the project itself and of its final implementation. It's always important to distinguish amongst these two levels (project and final service outcomes) as they generate different types of values. Once the metrics are defined, it's also important to identify a strategy for their measurement (how data is collected and when), keeping in mind the importance of accessing that information in several moments of the process, and being able to use it to adjust the workflow and features developed.

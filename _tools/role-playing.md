@@ -47,5 +47,6 @@ reminder: >-
   audience can focus on the story and proposed solution.
 template: {}
 references: []
+socialimage: /assets/images/uploads/role-playing-social-img.png
 ---
 The role play is a representation technique often used during co-design sessions; it allows to explain a service or product idea by acting out an exemplificatory scenario of use. The role play typically requires to define some roles (e.g. the user, the service employee, etc.) and prepare rough prototypes or other materials that can facilitate the performance. While a team is acting out their story, the rest of the audience learn about the idea, understand the high-level sequence of actions required and get to know the hero moments.

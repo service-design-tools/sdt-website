@@ -54,5 +54,6 @@ references:
     name: >-
       (2015) Stevanovic, Milan & Marjanović, Dorian & Štorga, Mario. A Model of
       Idea Evaluation and Selection for Product Innovation.
+socialimage: /assets/images/uploads/evaluation-matrix-social-img.png
 ---
 The evaluation matrix allows to weight different ideas, rating them based on a set of defined criteria, in order to identify the most promising ones. A common set of criteria includes the level of complexity related to idea implementation, and level of value they will bring to the user and to the organization.

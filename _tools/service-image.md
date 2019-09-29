@@ -62,5 +62,6 @@ references:
       Visualtiles-Communication tools for service design, paper to be presented
       at Rethinking Service Design, First Nordic Conference on Service Design
       and Service Innovation, 24th-26th November, Oslo
+socialimage: /assets/images/uploads/service-image-social-img.png
 ---
 The service image is aimed at presenting a concept in a memorable way, by helping the audience immediately understand, perceive, immerse into the envisioned experience. The service image is often realistic (e.g. a montage of different photos and scenes, or a post-produced photo realised ad hoc) and focused on a hero moment that is able to encapsulate the core value of the service experience. The service image may be used in public presentations as well as in the landing page of the project website, becoming aclear visual reference and contributing in shaping the service brand.

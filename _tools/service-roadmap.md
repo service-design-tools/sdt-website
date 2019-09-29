@@ -51,5 +51,6 @@ use: >-
 reminder: >-
   Besides design and development, consider aspects such as communication and
   go-to-market strategy when building the roadmap.
+socialimage: /assets/images/uploads/service-roadmap-social-img.png
 ---
 The service roadmap is a timeline that defines a progressive process of development and delivery of a service solution. The goal is to identify the minimum set of features needed to be ready for the first release, and then the following enhancements that could be made to achieve greater impact. The roadmap takes into consideration the effort needed to develop and build specific service components, as well as the time required for potential testing, pilot and beta phases. Once the first MVP of the service is ready, the roll-out can start, with the need of addressing both communication and distribution issues, as well as a continuous development and integration of additional functions that were initially left aside.

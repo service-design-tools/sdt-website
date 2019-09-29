@@ -62,5 +62,6 @@ use: >-
 reminder: Keep the mock-up simple enough not to get distracted by detailed features.
 references:
   - name: '(2009) How to Prototype: The Awesome Guide, by Lindsay Gordon'
+socialimage: /assets/images/uploads/rough-prototyping-social-img.png
 ---
 Rough prototypes simulate specific service components with the goal of better explaining a service idea in front of other team members, and start discussing the specific requirements of each touchpoint. Rough prototypes can be simply built with paper (e.g. a flyer, a wayfinding signage, a mobile phone interface, etc.) or with pre-assembled interface elements (e.g. wireframe kits, UI kits, etc.). They are a powerful tool during co-design sessions, to allow everyone to visually translate specific thoughts into tangible objects and interfaces, and make design considerations.
