@@ -18,7 +18,7 @@ layout: null
         `;
     });
 
-    const tutorialsArray = [{% for tutorial in site.tutorials %}{'title': '{{ tutorial.title }}', 'url': '{{ tutorial.url }}', 'order': '{{ forloop.index }}'}{% unless forloop.last %},{% endunless %}{% endfor %}];
+    const tutorialsArray = [{% for tutorial in site.tutorials %}{'title': "{{ tutorial.title }}", 'url': '{{ tutorial.url }}', 'order': '{{ forloop.index }}'}{% unless forloop.last %},{% endunless %}{% endfor %}];
     const randomTutorialPicks = d3.shuffle(tutorialsArray).slice(0,2);
 
     const $tutorialCards = document.querySelectorAll('.tutorial__links');
@@ -29,7 +29,7 @@ layout: null
         card.firstElementChild.firstElementChild.lastElementChild.innerText = tutorialPick.title;
     });
 
-    const caseStudiesArray = [{% for case in site.case_studies %}{'title': "{{ case.title }}", 'tool': '{{ case.tool }}', 'image': '{{ case.images[0] }}', 'slug': "{{ case.title | slugify }}"}{% unless forloop.last %},{% endunless %}{% endfor %}];
+    const caseStudiesArray = [{% for case in site.case_studies %}{'title': "{{ case.title }}", 'tool': "{{ case.tool }}", 'image': '{{ case.images[0] }}', 'slug': "{{ case.title | slugify }}"}{% unless forloop.last %},{% endunless %}{% endfor %}];
     const randomCaseStudiesPicks = d3.shuffle(caseStudiesArray).slice(0,4);
 
     const $caseStudiesCards = document.querySelectorAll('.case-studies__container a');

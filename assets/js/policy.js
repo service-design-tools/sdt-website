@@ -9,15 +9,19 @@
         }
     }
     $analyticsCheckbox.onclick = function() {
-        $consent.classList.remove('box--open');
+        document.querySelector('.consent').classList.remove('box--open');
         if ($analyticsCheckbox.classList.contains('consent--accepted')) {
             localStorage.setItem('consentCache', 'false');
             $analyticsCheckbox.classList.remove('consent--accepted');
+            window['ga-disable-UA-149513218-1'] = true;
         } else {
             localStorage.setItem('consentCache', 'true');
             $analyticsCheckbox.classList.add('consent--accepted');
-            // gtag('js', new Date());
-            // gtag('config', 'UA-5816319-19', { 'anonymize_ip': true });
+            window['ga-disable-UA-149513218-1'] = false;
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-149513218-1', { 'anonymize_ip': true });
         }
     }
 })();

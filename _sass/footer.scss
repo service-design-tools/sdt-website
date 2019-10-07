@@ -5,6 +5,11 @@ footer {
     color: var(--color-light);
 }
 
+footer p > a {
+    color: var(--color-light);
+    text-decoration: underline;
+}
+
 .footer__info {
     display: -webkit-box;
     display: -ms-flexbox;
