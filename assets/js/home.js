@@ -82,6 +82,7 @@ layout: null
             }
         }
     });
+    carousel.resize();
 
     // Credits to Chris Coyier https://css-tricks.com/snippets/jquery/done-resizing-event/ 
     window.onresize = function (e) {
