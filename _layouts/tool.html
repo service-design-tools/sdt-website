@@ -68,7 +68,7 @@ layout: default
         <img src="{{ page.template.image }}" alt="Preview image of the template for {{ page.title }}">
         <div class="download__links">
             <a href="{{ page.template.file }}" class="btn--action" download>download template</a>
-            {% if hasPoster %}
+            {% if hasPoster and page.poster != '' %}
             <a href="{{ page.poster }}" class="outside--link" download>{% include svgs/present.html %} get the poster!</a>
             {% endif %}
         </div>
