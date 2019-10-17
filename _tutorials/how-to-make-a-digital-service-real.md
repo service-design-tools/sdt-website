@@ -63,7 +63,7 @@ steps:
       The more you want to engage others in the process, the more you need to
       invest in project documentation: get inspired from opensource development
       practice.
-    title: Document all your choices and reccomendations
+    title: Document all your choices and recommendations
     tool: Service Specifications
   - description: >-
       Once the development is almost complete, organize a closed-beta to test
