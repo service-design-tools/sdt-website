@@ -7,7 +7,6 @@ properties:
   what:
     - Experience
   when:
-    - Research
     - Implementation
   who:
     - Stakeholders
