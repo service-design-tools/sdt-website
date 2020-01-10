@@ -8,8 +8,6 @@ properties:
     - System
   when:
     - Ideation
-    - Implementation
-    - Prototyping
     - Research
   who:
     - Experts
