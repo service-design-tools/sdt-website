@@ -7,7 +7,7 @@ properties:
   what:
     - Offering
   when:
-    - Ideation
+    - Implementation
   who:
     - Stakeholders
 synonyms: ''
