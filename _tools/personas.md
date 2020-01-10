@@ -10,7 +10,6 @@ properties:
     - Context
   when:
     - Research
-    - Ideation
   who:
     - Experts
     - Stakeholders
