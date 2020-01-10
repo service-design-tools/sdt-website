@@ -7,8 +7,8 @@ properties:
   what:
     - System
   when:
-    - Ideation
     - Research
+    - Implementation
   who:
     - Experts
     - Stakeholders
