@@ -9,7 +9,7 @@ properties:
   what:
     - System
   when:
-    - Ideation
+    - Research
   who:
     - Experts
     - Stakeholders
