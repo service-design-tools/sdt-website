@@ -7,7 +7,6 @@ properties:
   what:
     - Experience
   when:
-    - Ideation
     - Research
   who:
     - Experts
