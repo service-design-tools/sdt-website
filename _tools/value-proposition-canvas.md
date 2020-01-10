@@ -8,7 +8,6 @@ properties:
     - Offering
   when:
     - Implementation
-    - Ideation
   who:
     - Stakeholders
 synonyms: 'Value Orientation, Onliness Statement'
