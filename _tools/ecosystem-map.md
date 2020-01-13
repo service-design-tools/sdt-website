@@ -10,7 +10,6 @@ properties:
     - System
   when:
     - Research
-    - Ideation
   who:
     - Experts
     - Stakeholders

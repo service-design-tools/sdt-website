@@ -7,7 +7,7 @@ properties:
   what:
     - Experience
   when:
-    - Ideation
+    - Prototyping
   who:
     - Stakeholders
 synonyms: Hero Moment

@@ -7,9 +7,6 @@ properties:
   what:
     - Experience
   when:
-    - Ideation
-    - Implementation
-    - Prototyping
     - Research
   who:
     - Experts

@@ -7,10 +7,8 @@ properties:
   what:
     - System
   when:
-    - Ideation
-    - Implementation
-    - Prototyping
     - Research
+    - Implementation
   who:
     - Experts
     - Stakeholders

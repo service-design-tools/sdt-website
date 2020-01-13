@@ -10,7 +10,6 @@ properties:
     - Context
   when:
     - Research
-    - Prototyping
   who:
     - Service Staff
     - Users

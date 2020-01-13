@@ -8,7 +8,6 @@ properties:
     - Experience
   when:
     - Prototyping
-    - Implementation
   who:
     - Stakeholders
     - Service Staff

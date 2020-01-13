@@ -10,7 +10,6 @@ properties:
     - Experience
   when:
     - Implementation
-    - Research
   who:
     - Stakeholders
 icon: >

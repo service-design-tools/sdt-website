@@ -10,9 +10,6 @@ properties:
     - Context
   when:
     - Research
-    - Ideation
-    - Prototyping
-    - Implementation
   who:
     - Experts
     - Stakeholders

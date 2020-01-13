@@ -8,7 +8,6 @@ properties:
     - Context
     - System
   when:
-    - Research
     - Ideation
   who:
     - Experts

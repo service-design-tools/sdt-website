@@ -9,6 +9,7 @@ properties:
     - Offering
   when:
     - Ideation
+    - Prototyping
   who:
     - Stakeholders
 synonyms: 'Tomorrow''s Headlines, Advertising Posters, Service Evidencing'
