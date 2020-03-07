@@ -171,6 +171,19 @@ collections:
         file: "_data/about.yml"
         fields:
           - {label: "text", name: "text", widget: "markdown"}
+
+# about config fields
+  - label: "tools page"
+    name: "tools-page"
+    description: "Here you can edit the map of the Tools page"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - label: "tools"
+        name: "tools"
+        file: "_data/tools.yml"
+        fields:
           - {label: "map", name: "map", widget: "image", hint: "Pay attention to dimension, size, format and compression of the image, because it will impact the performance of the website."}
           - {label: "original map", name: "file", widget: "file", hint: "Map file that will be downloaded", required: false}
 
