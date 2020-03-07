@@ -181,8 +181,8 @@ collections:
     editor:
       preview: false
     files:
-      - label: "tools"
-        name: "tools"
+      - label: "tools map data"
+        name: "tools-map"
         file: "_data/tools.yml"
         fields:
           - {label: "map", name: "map", widget: "image", hint: "Pay attention to dimension, size, format and compression of the image, because it will impact the performance of the website."}
