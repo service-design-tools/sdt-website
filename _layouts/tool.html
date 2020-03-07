@@ -46,7 +46,7 @@ layout: default
         {% if tipsNumber > 0 %}
         <h5>#oblotips</h5>
         {% for tip in page.related.tips %}
-        <a href="{{ tip.link }}" target="_blank" rel="noopener noreferrer" class="tip">{{ tip.title }} {% include svgs/external-link.html color="dark" %}</a>
+        <a href="{{ tip.link }}" target="_blank" rel="noopener noreferrer" class="tip">{{ tip.title }}</a>
         {% endfor %}
         {% endif %}
         {% endif %}
@@ -78,7 +78,7 @@ layout: default
             <h3>references</h3>
             {% for reference in page.references %}
             {% if reference.link %}
-            <a href="{{ reference.link }}" target="_blank" rel="noopener noreferrer">{{ reference.name }} {% include svgs/external-link.html color="dark" %}</a>
+            <a href="{{ reference.link }}" target="_blank" rel="noopener noreferrer">{{ reference.name }}</a>
             {% else %}
             <p>{{ reference.name }}</p>
             {% endif %}
@@ -99,7 +99,7 @@ layout: default
                 <p class="images__details">{{ case.images | size }} {% include svgs/picture.html %}</p>
                 <img src="{{ case.images[0] }}" alt="feature image of '{{ case.title }}' case study">
             </div>
-            <p>Example by <a href="{{ case.company.link }}" target="_blank" rel="noopener noreferrer" class="outside--link">{{ case.company.name }} {% include svgs/external-link.html color="support" %}</a></p>
+            <p>Example by <a href="{{ case.company.link }}" target="_blank" rel="noopener noreferrer" class="outside--link">{{ case.company.name }}</a></p>
         </div>
         <div class="case-study__content">
             <h4>{{ case.title }}</h4>
@@ -119,7 +119,7 @@ layout: default
             </div>
             <h5>what was interesting</h5>
             {{ case.insights | markdownify }}
-            <a href="{{ case.link }}" target="_blank" rel="noopener noreferrer" class="outside--link">Read more about this case study {% include svgs/external-link.html color="support" %}</a>
+            <a href="{{ case.link }}" target="_blank" rel="noopener noreferrer" class="outside--link">Read more about this case study</a>
         </div>
         <p class="btn--view-more">View more</p>
     </div>

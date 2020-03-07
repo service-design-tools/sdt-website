@@ -52,7 +52,7 @@ desc: A selection of links and references to discover more about service design 
             <h3>{{ inspiration.name }}s</h3>
             <ul>
                 {% for link in inspiration.items %}
-                <li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.title }} {% include svgs/external-link.html color="light" %}</a></li>
+                <li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.title }}</a></li>
                 {% endfor %}
             </ul>
             {% endfor %}
