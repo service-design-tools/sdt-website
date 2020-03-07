@@ -39,7 +39,7 @@ icon: >
 related:
   tools:
     - Concept Walkthrough
-    - Tomorrow's Narrative
+    - Tomorrow's Narratives
     - Service Image
 use: >-
   Have a comprehensive view of all the possibilities, and choose carefully what
