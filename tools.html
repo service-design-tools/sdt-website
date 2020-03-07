@@ -100,3 +100,15 @@ desc: Browse the collection to find the best resources and materials, based on y
         {% endfor %}
     </div>
 </main>
+<section class="tools__map">
+    <div>
+        <h2>Service Design<br/>Tools map</h2>
+        <p>Download the map to view how the Service Design Tools evolved over time.</p>
+        {% if site.data.tools.file %}
+        <a href="{{ site.data.tools.file | relative_url }}" class="btn--action" download>Download map</a>
+        {% else %}
+        <a href="{{ site.data.tools.map | relative_url }}" class="btn--action" download>Download map</a>
+        {% endif %}
+    </div>
+    <img src="{{ site.data.tools.map | relative_url }}" alt="Summary map of all the tools present in the Service Design Tools website">
+</section>
