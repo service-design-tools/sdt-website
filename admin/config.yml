@@ -177,7 +177,7 @@ collections:
             fields:
               - {label: "title", name: "title", widget: "string", default: "A long journey"}
               - {label: "description", name: "description", widget: "markdown"}
-              - label: "events"
+              - label: "event"
                 name: "events"
                 widget: "list"
                 fields:
@@ -189,7 +189,7 @@ collections:
             fields:
               - {label: "title", name: "title", widget: "string", default: "Meet our team"}
               - {label: "description", name: "description", widget: "markdown"}
-              - label: "members"
+              - label: "member"
                 name: "members"
                 widget: "list"
                 fields:
@@ -202,20 +202,20 @@ collections:
             fields:
               - {label: "title", name: "title", widget: "string", default: "Current Collaborators"}
               - {label: "description", name: "description", widget: "markdown"}
-              - label: "members"
+              - label: "member"
                 name: "members"
                 widget: "list"
                 fields:
                   - {label: "name", name: "name", widget: "string"}
                   - {label: "role", name: "role", widget: "string"}
                   - {label: "picture", name: "picture", widget: "image", hint: "Pay attention to dimension, size, format and compression of the image, because it will impact the performance of the website."}
-          - label: "past collaborators"
+          - label: "past collaborator"
             name: "collaboratorsPast"
             widget: "list"
             fields:
               - {label: "name", name: "name", widget: "string"}
               - {label: "role", name: "role", widget: "string"}
-          - label: "curators"
+          - label: "curator"
             name: "curators"
             widget: "list"
             fields:
