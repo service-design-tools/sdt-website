@@ -171,9 +171,58 @@ collections:
         name: "about"
         file: "_data/about.yml"
         fields:
-          - {label: "text", name: "text", widget: "markdown"}
+          - label: "timeline"
+            name: "timeline"
+            widget: "object"
+            fields:
+              - {label: "title", name: "title", widget: "string", default: "A long journey"}
+              - {label: "description", name: "description", widget: "markdown"}
+              - label: "events"
+                name: "events"
+                widget: "list"
+                fields:
+                  - {label: "year", name: "year", widget: "string"}
+                  - {label: "text", name: "text", widget: "markdown"}
+          - label: "team"
+            name: "team"
+            widget: "object"
+            fields:
+              - {label: "title", name: "title", widget: "string", default: "Meet our team"}
+              - {label: "description", name: "description", widget: "markdown"}
+              - label: "members"
+                name: "members"
+                widget: "list"
+                fields:
+                  - {label: "name", name: "name", widget: "string"}
+                  - {label: "role", name: "role", widget: "string"}
+                  - {label: "picture", name: "picture", widget: "image", hint: "Pay attention to dimension, size, format and compression of the image, because it will impact the performance of the website."}
+          - label: "current collaborators"
+            name: "collaboratorsCurrent"
+            widget: "object"
+            fields:
+              - {label: "title", name: "title", widget: "string", default: "Current Collaborators"}
+              - {label: "description", name: "description", widget: "markdown"}
+              - label: "members"
+                name: "members"
+                widget: "list"
+                fields:
+                  - {label: "name", name: "name", widget: "string"}
+                  - {label: "role", name: "role", widget: "string"}
+                  - {label: "picture", name: "picture", widget: "image", hint: "Pay attention to dimension, size, format and compression of the image, because it will impact the performance of the website."}
+          - label: "past collaborators"
+            name: "collaboratorsPast"
+            widget: "list"
+            fields:
+              - {label: "name", name: "name", widget: "string"}
+              - {label: "role", name: "role", widget: "string"}
+          - label: "curators"
+            name: "curators"
+            widget: "list"
+            fields:
+              - {label: "logo", name: "logo", widget: "image", hint: "Pay attention to dimension, size, format and compression of the image, because it will impact the performance of the website."}
+              - {label: "description", name: "description", widget: "markdown"}
 
-# about config fields
+# tools index config fields
   - label: "tools page"
     name: "tools-page"
     description: "Here you can edit the map of the Tools page"

@@ -4,13 +4,5 @@ desc: An on-going project bridging academic research and professional practices.
 ---
 {% include header.html title="About" desc="An on-going project bridging academic research and professional practices." svg="about-svg.html" %}
 <main>
-    {{ site.data.about.text | markdownify }}
-    <img src="{{ site.data.about.map | relative_url }}" alt="Summary map of all the tools present in the Service Design Tools website">
-    <div class="download__links">
-        {% if site.data.about.file %}
-        <a href="{{ site.data.about.file | relative_url }}" class="btn--action" download>download template</a>
-        {% else %}
-        <a href="{{ site.data.about.map | relative_url }}" class="btn--action" download>download template</a>
-        {% endif %}
-    </div>
+    
 </main>
