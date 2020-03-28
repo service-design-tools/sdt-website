@@ -180,6 +180,7 @@ collections:
               - label: "event"
                 name: "events"
                 widget: "list"
+                hint: "Before publishing, remove any entry that might have been left empty"
                 fields:
                   - {label: "year", name: "year", widget: "string"}
                   - {label: "text", name: "text", widget: "markdown"}
@@ -192,6 +193,7 @@ collections:
               - label: "member"
                 name: "members"
                 widget: "list"
+                hint: "Before publishing, remove any entry that might have been left empty"
                 fields:
                   - {label: "name", name: "name", widget: "string"}
                   - {label: "role", name: "role", widget: "string"}
@@ -205,19 +207,22 @@ collections:
               - label: "member"
                 name: "members"
                 widget: "list"
+                hint: "Before publishing, remove any entry that might have been left empty"
                 fields:
                   - {label: "name", name: "name", widget: "string"}
                   - {label: "role", name: "role", widget: "string"}
-                  - {label: "picture", name: "picture", widget: "image", hint: "Pay attention to dimension, size, format and compression of the image, because it will impact the performance of the website."}
+                  - {label: "picture", name: "picture", widget: "image", hint: "Pay attention to dimension, size, format and compression of the image, because it will impact the performance of the website.", required: false}
           - label: "past collaborator"
             name: "collaboratorsPast"
             widget: "list"
+            hint: "Before publishing, remove any entry that might have been left empty"
             fields:
               - {label: "name", name: "name", widget: "string"}
               - {label: "role", name: "role", widget: "string"}
           - label: "curator"
             name: "curators"
             widget: "list"
+            hint: "Before publishing, remove any entry that might have been left empty"
             fields:
               - {label: "logo", name: "logo", widget: "image", hint: "Pay attention to dimension, size, format and compression of the image, because it will impact the performance of the website."}
               - {label: "description", name: "description", widget: "markdown"}
