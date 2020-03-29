@@ -57,6 +57,18 @@ collaboratorsCurrent:
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
+  members:
+    - name: Laura Toffetti
+      role: Test
+      picture: /assets/images/uploads/laura.jpg
+    - name: Laura Toffetti
+      role: Test
+      picture: /assets/images/uploads/laura.jpg
+collaboratorsPast:
+  - name: Laura Toffetti
+    role: Test
+  - name: Laura Toffetti
+    role: Test
 curators:
   - description: >-
       Oblo is an hyper-specialized service design studio supporting people and
