@@ -1,85 +1,82 @@
 timeline:
   title: A long journey
-  description: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
+  description: Over the years the platform has become a key resource in the
+    service design discipline, guiding students, practitioners and professionals
+    from all over the world in the discovery of service design tools and
+    techniques.
   events:
-    - year: '2009'
-      text: >-
-        The Service Design Tools project started leveraging the research done by
-        **Roberta Tassi** for her graduation thesis Communication Tools for
-        Service Design, in collaboration with Poli.Design and Domus Academy
+    - year: "2009"
+      text: The Service Design Tools project started leveraging the research done by
+        **Roberta Tassi** for her graduation thesis *Communication Tools for
+        Service Design*, in collaboration with POLI.Design and Domus Academy
         Research Center.
-
-
-        Over the years the platform has become a key resource in the service
-        design discipline, guiding students, practitioners and professionals
-        from all over the world in the discovery of service design tools and
-        techniques.
-    - year: '2019'
-      text: >-
-        A new version of Service Design Tools has been launched, with the main
+    - year: "2019"
+      text: A new version of Service Design Tools has been launched, with the main
         objective of updating the database, refreshing content and case studies
         and improving the user experience.
-    - year: '2020'
-      text: >-
-        The beginning of a new journey, with an increasing involvement and
-        participation of **Poli.Design** ( in collaboration with the **Master in
-        Service Design** and the **Service Innovation Academy of POLI.design** -
-        Politecnico di Milano) to further develop the platform and evolve the
+    - year: "2020"
+      text: The beginning of a new journey, with an increasing involvement and
+        participation of **POLI.Design** (in collaboration with the **Master in
+        Service Design** and the **Service Innovation Academy of POLI.design -
+        Politecnico di Milano**) to further develop the platform and evolve the
         project, with additional content and initiatives.
 team:
   title: Meet our team
-  description: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
+  description: We are a multidisciplinary and passionate team of designers,
+    researchers and teachers with the desire to make Service Design tools and
+    techniques accessible to everyone.
   members:
     - name: Roberta Tassi
-      role: Design Lead
-      picture: /assets/images/uploads/robi.jpg
-    - name: Chiara Albanesi
-      role: Design Research
-      picture: /assets/images/uploads/chiara.jpg
-    - name: Yulya Besplemennova
-      role: Service Design
-      picture: /assets/images/uploads/yulya.jpg
+      role: Founder and Scientific Director
+      picture: /assets/images/uploads/roberta-tassi-grey.png
+    - name: Stefano Maffei
+      role: Scientific Director
+      picture: /assets/images/uploads/stefano-maffei-grey.png
     - name: Agata Brilli
-      role: Information Design
-      picture: /assets/images/uploads/agata.jpg
+      role: "Researcher "
+      picture: /assets/images/uploads/agata-brilli-grey.png
+    - name: Beatrice Villari
+      role: Chief Researcher
+      picture: /assets/images/uploads/beatrice-villari-grey.png
+    - name: Chiara Albanesi
+      role: "Researcher "
+      picture: /assets/images/uploads/chiara-albanesi-grey.png
+    - name: Francesca Foglieni
+      role: Scientific Coordinator
+      picture: /assets/images/uploads/francesca-foglieni-grey.png
     - name: Laura Toffetti
-      role: Visual Design
-      picture: /assets/images/uploads/laura.jpg
-    - name: Giacomo Flaim
-      role: Interaction Design
-      picture: /assets/images/uploads/giacomo.jpg
+      role: Visual Designer
+      picture: /assets/images/uploads/laura-toffetti-grey.png
+    - name: Lisa Cagnin
+      role: Researcher
+      picture: /assets/images/uploads/lisa-cagnin-grey.png
+    - name: Michele Invernizzi
+      role: Web Developer
+      picture: /assets/images/uploads/michele-invernizzi-grey.png
+    - name: Raffaela Scognamiglio
+      role: External Relations and Communication Manager
+      picture: /assets/images/uploads/raffaela-scognamiglio-grey.png
+    - name: Yulya Besplemennova
+      role: Scientific Coordinator
+      picture: /assets/images/uploads/yulya-besplemennova-grey.png
 collaboratorsCurrent:
   title: Current collaborators
-  description: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
-  members:
-    - name: Laura Toffetti
-      role: Test
-      picture: /assets/images/uploads/laura.jpg
-    - name: Laura Toffetti
-      role: Test
-      picture: /assets/images/uploads/laura.jpg
-collaboratorsPast:
-  - name: Laura Toffetti
-    role: Test
-  - name: Laura Toffetti
-    role: Test
+  description: Students, researchers and external advisors current partnering with us.
+  members: []
+collaboratorsPast: []
 curators:
-  - description: >-
-      Oblo is an hyper-specialized service design studio supporting people and
-      organizations along their innovation journeys.
+  - description: "**Oblo** is an hyper-specialized service design studio supporting
+      people and organizations along their innovation journeys. Founded in 2017,
+      with a strong research focus, oblo alternate professional work with
+      clients in the private and public sector, and the continuous development
+      of reflections, methods and speculative approches that help innovate the
+      service design practice."
     logo: /assets/images/uploads/oblo_logo.svg
-  - description: >-
-      **POLI.design**, fondato nel 1999 dal Politecnico di Milano, insieme alla
-      Scuola di Design del Politecnico e al Dipartimento di Design, forma il
-      Sistema Design del Politecnico, un aggregato di risorse, competenze,
-      strutture e laboratori, tra i più importanti al mondo. POLI.design svolge
-      un ruolo cerniera fra i diversi attori che fanno parte dell’ecosistema del
-      design e sviluppa formazione per giovani laureati, professionisti ed
-      imprese.
+  - description: "**POLI.design**, founded in 1999 by Politecnico di Milano,
+      together with the School of Design of Politecnico and the Department of
+      Design, forms the Design System of Politecnico, an aggregate of resources,
+      skills, structures and laboratories among the most important in the world.
+      POLI.design plays a pivotal role among the different actors that are part
+      of the design ecosystem and develops training for young graduates,
+      professionals and businesses."
     logo: /assets/images/uploads/poli_logo.png
