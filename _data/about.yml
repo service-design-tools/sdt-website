@@ -63,7 +63,9 @@ collaboratorsCurrent:
   title: Current collaborators
   description: Students, researchers and external advisors current partnering with us.
   members: []
-collaboratorsPast: []
+collaboratorsPast:
+  - name: Test sshtra
+    role: test
 curators:
   - description: "**Oblo** is an hyper-specialized service design studio supporting
       people and organizations along their innovation journeys. Founded in 2017,
