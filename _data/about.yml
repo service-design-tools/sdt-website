@@ -66,6 +66,15 @@ collaboratorsCurrent:
     - name: Test
       role: Test
       picture: /assets/images/uploads/laura-toffetti-grey.png
+    - name: test
+      role: test
+      picture: /assets/images/uploads/agata-brilli-grey.png
+    - name: teste
+      role: test
+      picture: /assets/images/uploads/chiara-albanesi-grey.png
+    - name: teste
+      role: test
+      picture: /assets/images/uploads/lisa-cagnin-grey.png
 collaboratorsPast:
   - name: Test sshtra
     role: test
