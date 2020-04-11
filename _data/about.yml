@@ -62,7 +62,10 @@ team:
 collaboratorsCurrent:
   title: Current collaborators
   description: Students, researchers and external advisors current partnering with us.
-  members: []
+  members:
+    - name: Test
+      role: Test
+      picture: /assets/images/uploads/laura-toffetti-grey.png
 collaboratorsPast:
   - name: Test sshtra
     role: test
