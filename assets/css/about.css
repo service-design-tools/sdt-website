@@ -127,7 +127,7 @@ h2+p, .event__year {
 .member {
   display: grid;
   grid-template: 1fr / 1fr;
-  border-radius: 1.25rem;
+  border-radius: 50%;
   overflow: hidden;
 }
 
@@ -155,8 +155,8 @@ h2+p, .event__year {
   transition: opacity .2s;
 }
 
-.member div:hover {
-  opacity: 1;
+.member div > * {
+  pointer-events: none;
 }
 
 .member__name {
@@ -203,6 +203,15 @@ h2+p, .event__year {
   opacity: .6;
 }
 
+.collaborators {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.collaborators :first-child {
+  margin-top: 3.75rem;
+}
+
 .collaborators h3 {
   margin-top: 2.5rem;
   color: var(--color-dark);
@@ -220,6 +229,10 @@ h2+p, .event__year {
 
 .collaborators span:last-child::after {
   content: "";
+}
+
+.collaborators :last-child {
+  margin-bottom: 5.5rem;
 }
 
 .curators {
@@ -280,5 +293,11 @@ h2+p, .event__year {
   main p,
   section p {
     width: 61%;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .member div:hover {
+    opacity: 1;
   }
 }

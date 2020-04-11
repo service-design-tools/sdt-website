@@ -31,7 +31,10 @@ desc: An on-going project bridging academic research and professional practices.
     {% endfor %}
   </div>
 </section>
+{% assign currentCollaboratorsLength = aboutData.collaboratorsCurrent.members | size %}
+{% assign pastCollaboratorsLength = aboutData.collaboratorsPast | size %}
 <section class="collaborators">
+  {% if currentCollaboratorsLength > 0 %}
   <h2>{{ aboutData.collaboratorsCurrent.title }}</h2>
   {{ aboutData.collaboratorsCurrent.description | markdownify }}
   <div class="collaborators__members">
@@ -45,12 +48,15 @@ desc: An on-going project bridging academic research and professional practices.
     </div>
     {% endfor %}
   </div>
+  {% endif %}
+  {% if pastCollaboratorsLength > 0 %}
   <h3>Past collaborators</h3>
   <p>
     {% for member in aboutData.collaboratorsPast %}
     <span>{{ member.name }} ({{ member.role }})</span>
     {% endfor %}
   </p>
+  {% endif %}
 </section>
 <section class="curators">
   <h3>Curated by</h3>
