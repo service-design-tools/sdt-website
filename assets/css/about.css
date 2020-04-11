@@ -1,6 +1,6 @@
 html {
   --extra-padding: 0px;
-  --timeline-padding: 4rem;
+  --timeline-padding: 2rem;
 }
 
 header {
@@ -80,7 +80,7 @@ h2+p, .event__year {
 }
 
 .event p {
-  width: calc(61% - var(--timeline-padding));
+  width: calc(100% - var(--timeline-padding));
 }
 
 .event__year {
@@ -117,42 +117,40 @@ h2+p, .event__year {
 }
 
 .team__members {
-  --grid-dimension: calc(var(--column-width) * 3 + var(--container-gap) * 2);
+  --grid-dimension: calc(var(--column-width) * 4 + var(--container-gap) * 4);
   display: grid;
-  grid-template-columns: repeat(3, var(--grid-dimension));
-  grid-auto-rows: var(--grid-dimension);
-  gap: calc((var(--container-width) - var(--extra-padding) * 2 - var(--grid-dimension) * 3) / 2);
+  grid-template-columns: 1fr var(--grid-dimension) 1fr;
+  grid-auto-rows: calc(var(--grid-dimension) + var(--container-gap) * 4);
+  gap: var(--container-gap);
 }
 
 .member {
+  grid-column: 2 / span 1;
   display: grid;
-  grid-template: 1fr / 1fr;
-  border-radius: 50%;
+  grid-template: var(--grid-dimension) calc(var(--container-gap) * 2.5) / 1fr;
   overflow: hidden;
 }
 
-.member > * {
-  grid-row: 1 / -1;
-  grid-column: 1 / -1;
-}
-
 .member img {
+  grid-row: 1 / span 1;
+  grid-column: 1 / -1;
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
+  border-radius: 50%;
 }
 
 .member div {
+  grid-row: 2 / span 1;
+  grid-column: 1 / -1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  color: var(--color-light);
-  background-color: var(--color-main);
+  padding-top: .5rem;
+  color: var(--color-dark);
   text-align: center;
-  opacity: 0;
-  transition: opacity .2s;
 }
 
 .member div > * {
@@ -160,8 +158,7 @@ h2+p, .event__year {
 }
 
 .member__name {
-  width: 80%;
-  font-size: 1.25rem;
+  width: 100%;
   font-weight: var(--font-medium);
   padding-bottom: .2rem;
 }
@@ -169,13 +166,12 @@ h2+p, .event__year {
 .member h5 {
   padding: 0;
   border: none;
-  color: var(--color-light);
 }
 
 .collaborators__members {
-  --grid-dimension: calc(var(--column-width) * 2 + var(--container-gap) * 1);
+  --grid-dimension: calc(var(--column-width) * 3 + var(--container-gap) * 2);
   display: grid;
-  grid-template-columns: repeat(5, var(--grid-dimension));
+  grid-template-columns: repeat(2, var(--grid-dimension));
   gap: var(--container-gap);
   padding-bottom: 3rem;
   border-bottom: 1px solid var(--color-line-light);
@@ -208,7 +204,7 @@ h2+p, .event__year {
   padding-bottom: 0;
 }
 
-.collaborators :first-child {
+.collaborators > :first-child {
   margin-top: 3.75rem;
 }
 
@@ -231,8 +227,12 @@ h2+p, .event__year {
   content: "";
 }
 
-.collaborators :last-child {
+.collaborators > :last-child {
   margin-bottom: 5.5rem;
+}
+
+.collaborators > p:last-child {
+  padding-bottom: 0;
 }
 
 .curators {
@@ -246,6 +246,7 @@ h2+p, .event__year {
 .curators p {
   width: 100%;
   padding: 0;
+  font-weight: var(--font-regular);
   color: var(--color-light);
 }
 
@@ -254,10 +255,10 @@ h2+p, .event__year {
 }
 
 .curators__members {
-  --grid-dimension: calc(var(--column-width) * 4 + var(--container-gap) * 4);
+  --grid-dimension: calc(var(--column-width) * 6 + var(--container-gap) * 5);
   display: grid;
-  grid-template-columns: repeat(2, var(--grid-dimension));
-  gap: calc(var(--column-width) + var(--container-gap));
+  grid-template-columns: repeat(1, var(--grid-dimension));
+  gap: var(--container-gap);
 }
 
 .curator > div {
@@ -271,8 +272,29 @@ h2+p, .event__year {
 }
 
 @media (min-width: 576px) {
+  html {
+    --timeline-padding: 3rem;
+  }
   header {
     padding: 0 calc((100% - (var(--container-width) - var(--header-padding) * 2)) / 2) 4.6rem;
+  }
+  .event p {
+    width: calc(90% - var(--timeline-padding));
+  }
+  .team__members {
+    --grid-dimension: calc(var(--column-width) * 3 + var(--container-gap) * 2);
+    grid-template-columns: repeat(2, var(--grid-dimension));
+    grid-auto-rows: calc(var(--grid-dimension) + var(--container-gap) * 2.5);
+  }
+  .member {
+    grid-column: auto;
+  }
+  .collaborators__members {
+    --grid-dimension: calc((var(--container-width) - var(--container-gap) * 3) / 4);
+    grid-template-columns: repeat(4, var(--grid-dimension));
+  }
+  .curators__members {
+    --grid-dimension: calc(var(--column-width) * 5 + var(--container-gap) * 3);
   }
 }
 
@@ -284,20 +306,80 @@ h2+p, .event__year {
   section p {
     width: 75%;
   }
+  .event p {
+    width: calc(75% - var(--timeline-padding));
+  }
+  .team__members {
+    --grid-dimension: calc(var(--column-width) * 2 + var(--container-gap) * 1 - var(--extra-padding) * 2 / 3);
+    grid-template-columns: repeat(3, var(--grid-dimension));
+    gap: var(--container-gap) calc((var(--container-width) - var(--extra-padding) * 2 - var(--grid-dimension) * 3) / 2);
+  }
+  .collaborators__members {
+    --grid-dimension: calc((var(--container-width) - var(--container-gap) * 4 - var(--extra-padding) * 2) / 5);
+    grid-template-columns: repeat(5, var(--grid-dimension));
+  }
+  .curators__members {
+    --grid-dimension: calc(var(--column-width) * 3 + var(--container-gap) * 2 - var(--extra-padding));
+    grid-template-columns: repeat(2, var(--grid-dimension));
+  }
 }
 
 @media (min-width: 992px) {
   html {
     --extra-padding: calc(var(--column-width) + var(--container-gap));
+    --timeline-padding: 4rem;
   }
   main p,
   section p {
     width: 61%;
   }
+  .event p {
+    width: calc(61% - var(--timeline-padding));
+  }
+  .team__members {
+    --grid-dimension: calc(var(--column-width) * 3 + var(--container-gap) * 2);
+  }
+  .member__name {
+    font-size: 1.25rem;
+  }
+  .collaborators__members {
+    --grid-dimension: calc(var(--column-width) * 2 + var(--container-gap) * 1);
+    grid-template-columns: repeat(5, var(--grid-dimension));
+  }
+  .curators__members {
+    --grid-dimension: calc(var(--column-width) * 4 + var(--container-gap) * 4);
+    gap: calc(var(--column-width) + var(--container-gap));
+  }
 }
 
 @media (hover: hover) and (pointer: fine) {
+  .team__members {
+    grid-auto-rows: var(--grid-dimension);
+    gap: calc((var(--container-width) - var(--extra-padding) * 2 - var(--grid-dimension) * 3) / 2);
+  }
+  .member {
+    grid-template: 1fr / 1fr;
+    border-radius: 50%;
+  }
+  .member div {
+    grid-row: 1 / -1;
+    justify-content: center;
+    padding-top: 0;
+    color: var(--color-light);
+    background-color: var(--color-main);
+    opacity: 0;
+    transition: opacity .2s;
+  }
   .member div:hover {
     opacity: 1;
+  }
+  .member img {
+    grid-row: 1 / -1;
+  }
+  .member__name {
+    width: 80%;
+  }
+  .member h5 {
+    color: var(--color-light);
   }
 }
