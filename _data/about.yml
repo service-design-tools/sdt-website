@@ -62,22 +62,8 @@ team:
 collaboratorsCurrent:
   title: Current collaborators
   description: Students, researchers and external advisors current partnering with us.
-  members:
-    - name: Test
-      role: Test
-      picture: /assets/images/uploads/laura-toffetti-grey.png
-    - name: test
-      role: test
-      picture: /assets/images/uploads/agata-brilli-grey.png
-    - name: teste
-      role: test
-      picture: /assets/images/uploads/chiara-albanesi-grey.png
-    - name: teste
-      role: test
-      picture: /assets/images/uploads/lisa-cagnin-grey.png
-collaboratorsPast:
-  - name: Test sshtra
-    role: test
+  members: []
+collaboratorsPast: []
 curators:
   - description: "**Oblo** is an hyper-specialized service design studio supporting
       people and organizations along their innovation journeys. Founded in 2017,
