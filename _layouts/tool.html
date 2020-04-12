@@ -103,21 +103,12 @@ layout: default
         </div>
         <div class="case-study__content">
             <h4>{{ case.title }}</h4>
-            <div class="case-study__metadata">
-                <div>
-                    <h5>industry</h5>
-                    <p>{{ case.industry }}</p>
-                </div>
-                <div>
-                    <h5>project</h5>
-                    <p>{{ case.project }}</p>
-                </div>
-            </div>
+            <p class="case-study__subtitle">{{ case.subtitle }}</p>
             <h5>description</h5>
             <div class="case-study__description">
                 {{ case.description | markdownify }}
             </div>
-            <h5>what was interesting</h5>
+            <h5>what is interesting</h5>
             {{ case.insights | markdownify }}
             <a href="{{ case.link }}" target="_blank" rel="noopener noreferrer" class="outside--link">Read more about this case study</a>
         </div>
