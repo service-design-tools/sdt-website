@@ -1,13 +1,12 @@
 ---
 title: A better housing repairs service
-link: 'https://unboxed.co/'
+subtitle: Demonstrate the efficiency of a system through a side-by-side comparison
+link: https://unboxed.co/
 typology: contributed from others
 tool: Success Metrics
 company:
-  link: 'https://unboxed.co/'
+  link: https://unboxed.co/
   name: Unboxed
-industry: Public Sector
-project: Software Design and Development
 description: >-
   The housing repairs service in a London council was using a number of legacy
   software solutions with over-complicated processes and unstable integrations
@@ -15,13 +14,14 @@ description: >-
   system designed around user needs that was able to significantly outperform
   their legacy system.
 
-   One of our key success metrics was an improvement in efficiency. By testing the two systems side-by-side the team was able to demonstrate that officers were able to perform certain tasks up to 35% quicker and with 75% fewer mouse-clicks on the new system.
-insights: >-
-  By creating a video of this side-by-side comparison, the team was able to
-  provide very clear evidence of success and get further buy-in from senior
+
+  One of our key success metrics was an improvement in efficiency. By testing the two systems side-by-side the team was able to demonstrate that officers were able to perform certain tasks up to 35% quicker and with 75% fewer mouse-clicks on the new system.
+insights: By creating a video of this side-by-side comparison, the team was able
+  to provide very clear evidence of success and get further buy-in from senior
   stakeholders.
 images:
   - /assets/images/uploads/e1c180dda92e-screenshot_2019_06_10_at_00.00.11.jpg
   - /assets/images/uploads/e3fd9983d2b5-screenshot_2019_06_10_at_00.00.00.jpg
+project: Software Design and Development
+industry: Public Sector
 ---
-
