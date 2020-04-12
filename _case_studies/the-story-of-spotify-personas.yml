@@ -1,22 +1,21 @@
 ---
 title: The Story of Spotify Personas
-link: 'https://spotify.design/articles/2019-03-26/the-story-of-spotify-personas/'
+subtitle: Designing a set of personas based on their listening choices and
+  device ecosystem
+link: https://spotify.design/articles/2019-03-26/the-story-of-spotify-personas/
 typology: contributed from others
 tool: Personas
 company:
-  link: 'https://www.spotify.com'
+  link: https://www.spotify.com
   name: Spotify
-industry: Entertainment
-project: Research and Innovation
-description: >-
-  Spotify, the music streaming service, wanted to have a better understanding of
-  existing and potential listeners. They needed a durable and flexible solution
-  that would work for autonomous teams, across the world and on different parts
-  of their products. To do this, they created personas. In Phase 1, they scoped
-  their analysis to US listeners due to its size and the variety of listening
-  behaviours that emerge from the way of life there – like long commutes,
-  suburban lifestyles, etc. In Phase 2, they built on the insight that
-  listeners’ device ecosystems, physical and mental abilities and other
+description: Spotify, the music streaming service, wanted to have a better
+  understanding of existing and potential listeners. They needed a durable and
+  flexible solution that would work for autonomous teams, across the world and
+  on different parts of their products. To do this, they created personas. In
+  Phase 1, they scoped their analysis to US listeners due to its size and the
+  variety of listening behaviours that emerge from the way of life there – like
+  long commutes, suburban lifestyles, etc. In Phase 2, they built on the insight
+  that listeners’ device ecosystems, physical and mental abilities and other
   contextual factors shape their listening choices. They then arbitrarily picked
   genders, names and appearances that matched the range of people interviewed.
   They reduced the representation of personas to keywords, colours, symbols and
@@ -25,13 +24,13 @@ description: >-
   pilot workshops. The goal was to integrate with their existing practices
   seamlessly. And finally they crafted a communication strategy for Personas
   that included digital assets, physical assets and workshops.
-insights: >-
-  Early in the analysis, they noticed that people’s needs or reasons for
+insights: Early in the analysis, they noticed that people’s needs or reasons for
   listening to music were consistent, even in different clusters — that is, to
   kill boredom, to feel productive, to entertain themselves and so on. But what
   was different was their attitude towards music consumption, the value they saw
   in paying for music and their behaviours around devices in different contexts.
 images:
   - /assets/images/uploads/personas_20190326092426__3544aaf7-01.jpg
+project: Research and Innovation
+industry: Entertainment
 ---
-
