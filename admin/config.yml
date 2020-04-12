@@ -135,6 +135,7 @@ collections:
     fields:
     # add a field for typology of case study: contributed or found
       - {label: "title", name: "title", widget: "string"}
+      - {label: "subtitle", name: "subtitle", widget: "string"}
       - {label: "link", name: "link", widget: "string", hint: "Must be a proper url (make sure it works)"}
       - {label: "typology", name: "typology", widget: "select", options: ["contributed from others", "written by oblo"]}
       - label: "related tool"
@@ -149,8 +150,6 @@ collections:
         fields:
           - {label: "name", name: "name", widget: "string"}
           - {label: "link", name: "link", widget: "string", hint: "Must be a proper url (make sure it works)"}
-      - {label: "industry", name: "industry", widget: "string"}
-      - {label: "project name/brief", name: "project", widget: "string"}
       - {label: "description", name: "description", widget: "markdown", hint: "Pay attention to max character limit"} 
       - {label: "what was interesting", name: "insights", widget: "markdown"}
       - label: "images"
