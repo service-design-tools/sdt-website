@@ -1,29 +1,28 @@
 ---
 title: The services offered by the Essex County Council
-link: >-
-  https://servicedesign.blog.essex.gov.uk/2019/04/30/mapping-common-service-design-patterns/
+subtitle: Build a smart database to spot recurring patterns and optimize interventions
+link: https://servicedesign.blog.essex.gov.uk/2019/04/30/mapping-common-service-design-patterns/
 typology: contributed from others
 tool: Offering Map
 company:
-  link: 'https://www.wearefuturegov.com/'
+  link: https://www.wearefuturegov.com/
   name: FutureGov
-industry: Public Sector
-project: Organisational Change
-description: >-
-  The goal of the project was to 'Identify, design and document common service
-  patterns to meet the needs of users across different transactional services
-  targeting residents (private individuals)'. We had to map all the current
-  services offered by the County Council and make the database smart enough to
-  spot recurring patterns, technologies, ... . We used Airtable to create an
-  Offering Map, that could include multiple layers of information such as: name
-  of the service, steps, patterns, role of the council, level of authentication,
-  technology platforms, data, data source, painpoints, life event.
-insights: >-
-  It's an in-depth analysis of the offer to build the most updated database of
-  services offered by the County Council. It's about using a SD tool and
-  transforming into something that the client will be able to use afterwards.
+description: "The goal of the project was to 'Identify, design and document
+  common service patterns to meet the needs of users across different
+  transactional services targeting residents (private individuals)'. We had to
+  map all the current services offered by the County Council and make the
+  database smart enough to spot recurring patterns, technologies, ... . We used
+  Airtable to create an Offering Map, that could include multiple layers of
+  information such as: name of the service, steps, patterns, role of the
+  council, level of authentication, technology platforms, data, data source,
+  painpoints, life event."
+insights: It's an in-depth analysis of the offer to build the most updated
+  database of services offered by the County Council. It's about using a SD tool
+  and transforming into something that the client will be able to use
+  afterwards.
 images:
   - /assets/images/uploads/FG+ECC_team_working.png
   - /assets/images/uploads/cs_essex_1.png
+project: Organisational Change
+industry: Public Sector
 ---
-
