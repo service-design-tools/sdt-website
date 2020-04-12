@@ -1,13 +1,13 @@
 ---
 title: Experience Principles to keep each other honest at Deliveroo
-link: 'https://medium.com/deliveroo-design/go-out-and-empathise-2dc7758bb57b'
+subtitle: How to socialise and use a shared set of experience principles within
+  a large company
+link: https://medium.com/deliveroo-design/go-out-and-empathise-2dc7758bb57b
 typology: written by oblo
 tool: Experience Principles
 company:
-  link: 'https://www.deliveroo.design/'
+  link: https://www.deliveroo.design/
   name: Deliveroo Design
-industry: Food & Beverage
-project: Organisational Change
 description: >-
   Deliveroo, the food delivery app, wanted design thinking to permeate into the
   company culture. To align themselves and educate those around, they created
@@ -16,27 +16,20 @@ description: >-
   were two-fold:
 
 
-  * Have better discussions about the quality of our output, and easily bring
-  new joiners to the same shared conversations.
+  * Have better discussions about the quality of our output, and easily bring new joiners to the same shared conversations.
 
-  * Introduce conversations about user needs, scalable design and things we care
-  about to the product teams and wider organisation.
+  * Introduce conversations about user needs, scalable design and things we care about to the product teams and wider organisation.
 
 
-  They came up with four principles, an easy number to remember. They were
-  about- designing for the future; keeping user needs at the centre; going out
-  and empathising; focusing energy. Below these were team and discipline
-  specific principles, focused more on single user groups and execution. Teams
-  could add and use those as they wished, but these four were enough for the
-  business as a whole to get on board with what they’re up to and how they
-  think.
-insights: >-
-  What was interesting was that what they ended up with, they were confident
-  they were already doing in some capacity — but in articulating them they could
-  double down on them.  These things aren’t always obvious to everyone. The
-  people in a product team may read them and see them as no-brainers, but by
-  being first principles-based and general, they could educate others too.
+  They came up with four principles, an easy number to remember. They were about- designing for the future; keeping user needs at the centre; going out and empathising; focusing energy. Below these were team and discipline specific principles, focused more on single user groups and execution. Teams could add and use those as they wished, but these four were enough for the business as a whole to get on board with what they’re up to and how they think.
+insights: What was interesting was that what they ended up with, they were
+  confident they were already doing in some capacity — but in articulating them
+  they could double down on them.  These things aren’t always obvious to
+  everyone. The people in a product team may read them and see them as
+  no-brainers, but by being first principles-based and general, they could
+  educate others too.
 images:
   - /assets/images/uploads/cs_deliveroo.jpeg
+project: Organisational Change
+industry: Food & Beverage
 ---
-
