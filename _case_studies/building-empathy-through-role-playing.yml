@@ -1,27 +1,25 @@
 ---
 title: Building empathy through role playing
-link: 'https://www.servicedesignlab.net/empathy-workshop'
+subtitle: How to see the world through the eyes of elderly residents in nursing homes
+link: https://www.servicedesignlab.net/empathy-workshop
 typology: contributed from others
 tool: Role Playing
 company:
-  link: 'https://www.servicedesignlab.net/'
-  name: 'National University of Singapore, Service Design Lab'
-industry: Education
-project: Research and Innovation
-description: >-
-  Empathy is essential to the design process. It helps us see the world through
-  the eyes of the people we are designing for, to understand their reality and
-  uncover their latent needs. But how do we empathise with our users when we are
-  not physically immersed in their life context? That’s where empathy workshops
-  can come in. The Service Design LAB conducted a empathy workshop using
-  role-playing with their students ofHuman Centred Design, in order to get them
-  immersed in the challenges faced by elderly residents in nursing homes.
-  Students were given a short introduction and provided a set of personas and
-  scenarios. Using props to set the scene and get into character, students
-  interpreted the scenarios, embodying the elderly resident’s experiences.
-insights: >-
-  Based on given scenarios and personas, the students re-enact the scene where
-  the essence of user's experiences and structural problems is manifested.
+  link: https://www.servicedesignlab.net/
+  name: National University of Singapore, Service Design Lab
+description: Empathy is essential to the design process. It helps us see the
+  world through the eyes of the people we are designing for, to understand their
+  reality and uncover their latent needs. But how do we empathise with our users
+  when we are not physically immersed in their life context? That’s where
+  empathy workshops can come in. The Service Design LAB conducted a empathy
+  workshop using role-playing with their students ofHuman Centred Design, in
+  order to get them immersed in the challenges faced by elderly residents in
+  nursing homes. Students were given a short introduction and provided a set of
+  personas and scenarios. Using props to set the scene and get into character,
+  students interpreted the scenarios, embodying the elderly resident’s
+  experiences.
+insights: Based on given scenarios and personas, the students re-enact the scene
+  where the essence of user's experiences and structural problems is manifested.
   Through role-playing, they gain an immersive learning of the actual
   experiences of users. Role-playing other stakeholders in the service scene
   (e.g. care staff, family members) allow students to understand social
@@ -29,5 +27,6 @@ insights: >-
 images:
   - /assets/images/uploads/fd7d4ae5dc8a-acting_with_props.jpg
   - /assets/images/uploads/8378bf51fda4-role_playing_with_props.jpg
+project: Research and Innovation
+industry: Education
 ---
-
