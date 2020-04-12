@@ -1,33 +1,31 @@
 ---
 title: An ecosystem map to better understand fire safety in informal settlements
-link: >-
-  https://www.slideshare.net/robertatassi/for-us-by-us-market-creation-through-community-engagement
+subtitle: Visualise all the services and actors involved in the fire prevention
+  and intervention and be able to compare different context
+link: https://www.slideshare.net/robertatassi/for-us-by-us-market-creation-through-community-engagement
 typology: contributed from others
 tool: Ecosystem Map
 company:
-  link: 'https://www.frogdesign.com/'
+  link: https://www.frogdesign.com/
   name: frog
-industry: Social Impact
-project: Research and Innovation
-description: >-
-  frog has been working with American Red Cross and other partner organizations
-  in order to design and develop prevention solutions to the dangereous fire
-  break-outs that often destroy entire informal settlements. In the initial
-  phases of the project, the team engaged several local stakeholders in two
-  cities (Nairobi and Cape Town) with the goal of understanding all the local
-  services and actors involved in the fire prevention and intervention. The
-  activity started with a rough paper-based diagram build during co-design
+description: frog has been working with American Red Cross and other partner
+  organizations in order to design and develop prevention solutions to the
+  dangereous fire break-outs that often destroy entire informal settlements. In
+  the initial phases of the project, the team engaged several local stakeholders
+  in two cities (Nairobi and Cape Town) with the goal of understanding all the
+  local services and actors involved in the fire prevention and intervention.
+  The activity started with a rough paper-based diagram build during co-design
   sessions, and ended up in a consolidated framework, describing the spectrum of
   services sorrounding the individual dwellers and their communities. The map
   allowed to identify the actors involved in the emergency, and the related flow
   of information and communication, highlighting gaps and interruptions.
-insights: >-
-  By keeping the same structure to look at the fire-safety ecosystems in
+insights: By keeping the same structure to look at the fire-safety ecosystems in
   different places (e.g. Nairobi, Kenya vs Cape Town, South Africa), the maps
   immediately clarify similarities and specificities. This helps planning
   programs and designing modular solutions, that could adapt and scale across
   different geographies.
 images:
   - /assets/images/uploads/fire-club_ecosystem.png
+project: Research and Innovation
+industry: Social Impact
 ---
-
