@@ -66,7 +66,7 @@ collaboratorsCurrent:
   title: Current collaborators
   description: Students, researchers and external advisors current partnering with us.
   members:
-    - picture: /assets/images/uploads/andrea-pastor.jpg
+    - picture: /assets/images/uploads/andrea_pastor.jpg
       name: Andrea Pastor
       role: Circular economy
     - picture: /assets/images/uploads/asif-muhammad.jpg
