@@ -182,7 +182,7 @@ h2+p, .event__year {
 }
 
 .member--collaborator img {
-  border-radius: 1.25rem;
+  border-radius: 50%;
   width: 100%;
 }
 
@@ -195,6 +195,7 @@ h2+p, .event__year {
 .member--collaborator h5 {
   padding: 0;
   border: none;
+  font-size: .65rem;
   color: var(--color-dark);
   opacity: .6;
 }
