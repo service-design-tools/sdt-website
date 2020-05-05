@@ -65,7 +65,55 @@ team:
 collaboratorsCurrent:
   title: Current collaborators
   description: Students, researchers and external advisors current partnering with us.
-  members: []
+  members:
+    - picture: /assets/images/uploads/andrea-pastor.jpg
+      name: Andrea Pastor
+      role: Circular economy
+    - picture: /assets/images/uploads/asif-muhammad.jpg
+      name: Asif Muhammad
+      role: Circular economy
+    - picture: /assets/images/uploads/elena-colombo.jpg
+      name: Elena Colombo
+      role: Healthcare
+    - picture: /assets/images/uploads/elisa-palmieri.jpg
+      name: Elisa Palmieri
+      role: Artificial Intelligence
+    - picture: /assets/images/uploads/eugenia-bifulco.jpg
+      name: Eugenia Bifulco
+      role: Artificial Intelligence
+    - picture: /assets/images/uploads/federico-dal-f.jpg
+      name: Federico Dal Fò
+      role: Healthcare
+    - picture: /assets/images/uploads/gabriel-benavides.jpg
+      name: Gabriel Benavides
+      role: Circular economy
+    - picture: /assets/images/uploads/karthik-rao.jpg
+      name: Karthik Rao
+      role: Circular economy
+    - picture: /assets/images/uploads/klong-swegwan.jpg
+      name: Klong Swegwan
+      role: Data privacy
+    - picture: /assets/images/uploads/mariana-escalante.jpg
+      name: Mariana Escalante
+      role: Artificial Intelligence
+    - picture: /assets/images/uploads/nare-krmoyan.jpg
+      name: Nare Krmoyan
+      role: Data privacy
+    - picture: /assets/images/uploads/pranjali-pachpute.jpg
+      name: Pranjali Pachpute
+      role: Data privacy
+    - picture: /assets/images/uploads/renae-elkassih.jpg
+      name: Renae Elkassih
+      role: Artificial Intelligence
+    - picture: /assets/images/uploads/stacey-lin.jpg
+      name: Stacey Lin
+      role: Healthcare
+    - picture: /assets/images/uploads/xinwei-tao.jpg
+      name: Xinwei Tao
+      role: Data privacy
+    - picture: /assets/images/uploads/zeynep-sayar.jpg
+      name: Zeynep Sayar
+      role: Healthcare
 collaboratorsPast: []
 curators:
   - description: "**Oblo** is an hyper-specialized service design studio supporting
