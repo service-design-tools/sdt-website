@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: service-design-tools/sdt-website
-  branch: development
+  branch: master
 
 media_folder: "assets/images/uploads"
 
