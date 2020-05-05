@@ -69,49 +69,49 @@ collaboratorsCurrent:
     - picture: /assets/images/uploads/andrea_pastor.jpg
       name: Andrea Pastor
       role: Circular economy
-    - picture: /assets/images/uploads/asif-muhammad.jpg
+    - picture: /assets/images/uploads/asif_muhammad.jpg
       name: Asif Muhammad
       role: Circular economy
-    - picture: /assets/images/uploads/elena-colombo.jpg
+    - picture: /assets/images/uploads/elena_colombo.jpg
       name: Elena Colombo
       role: Healthcare
-    - picture: /assets/images/uploads/elisa-palmieri.jpg
+    - picture: /assets/images/uploads/elisa_palmieri.jpg
       name: Elisa Palmieri
       role: Artificial Intelligence
-    - picture: /assets/images/uploads/eugenia-bifulco.jpg
+    - picture: /assets/images/uploads/eugenia_bifulco.jpg
       name: Eugenia Bifulco
       role: Artificial Intelligence
-    - picture: /assets/images/uploads/federico-dal-f.jpg
+    - picture: /assets/images/uploads/federico_dal-f.jpg
       name: Federico Dal Fò
       role: Healthcare
-    - picture: /assets/images/uploads/gabriel-benavides.jpg
+    - picture: /assets/images/uploads/gabriel_benavides.jpg
       name: Gabriel Benavides
       role: Circular economy
-    - picture: /assets/images/uploads/karthik-rao.jpg
+    - picture: /assets/images/uploads/karthik_rao.jpg
       name: Karthik Rao
       role: Circular economy
-    - picture: /assets/images/uploads/klong-swegwan.jpg
+    - picture: /assets/images/uploads/klong_swegwan.jpg
       name: Klong Swegwan
       role: Data privacy
-    - picture: /assets/images/uploads/mariana-escalante.jpg
+    - picture: /assets/images/uploads/mariana_escalante.jpg
       name: Mariana Escalante
       role: Artificial Intelligence
-    - picture: /assets/images/uploads/nare-krmoyan.jpg
+    - picture: /assets/images/uploads/nare_krmoyan.jpg
       name: Nare Krmoyan
       role: Data privacy
-    - picture: /assets/images/uploads/pranjali-pachpute.jpg
+    - picture: /assets/images/uploads/pranjali_pachpute.jpg
       name: Pranjali Pachpute
       role: Data privacy
-    - picture: /assets/images/uploads/renae-elkassih.jpg
+    - picture: /assets/images/uploads/renae_elkassih.jpg
       name: Renae Elkassih
       role: Artificial Intelligence
-    - picture: /assets/images/uploads/stacey-lin.jpg
+    - picture: /assets/images/uploads/stacey_lin.jpg
       name: Stacey Lin
       role: Healthcare
-    - picture: /assets/images/uploads/xinwei-tao.jpg
+    - picture: /assets/images/uploads/xinwei_tao.jpg
       name: Xinwei Tao
       role: Data privacy
-    - picture: /assets/images/uploads/zeynep-sayar.jpg
+    - picture: /assets/images/uploads/zeynep_sayar.jpg
       name: Zeynep Sayar
       role: Healthcare
 collaboratorsPast: []
