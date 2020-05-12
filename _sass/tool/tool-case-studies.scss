@@ -82,7 +82,7 @@ body.modal--open {
 }
 
 .case-study__subtitle {
-    margin-top: 1.4rem;
+    margin-top: .4rem;
     font-size: 1.2rem;
 }
 
@@ -271,7 +271,7 @@ body.modal--open {
         width: calc(var(--column-width) * 4 + var(--container-gap) * 4);
     }
     .case-study__content {
-        width: calc(var(--column-width) * 8 + var(--container-gap) * 7);
+        width: calc(var(--column-width) * 7.5 + var(--container-gap) * 7);
     }
     .case--reduced .case-study__content {
         height: 283px;
