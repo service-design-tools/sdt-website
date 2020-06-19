@@ -16,7 +16,7 @@ properties:
     - Stakeholders
     - Service Staff
     - Users
-synonyms: Challenge Cards, Trigger Cards, Card Sorting
+synonyms: Challenge Cards, Trigger Cards
 icon: >
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
   viewBox="0 0 119.1 126.1" xml:space="preserve">
@@ -43,8 +43,6 @@ reminder: Keep the content of the cards clear and simple, reducing the risk of
   bias and misinterpretations.
 template: {}
 references:
-  - name: (2009) Donna Spencer, Card Sorting. Designing Usable Categories, Rosenfeld
-      Media.
   - link: https://www.thisisservicedesigndoing.com/
     name: " (2008)M Stickdorn, ME Hormess, A Lawrence, J Schneider. This is service
       design doing: Applying service design thinking in the real world,
