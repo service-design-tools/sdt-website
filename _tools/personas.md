@@ -44,8 +44,7 @@ related:
     - User Scenarios
     - User Stories
     - Journey Map
-  tutorials:
-    - How to improve an existing service experience?
+  tutorials: []
 use: Remember who you design for and get inspired by their specific life and
   challenges.
 reminder: "Avoid enriching their descriptions with details that are not relevant
@@ -54,22 +53,7 @@ template:
   file: /assets/images/uploads/personas_template.pdf
   image: /assets/images/uploads/personas-preview.jpg
 poster: /assets/images/uploads/personas_poster.pdf
-guidelines:
-  - step: Find a representative portrait (photo, sketch or image) to represent the
-      profile.
-    warning: Prefer picture taken during the field research to increase
-      authenticity. If is not possibile, select carefully the picture avoiding
-      to fall into stereotype (gender, age, ethnicity etc.).
-  - step: Assign a name to each personas and write a meaningful adjective that
-      highlights his/her attitude. Finally, add a quote that summarizes your
-      persona's attitude in one sentence.
-  - step: Describe briefly personality, interests and skills of the profile you are
-      drafting by including details that are important in that particular
-      context. Highlight his/her needs, goals and obstacles that prevent him/her
-      from reaching his/her purposes.
-    warning: Use the obstacles and frustrations as a starting point to generate ideas.
-  - step: Once you have identified the persona's painpoints, start to list a series
-      of opportunities.
+guidelines: []
 references:
   - name: (1998) Alan Cooper, The Inmates Are Running the Asylum, Sams.
   - name: "(2009) Frank Long, Real or Imaginary: The effectiveness of using personas
