@@ -27,15 +27,9 @@ header {
 }
 
 .tutorial__number {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .tutorial__number p {
@@ -107,9 +101,7 @@ header .dotgrid .svg--filled-support {
         margin-left: 2rem;
     }
     .tutorial__number {
-        -webkit-box-pack: normal;
-            -ms-flex-pack: normal;
-                justify-content: normal;
+        justify-content: normal;
     }
     .header__content h1 {
         padding: 0;

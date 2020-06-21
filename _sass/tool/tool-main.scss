@@ -1,13 +1,8 @@
 main {
     width: var(--container-width);
     margin: 3rem auto 1rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    flex-direction: column-reverse;
 }
 
 .related__content {
@@ -32,12 +27,8 @@ main {
     width: 210px;
     padding: 1.125rem;
     margin: 1.5rem 0 2.5rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
 }
 
 .related__tutorial {
@@ -106,16 +97,9 @@ main {
 .download__links {
     margin: 2rem 0 3.75rem;
     text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .download__links svg {
@@ -208,13 +192,8 @@ main {
 
 @media (min-width: 768px) {
     main {
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        flex-direction: row;
+        justify-content: space-between;
         margin: 3rem auto 5rem;
     }
     .guidelines .guideline__text > p {
@@ -262,8 +241,6 @@ main {
     }
     .additional__content {
         padding: 1.6rem 0;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         border-top: 0.5px solid var(--color-line-light);
         border-bottom: 0.5px solid var(--color-line-light);
@@ -291,7 +268,6 @@ main {
 @media (hover: hover) and (pointer: fine) {
     .related__tool svg .svg--filled-main {
         opacity: 0;
-        -webkit-transition: opacity 0.5s;
         transition: opacity 0.5s;
     }
     .related__tool:hover svg .svg--filled-main {
@@ -299,7 +275,6 @@ main {
     }
     .related__tool svg .svg--bw {
         opacity: 1;
-        -webkit-transition: opacity 0.5s;
         transition: opacity 0.5s;
     }
     .related__tool:hover svg .svg--bw {

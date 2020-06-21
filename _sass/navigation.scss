@@ -2,12 +2,8 @@ nav {
     width: var(--container-width);
     padding: 1.8rem calc((100% - var(--container-width)) / 2);
     max-height: 60px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
 }
 
 .logo__link {
@@ -22,19 +18,15 @@ nav {
 
 .logo path {
     fill: var(--color-black);
-    -webkit-transition: fill 0.3s 0.2s;
     transition: fill 0.3s 0.2s;
 }
 
 .menu--open nav .logo path {
     fill: var(--color-light);
-    -webkit-transition: fill 0.3s;
     transition: fill 0.3s;
 }
 
 nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: absolute;
     top: 0;
@@ -42,19 +34,11 @@ nav ul {
     width: 100%;
     height: 0;
     background-color: var(--color-dark);
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     z-index: 9;
     overflow-y: hidden;
-    -webkit-transition: height 0.5s ease;
     transition: height 0.5s ease;
 }
 
@@ -116,49 +100,29 @@ nav .btn--action {
 }
 
 .burger__line:not(.line--center) {
-    -webkit-transform: scaleX(1);
-            transform: scaleX(1);
-    -webkit-transition: background-color 0.3s 0.2s, -webkit-transform 0.3s 0.2s;
-    transition: background-color 0.3s 0.2s, -webkit-transform 0.3s 0.2s;
+    transform: scaleX(1);
     transition: transform 0.3s 0.2s, background-color 0.3s 0.2s;
-    transition: transform 0.3s 0.2s, background-color 0.3s 0.2s, -webkit-transform 0.3s 0.2s;
 }
 
 .menu--open .burger__line:not(.line--center) {
-    -webkit-transform: scaleX(0);
-            transform: scaleX(0);
-    -webkit-transition: background-color 0.3s, -webkit-transform 0.3s;
-    transition: background-color 0.3s, -webkit-transform 0.3s;
+    transform: scaleX(0);
     transition: transform 0.3s, background-color 0.3s;
-    transition: transform 0.3s, background-color 0.3s, -webkit-transform 0.3s;
 }
 
 .burger__line.line--center {
     grid-row: 2 / span 1;
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-    -webkit-transition: background-color 0.3s 0.2s, -webkit-transform 0.3s;
-    transition: background-color 0.3s 0.2s, -webkit-transform 0.3s;
+    transform: rotate(0deg);
     transition: transform 0.3s, background-color 0.3s 0.2s;
-    transition: transform 0.3s, background-color 0.3s 0.2s, -webkit-transform 0.3s;
 }
 
 .menu--open .line--center:nth-child(2) {
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-    -webkit-transition: background-color 0.3s, -webkit-transform 0.3s 0.1s;
-    transition: background-color 0.3s, -webkit-transform 0.3s 0.1s;
+    transform: rotate(45deg);
     transition: transform 0.3s 0.1s, background-color 0.3s;
-    transition: transform 0.3s 0.1s, background-color 0.3s, -webkit-transform 0.3s 0.1s;
 }
 
 .menu--open .line--center:nth-child(3) {
-    -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-    -webkit-transition: background-color 0.3s, -webkit-transform 0.3s 0.1s;
-    transition: background-color 0.3s, -webkit-transform 0.3s 0.1s;
+    transform: rotate(-45deg);
     transition: transform 0.3s 0.1s, background-color 0.3s;
-    transition: transform 0.3s 0.1s, background-color 0.3s, -webkit-transform 0.3s 0.1s;
 }
 
 @media (min-width: 768px) {
@@ -167,19 +131,11 @@ nav .btn--action {
         width: initial;
         height: initial;
         background-color: transparent;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
-        -webkit-box-align: normal;
-            -ms-flex-align: normal;
-                align-items: normal;
-        -webkit-box-pack: normal;
-            -ms-flex-pack: normal;
-                justify-content: normal;
+        flex-direction: row;
+        align-items: normal;
+        justify-content: normal;
         z-index: 9;
         overflow-y: initial;
-        -webkit-transition: none;
         transition: none;
     }
     nav li {
