@@ -5,7 +5,11 @@ layout: default
 {% assign hasPoster = page.poster %}
 {% assign referencesNumber = page.references | size %}
 {% assign relatedToolsNumber = page.related.tools | size %}
+{% assign relatedTutsNumber = page.related.tutorials | size %}
 {% assign tipsNumber = page.related.tips | size %}
+{% assign guidelinesNumber = page.guidelines | size %}
+{% assign caseStudies = site.case_studies | where_exp:"case", "case.tool contains page.title" %}
+{% assign caseStudiesNumber = caseStudies | size %}
 <header>
     <div class="header__icon">
         {{ page.icon }}
@@ -43,6 +47,17 @@ layout: default
         </a>
         {% endfor %}
         {% endif %}
+        {% if relatedTutsNumber > 0 %}
+        <h5>tutorials</h5>
+        {% for tutorial in page.related.tutorials %}
+        {% assign match = site.tutorials | where:"title", tutorial %}
+        <a href="{{ match[0].url }}">
+            <div class="related__tutorial card">
+                <p>{{ tutorial }}</p>
+            </div>
+        </a>
+        {% endfor %}
+        {% endif %}
         {% if tipsNumber > 0 %}
         <h5>#oblotips</h5>
         {% for tip in page.related.tips %}
@@ -73,6 +88,29 @@ layout: default
             {% endif %}
         </div>
         {% endif %}
+        {% if guidelinesNumber > 0 %}
+        <div class="guidelines">
+            <h3>step by step guidelines</h3>
+            {% for guideline in page.guidelines %}
+            <div class="guideline__step">
+                {% if forloop.index < 10 %}
+                <p class="guideline__index">0{{ forloop.index }}</p>
+                {% else %}
+                <p class="guideline__index">{{ forloop.index }}</p>
+                {% endif %}
+                <div class="guideline__text">
+                    {{ guideline.step | markdownify }}
+                    {% if guideline.warning %}
+                    <div class="guideline__attention">
+                        {% include svgs/warning.html %}
+                        {{ guideline.warning | markdownify }}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
         {% if referencesNumber > 0 %}
         <div class="references">
             <h3>references</h3>
@@ -87,8 +125,6 @@ layout: default
         {% endif %}
     </div>
 </main>
-{% assign caseStudies = site.case_studies | where_exp:"case", "case.tool contains page.title" %}
-{% assign caseStudiesNumber = caseStudies | size %}
 {% if caseStudiesNumber > 0 %}
 <section class="case-studies__container">
     <h3>case studies</h3>

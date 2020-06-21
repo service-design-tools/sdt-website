@@ -93,7 +93,7 @@ collections:
           - {label: "image", name: "image", widget: "image", hint: "Preview image on website", required: false}
           - {label: "file", name: "file", widget: "file", hint: "File that will be downloaded", required: false}
       - {label: "poster", name: "poster", widget: "file", required: false}
-      - label: "how to use guidelines"
+      - label: "how to use steps"
         name: "guidelines"
         widget: "list"
         required: false

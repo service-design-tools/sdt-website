@@ -27,7 +27,8 @@ main {
     height: 0.75rem;
 }
 
-.related__tool {
+.related__tool,
+.related__tutorial {
     width: 210px;
     padding: 1.125rem;
     margin: 1.5rem 0 2.5rem;
@@ -39,17 +40,31 @@ main {
             align-items: center;
 }
 
+.related__tutorial {
+    width: 234px;
+    padding: .375rem;
+}
+
 .related__tool svg {
     height: 46px;
     margin-left: 0.75rem;
 }
 
-.related__tool p {
-    width: 50%;
+.related__tool p,
+.related__tutorial p {
     font-size: 0.8rem;
     font-weight: var(--font-medium);
     text-transform: uppercase;
+}
+
+.related__tool p {
+    width: 50%;
     margin-left: 1.4rem;
+}
+
+.related__tutorial p {
+    padding: .875rem;
+    border: 2px solid var(--color-main);
 }
 
 .main__content {
@@ -114,6 +129,45 @@ main {
     margin-top: 1.25rem;
 }
 
+.guidelines {
+    margin-bottom: 3.75rem;
+}
+
+.guideline__step {
+    margin-bottom: 2.5rem;
+}
+
+.guidelines .guideline__index {
+    margin-right: var(--container-gap);
+    margin-bottom: .625rem;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: var(--color-main);
+}
+
+.guidelines .guideline__text > p {
+    width: calc(var(--column-width) * 6 + var(--container-gap) * 5);
+    font-size: 1rem;
+}
+
+.guideline__attention {
+    background-color: rgba(0, 210, 230, .1);
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem;
+    margin-top: 1.4rem;
+}
+
+.guideline__attention svg {
+    width: 22px;
+    margin: .3rem 1rem 0 0;
+}
+
+.guidelines .guideline__attention p {
+    font-size: .875rem;
+    width: 80%;
+}
+
 .references {
     padding-top: 1rem;
 }
@@ -135,6 +189,20 @@ main {
     .additional__content p {
         width: 60%;
     }
+    .guideline__step {
+        display: flex;
+    }
+    .guidelines .guideline__index {
+        margin-bottom: 0;
+    }
+    .guidelines .guideline__text > p {
+        width: calc(var(--column-width) * 5 + var(--container-gap) * 4);
+        font-size: 1.2rem;
+    }
+    .guidelines .guideline__attention p {
+        font-size: 1rem;
+        width: 98%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -148,11 +216,17 @@ main {
                 justify-content: space-between;
         margin: 3rem auto 5rem;
     }
+    .guidelines .guideline__text > p {
+        width: calc(var(--column-width) * 3 + var(--container-gap) * 3);
+    }
     .related__content {
         margin-top: 0;
     }
     .related__tool {
         width: calc(var(--column-width) * 2 + var(--container-gap) * 1 - 1.125rem * 2);
+    }
+    .related__tutorial {
+        width: calc(var(--column-width) * 2 + var(--container-gap) * 1 - .375rem * 2);
     }
     .main__content {
         width: calc(var(--column-width) * 4 + var(--container-gap) * 3);
@@ -163,12 +237,24 @@ main {
     .related__tool {
         width: 210px;
     }
+    .related__tutorial {
+        width: 234px;
+    }
     .main__content {
         width: calc(var(--column-width) * 8 + var(--container-gap) * 7);
     }
     .main__content p {
         width: 98%;
         font-size: 1.25rem;
+    }
+    .guidelines .guideline__index {
+        width: var(--column-width);
+    }
+    .guidelines .guideline__text > p {
+        width: calc(var(--column-width) * 6 + var(--container-gap) * 5);
+    }
+    .guidelines .guideline__attention p {
+        width: calc(var(--column-width) * 4 + var(--container-gap) * 5);
     }
     .references p {
         font-size: 1rem;
