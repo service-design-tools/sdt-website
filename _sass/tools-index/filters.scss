@@ -140,6 +140,10 @@
     transition: height 0.4s ease-out;
 }
 
+.filter__content.container--when {
+    height: 20.4rem;
+}
+
 .filter__title.closed + .filter__content {
     height: 1.2px;
 }
@@ -274,6 +278,9 @@
         overflow-y: auto;
         height: initial;
         transition: none;
+    }
+    .filter__content.container--when {
+        height: initial;
     }
     .filter__title.closed + .filter__content {
         height: initial;

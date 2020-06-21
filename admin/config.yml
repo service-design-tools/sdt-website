@@ -28,7 +28,7 @@ collections:
             name: "when"
             widget: "select"
             multiple: true
-            options: ["Ideation", "Implementation", "Prototyping", "Research"]
+            options: ["Evaluation", "Ideation", "Implementation", "Prototyping", "Research"]
           - label: "who"
             name: "who"
             widget: "select"

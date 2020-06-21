@@ -19,6 +19,11 @@ const filterValues = {
         "checked": false,
         "order": 3
     },
+    "evaluation": {
+        "type": "when",
+        "checked": false,
+        "order": 4
+    },
     "experts": {
         "type": "who",
         "checked": false

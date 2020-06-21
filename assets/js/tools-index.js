@@ -4,7 +4,8 @@ import {filterValues, sorting, questions} from "/assets/js/globals.js";
     let state;
     const filtersCache = localStorage.getItem('filtersCache');
     const sortingCache = localStorage.getItem('sortingCache');
-    let sessionFilters = history.state ? history.state.filters : filtersCache === null ? filterValues : JSON.parse(filtersCache);
+    // "&& history.state.filters.evaluation" is an additional check to avoid breaking site for people that used it before the introduction of the "evaluation" filter. It shall be removed in the future
+    let sessionFilters = history.state && history.state.filters.evaluation ? history.state.filters : filtersCache === null ? filterValues : JSON.parse(filtersCache);
     let sessionSorting = history.state ? history.state.sorting : sortingCache === null ? sorting : sortingCache;
     updateState(!history.state);
     updateCache();
