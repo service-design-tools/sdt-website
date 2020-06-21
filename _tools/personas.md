@@ -1,8 +1,7 @@
 ---
 title: Personas
-subtitle: >-
-  Narrate the different types of users, based on clusters of behaviours and
-  needs.
+subtitle: Narrate the different types of users, based on clusters of behaviours
+  and needs.
 properties:
   how:
     - Narrative
@@ -13,7 +12,7 @@ properties:
   who:
     - Experts
     - Stakeholders
-synonyms: 'Human Archetypes, Behavioural Archetypes, User Profiles'
+synonyms: Human Archetypes, Behavioural Archetypes, User Profiles
 icon: >
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
   viewBox="0 0 102.4 126.5" xml:space="preserve">
@@ -45,25 +44,39 @@ related:
     - User Scenarios
     - User Stories
     - Journey Map
-use: >-
-  Remember who you design for and get inspired by their specific life and
+  tutorials:
+    - How to improve an existing service experience?
+use: Remember who you design for and get inspired by their specific life and
   challenges.
-reminder: >-
-  Avoid enriching their descriptions with details that are not relevant in that
-  context: they could be misleading.
+reminder: "Avoid enriching their descriptions with details that are not relevant
+  in that context: they could be misleading."
 template:
   file: /assets/images/uploads/personas_template.pdf
   image: /assets/images/uploads/personas-preview.jpg
 poster: /assets/images/uploads/personas_poster.pdf
+guidelines:
+  - step: Find a representative portrait (photo, sketch or image) to represent the
+      profile.
+    warning: Prefer picture taken during the field research to increase
+      authenticity. If is not possibile, select carefully the picture avoiding
+      to fall into stereotype (gender, age, ethnicity etc.).
+  - step: Assign a name to each personas and write a meaningful adjective that
+      highlights his/her attitude. Finally, add a quote that summarizes your
+      persona's attitude in one sentence.
+  - step: Describe briefly personality, interests and skills of the profile you are
+      drafting by including details that are important in that particular
+      context. Highlight his/her needs, goals and obstacles that prevent him/her
+      from reaching his/her purposes.
+    warning: Use the obstacles and frustrations as a starting point to generate ideas.
+  - step: Once you have identified the persona's painpoints, start to list a series
+      of opportunities.
 references:
-  - name: '(1998) Alan Cooper, The Inmates Are Running the Asylum, Sams.'
-  - name: >-
-      (2009) Frank Long, Real or Imaginary: The effectiveness of using personas
+  - name: (1998) Alan Cooper, The Inmates Are Running the Asylum, Sams.
+  - name: "(2009) Frank Long, Real or Imaginary: The effectiveness of using personas
       in product design, research paper published in the Irish Ergonomics
-      Review, Proceedings of the IES Conference 2009, Dublin
-  - name: >-
-      (2009) Kim Goodwin, Designing for the Digital Age: How to Create
-      Human-centered Products and Services, John Wiley & Sons.
+      Review, Proceedings of the IES Conference 2009, Dublin"
+  - name: "(2009) Kim Goodwin, Designing for the Digital Age: How to Create
+      Human-centered Products and Services, John Wiley & Sons."
 socialimage: /assets/images/uploads/personas-social-img.png
 ---
 Each persona is a reference model representative of a specific type of users.Technically, they can be called behavioural archetypes when they focus on capturing the different behaviors (e.g. "the conscious chooser") without expressing a defined personality or socio-demographics. The more the archetypes assume a realistic feeling (e.g. name, age, household composition, etc.), the more they become real personas, fully expressing the needs, desires, habits and cultural backgrounds of specific groups of users.
