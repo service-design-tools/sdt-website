@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: service-design-tools/sdt-website
-  branch: master
+  branch: development
 
 media_folder: "assets/images/uploads"
 
@@ -62,6 +62,18 @@ collections:
               collection: "tools"
               searchFields: ["title", "properties.when", "properties.who", "properties.what", "properties.how"]
               valueField: "title"
+          - label: "tutorials"
+            name: "tutorials"
+            widget: "list"
+            required: false
+            hint: "Before publishing, remove any entry that might have been left empty"
+            field:
+              label: "tutorial name"
+              name: "tutorial"
+              widget: "relation"
+              collection: "tutorials"
+              searchFields: ["title"]
+              valueField: "title"
           - label: "oblotips"
             name: "tips"
             widget: "list"
@@ -81,6 +93,14 @@ collections:
           - {label: "image", name: "image", widget: "image", hint: "Preview image on website", required: false}
           - {label: "file", name: "file", widget: "file", hint: "File that will be downloaded", required: false}
       - {label: "poster", name: "poster", widget: "file", required: false}
+      - label: "how to use guidelines"
+        name: "guidelines"
+        widget: "list"
+        required: false
+        hint: "Before publishing, remove any entry that might have been left empty"
+        fields:
+          - {label: "step text", name: "step", widget: "markdown"}
+          - {label: "pay attention text", name: "warning", widget: "markdown", required: false}
       - label: "references"
         name: "references"
         widget: "list"
