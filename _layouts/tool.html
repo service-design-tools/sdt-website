@@ -110,7 +110,9 @@ layout: default
             </div>
             <h5>what is interesting</h5>
             {{ case.insights | markdownify }}
+            {% if case.link %}
             <a href="{{ case.link }}" target="_blank" rel="noopener noreferrer" class="outside--link">Read more about this case study</a>
+            {% endif %}
         </div>
         <p class="btn--view-more">View more</p>
     </div>
