@@ -77,6 +77,6 @@ references:
     link: https://www.usability.gov/how-to-and-tools/methods/card-sorting.html
   - name: www.interaction-design.org
     link: https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/card-sorting
-socialimage: /assets/images/uploads/issue-cards-social-img.png
+socialimage: /assets/images/uploads/card-sorting.jpg
 ---
 Card sorting helps uncover user's mental models for better information architecture, and understand how to organize information in a way so that other people can find it. In an open card sorting exercise, users are asked to cluster the cards based on affinities, and assign the name they want to each of the groups. While in a closed card sorting exercise, users are asked to organize the individual cards into predetermined categories. Card sorting can be either moderated or unmoderated by the facilitator, it can be counducted on paper or using digital tools.
