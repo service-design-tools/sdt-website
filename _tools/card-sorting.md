@@ -21,6 +21,8 @@ icon: >-
 
   <rect x="14.7" y="15.2" class="svg--filled-main" width="141.7" height="110.4"/>
 
+  <rect x="14.7" y="15.2" class="svg--outline svg--bw" width="141.7" height="110.4"/>
+
   <rect x="0.9" y="0.9" class="svg--outline svg--filled-light" width="140.3" height="110.9"/>
 
   <rect x="58.5" y="16.1" class="svg--filled-main" width="25.2" height="17.3"/>
