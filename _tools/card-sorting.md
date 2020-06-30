@@ -16,8 +16,8 @@ properties:
     - Text
 synonyms: Cluster analysis, Service taxonomy
 icon: >-
-  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156.4
-  125.6" xml:space="preserve">
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 157.3
+  126.5" xml:space="preserve">
 
   <rect x="14.7" y="15.2" class="svg--filled-main" width="141.7" height="110.4"/>
 
