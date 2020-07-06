@@ -190,6 +190,9 @@ header::after {
         justify-items: start;
         align-items: flex-start;
     }
+    .header__icon {
+        justify-content: flex-start;
+    }
     .header__content {
         text-align: left;
     }
@@ -232,7 +235,8 @@ header::after {
         grid-template-columns: calc(var(--column-width) * 4 + var(--container-gap) * 3) calc(var(--column-width) * 8 + var(--container-gap) * 7);
     }
     .header__icon {
-        width: calc(var(--column-width) * 4 + var(--container-gap) * 4);
+        width: calc(var(--column-width) * 3 + var(--container-gap) * 2);
+        padding-left: calc(var(--column-width) + var(--container-gap));
     }
     .header__icon svg {
         max-height: 130px;
