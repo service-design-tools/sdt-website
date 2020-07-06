@@ -1,8 +1,7 @@
 ---
 title: Service Roadmap
-subtitle: >-
-  Plan the service execution over time, from a minimum set of functionalities to
-  delivering the full experience.
+subtitle: Plan the service execution over time, from a minimum set of
+  functionalities to delivering the full experience.
 properties:
   how:
     - Map
@@ -12,7 +11,7 @@ properties:
     - Implementation
   who:
     - Stakeholders
-synonyms: 'Service MVP, Execution Roadmap'
+synonyms: Service MVP, Execution Roadmap, Implementation plan
 icon: >
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
   viewBox="0 0 137.8 125.9" xml:space="preserve">
@@ -45,12 +44,20 @@ related:
     - Offering Map
     - Service Blueprint
     - User Stories
-use: >-
-  Establish goals and deadlines, and coordinate the activities of different
-  teams.
-reminder: >-
-  Besides design and development, consider aspects such as communication and
-  go-to-market strategy when building the roadmap.
+use: Establish goals and deadlines, and coordinate the activities of different
+  teams towards a common goal.
+reminder: Besides design and development, consider aspects such as communication
+  and go-to-market strategy when building the roadmap.
+references:
+  - name: (2014) Chanwoo Cho & Sungjoo Lee, Strategic planning using service
+      roadmaps. The Service Industries Journal. 34.
+  - name: "(2018) Frida Almqvist, Service design in the later project phases:
+      Exploring the service design handover and introducing a service design
+      roadmap. Linköping University Electronic Press."
 socialimage: /assets/images/uploads/service-roadmap-social-img.png
 ---
-The service roadmap is a timeline that defines a progressive process of development and delivery of a service solution. The goal is to identify the minimum set of features needed to be ready for the first release, and then the following enhancements that could be made to achieve greater impact. The roadmap takes into consideration the effort needed to develop and build specific service components, as well as the time required for potential testing, pilot and beta phases. Once the first MVP of the service is ready, the roll-out can start, with the need of addressing both communication and distribution issues, as well as a continuous development and integration of additional functions that were initially left aside.
+The service roadmap is the outputs of planning processes and visually describe a high-level timeline for the progressive process of development, delivery and evolution of a service solution.The goal is to identify the minimum set of features needed to be ready for the first release, and then the following enhancements that could be made to achieve greater impact. The roadmap takes into consideration the effort needed to develop and build specific service components, as well as the time required for potential testing, pilot and beta phases. Once the first MVP of the service is ready, the roll-out can start, with the need of addressing both communication and distribution issues, as well as a continuous development and integration of additional functions that were initially left aside.\
+\
+Service Roadmaps have two main features: a time dimension, that allows a firm to make a detailed, practical and achievable plans; and the use of layers that typically include market, product, service and technological perspectives. In general, Roadmaps should answer three essential questions: Where are we now? Where do we want to go? and How can we get there?. While standard formats and recommended guidelines exist, service roadmapping is a flexible approach in their structures and their development processes.\
+\
+Service roadmaps are a useful tool for later project phases, specially when a handover, or the communication and transfer of generated information, insights and results, occurs.
