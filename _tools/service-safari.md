@@ -81,6 +81,6 @@ use: Develop a complete first-hand understanding of the service experience,
   before further research investigations.
 reminder: Set a clear protocol for the observation and immersion, to be
   carefully followed along the journey.
-socialimage: /assets/images/uploads/brainstorming-social-img.png
+socialimage: /assets/images/uploads/schermata-2020-07-07-alle-12.03.15.png
 ---
 Service Safari is a research tool that helps designers develop interesting insights and inspirations by experiencing a service in first-person, as they were 'in the shoes' of a user. While pretending to be a user, designers can understand in detail all the aspects of the interaction with the service, observe how other people in the same space/environment behave, and eventually intercept the opinions and perceptions of other users. After having gone through the service, journey maps help generate a documentation of the experience that can be used for ideation and comparison purposes. Often times, the safari could be replicated going through the competitors' service as well.
