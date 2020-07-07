@@ -82,8 +82,8 @@ use: Develop a complete first-hand understanding of the service experience,
 reminder: Set a clear protocol for the observation and immersion, to be
   carefully followed along the journey.
 references:
-  - name: The Technology Strategy Board & The Design Council. Design methods for
-      developing services.
+  - name: (2015) The Technology Strategy Board & The Design Council. Design methods
+      for developing services.
     link: https://www.designcouncil.org.uk/sites/default/files/asset/document/Design%20methods%20for%20developing%20services.pdf
 socialimage: /assets/images/uploads/schermata-2020-07-07-alle-12.03.15.png
 ---
