@@ -1,8 +1,7 @@
 ---
 title: Ecosystem Map
-subtitle: >-
-  Describe all the entities, flows and relationships that characterize the
-  surrounding ecosystem.
+subtitle: Describe all the entities, flows and relationships that characterize
+  the surrounding ecosystem.
 properties:
   how:
     - Map
@@ -13,7 +12,7 @@ properties:
   who:
     - Experts
     - Stakeholders
-synonyms: 'Actors Map, Ecology Map'
+synonyms: Actors Map, Ecology Map
 icon: >
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
   viewBox="0 0 138.5 126.5" xml:space="preserve">
@@ -42,14 +41,32 @@ related:
     - Stakeholders Map
     - System Map
 use: Uncover existing gaps and identify valuable opportunities for synergies.
-reminder: >-
-  Map all the relationships as a giving and a receiving: the value is in the
-  loops.
+reminder: "Map all the relationships as a giving and a receiving: the value is
+  in the loops."
+guidelines:
+  - step: Identify all the players and entities involved in the service supply and
+      delivery.
+    warning: Search in depth also for the actors operating behind the scenes or not
+      directly involved with the service you're analysing.
+  - step: Place the user at the center of the worksheet and then start drawing
+      connections with the different players, and amongst them.
+    warning: Use different types of line (appearance, colour, stroke etc) to
+      represent different kinds of relationships such as information exchange,
+      money exchange etc.
+  - step: Take a step backwards and observe the map. Do you notice anything missing
+      item? If you're not just by yoursefl, discuss about those within the team.
+    warning: Add hand-written notes or use post-it in order to highlight emerging
+      observations and discusson the map
+  - step: Drawing on the new additions, highlight pain points or gaps in the map.
+      This activity helps understand which aspects need to be improved or futher
+      explored, and to share these insights with other team members and
+      stakeholders.
+    warning: Keep visualizing any new detail noticed on the map, eg. with further
+      colors or dividing map nodes in sets
 references:
-  - link: 'https://systemic-design.net/wp-content/uploads/2013/12/Forlizzi.pdf'
-    name: >-
-      (2013) Jody Forlizzi. The Product Service Ecology: Using a Systems
-      Approach in Design.
+  - link: https://systemic-design.net/wp-content/uploads/2013/12/Forlizzi.pdf
+    name: "(2013) Jody Forlizzi. The Product Service Ecology: Using a Systems
+      Approach in Design."
 socialimage: /assets/images/uploads/ecosystem-map-social-img.png
 ---
 The ecosystem map is a synthetic representation capturing all the key roles that have an influence on the user, organization and service environment. The ecosystem map is built by first displaying all the entities, and then connecting them based on the type of value they exchange.
