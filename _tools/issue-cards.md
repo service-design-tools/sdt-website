@@ -6,7 +6,7 @@ properties:
   how:
     - Text
   what:
-    - Offering
+    - Context
     - System
   when:
     - Research
@@ -35,8 +35,9 @@ icon: >
 related:
   tips: []
   tools:
-    - Concept Walkthrough
+    - Interview Guide
     - Mindmap
+    - Personas
 use: Guide a creative conversation, making it open and fun, avoiding the
   creative block.
 reminder: Keep the content of the cards clear and simple, reducing the risk of
