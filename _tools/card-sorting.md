@@ -11,6 +11,8 @@ properties:
     - Experts
     - Service Staff
   what:
+    - System
+    - Offering
     - Experience
   how:
     - Text
@@ -64,7 +66,7 @@ icon: >-
   </svg>
 related:
   tools:
-    - Issue Cards
+    - Concept Walkthrough
     - Mindmap
 use: Learn what items go together based on users' mental models, or to test how
   intuitive specific labels are.
