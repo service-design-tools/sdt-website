@@ -69,6 +69,6 @@ references:
   - link: https://systemic-design.net/wp-content/uploads/2013/12/Forlizzi.pdf
     name: "(2013) Jody Forlizzi. The Product Service Ecology: Using a Systems
       Approach in Design."
-socialimage: /assets/images/uploads/ecosystem-map-social-img.png
+socialimage: /assets/images/uploads/schermata-2020-07-09-alle-10.23.38.png
 ---
 The ecosystem map is a synthetic representation capturing all the key roles that have an influence on the user, organization and service environment. The ecosystem map is built by first displaying all the entities, and then connecting them based on the type of value they exchange.
