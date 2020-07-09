@@ -46,24 +46,25 @@ reminder: "Map all the relationships as a giving and a receiving: the value is
 guidelines:
   - step: Identify all the players and entities involved in the service supply and
       delivery.
-    warning: Search in depth also for the actors operating behind the scenes, as
-      well as the ones not directly involved with the service you're analysing.
-  - step: Place the user at the center of the worksheet, then start drawing
-      connections with the different players and amongst them.
+    warning: Search in depth also for actors operating behind the scenes, as well as
+      the ones not directly involved with the service but that have nevertheless
+      an impact on it.
+  - step: Place the user in the center of the worksheet, then start tracing
+      connections first with the other players and then among the latter.
     warning: Use different types of line (appearance, colour, stroke etc) to
-      represent different kinds of relationships such as information exchange,
+      represent different kinds of relationship such as information exchange,
       money exchange etc.
   - step: Take a step backwards and observe the map. Do you notice anything missing?
       If you're not just by yourself, discuss about the missing points within
       the team.
-    warning: Add hand-written notes or use post-its in order to highlight emerging
-      observations and discussions on the map
+    warning: Add erasable hand-written notes or use post-its in order to highlight
+      emerging observations and discussions on the map
   - step: Drawing on the new additions, highlight pain points or gaps in the map.
-      This activity helps understand which aspects need to be improved or
-      further explored, and to share these insights with other team members and
+      This activity helps in understanding which aspects need to be improved or
+      further explored, and to share these insights with other team members or
       stakeholders.
-    warning: Keep visualizing any new detail noticed on the map, eg. with further
-      colors or dividing the players in sub-sets
+    warning: Keep visualizing any new detail noticed on the map, for example using
+      further colors or dividing the players in sub-sets.
 references:
   - link: https://systemic-design.net/wp-content/uploads/2013/12/Forlizzi.pdf
     name: "(2013) Jody Forlizzi. The Product Service Ecology: Using a Systems
