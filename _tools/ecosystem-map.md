@@ -44,21 +44,23 @@ use: Uncover existing gaps and identify valuable opportunities for synergies.
 reminder: "Map all the relationships as a giving and a receiving: the value is
   in the loops."
 guidelines:
-  - step: Identify all the players and entities involved in the service supply and
+  - step: Identify all players and entities involved in the service supply and
       delivery.
-    warning: Search in depth also for actors operating behind the scenes, as well as
-      the ones not directly involved with the service but that have nevertheless
-      an impact on it.
-  - step: Place the user in the center of the worksheet, then start tracing
-      connections first with the other players and then among the latter.
-    warning: Use different types of line (appearance, colour, stroke etc) to
-      represent different kinds of relationship such as information exchange,
-      money exchange etc.
+    warning: Search in depth also for players operating behind the scenes, as well
+      as the ones not directly involved with the service but that have
+      nevertheless an impact on it.
+  - step: Place the user at the center of the worksheet, then position the other
+      players in the space around. Try to put closer to the center the ones that
+      have more importance for the user. When they are all on the map, start
+      tracing connections between the user and other players and then among the
+      latter.
+    warning: Use different types of line (appearance, colour, stroke) to represent
+      different kinds of relationship such as information exchange, money
+      exchange, etc.
   - step: Take a step backwards and observe the map. Do you notice anything missing?
-      If you're not just by yourself, discuss about the missing points within
-      the team.
-    warning: Add erasable hand-written notes or use post-its in order to highlight
-      emerging observations and discussions on the map
+      If you are not just by yourself, discuss within the team.
+    warning: Add erasable hand-written notes or use post-its, in order to keep note
+      of emerging observations and discussions.
   - step: Drawing on the new additions, highlight pain points or gaps in the map.
       This activity helps in understanding which aspects need to be improved or
       further explored, and to share these insights with other team members or
