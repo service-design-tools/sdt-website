@@ -165,6 +165,10 @@ p {
     fill: var(--color-light);
 }
 
+.svg--transparent {
+    opacity: .4;
+}
+
 .card {
     background-color: var(--color-light);
     border-radius: var(--radius);
