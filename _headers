@@ -5,4 +5,4 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
-  Feature-Policy: camera 'none'; microphone 'none'; payment 'none'; geolocation 'none'
+  Permissions-Policy: camera 'none'; microphone 'none'; payment 'none'; geolocation 'none'
