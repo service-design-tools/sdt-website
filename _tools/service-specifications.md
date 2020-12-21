@@ -3,6 +3,7 @@ title: Service Specifications
 subtitle: >-
   Describe every touchpoints, features and interaction in details to support
   detailed design and implementation
+publicable: true
 properties:
   how:
     - Text

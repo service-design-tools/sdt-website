@@ -2,6 +2,7 @@
 title: Personas
 subtitle: Narrate the different types of users, based on clusters of behaviours
   and needs.
+publicable: true
 properties:
   how:
     - Narrative

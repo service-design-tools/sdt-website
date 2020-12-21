@@ -3,6 +3,7 @@ title: Recruiting Screener
 subtitle: >-
   Ask a few preliminary questions to identify the right participants for a
   research study.
+publicable: true
 properties:
   how:
     - Text

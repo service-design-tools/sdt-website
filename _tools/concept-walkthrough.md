@@ -3,6 +3,7 @@ title: Concept Walkthrough
 subtitle: >-
   Show a service idea to its potential users or providers through a step-by-step
   imaginary tour.
+publicable: true
 properties:
   how:
     - Simulation

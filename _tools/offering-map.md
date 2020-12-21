@@ -1,6 +1,7 @@
 ---
 title: Offering Map
 subtitle: Describe what benefits a service can bring to its users
+publicable: true
 properties:
   how:
     - Map

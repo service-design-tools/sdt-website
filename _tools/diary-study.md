@@ -3,6 +3,7 @@ title: Diary Study
 subtitle: >-
   Collect deep insights by asking users or employees to track and observe their
   behaviours over time
+publicable: true
 properties:
   how:
     - Narratives

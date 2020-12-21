@@ -1,6 +1,7 @@
 ---
 title: Interview Guide
 subtitle: Get ready for user research by listing all the questions you want to ask.
+publicable: true
 properties:
   how:
     - Text

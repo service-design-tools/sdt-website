@@ -1,6 +1,7 @@
 ---
 title: Service Safari
-subtitle: Dive into a service experience   in first-person
+subtitle: Dive into a service experience in first-person
+publicable: true
 properties:
   when:
     - Research

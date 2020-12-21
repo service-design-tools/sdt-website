@@ -1,6 +1,7 @@
 ---
 title: Card sorting
 subtitle: Organize content in a way that suits users’ mental models
+publicable: true
 properties:
   when:
     - Ideation

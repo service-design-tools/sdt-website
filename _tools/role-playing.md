@@ -1,6 +1,7 @@
 ---
 title: Role Playing
 subtitle: Perform a hypothetical service experience
+publicable: true
 properties:
   how:
     - Simulation

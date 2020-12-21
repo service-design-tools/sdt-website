@@ -3,6 +3,7 @@ title: Hypothesis Generation
 subtitle: >-
   Write down all the hypothesis and assumptions as a starting point for the
   project.
+publicable: true
 properties:
   how:
     - Text

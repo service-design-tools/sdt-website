@@ -1,6 +1,7 @@
 ---
 title: Value Proposition Canvas
 subtitle: Describe the value offered by the service in simple words
+publicable: true
 properties:
   how:
     - Text

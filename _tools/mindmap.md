@@ -1,6 +1,7 @@
 ---
 title: Mindmap
 subtitle: 'Map all the thoughts around a specific topics, building a mental model of it.'
+publicable: true
 properties:
   how:
     - Map

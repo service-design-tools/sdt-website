@@ -3,6 +3,7 @@ title: Experience Principles
 subtitle: >-
   Identify a set of guiding principles to inspire the design of a specific
   service experience.
+publicable: true
 properties:
   how:
     - Text

@@ -3,6 +3,7 @@ title: Synthesis Wall
 subtitle: >-
   Use a physical wall and post-it notes to debrief the research sessions and
   cluster important insights
+publicable: true
 properties:
   how:
     - Map

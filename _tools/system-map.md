@@ -1,6 +1,7 @@
 ---
 title: System Map
 subtitle: Visualise all the actors and components involved in a service delivery
+publicable: true
 properties:
   how:
     - Map

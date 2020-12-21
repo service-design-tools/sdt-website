@@ -3,6 +3,7 @@ title: Business Model Canvas
 subtitle: >-
   Plan and understand in advance the business model and constraints of the
   service you are designing.
+publicable: true
 properties:
   how:
     - Text
