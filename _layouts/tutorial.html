@@ -4,6 +4,7 @@ layout: default
 {% for tutorial in site.tutorials %}
 {% if tutorial.title == page.title %}
 {% assign number = forloop.index %}
+{% assign hasPdf = page.pdf %}
 {% endif %}
 {% endfor %}
 <header>
@@ -42,7 +43,11 @@ layout: default
             <p class="step__number">0{{ forloop.index }}</p>
             <h5>main tool used</h5>
             {% assign match = site.tools | where:"title",step.tool %}
+            {% if match[0].publicable == true %}
             <a href="{{ match[0].url }}">
+            {% else %}
+            <a href="#"></a>
+            {% endif %}
                 <div class="card">
                     {{ match[0].icon | strip_newlines | normalize_whitespace }}
                     <p>{{ step.tool }}</p>
@@ -58,4 +63,9 @@ layout: default
         </div>
     </div>
     {% endfor %}
+    <div class="download__links">
+        {% if hasPdf and page.pdf != '' %}
+        <a href="{{ page.pdf }}" class="btn--action" download>download kit</a>
+        {% endif %}
+      </div>
 </main>

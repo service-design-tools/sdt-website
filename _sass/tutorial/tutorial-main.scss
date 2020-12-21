@@ -199,6 +199,14 @@
     margin-bottom: 0;
 }
 
+.download__links {
+    margin: 2rem 0 3.75rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media (min-width: 576px) {
     .step {
         padding: 3.75rem calc((100% - var(--container-width)) / 2);
