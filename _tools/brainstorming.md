@@ -1,8 +1,8 @@
 ---
 title: Brainstorming
-subtitle: >-
-  First diverge and generate as many idea as you can, then converge around solid
-  concepts.
+subtitle: First diverge and generate as many idea as you can, then converge
+  around solid concepts.
+publicable: true
 properties:
   how:
     - Text
@@ -45,12 +45,10 @@ icon: >-
 related:
   tools:
     - Hypothesis Generation
-use: >-
-  Explore a wide range of ideas and solutions without feeling limited by
+use: Explore a wide range of ideas and solutions without feeling limited by
   possible constraints.
-reminder: >-
-  Stay open: there's not a right or wrong ideas, everything could have
-  potential.
+reminder: "Stay open: there's not a right or wrong ideas, everything could have
+  potential."
 socialimage: /assets/images/uploads/brainstorming-social-img.png
 ---
 Brainstorming is a common technique used to generate ideas. The brainstorming is often organized by first allowing each participant to collect their own thoughts individually, then start sharing and building one on top of each other idea, in order to get to a broad set of possibilities (divergent moment). In the final part of the brainstorming, the goal is usually to cluster, analyse and prioritise the different items in order to identify the most promising solutions or directions, and define next steps (convergent moment).
