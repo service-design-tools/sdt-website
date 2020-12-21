@@ -20,6 +20,7 @@ collections:
     fields:
       - {label: "title", name: "title", widget: "string"}
       - {label: "subtitle", name: "subtitle", widget: "string"}
+      - {label: "show on tools page", name: "publicable", widget: "boolean", default: true}
       - label: "tool properties"
         name: "properties"
         widget: "object"
@@ -60,8 +61,8 @@ collections:
               name: "tool"
               widget: "relation"
               collection: "tools"
-              searchFields: ["title", "properties.when", "properties.who", "properties.what", "properties.how"]
-              valueField: "title"
+              search_fields: ["title", "properties.when", "properties.who", "properties.what", "properties.how"]
+              value_field: "title"
           - label: "tutorials"
             name: "tutorials"
             widget: "list"
@@ -72,8 +73,8 @@ collections:
               name: "tutorial"
               widget: "relation"
               collection: "tutorials"
-              searchFields: ["title"]
-              valueField: "title"
+              search_fields: ["title"]
+              value_field: "title"
           - label: "oblotips"
             name: "tips"
             widget: "list"
@@ -138,8 +139,9 @@ collections:
             name: "tool"
             widget: "relation"
             collection: "tools"
-            searchFields: ["title", "properties.when", "properties.who", "properties.what", "properties.how"]
-            valueField: "title"
+            search_fields: ["title", "properties.when", "properties.who", "properties.what", "properties.how"]
+            value_field: "title"
+      - {label: "pdf", name: "pdf", widget: "file", required: false}
 
 # case studies config fields
   - label: "case studies"
@@ -162,8 +164,8 @@ collections:
         name: "tool"
         widget: "relation"
         collection: "tools"
-        searchFields: ["title", "properties.when", "properties.who", "properties.what", "properties.how"]
-        valueField: "title"
+        search_fields: ["title", "properties.when", "properties.who", "properties.what", "properties.how"]
+        value_field: "title"
       - label: "company"
         name: "company"
         widget: "object"
