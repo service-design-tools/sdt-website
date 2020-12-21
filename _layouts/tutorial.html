@@ -63,9 +63,9 @@ layout: default
         </div>
     </div>
     {% endfor %}
+    {% if hasPdf and page.pdf != '' %}
     <div class="download__links">
-        {% if hasPdf and page.pdf != '' %}
-        <a href="{{ page.pdf }}" class="btn--action" download>download kit</a>
-        {% endif %}
-      </div>
+        <a href="{{ page.pdf }}" class="btn--action" download>download kit</a>  
+    </div>
+    {% endif %}
 </main>
