@@ -12,13 +12,12 @@ properties:
     - Experience
   how:
     - Map
-icon: >-
+icon: >
   
-
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
   	 viewBox="0 0 138.52 126.52" xml:space="preserve">
 
-  <path class="st0" d="M120.05,92.41c9.1,0,16.48,7.38,16.48,16.48c0,9.1-7.38,16.48-16.48,16.48v-0.04h-16.26H86.42H1.14v-107h126.31
+  <path class="svg--filled-light" d="M120.05,92.41c9.1,0,16.48,7.38,16.48,16.48c0,9.1-7.38,16.48-16.48,16.48v-0.04h-16.26H86.42H1.14v-107h126.31
   	"/>
   <g>
   	<path class="svg--filled-main" d="M121.26,0.97v91.05c8.03-0.5,16.06,5.41,16.06,14.38V17.15c0-8.97-7.19-16.25-16.06-16.25"/>
@@ -36,7 +35,7 @@ icon: >-
 
   <g>
   	
-  		<ellipse transform="matrix(0.2298 -0.9732 0.9732 0.2298 15.8059 87.5531)" class="st0" cx="63.22" cy="33.79" rx="10.09" ry="10.09"/>
+  		<ellipse transform="matrix(0.2298 -0.9732 0.9732 0.2298 15.8059 87.5531)" class="svg--filled-light" cx="63.22" cy="33.79" rx="10.09" ry="10.09"/>
   	<g>
   		<g>
   			<path class="svg--filled-main" d="M68.8,42.54v-2.78c0-1.95-1.2-3.64-2.89-4.36h-5.38c-1.7,0.72-2.89,2.41-2.89,4.36v2.78
@@ -56,7 +55,7 @@ icon: >-
 
   <g>
   	
-  		<ellipse transform="matrix(0.2298 -0.9732 0.9732 0.2298 -85.2006 103.0939)" class="st0" cx="22.53" cy="105.37" rx="10.09" ry="10.09"/>
+  		<ellipse transform="matrix(0.2298 -0.9732 0.9732 0.2298 -85.2006 103.0939)" class="svg--filled-light" cx="22.53" cy="105.37" rx="10.09" ry="10.09"/>
   	<g>
   		<g>
   			<path class="svg--filled-main" d="M28.12,114.13v-2.78c0-1.95-1.2-3.64-2.89-4.36h-5.38c-1.7,0.72-2.89,2.41-2.89,4.36v2.78
@@ -76,7 +75,7 @@ icon: >-
 
   <g>
   	
-  		<ellipse transform="matrix(0.2298 -0.9732 0.9732 0.2298 -21.4591 183.6348)" class="st0" cx="105.29" cy="105.37" rx="10.09" ry="10.09"/>
+  		<ellipse transform="matrix(0.2298 -0.9732 0.9732 0.2298 -21.4591 183.6348)" class="svg--filled-light" cx="105.29" cy="105.37" rx="10.09" ry="10.09"/>
   	<g>
   		<g>
   			<path class="svg--filled-main" d="M110.87,114.13v-2.78c0-1.95-1.2-3.64-2.89-4.36h-5.38c-1.7,0.72-2.89,2.41-2.89,4.36v2.78
