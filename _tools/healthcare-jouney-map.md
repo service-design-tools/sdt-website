@@ -18,8 +18,14 @@ synonyms: xxx
 icon: >
   
 
+
   <svg version="1.1"  xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
-  	 viewBox="0 0 138.53 126.52" style="enable-background:new 0 0 138.53 126.52;" xml:space="preserve">
+  	 viewBox="0 0 138.53 126.52" xml:space="preserve">
+  <style type="text/css">
+  	.svg--filled-light{fill:#FFFFFF;}
+  	.svg--filled-main{fill:#00D2E6;}
+  	.svg--outline{fill:none;stroke:#262D32;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+  </style>
 
   <g>
   	<path class="svg--filled-light" d="M121.85,92.26c9.21,0,16.68,7.47,16.68,16.68s-7.47,16.68-16.68,16.68v-0.04h-16.46H87.81H1.53V17.32h127.81"
@@ -49,6 +55,12 @@ icon: >
   <polygon class="svg--outline svg--bw" points="17.92,97.49 17.92,94.12 37.77,94.12 37.77,111.62 17.92,111.62 17.92,107.87 "/>
 
   <polygon class="svg--outline svg--bw" points="83.71,55.31 83.71,50.34 103.56,50.34 103.56,76.12 83.71,76.12 83.71,70.59 "/>
+
+  <polygon class="svg--outline svg--bw" points="102.14,43.03 80.88,43.03 85.13,37.28 80.88,31.28 102.14,31.28 106.4,37.28 "/>
+
+  <polygon class="svg--outline svg--bw" points="39.19,43.03 17.92,43.03 17.92,31.28 39.19,31.28 43.44,37.28 "/>
+
+  <polygon class="svg--outline svg--bw" points="69.96,43.03 48.7,43.03 52.95,37.28 48.7,31.28 69.96,31.28 74.22,37.28 "/>
 
   </svg>
 use: xxx
