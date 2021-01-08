@@ -1,7 +1,7 @@
 ---
 title: Value alignment canvas
 subtitle: xxx
-publicable: true
+publicable: false
 properties:
   when:
     - Evaluation
