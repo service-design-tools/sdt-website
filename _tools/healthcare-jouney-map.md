@@ -1,5 +1,5 @@
 ---
-title: healthcare jouney map
+title: healthcare journey map
 subtitle: xxx
 publicable: true
 properties:
