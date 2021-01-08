@@ -1,7 +1,7 @@
 ---
 title: healthcare journey map
 subtitle: xxx
-publicable: true
+publicable: false
 properties:
   when:
     - Research
