@@ -12,8 +12,9 @@ properties:
     - Experience
   how:
     - Map
-icon: >+
+icon: >-
   
+
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
   	 viewBox="0 0 138.52 126.52" xml:space="preserve">
 
@@ -107,23 +108,21 @@ icon: >+
 
   <rect x="66.39" y="52.57" class="svg--filled-main" width="8.89" height="3.33"/>
 
-  <rect x="59.08" y="91.52" class="svg--outline svg--bw" width="8.89" height="3.33"/>
+  <rect x="59.08" y="91.52" class="svg--outline" width="8.89" height="3.33"/>
 
-  <rect x="34.73" y="91.52" class="svg--outline svg--bw" width="8.89" height="3.33"/>
+  <rect x="34.73" y="91.52" class="svg--outline" width="8.89" height="3.33"/>
 
-  <rect x="83.9" y="91.52" class="svg--outline svg--bw" width="8.89" height="3.33"/>
+  <rect x="83.9" y="91.52" class="svg--outline" width="8.89" height="3.33"/>
 
-  <rect x="72.84" y="68.95" class="svg--outline svg--bw" width="8.89" height="3.33"/>
+  <rect x="72.84" y="68.95" class="svg--outline" width="8.89" height="3.33"/>
 
-  <rect x="43.61" y="68.95" class="svg--outline svg--bw" width="8.89" height="3.33"/>
+  <rect x="43.61" y="68.95" class="svg--outline" width="8.89" height="3.33"/>
 
-  <rect x="49.15" y="49.24" class="svg--outline svg--bw" width="8.89" height="3.33"/>
+  <rect x="49.15" y="49.24" class="svg--outline" width="8.89" height="3.33"/>
 
-  <rect x="66.39" y="52.57" class="svg--outline svg--bw" width="8.89" height="3.33"/>
+  <rect x="66.39" y="52.57" class="svg--outline" width="8.89" height="3.33"/>
 
   </svg>
-
-
 use: xxx
 reminder: xxx
 socialimage: /assets/images/uploads/ecosystem-map-social-img.png
