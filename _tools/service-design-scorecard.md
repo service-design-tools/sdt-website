@@ -1,7 +1,7 @@
 ---
 title: Service design scorecard
 subtitle: xxx
-publicable: true
+publicable: false
 properties:
   when:
     - Evaluation
