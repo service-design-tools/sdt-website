@@ -1,7 +1,7 @@
 ---
 title: Patient and doctor personas
 subtitle: xxx
-publicable: true
+publicable: false
 properties:
   when:
     - Research
