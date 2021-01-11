@@ -56,7 +56,7 @@ steps:
       In order to better support this phase of analysis, the personas templates included in this toolkit contain healthcare specific factors for patient and doctor profiles, such as illness types and medical literacy.
     tips: >-
       \- For the patient persona, start by selecting the type of patient and
-      illness; \
+      illness;\
 
       - for the doctor persona, firstly select the doctor profile and write down pain points.\
 
@@ -73,10 +73,7 @@ steps:
       friction within the service. 
 
 
-      The healthcare journey map proposed by this toolkit can be used to analyse and visualize the experience undergone by the patient and/or the healthcare operators, looking at all components of the experience: the actors involved, the actions undergone, the channels used and the emotions
-
-
-      experienced while receiving or performing the healthcare service.
+      The healthcare journey map proposed by this toolkit can be used to analyse and visualize the experience undergone by the patient and/or the healthcare operators, looking at all components of the experience: the actors involved, the actions undergone, the channels used and the emotions experienced while receiving or performing the healthcare service.
     tips: >-
       \- Write the persona profile the user journey map is for;\
 
