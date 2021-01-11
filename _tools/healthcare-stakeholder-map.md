@@ -14,10 +14,15 @@ properties:
   how:
     - Map
 synonyms: xxx
-icon: >
-  
+icon: >-
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-  	 viewBox="0 0 156.43 125.62"  xml:space="preserve">
+  	 viewBox="0 0 156.43 125.62" xml:space="preserve">
+  <style type="text/css">
+  	.svg--filled-main{fill:#00D2E6;}
+  	.svg--outline svg--filled-light{fill:#FFFFFF;stroke:#262D32;stroke-width:1.8;stroke-linejoin:round;stroke-miterlimit:10;}
+  	.svg--outline{fill:none;stroke:#262D32;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+  	.svg--outline{fill:none;stroke:#262D32;stroke-width:1.8;stroke-miterlimit:10;}
+  </style>
 
   <g>
   	<rect x="14.7" y="15.2" class="svg--filled-main" width="141.74" height="110.43"/>
@@ -57,6 +62,8 @@ icon: >
   <circle class="svg--outline svg--bw" cx="105.91" cy="52.83" r="6.4"/>
 
   <circle class="svg--outline svg--bw" cx="72.43" cy="86.93" r="6.4"/>
+
+  <polyline class="svg--outline svg--bw" points="141.67,15.2 156.43,15.2 156.43,125.62 14.7,125.62 14.7,111.8 "/>
 
   </svg>
 use: xxx
