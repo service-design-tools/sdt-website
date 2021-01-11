@@ -19,11 +19,10 @@ steps:
 
       The canvas proposed by this toolkit is made of a simple diagram to help identify each stakeholder’s values and objectives, highlighting points in common and intersections. Visual cards with the different actors and values are used to fill the canvas.
     tips: >-
-      \-Each stakeholder group can select its values from cards or add others,
+      * Each stakeholder group can select its values from cards or add others,
       discuss common and contrasting values, formulate shared objectives.
 
-
-      \-If your project includes more than three stakeholders, feel free to adopt the same conceptual model to map all their values and intersections.
+      * If your project includes more than three stakeholders, feel free to adopt the same conceptual model to map all their values and intersections.
     tool: Value alignment canvas
   - title: Understand the project ecosystem
     description: >-
@@ -38,14 +37,12 @@ steps:
 
       The stakeholder map not only helps visualize the different categories of stakeholders involved in the service system and into the user experience, but also their degree of interaction with the primary user. The template suggests three possible categories of healthcare stakeholders: healthcare operators, support persons and larger social community of the patient.
     tips: >-
-      \-Place the actor card representing the primary user or stakeholder in the
-      center, 
+      * Place the actor card representing the primary user or stakeholder in the
+      center;
 
+      * sort the actor cards based on the stakeholder group they belong to and place the cards in their corresponding sectors of the canvas;
 
-      \- sort the actor cards based on the stakeholder group they belong to and place the cards in their corresponding sectors of the canvas, 
-
-
-      \-place the actors who have higher degrees of interaction with the primary stakeholder in the inner ring; consider the broader ecosystem beyond the healthcare system.
+      * place the actors who have higher degrees of interaction with the primary stakeholder in the inner ring; consider the broader ecosystem beyond the healthcare system.
     tool: Healthcare stakeholder map
   - title: Reflect on different user-types
     description: >-
@@ -58,14 +55,12 @@ steps:
 
       In order to better support this phase of analysis, the personas templates included in this toolkit contain healthcare specific factors for patient and doctor profiles, such as illness types and medical literacy.
     tips: >-
-      \- For the patient persona, start by selecting the type of patient and
+      * For the patient persona, start by selecting the type of patient and
       illness; 
 
+      * for the doctor persona, firstly select the doctor profile and write down pain points.
 
-      \- for the doctor persona, firstly select the doctor profile and write down pain points.
-
-
-      \- Using the cards, select the environments and actors the persona interacts with, the channels they prefer, their values and the emotions they experience.
+      * Using the cards, select the environments and actors the persona interacts with, the channels they prefer, their values and the emotions they experience.
     tool: Patient and doctor personas
   - title: Analyze the experience and envision better service journeys
     description: >-
@@ -83,16 +78,13 @@ steps:
 
       experienced while receiving or performing the healthcare service.
     tips: >-
-      \- Write the persona profile the user journey map is for;
+      * Write the persona profile the user journey map is for;
 
+      * use the cards as trigger materials to facilitate experience sharing and storytelling with patients and medical stakeholders;
 
-      \- use the cards as trigger materials to facilitate experience sharing and storytelling with patients and medical stakeholders;
+      * select the emotions being experienced for each action and display them vertically under the corresponding action.
 
-
-      \- select the emotions being experienced for each action and display them vertically under the corresponding action.
-
-
-      \- The patient journey can follow the entire treatment pathway, and so help understanding the issues that may occur at the intersection of different medical steps and departments involved, developing an holistic view of the experience.
+      * The patient journey can follow the entire treatment pathway, and so help understanding the issues that may occur at the intersection of different medical steps and departments involved, developing an holistic view of the experience.
     tool: healthcare journey map
   - title: Prioritize ideas through evaluation
     description: >-
@@ -110,12 +102,10 @@ steps:
 
       The canvas you can find in this toolkit can be used to run your evaluations with healthcare stakeholders or any other project you might face.
     tips: >-
-      \- Identify key stakeholders to be involved in the evaluation session;
+      * Identify key stakeholders to be involved in the evaluation session;
 
+      * synthesize solutions to be evaluated in an effective way so to avoid misinterpretations;
 
-      \- synthesize solutions to be evaluated in an effective way so to avoid misinterpretations;
-
-
-      \-if needed customize criteria and scoring according to what suits best to your project.
+      * if needed customize criteria and scoring according to what suits best to your project.
     tool: Service design scorecard
 ---
