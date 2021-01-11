@@ -20,10 +20,9 @@ steps:
       The canvas proposed by this toolkit is made of a simple diagram to help identify each stakeholder’s values and objectives, highlighting points in common and intersections. Visual cards with the different actors and values are used to fill the canvas.
     tips: >-
       \-Each stakeholder group can select its values from cards or add others,
-      discuss common and contrasting values, formulate shared objectives.
+      discuss common and contrasting values, formulate shared objectives.\
 
-
-      \-If your project includes more than three stakeholders, feel free to adopt the same conceptual model to map all their values and intersections.
+      -If your project includes more than three stakeholders, feel free to adopt the same conceptual model to map all their values and intersections.
     tool: Value alignment canvas
   - title: Understand the project ecosystem
     description: >-
