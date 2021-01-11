@@ -105,5 +105,5 @@ steps:
 
       -if needed customize criteria and scoring according to what suits best to your project.
     tool: Service design scorecard
-pdf: /assets/images/uploads/_healthcare-toolkit.pdf
+pdf: /assets/images/uploads/healthcare-toolkit.pdf
 ---
