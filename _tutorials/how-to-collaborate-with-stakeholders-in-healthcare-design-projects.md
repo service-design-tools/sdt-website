@@ -11,7 +11,7 @@ steps:
       collaboration and meaningful results for all the people involved. 
 
 
-      To do so, tools like the Expectation Map (see for example <http://healthcaredesignthinking.com/toolkit/chewables/chewable/expectation-maps> or https://toi.expert/en/tool/expectation-mapping/#:~:text=Expectation%20Mapping%20visualizes%20the%20expectations,make%2C%20think%2Ffeel), or the Alignment Canvas (see for example <https://www.studiorupt.com/aligning-organizational-goals-with-the-alignment-canvas/>) can be useful to understand everyone’s vision and priorities and to synchronize the team’s understanding of the project scope.
+      To do so, tools like the Expectation Map (see this [example](<http://healthcaredesignthinking.com/toolkit/chewables/chewable/expectation-maps>) or [that](https://toi.expert/en/tool/expectation-mapping/#:~:text=Expectation%20Mapping%20visualizes%20the%20expectations,make%2C%20think%2Ffeel)), or the Alignment Canvas (see this [example](<https://www.studiorupt.com/aligning-organizational-goals-with-the-alignment-canvas/>)) can be useful to understand everyone’s vision and priorities and to synchronize the team’s understanding of the project scope.
 
 
       They help align everyone’s objectives at the beginning of the project, envision user expectations from the service, build empathy and provide a holistic view on different perspectives. 
@@ -94,7 +94,7 @@ steps:
       Once solutions are identified, the selection of the most promising or suitable ones is a task not to be underestimated, especially in complex contexts such as those related to healthcare.
 
 
-      To do so, we suggest the Service Design Scorecard as an easily approachable tool to facilitate this phase of the process, especially when involving non-designers (see for example https://info.themoment.is/sd-scorecard). It allows assessing solutions according to 4 main components: desirability, feasibility, viability, and strategic value, examining the degree to which the solution is aligned to the stakeholders’ goals, by simply answering to some critical questions.
+      To do so, we suggest the Service Design Scorecard as an easily approachable tool to facilitate this phase of the process, especially when involving non-designers (see this [example](https://info.themoment.is/sd-scorecard)). It allows assessing solutions according to 4 main components: desirability, feasibility, viability, and strategic value, examining the degree to which the solution is aligned to the stakeholders’ goals, by simply answering to some critical questions.
 
 
       The canvas you can find in this toolkit can be used to run your evaluations with healthcare stakeholders or any other project you might face.
