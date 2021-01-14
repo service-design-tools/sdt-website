@@ -94,16 +94,7 @@ steps:
       Once solutions are identified, the selection of the most promising or suitable ones is a task not to be underestimated, especially in complex contexts such as those related to healthcare.
 
 
-      To do so, we suggest the Service Design Scorecard as an easily approachable tool to facilitate this phase of the process, especially when involving non-designers (see this 
-
-
-      ```
-
-
-      ```
-
-
-      ). It allows assessing solutions according to 4 main components: desirability, feasibility, viability, and strategic value, examining the degree to which the solution is aligned to the stakeholders’ goals, by simply answering to some critical questions.
+      To do so, we suggest the Service Design Scorecard as an easily approachable tool to facilitate this phase of the process, especially when involving non-designers (see this **[example](https://info.themoment.is/sd-scorecard)**). It allows assessing solutions according to 4 main components: desirability, feasibility, viability, and strategic value, examining the degree to which the solution is aligned to the stakeholders’ goals, by simply answering to some critical questions.
 
 
       The canvas you can find in this toolkit can be used to run your evaluations with healthcare stakeholders or any other project you might face.
@@ -113,6 +104,7 @@ steps:
       -synthesize solutions to be evaluated in an effective way so to avoid misinterpretations;\
 
       -if needed customize criteria and scoring according to what suits best to your project.
-    tool: Service design scorecard
-pdf: /assets/images/uploads/healthcare-toolkit.pdf
+    tool: Service design scorecard 
+toolkit:
+  pdf: /assets/images/uploads/healthcare-toolkit.pdf
 ---

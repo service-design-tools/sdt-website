@@ -60,6 +60,13 @@ header {
     color: var(--color-light);
 }
 
+.header__content .tutorial__intro {
+    margin-top: 1.5rem;
+    font-weight: var(--font-light);
+    line-height: 1.6;
+    color: var(--color-light);
+}
+
 header .dotgrid {
     grid-column: -6 / -1;
     justify-self: flex-end;
@@ -83,7 +90,8 @@ header .dotgrid .svg--filled-support {
         padding: 0 1rem;
         font-size: 2.5rem;
     }
-    .header__content .tutorial__subtitle {
+    .header__content .tutorial__subtitle,
+    .header__content .tutorial__intro {
         padding: 0 var(--column-width);
     }
     header .dotgrid {
@@ -106,7 +114,8 @@ header .dotgrid .svg--filled-support {
     .header__content h1 {
         padding: 0;
     }
-    .header__content .tutorial__subtitle {
+    .header__content .tutorial__subtitle,
+    .header__content .tutorial__intro {
         width: 75%;
         padding: 0;
     }

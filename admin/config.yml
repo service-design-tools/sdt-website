@@ -126,6 +126,7 @@ collections:
     fields:
       - {label: "title", name: "title", widget: "string"}
       - {label: "subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "introduction text", name: "intro", widget: "markdown", hint: "Brief introduction text that will be shown in the header of the tutorial", required: false}
       - label: "steps"
         name: "steps"
         widget: "list"
@@ -141,7 +142,13 @@ collections:
             collection: "tools"
             search_fields: ["title", "properties.when", "properties.who", "properties.what", "properties.how"]
             value_field: "title"
-      - {label: "pdf", name: "pdf", widget: "file", required: false}
+      - label: "toolkit"
+        name: "toolkit"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "image", name: "image", widget: "image", hint: "Preview image on website", required: false}
+          - {label: "pdf", name: "pdf", widget: "file", hint: "File that will be downloaded", required: false}
 
 # case studies config fields
   - label: "case studies"

@@ -4,7 +4,7 @@ layout: default
 {% for tutorial in site.tutorials %}
 {% if tutorial.title == page.title %}
 {% assign number = forloop.index %}
-{% assign hasPdf = page.pdf %}
+{% assign hasToolkit = page.toolkit.pdf %}
 {% endif %}
 {% endfor %}
 <header>
@@ -16,6 +16,9 @@ layout: default
         <h1>{{ page.title }}</h1>
         {% if page.subtitle %}
         <p class="tutorial__subtitle">{{ page.subtitle }}</p>
+        {% endif %}
+        {% if page.intro %}
+        <p class="tutorial__intro">{{ page.intro }}</p>
         {% endif %}
     </div>
     {% include svgs/dotgrid.html class="dotgrid" %}
@@ -63,9 +66,12 @@ layout: default
         </div>
     </div>
     {% endfor %}
-    {% if hasPdf and page.pdf != '' %}
+    {% if hasToolkit and page.toolkit.pdf != '' %}
+    {% if page.toolkit.image and page.toolkit.image != '' %}
+    <img src="{{ page.toolkit.image }}" alt="Preview image of the template for {{ page.title }}">
+    {% endif %}
     <div class="download__links">
-        <a href="{{ page.pdf }}" class="btn--action" download>download kit</a>  
+        <a href="{{ page.toolkit.pdf }}" class="btn--action" download>download kit</a>  
     </div>
     {% endif %}
 </main>

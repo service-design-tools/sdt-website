@@ -199,6 +199,12 @@
     margin-bottom: 0;
 }
 
+main > img {
+    width: var(--container-width);
+    margin: 2rem calc((100% - var(--container-width) - 1px) / 2) .5rem;
+    border: 0.5px solid var(--color-line-light);
+}
+
 .download__links {
     margin: 2rem 0 3.75rem;
     text-align: center;
@@ -225,6 +231,9 @@
     
     .step__content h5 + p {
         width: calc(var(--column-width) * 4 + var(--container-gap) * 4);
+    }
+    main > img {
+        margin: 3.75rem calc((100% - var(--container-width) - 1px) / 2) 1rem;
     }
 }
 
@@ -313,6 +322,10 @@
     }
     .step__content h5 + p {
         width: calc(var(--column-width) * 5 + var(--container-gap) * 4);
+    }
+    main > img {
+        width: calc(var(--container-width) - var(--extra-padding) * 2);
+        margin: 3.75rem calc((100% - var(--container-width) - 1px) / 2 + var(--extra-padding)) 1rem;
     }
 }
 
