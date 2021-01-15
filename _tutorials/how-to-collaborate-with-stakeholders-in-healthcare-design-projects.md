@@ -2,6 +2,12 @@
 title: How to collaborate with stakeholders in healthcare design projects?
 subtitle: Some useful tips and tools to design with patients, doctors, hospital
   executives and other healthcare stakeholders
+intro: >-
+  In recent years healthcare organizations have started to apply ‘designerly’
+  approaches to innovation to improve the engagement of patients and carers in
+  the design and provision of healthcare services. \
+
+  However, the introduction of the design approaches into the healthcare sector has not come without challenges: the differences in mindset can be a source of tension and evidence on the value of design practices into the healthcare sector still need to be provided. This tutorial and toolkit* aims to tackle this challenge and to help service designers in collaborating and communicating with stakeholders in the design of healthcare services.
 steps:
   - title: Align everyone’s objectives
     description: >-
@@ -104,7 +110,8 @@ steps:
       -synthesize solutions to be evaluated in an effective way so to avoid misinterpretations;\
 
       -if needed customize criteria and scoring according to what suits best to your project.
-    tool: Service design scorecard 
+    tool: Service design scorecard
 toolkit:
   pdf: /assets/images/uploads/healthcare-toolkit.pdf
+  image: /assets/images/uploads/healthcare-toolkit.jpg
 ---
