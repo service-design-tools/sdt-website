@@ -8,7 +8,7 @@ intro: "In recent years healthcare organizations have started to apply
   introduction of the design approaches into the healthcare sector has not come
   without challenges: the differences in mindset can be a source of tension and
   evidence on the value of design practices into the healthcare sector still
-  need to be provided. This tutorial and toolkit* aims to tackle this challenge
+  need to be provided. This tutorial and toolkit aims to tackle this challenge
   and to help service designers in collaborating and communicating with
   stakeholders in the design of healthcare services."
 steps:
