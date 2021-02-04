@@ -65,56 +65,40 @@ team:
 collaboratorsCurrent:
   title: Current collaborators
   description: Students, researchers and external advisors current partnering with us.
-  members:
-    - picture: /assets/images/uploads/andrea_pastor.jpg
-      name: Andrea Pastor
-      role: Service design and Circular economy
-    - picture: /assets/images/uploads/asif_muhammad.jpg
-      name: Asif Muhammad
-      role: Service design and Circular economy
-    - picture: /assets/images/uploads/elena_colombo.jpg
-      name: Elena Colombo
-      role: Service design and Healthcare
-    - picture: /assets/images/uploads/elisa_palmieri.jpg
-      name: Elisa Palmieri
-      role: Service design and Artificial Intelligence
-    - picture: /assets/images/uploads/eugenia_bifulco.jpg
-      name: Eugenia Bifulco
-      role: Service design and Artificial Intelligence
-    - picture: /assets/images/uploads/federico_dal-f.jpg
-      name: Federico Dal Fò
-      role: Service design and Healthcare
-    - picture: /assets/images/uploads/gabriel_benavides.jpg
-      name: Gabriel Benavides
-      role: Service design and Circular economy
-    - picture: /assets/images/uploads/karthik_rao.jpg
-      name: Karthik Rao
-      role: Service design and Circular economy
-    - picture: /assets/images/uploads/klong_swegwan.jpg
-      name: Klong Swegwan
-      role: Service design and Data privacy
-    - picture: /assets/images/uploads/mariana_escalante.jpg
-      name: Mariana Escalante
-      role: Service design and Artificial Intelligence
-    - picture: /assets/images/uploads/nare_krmoyan.jpg
-      name: Nare Krmoyan
-      role: Service design and Data privacy
-    - picture: /assets/images/uploads/pranjali_pachpute.jpg
-      name: Pranjali Pachpute
-      role: Service design and Data privacy
-    - picture: /assets/images/uploads/renae_elkassih.jpg
-      name: Renae Elkassih
-      role: Service design and Artificial Intelligence
-    - picture: /assets/images/uploads/stacey_lin.jpg
-      name: Stacey Lin
-      role: Service design and Healthcare
-    - picture: /assets/images/uploads/xinwei_tao.jpg
-      name: Xinwei Tao
-      role: Service design and Data privacy
-    - picture: /assets/images/uploads/zeynep_sayar.jpg
-      name: Zeynep Sayar
-      role: Service design and Healthcare
-collaboratorsPast: []
+  members: []
+collaboratorsPast:
+  - name: Andrea Pastor
+    role: Service design and Circular economy
+  - name: Asif Muhammad
+    role: Service design and Circular economy
+  - name: Elena Colombo
+    role: Service design and Healthcare
+  - name: Elisa Palmieri
+    role: Service design and Artificial Intelligence
+  - name: Eugenia Bifulco
+    role: Service design and Artificial Intelligence
+  - name: Federico Dal Fò
+    role: Service design and Healthcare
+  - name: Gabriel Benavides
+    role: Service design and Circular economy
+  - name: Karthik Rao
+    role: Service design and Circular economy
+  - name: Klong Swegwan
+    role: Service design and Data privacy
+  - name: Mariana Escalante
+    role: Service design and Artificial Intelligence
+  - name: Nare Krmoyan
+    role: Service design and Data privacy
+  - name: Pranjali Pachpute
+    role: Service design and Data privacy
+  - name: Renae Elkassih
+    role: Service design and Artificial Intelligence
+  - name: Stacey Lin
+    role: Service design and Healthcare
+  - name: Xinwei Tao
+    role: Service design and Data privacy
+  - name: Zeynep Sayar
+    role: Service design and Healthcare
 curators:
   - description: "**Oblo** is an hyper-specialized service design studio supporting
       people and organizations along their innovation journeys. Founded in 2017,
