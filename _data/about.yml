@@ -62,6 +62,9 @@ team:
     - name: Yulya Besplemennova
       role: Scientific Coordinator
       picture: /assets/images/uploads/yulya-besplemennova-grey.png
+    - name: Bryan Sabin
+      role: Researcher
+      picture: /assets/images/uploads/bryan-sabin.jpg
 collaboratorsCurrent:
   title: Current collaborators
   description: Students, researchers and external advisors current partnering with us.
