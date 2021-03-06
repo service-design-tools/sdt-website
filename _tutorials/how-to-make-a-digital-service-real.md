@@ -3,6 +3,7 @@ title: How to make a digital service real?
 subtitle: >-
   When you already have a solid service concept and want to bring it to the
   market.
+category: Basics
 steps:
   - description: >-
       Building a digital service from scratch is not simple: it's much more than

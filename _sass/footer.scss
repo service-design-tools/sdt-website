@@ -49,12 +49,28 @@ footer p > a {
     text-decoration: underline;
 }
 
+.info .info__icon {
+    text-decoration: none;
+}
+
+.info .info__icon + .info__icon {
+    margin-left: .2rem;
+}
+
 .info p {
     font-weight: var(--font-light);
 }
 
-.info .twitter {
+.info :is(.twitter, .linkedin) {
     height: 2rem;
+}
+
+.info .linkedin .svg--filled-main {
+    fill: var(--color-light);
+}
+
+.info .linkedin .svg--filled-light {
+    fill: var(--color-dark);
 }
 
 .copyright {

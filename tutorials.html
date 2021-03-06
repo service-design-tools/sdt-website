@@ -6,15 +6,18 @@ desc: Learn more about how to approach a specific design challenge, following th
 <main class="tutorials__gallery">
     {% for tutorial in site.tutorials %}
     <a href="{{ tutorial.url | relative_url }}">
+        {% if tutorial.category != "Basics" %}
+        <div class="card card--thematic">
+        {% else %}
         <div class="card">
+        {% endif %}
             <div class="tutorial__card">
-                {% include svgs/dotgrid.html class="dotgrid" %}
-                {% if forloop.index > 9 %}
-                <p>{{ forloop.index }}</p>
+                {% if tutorial.category != "Basics" %}
+                {% include svgs/dotgrid-thematic.html class="dotgrid" %}
                 {% else %}
-                <p>0{{ forloop.index }}</p>
+                {% include svgs/dotgrid.html class="dotgrid" %}
                 {% endif %}
-                {% include svgs/zigzag.html class="zigzag" %}
+                <h3>{{ tutorial.category }} {% include svgs/zigzag.html class="zigzag" %}</h3>
                 <h4>{{ tutorial.title }}</h4>
             </div>
         </div>

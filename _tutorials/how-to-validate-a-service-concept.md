@@ -3,6 +3,7 @@ title: How to validate a service concept?
 subtitle: >-
   When you have developed a service idea and initial product but you haven't
   tested it yet.
+category: Basics
 steps:
   - description: >-
       A service concept may assume different value propositions according to the

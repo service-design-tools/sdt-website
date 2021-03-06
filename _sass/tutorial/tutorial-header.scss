@@ -32,11 +32,11 @@ header {
     justify-content: center;
 }
 
-.tutorial__number p {
+.tutorial__number h3 {
     font-size: 1.25rem;
-    font-weight: var(--font-medium);
     color: var(--color-light);
     margin-right: 0.85rem;
+    margin-bottom: 0;
 }
 
 .tutorial__number .zigzag {
@@ -46,6 +46,7 @@ header {
 
 .tutorial__number .zigzag .svg--stroke-main {
     stroke: var(--color-light);
+    stroke-width: 3px;
     opacity: 0.5;
 }
 
@@ -79,8 +80,12 @@ header .dotgrid .svg--filled-support {
     opacity: 0.4;
 }
 
+header .dotgrid .svg--stroke-light {
+    opacity: 0.2;
+}
+
 @media (min-width: 576px) {
-    .tutorial__number p {
+    .tutorial__number h3 {
         margin-right: 1.25rem;
     }
     .tutorial__number .zigzag {

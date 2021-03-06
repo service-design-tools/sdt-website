@@ -3,6 +3,7 @@ title: How to improve an existing service experience?
 subtitle: >-
   When you are working on an already established service and you want to
   renovate it
+category: Basics
 steps:
   - description: >-
       Analyse the current experience provided by the service, unpacking each

@@ -3,6 +3,7 @@ title: How to find new promising opportunities?
 subtitle: >-
   When you are interested in a new field but don't know much about it, and want
   to discover and get inspired.
+category: Basics
 steps:
   - description: >-
       Gather with your team to generate hypothesis around the needs and

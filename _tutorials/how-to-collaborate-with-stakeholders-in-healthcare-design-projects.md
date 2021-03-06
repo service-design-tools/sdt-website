@@ -2,6 +2,7 @@
 title: How to collaborate with stakeholders in healthcare design projects?
 subtitle: Some useful tips and tools to design with patients, doctors, hospital
   executives and other healthcare stakeholders
+category: Thematic
 intro: "In recent years healthcare organizations have started to apply
   ‘designerly’ approaches to innovation to improve the engagement of patients
   and carers in the design and provision of healthcare services. However, the

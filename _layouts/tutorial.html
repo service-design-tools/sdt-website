@@ -5,12 +5,13 @@ layout: default
 {% if tutorial.title == page.title %}
 {% assign number = forloop.index %}
 {% assign hasToolkit = page.toolkit.pdf %}
+{% assign referencesNumber = page.references | size %}
 {% endif %}
 {% endfor %}
 <header>
     <div class="header__content">
         <div class="tutorial__number">
-            {% if number > 9 %}<p>{{ number }}</p>{% else %}<p>0{{ number }}</p>{% endif %}
+            <h3>{{ page.category }}</h3>
             {% include svgs/zigzag.html class="zigzag" %}
         </div>
         <h1>{{ page.title }}</h1>
@@ -21,21 +22,23 @@ layout: default
         <p class="tutorial__intro">{{ page.intro }}</p>
         {% endif %}
     </div>
+    {% if page.category != "Basics" %}
+    {% include svgs/dotgrid-thematic.html class="dotgrid" %}
+    {% else %}
     {% include svgs/dotgrid.html class="dotgrid" %}
+    {% endif %}
 </header>
 <main>
     <div class="tutorial__timeline">
         <div class="timeline__start">
             {% include svgs/arrow-right.html %}
-            <p>main tools used</p>
+            <p>main steps</p>
         </div>
         {% for step in page.steps %}
         <div class="timeline__step">
             <a href="#{{ step.tool | escape | replace: '&#39;', '' | slugify }}">
-                {% assign match = site.tools | where:"title",step.tool %}
-                {{ match[0].icon | strip_newlines | normalize_whitespace }}
                 <p class="timeline__number">0{{ forloop.index }}</p>
-                <p class="timeline__tool">{{ step.tool }}</p>
+                <p class="timeline__tool">{{ step.title }}</p>
             </a>
         </div>
         {% endfor %}
@@ -44,18 +47,20 @@ layout: default
     <div class="step" data-step="{{ forloop.index0 }}" id="{{ step.tool | slugify }}">
         <div class="step__tool">
             <p class="step__number">0{{ forloop.index }}</p>
-            <h5>main tool used</h5>
+            {% if step.tool %}
             {% assign match = site.tools | where:"title",step.tool %}
+            <h5>main tool used</h5>
             {% if match[0].publicable == true %}
             <a href="{{ match[0].url }}">
             {% else %}
-            <a href="#"></a>
+            <a href="#">
             {% endif %}
                 <div class="card">
                     {{ match[0].icon | strip_newlines | normalize_whitespace }}
                     <p>{{ step.tool }}</p>
                 </div>
             </a>
+            {% endif %}
         </div>
         <div class="step__content">
             <p class="step__number">0{{ forloop.index }}</p>
@@ -72,6 +77,18 @@ layout: default
     {% endif %}
     <div class="download__links">
         <a href="{{ page.toolkit.pdf }}" class="btn--action" download>download kit</a>  
+    </div>
+    {% endif %}
+    {% if referencesNumber > 0 %}
+    <div class="references">
+      <h3>references</h3>
+      {% for reference in page.references %}
+      {% if reference.link %}
+      <a href="{{ reference.link }}" target="_blank" rel="noopener noreferrer">{{ reference.name }}</a>
+      {% else %}
+      <p>{{ reference.name }}</p>
+      {% endif %}
+      {% endfor %}
     </div>
     {% endif %}
 </main>

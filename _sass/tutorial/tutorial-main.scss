@@ -14,7 +14,7 @@
 .tutorial__timeline::after {
     content: "";
     position: absolute;
-    top: 2.875rem;
+    top: 2rem;
     left: calc((100% - var(--container-width)) / 2);
     width: var(--container-width);
     border-bottom: 1px solid var(--color-line-light);
@@ -28,7 +28,6 @@
 .timeline__start svg {
     fill: var(--color-dark);
     width: 40%;
-    margin-top: 3.7rem;
 }
 
 .timeline__start p {
@@ -45,7 +44,7 @@
 .timeline__step::after {
     content: "";
     position: absolute;
-    top: 25px;
+    top: 12px;
     left: 0;
     width: 100%;
     border-bottom: 3px solid var(--color-main);
@@ -69,35 +68,10 @@
     transform: scaleX(0);
 }
 
-.timeline__step svg {
-    display: none;
-    max-height: 46px;
-    margin-bottom: 1.7rem;
-}
-
-.timeline__step svg .svg--filled-main {
-    opacity: 0;
-    transition: opacity 0.5s;
-}
-
-.timeline__step.active svg .svg--filled-main,
-.timeline__step.active-backward svg .svg--filled-main {
-    opacity: 1;
-}
-
-.timeline__step svg .svg--bw {
-    opacity: 1;
-    transition: opacity 0.5s;
-}
-
-.timeline__step.active svg .svg--bw,
-.timeline__step.active-backward svg .svg--bw {
-    opacity: 0;
-}
-
 .timeline__step .timeline__number {
     font-size: 0.75rem;
     font-weight: var(--font-light);
+    margin-top: 1.2rem;
     margin-bottom: 2px;
 }
 
@@ -105,15 +79,18 @@
     display: none;
     font-size: 0.75rem;
     text-transform: uppercase;
-    width: 55%;
+    width: 95%;
 }
 
 .step {
     position: relative;
-    width: var(--container-width);
-    padding: 2rem calc((100% - var(--container-width)) / 2);
     display: flex;
     flex-direction: column-reverse;
+}
+
+:is(.step, .references) {
+    width: var(--container-width);
+    padding: 2rem calc((100% - var(--container-width)) / 2);
 }
 
 .step:not(:last-child)::after {
@@ -191,8 +168,13 @@
     margin-bottom: 2rem;
 }
 
+.step__content a {
+    color: var(--color-support);
+    text-decoration: underline;
+}
+
 .step__content h5 + p {
-    width: calc(var(--column-width) * 5 + var(--container-gap) * 5);
+    width: calc(var(--column-width) * 6 + var(--container-gap) * 5);
     font-size: 0.875rem;
     font-weight: var(--font-light);
     line-height: 1.6;
@@ -213,8 +195,25 @@ main > img {
     align-items: center;
 }
 
+.references {
+    padding-top: 1rem;
+}
+
+.references p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.references a {
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
 @media (min-width: 576px) {
-    .step {
+    :is(.step, .references) {
         padding: 3.75rem calc((100% - var(--container-width)) / 2);
     }
     .step__tool .card {
@@ -222,7 +221,7 @@ main > img {
         min-height: calc(var(--column-width) + var(--container-gap) * 2 - 2.4rem);
     }
     .step__content h2 {
-        width: calc(var(--column-width) * 4 + var(--container-gap) * 4);
+        width: calc(var(--column-width) * 5 + var(--container-gap) * 5);
         font-size: 2rem;
     }
     .step__content p {
@@ -230,7 +229,7 @@ main > img {
     }
     
     .step__content h5 + p {
-        width: calc(var(--column-width) * 4 + var(--container-gap) * 4);
+        width: calc(var(--column-width) * 5 + var(--container-gap) * 4);
     }
     main > img {
         margin: 3.75rem calc((100% - var(--container-width) - 1px) / 2) 1rem;
@@ -239,7 +238,6 @@ main > img {
 
 @media (min-width: 768px) {
     .tutorial__timeline::after {
-        top: 5rem;
         left: calc((100% - var(--container-width)) / 2 + 3.6rem);
         width: calc(var(--container-width) - 3.6rem);
     }
@@ -247,12 +245,7 @@ main > img {
         display: block;
     }
     .timeline__step::after {
-        top: 60px;
         width: 100%;
-    }
-    .timeline__step svg {
-        display: block;
-        max-width: 60px;
     }
     .timeline__step .timeline__tool {
         display: block;
@@ -274,13 +267,13 @@ main > img {
         display: none;
     }
     .step__content h2 {
-        width: calc(var(--column-width) * 3 + var(--container-gap) * 3);
+        width: calc(var(--column-width) * 4 + var(--container-gap) * 3);
     }
     .step__content p {
         width: calc(var(--column-width) * 4 + var(--container-gap) * 3);
     }
     .step__content h5 + p {
-        width: calc(var(--column-width) * 3 + var(--container-gap) * 2);
+        width: calc(var(--column-width) * 4 + var(--container-gap) * 3);
     }
 }
 
@@ -295,7 +288,7 @@ main > img {
     .timeline__step::after {
         width: 80%;
     }
-    .step {
+    :is(.step, .references) {
         width: calc(var(--container-width) - var(--extra-padding) * 2);
         padding: 3.75rem calc((100% - var(--container-width)) / 2 + var(--extra-padding));
     }
@@ -314,18 +307,21 @@ main > img {
         width: calc(var(--column-width) * 7 + var(--container-gap) * 6);
     }
     .step__content h2 {
-        width: calc(var(--column-width) * 5 + var(--container-gap) * 4);
+        width: calc(var(--column-width) * 6 + var(--container-gap) * 6);
         font-size: 2.5rem;
     }
     .step__content p {
         width: calc(var(--column-width) * 6 + var(--container-gap) * 5);
     }
     .step__content h5 + p {
-        width: calc(var(--column-width) * 5 + var(--container-gap) * 4);
+        width: calc(var(--column-width) * 6 + var(--container-gap) * 5);
     }
     main > img {
         width: calc(var(--container-width) - var(--extra-padding) * 2);
         margin: 3.75rem calc((100% - var(--container-width) - 1px) / 2 + var(--extra-padding)) 1rem;
+    }
+    .references p {
+        font-size: 1rem;
     }
 }
 
@@ -333,12 +329,6 @@ main > img {
     .step__tool .card {
         width: calc(var(--column-width) + var(--container-gap) * 2 - 2.4rem);
         min-height: calc(var(--column-width) + var(--container-gap) * 2 - 2.4rem);
-    }
-    .step__content h2 {
-        width: calc(var(--column-width) * 4 + var(--container-gap) * 4);
-    }
-    .step__content h5 + p {
-        width: calc(var(--column-width) * 4 + var(--container-gap) * 4);
     }
 }
 
@@ -350,11 +340,17 @@ main > img {
     .step__tool .card:hover svg .svg--filled-main {
         opacity: 1;
     }
+    .step__tool a[href="#"] > .card:hover svg .svg--filled-main {
+        opacity: 0;
+    }
     .step__tool svg .svg--bw {
         opacity: 1;
         transition: opacity 0.5s;
     }
     .step__tool .card:hover svg .svg--bw {
         opacity: 0;
+    }
+    .step__tool a[href="#"] > .card:hover svg .svg--bw {
+        opacity: 1;
     }
 }
