@@ -19,14 +19,15 @@ layout: null
         `;
     });
 
-    const tutorialsArray = [{% for tutorial in site.tutorials %}{'title': "{{ tutorial.title }}", 'url': '{{ tutorial.url }}', 'order': '{{ forloop.index }}'}{% unless forloop.last %},{% endunless %}{% endfor %}];
+    const tutorialsArray = [{% for tutorial in site.tutorials %}{'title': "{{ tutorial.title }}", 'url': '{{ tutorial.url }}', 'category': '{{ tutorial.category }}'}{% unless forloop.last %},{% endunless %}{% endfor %}];
     const randomTutorialPicks = d3.shuffle(tutorialsArray).slice(0,2);
 
     const $tutorialCards = document.querySelectorAll('.tutorial__links');
     $tutorialCards.forEach((card, index) => {
         const tutorialPick = randomTutorialPicks[index];
         card.href = tutorialPick.url;
-        card.firstElementChild.firstElementChild.children[1].innerText = parseInt(tutorialPick.order) > 9 ? tutorialPick.order : `0${tutorialPick.order}`;
+        if (tutorialPick.category !== 'Basics') card.firstElementChild.classList.add('card--thematic');
+        card.firstElementChild.querySelector('h3 span').innerText = tutorialPick.category;
         card.firstElementChild.firstElementChild.lastElementChild.innerText = tutorialPick.title;
     });
 

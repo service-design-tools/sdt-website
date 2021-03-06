@@ -69,6 +69,10 @@
     text-transform: uppercase;
 }
 
+.highlights__column .card.card--thematic {
+    background-color: var(--color-main);
+}
+
 .card.square--1 {
     width: calc(var(--square-module) - 2.4rem);
     height: calc(var(--square-module) - 1rem);
@@ -103,10 +107,22 @@
     grid-template-columns: repeat(24, calc(100% / 24));
 }
 
-.tutorial__card p {
+.card--thematic .tutorial__card {
+    border: 2px solid var(--color-light);
+    color: var(--color-light);
+}
+
+.tutorial__card h3 {
     grid-row: 3 / span 2;
-    grid-column: 2 / span 2;
+    grid-column: 2 / span 12;
     align-self: flex-end;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.card--thematic .tutorial__card h3 {
+    color: var(--color-light);
 }
 
 .tutorial__card h4 {
@@ -115,13 +131,12 @@
 }
 
 .tutorial__card .zigzag {
-    grid-row: 3 / span 2;
-    grid-column: 5 / span 4;
-    align-self: flex-end;
     height: 0.4rem;
-    position: relative;
-    bottom: 6px;
-    right: 5px;
+    margin-left: 1.2rem;
+}
+
+.card--thematic .zigzag .svg--stroke-main {
+    stroke: var(--color-light);
 }
 
 .tutorial__card .dotgrid {
@@ -131,6 +146,18 @@
     max-height: 100%;
     align-self: flex-end;
     opacity: 0.15;
+}
+
+.card--thematic .tutorial__card .dotgrid {
+    opacity: 0.2;
+}
+
+.tutorial__card .dotgrid .svg--filled-support {
+    fill: var(--color-main);
+}
+
+.card--thematic .tutorial__card .dotgrid .svg--filled-support {
+    fill: var(--color-light);
 }
 
 .highlights__column:first-child > a:not(.tutorial__links) {
@@ -193,8 +220,8 @@
             -ms-flex-align: normal;
                 align-items: normal;
     }
-    .tutorial__card p {
-        grid-column: 3 / span 2;
+    .tutorial__card h3 {
+        grid-column: 3 / span 12;
     }
     .tutorial__card h4 {
         grid-row: 5 / span 4;
@@ -202,8 +229,6 @@
     }
     .tutorial__card .zigzag {
         height: 0.6rem;
-        bottom: 5px;
-        right: 10px;
     }
     .tutorial__card .dotgrid {
         grid-column: -11 / -3;
@@ -255,10 +280,6 @@
     .tutorial__card .dotgrid {
         grid-row: 2 / -2;
         grid-column: -8 / -2;
-    }
-    .tutorial__card .zigzag {
-        grid-column: 4 / span 4;
-        right: -4px;
     }
     .card.square--4 {
         --square-4-padding: 3rem;
@@ -326,10 +347,7 @@
         grid-column: 3 / -2;
     }
     .tutorial__card .zigzag {
-        grid-column: 5 / span 4;
         height: 0.8rem;
-        bottom: 3px;
-        right: 0;
     }
     .tutorial__card .dotgrid {
         grid-row: 3 / -2;
