@@ -37,10 +37,10 @@ steps:
       by UK Government Digital Service;
 
 
-      \- Understand the service ecosystem with all the actors involved in the process to clarify the different roles and responsibilities of each actor in data collection and processing and data privacy protection. System maps can help doing the job. 
+      \-Understand the service ecosystem with all the actors involved in the process to clarify the different roles and responsibilities of each actor in data collection and processing and data privacy protection. System maps can help doing the job. 
 
 
-      \- Check you have considered (or will consider) all the data-related critical aspects throughout the different phases of data management by building a checklist or opting for something like the [Digital security and Privacy Protection UX Checklist](https://docs.google.com/presentation/d/1snDclSxKsyfUlqIH7HBWv9rdT6gIRPHqAuhaUjFZCoU/edit#slide=id.p)
+      \-Check you have considered (or will consider) all the data-related critical aspects throughout the different phases of data management by building a checklist or opting for something like the [Digital security and Privacy Protection UX Checklist](https://docs.google.com/presentation/d/1snDclSxKsyfUlqIH7HBWv9rdT6gIRPHqAuhaUjFZCoU/edit#slide=id.p)
   - title: Identify the type of data you need
     description: >-
       Once the purpose for data collection is clear and shared within the team,
@@ -62,10 +62,10 @@ steps:
       Data Institute;
 
 
-      \- Check up the regulations in force in your country regarding data processing (e.g [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj) in Europe). If you’re serving international clients, you should be even more careful to adapt your solutions to different and sometimes conflicting regulations; 
+      \-Check up the regulations in force in your country regarding data processing (e.g [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj) in Europe). If you’re serving international clients, you should be even more careful to adapt your solutions to different and sometimes conflicting regulations;
 
 
-      \- Prepare and submit the required data collection informed consents according to the different data types you are willing to collect, such as the [Consent for Data Use](https://digitalimpact.io/toolkit/templates/consent-for-data-use/) suggested by Digital Impact. 
+      \- Prepare and submit the required data collection informed consents according to the different data types you are willing to collect, such as the [Consent for Data Use](https://digitalimpact.io/toolkit/templates/consent-for-data-use/) suggested by Digital Impact.
 
 
       \- Classify data based on their sensitivity level and come up with different conditions for data sharing depending on the sensitivity. You can use the [Data Classification Matrix](https://data.humdata.org/dataset/2048a947-5714-4220-905b-e662cbcd14c8/resource/c7053042-fd68-44c7-ae24-a57890a48235/download/ocha-dr-guidelines-working-draft-032019.pdf) developed by The United Nations Office of The Humanitarian Affairs (OCHA).
@@ -123,10 +123,10 @@ steps:
       Nations Office of The Humanitarian Affairs (OCHA);
 
 
-      \- Educate users to be always aware of their rights and potential threats while building trustful long-term relationships for your client organizations. You might consider using [Personas for privacy and security](https://medium.com/@gusandrews/user-personas-for-privacy-and-security-a8b35ae5a63b) to highlight the knowledge and awareness gaps of different user types in terms of their data privacy rights and take punctual actions to improve user experience in order to fill the gaps. Or you can look at the [Pillars for data handling](https://raftcollective.com/thinking/gdpr/#popUpProtect) elaborated by Raft Collective;
+      \-Educate users to be always aware of their rights and potential threats while building trustful long-term relationships for your client organizations. You might consider using [Personas for privacy and security](https://medium.com/@gusandrews/user-personas-for-privacy-and-security-a8b35ae5a63b) to highlight the knowledge and awareness gaps of different user types in terms of their data privacy rights and take punctual actions to improve user experience in order to fill the gaps. Or you can look at the [Pillars for data handling](https://raftcollective.com/thinking/gdpr/#popUpProtect) elaborated by Raft Collective;
 
 
-      \- Identify and communicate potential data impacts for each stakeholder group (e.g. inform users about third party data sharing or terms of services and make sure they have control over their information). You can look at the [Privacy statement](https://www.visualcontracts.eu/legal/privacy-statement/) by Visual Contracts as a good example to follow;
+      \-Identify and communicate potential data impacts for each stakeholder group (e.g. inform users about third party data sharing or terms of services and make sure they have control over their information). You can look at the [Privacy statement](https://www.visualcontracts.eu/legal/privacy-statement/) by Visual Contracts as a good example to follow;
 
 
       \- Come up with measuring and treatment mechanisms for these impacts. To prevent data breaches you can look at the  [Guide to the general data protection regulation (GDPR)](https://raftcollective.com/thinking/gdpr/#popUpProtect) by the UK Information Commissioner’s Office. Make sure to get creative with the metrics and to not miss the qualitative impacts.
