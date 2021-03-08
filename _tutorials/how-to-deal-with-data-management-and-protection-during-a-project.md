@@ -27,13 +27,20 @@ steps:
 
       Similarly, concerning data gathering through digital platforms, purposes can be manyfold. Some examples: retailers might use sales data and cloud-based point-of-sale software to understand the popularity of different products and ensure that they have the right levels of stock at the right times. Insurance might use claims registers to assess the validity of a claim and/or decide whether or not to offer cover, or to detect insurance fraud. Frontline health providers might collect data to proactively determine the treatment needs of their patients and work to prevent the need for more costly and traumatic treatments. Logistics and transport operators might use data on road and traffic conditions to optimize their operations and routes. And so on...
     tips: >-
-      
+      \- Identify the purpose for data collection and usage by answering
+      questions as those you can find in the [The decision matrix - Canvas
+      1](https://media.nesta.org.uk/documents/Data_Sharing_Toolkit_1.pdf?fbclid=IwAR0QMvkBg21UPYJ7b4PvT6mlt3ywHZsScqWEV95qeThUnLToLer0FwsnKeQ)
+      by Nesta, or the [Data Ethics
+      Framework](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/923108/Data_Ethics_Framework_2020.pdf)
+      - [Define and understand public benefic and user
+      need](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/923108/Data_Ethics_Framework_2020.pdf)
+      by UK Government Digital Service;
 
-      * Identify the purpose for data collection and usage by answering questions as those you can find in the [The decision matrix - Canvas 1](https://media.nesta.org.uk/documents/Data_Sharing_Toolkit_1.pdf?fbclid=IwAR0QMvkBg21UPYJ7b4PvT6mlt3ywHZsScqWEV95qeThUnLToLer0FwsnKeQ) by Nesta, or the [Data Ethics Framework](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/923108/Data_Ethics_Framework_2020.pdf) - [Define and understand public benefic and user need](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/923108/Data_Ethics_Framework_2020.pdf) by UK Government Digital Service;
 
-      * Understand the service ecosystem with all the actors involved in the process to clarify the different roles and responsibilities of each actor in data collection and processing and data privacy protection . System maps can help doing the job. 
+      \- Understand the service ecosystem with all the actors involved in the process to clarify the different roles and responsibilities of each actor in data collection and processing and data privacy protection . System maps can help doing the job. 
 
-      * Check you have considered (or will consider) all the data-related critical aspects throughout the different phases of data management by building a checklist or opting for something like the [Digital security and Privacy Protection UX Checklist](https://docs.google.com/presentation/d/1snDclSxKsyfUlqIH7HBWv9rdT6gIRPHqAuhaUjFZCoU/edit#slide=id.p)
+
+      \- Check you have considered (or will consider) all the data-related critical aspects throughout the different phases of data management by building a checklist or opting for something like the [Digital security and Privacy Protection UX Checklist](https://docs.google.com/presentation/d/1snDclSxKsyfUlqIH7HBWv9rdT6gIRPHqAuhaUjFZCoU/edit#slide=id.p)
   - title: Identify the type of data you need
     description: >-
       Once the purpose for data collection is clear and shared within the team,
