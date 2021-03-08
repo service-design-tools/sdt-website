@@ -56,17 +56,22 @@ steps:
 
       When thinking about how data will be managed and shared in your project, it’s important to first understand the characteristics of data and classify them by sensitivity levels, then you can determine which are the set of rules for each of those levels.
     tips: >-
-      
+      \- Understand the types of data you need to gather referring to common
+      classification as that you can find in [The Data
+      Spectrum](https://theodi.org/about-the-odi/the-data-spectrum/) by Open
+      Data Institute;
 
-      * Understand the types of data you need to gather referring to common classification as that you can find in [The Data Spectrum](https://theodi.org/about-the-odi/the-data-spectrum/) by Open Data Institute;
 
-      * Check up the regulations in force in your country regarding data processing (e.g [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj) in Europe). If you’re serving international clients, you should be even more careful to adapt your solutions to different and sometimes conflicting regulations; 
+      \- Check up the regulations in force in your country regarding data processing (e.g [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj) in Europe). If you’re serving international clients, you should be even more careful to adapt your solutions to different and sometimes conflicting regulations; 
 
-      * Prepare and submit the required data collection informed consents according to the different data types you are willing to collect, such as the [Consent for Data Use](https://digitalimpact.io/toolkit/templates/consent-for-data-use/) suggested by Digital Impact 
 
-      * Classify data based on their sensitivity level and come up with different conditions for data sharing depending on the sensitivity. You can use the [Data Classification Matrix](https://data.humdata.org/dataset/2048a947-5714-4220-905b-e662cbcd14c8/resource/c7053042-fd68-44c7-ae24-a57890a48235/download/ocha-dr-guidelines-working-draft-032019.pdf) developed by The United Nations Office of The Humanitarian Affairs (OCHA).
+      \- Prepare and submit the required data collection informed consents according to the different data types you are willing to collect, such as the [Consent for Data Use](https://digitalimpact.io/toolkit/templates/consent-for-data-use/) suggested by Digital Impact 
 
-      * Identify and plan for potential data quality issues and biases, checking the documentations of your sources (or asking the collectors to specify the details).
+
+      \- Classify data based on their sensitivity level and come up with different conditions for data sharing depending on the sensitivity. You can use the [Data Classification Matrix](https://data.humdata.org/dataset/2048a947-5714-4220-905b-e662cbcd14c8/resource/c7053042-fd68-44c7-ae24-a57890a48235/download/ocha-dr-guidelines-working-draft-032019.pdf) developed by The United Nations Office of The Humanitarian Affairs (OCHA).
+
+
+      \- Identify and plan for potential data quality issues and biases, checking the documentations of your sources (or asking the collectors to specify the details).
   - title: Understand how data flows
     description: >-
       When working on data-related projects, it is useful to understand how data
@@ -79,13 +84,20 @@ steps:
 
       Concerning data flows, you must also consider the possibility of data breach (when your database is accessed by third-parties without authorization). This security accident can hurt businesses or its users in serious ways. Even though designers are not necessarily responsible for such technicalities, it’s crucial to be aware of the issue and work with technicians to come up with preventative and recovery mechanisms for unwanted exposure of confidential, sensitive data.
     tips: >-
-      
+      \- Describe the data journey specifying inputs, outputs, where data is
+      stored, and where it travels compiling a [Data flow
+      diagram](https://www.lucidchart.com/pages/templates/data-flow/lucidchart-data-flow-diagram-logical-example)
+      as that proposed by Lucidchart or the [Data Map
+      Template](http://h41111.www4.hpe.com/privacy-toolkit/pdf/Data-Map-Template.pdf)
+      you can find in [The Privacy
+      Toolkit](http://h41111.www4.hpe.com/privacy-toolkit/overview.html) by
+      Hewlett Packard Enterprise;
 
-      * Describe the data journey specifying inputs, outputs, where data is stored, and where it travels compiling a [Data flow diagram](https://www.lucidchart.com/pages/templates/data-flow/lucidchart-data-flow-diagram-logical-example) as that proposed by Lucidchart or the [Data Map Template](http://h41111.www4.hpe.com/privacy-toolkit/pdf/Data-Map-Template.pdf) you can find in [The Privacy Toolkit](http://h41111.www4.hpe.com/privacy-toolkit/overview.html) by Hewlett Packard Enterprise;
 
-      * Identify and plan for potential risks that might come from data misuse or missing data, building your [Data Responsibility Plan. You can start from the template](https://data.humdata.org/dataset/2048a947-5714-4220-905b-e662cbcd14c8/resource/c7053042-fd68-44c7-ae24-a57890a48235/download/ocha-dr-guidelines-working-draft-032019.pdf) you can find in the Data Responsibility Guidelines developed by The United Nations Office of The Humanitarian Affairs (OCHA);
+      \- Identify and plan for potential risks that might come from data misuse or missing data, building your [Data Responsibility Plan. You can start from the template](https://data.humdata.org/dataset/2048a947-5714-4220-905b-e662cbcd14c8/resource/c7053042-fd68-44c7-ae24-a57890a48235/download/ocha-dr-guidelines-working-draft-032019.pdf) you can find in the Data Responsibility Guidelines developed by The United Nations Office of The Humanitarian Affairs (OCHA);
 
-      * Identify and plan for potential limitations in terms of algorithmic and human biases, for example following the principles suggested by [IDEO’s AI ethics cards](https://www.ideo.com/blog/ai-needs-an-ethical-compass-this-tool-can-help).
+
+      \- Identify and plan for potential limitations in terms of algorithmic and human biases, for example following the principles suggested by [IDEO’s AI ethics cards](https://www.ideo.com/blog/ai-needs-an-ethical-compass-this-tool-can-help).
   - title: Be aware of data impact
     description: >-
       The need to think critically about data privacy doesn’t end when the
@@ -102,15 +114,22 @@ steps:
 
       This could be part of the designer’s responsibilities as well, firstly to help make sure that visualized/analyzed data is interpreted in an ethical way, and then to communicate the impact of data collection to users and stakeholders as part of the design solutions.
     tips: >-
-      
+      \- Provide all stakeholders with clear and comprehensible information for
+      data sharing filling an [Information sharing
+      protocol](https://data.humdata.org/dataset/2048a947-5714-4220-905b-e662cbcd14c8/resource/c7053042-fd68-44c7-ae24-a57890a48235/download/ocha-dr-guidelines-working-draft-032019.pdf)
+      as the one
+      [](https://data.humdata.org/dataset/2048a947-5714-4220-905b-e662cbcd14c8/resource/c7053042-fd68-44c7-ae24-a57890a48235/download/ocha-dr-guidelines-working-draft-032019.pdf)
+      you can find in the Data Responsibility Guidelines developed by The United
+      Nations Office of The Humanitarian Affairs (OCHA);
 
-      * Provide all stakeholders with clear and comprehensible information for data sharing filling an [Information sharing protocol](https://data.humdata.org/dataset/2048a947-5714-4220-905b-e662cbcd14c8/resource/c7053042-fd68-44c7-ae24-a57890a48235/download/ocha-dr-guidelines-working-draft-032019.pdf) as the one [](https://data.humdata.org/dataset/2048a947-5714-4220-905b-e662cbcd14c8/resource/c7053042-fd68-44c7-ae24-a57890a48235/download/ocha-dr-guidelines-working-draft-032019.pdf) you can find in the Data Responsibility Guidelines developed by The United Nations Office of The Humanitarian Affairs (OCHA);
 
-      * Educate users to be always aware of their rights and potential threats while building trustful long-term relationships for your client organizations. You might consider using [Personas for privacy and security](https://medium.com/@gusandrews/user-personas-for-privacy-and-security-a8b35ae5a63b) to highlight the knowledge and awareness gaps of different user types in terms of their data privacy rights and take punctual actions to improve user experience in order to fill the gaps. Or you can look at the [Pillars for data handling](https://raftcollective.com/thinking/gdpr/#popUpProtect) elaborated by Raft Collective;
+      \- Educate users to be always aware of their rights and potential threats while building trustful long-term relationships for your client organizations. You might consider using [Personas for privacy and security](https://medium.com/@gusandrews/user-personas-for-privacy-and-security-a8b35ae5a63b) to highlight the knowledge and awareness gaps of different user types in terms of their data privacy rights and take punctual actions to improve user experience in order to fill the gaps. Or you can look at the [Pillars for data handling](https://raftcollective.com/thinking/gdpr/#popUpProtect) elaborated by Raft Collective;
 
-      * Identify and communicate potential data impacts for each stakeholder group (e.g. inform users about third party data sharing or terms of services and make sure they have control over their information). You can look at the [Privacy statement](https://www.visualcontracts.eu/legal/privacy-statement/) by Visual Contracts as a good example to follow;
 
-      * Come up with measuring and treatment mechanisms for these impacts. To prevent data breaches you can look at the  [Guide to the general data protection regulation (GDPR)](https://raftcollective.com/thinking/gdpr/#popUpProtect) by the UK Information Commissioner’s Office. Make sure to get creative with the metrics and to not miss the qualitative impacts.
+      \- Identify and communicate potential data impacts for each stakeholder group (e.g. inform users about third party data sharing or terms of services and make sure they have control over their information). You can look at the [Privacy statement](https://www.visualcontracts.eu/legal/privacy-statement/) by Visual Contracts as a good example to follow;
+
+
+      \- Come up with measuring and treatment mechanisms for these impacts. To prevent data breaches you can look at the  [Guide to the general data protection regulation (GDPR)](https://raftcollective.com/thinking/gdpr/#popUpProtect) by the UK Information Commissioner’s Office. Make sure to get creative with the metrics and to not miss the qualitative impacts.
 toolkit:
   image: /assets/images/uploads/data-privacy-toolkit.jpg
   pdf: /assets/images/uploads/data-privacy-framework.pdf
