@@ -34,11 +34,13 @@ steps:
       Framework](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/923108/Data_Ethics_Framework_2020.pdf)
       - [Define and understand public benefic and user
       need](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/923108/Data_Ethics_Framework_2020.pdf)
-      by UK Government Digital Service;\
+      by UK Government Digital Service;
 
-      - Understand the service ecosystem with all the actors involved in the process to clarify the different roles and responsibilities of each actor in data collection and processing and data privacy protection. System maps can help doing the job. \
 
-      - Check you have considered (or will consider) all the data-related critical aspects throughout the different phases of data management by building a checklist or opting for something like the [Digital security and Privacy Protection UX Checklist](https://docs.google.com/presentation/d/1snDclSxKsyfUlqIH7HBWv9rdT6gIRPHqAuhaUjFZCoU/edit#slide=id.p)
+      \- Understand the service ecosystem with all the actors involved in the process to clarify the different roles and responsibilities of each actor in data collection and processing and data privacy protection. System maps can help doing the job. 
+
+
+      \- Check you have considered (or will consider) all the data-related critical aspects throughout the different phases of data management by building a checklist or opting for something like the [Digital security and Privacy Protection UX Checklist](https://docs.google.com/presentation/d/1snDclSxKsyfUlqIH7HBWv9rdT6gIRPHqAuhaUjFZCoU/edit#slide=id.p)
   - title: Identify the type of data you need
     description: >-
       Once the purpose for data collection is clear and shared within the team,
@@ -57,15 +59,19 @@ steps:
       \- Understand the types of data you need to gather referring to common
       classification as that you can find in [The Data
       Spectrum](https://theodi.org/about-the-odi/the-data-spectrum/) by Open
-      Data Institute;\
+      Data Institute;
 
-      - Check up the regulations in force in your country regarding data processing (e.g [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj) in Europe). If you’re serving international clients, you should be even more careful to adapt your solutions to different and sometimes conflicting regulations; \
 
-      - Prepare and submit the required data collection informed consents according to the different data types you are willing to collect, such as the [Consent for Data Use](https://digitalimpact.io/toolkit/templates/consent-for-data-use/) suggested by Digital Impact. \
+      \- Check up the regulations in force in your country regarding data processing (e.g [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj) in Europe). If you’re serving international clients, you should be even more careful to adapt your solutions to different and sometimes conflicting regulations; 
 
-      - Classify data based on their sensitivity level and come up with different conditions for data sharing depending on the sensitivity. You can use the [Data Classification Matrix](https://data.humdata.org/dataset/2048a947-5714-4220-905b-e662cbcd14c8/resource/c7053042-fd68-44c7-ae24-a57890a48235/download/ocha-dr-guidelines-working-draft-032019.pdf) developed by The United Nations Office of The Humanitarian Affairs (OCHA).\
 
-      - Identify and plan for potential data quality issues and biases, checking the documentations of your sources (or asking the collectors to specify the details).
+      \- Prepare and submit the required data collection informed consents according to the different data types you are willing to collect, such as the [Consent for Data Use](https://digitalimpact.io/toolkit/templates/consent-for-data-use/) suggested by Digital Impact. 
+
+
+      \- Classify data based on their sensitivity level and come up with different conditions for data sharing depending on the sensitivity. You can use the [Data Classification Matrix](https://data.humdata.org/dataset/2048a947-5714-4220-905b-e662cbcd14c8/resource/c7053042-fd68-44c7-ae24-a57890a48235/download/ocha-dr-guidelines-working-draft-032019.pdf) developed by The United Nations Office of The Humanitarian Affairs (OCHA).
+
+
+      \- Identify and plan for potential data quality issues and biases, checking the documentations of your sources (or asking the collectors to specify the details).
   - title: Understand how data flows
     description: >-
       When working on data-related projects, it is useful to understand how data
