@@ -37,7 +37,7 @@ steps:
       by UK Government Digital Service;
 
 
-      \- Understand the service ecosystem with all the actors involved in the process to clarify the different roles and responsibilities of each actor in data collection and processing and data privacy protection . System maps can help doing the job. 
+      \- Understand the service ecosystem with all the actors involved in the process to clarify the different roles and responsibilities of each actor in data collection and processing and data privacy protection. System maps can help doing the job. 
 
 
       \- Check you have considered (or will consider) all the data-related critical aspects throughout the different phases of data management by building a checklist or opting for something like the [Digital security and Privacy Protection UX Checklist](https://docs.google.com/presentation/d/1snDclSxKsyfUlqIH7HBWv9rdT6gIRPHqAuhaUjFZCoU/edit#slide=id.p)
