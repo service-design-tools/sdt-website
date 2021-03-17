@@ -95,7 +95,7 @@
         grid-column: 3 / span 12;
     }
     .tutorial__card h4 {
-        margin: 1.625rem 0 0;
+        margin: 1rem 0 0;
         font-size: 1.625rem;
         grid-column: 3 / -5;
     }
@@ -125,7 +125,7 @@
         grid-row: span 2;
     }
     .tutorial__card h4 {
-        grid-column: 3 / -3;
+        grid-column: 3 / -1;
     }
     .tutorial__card .dotgrid {
         grid-column: -10 / -2;
@@ -140,6 +140,6 @@
     .tutorial__card h4 {
         margin: 1.75rem 0 0;
         font-size: 1.75rem;
-        grid-column: 3 / -5;
+        grid-column: 3 / -3;
     }
 }

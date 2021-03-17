@@ -173,12 +173,12 @@
     text-decoration: underline;
 }
 
-.step__content h5 + p {
+.step__content h5 ~ p {
     width: calc(var(--column-width) * 6 + var(--container-gap) * 5);
     font-size: 0.875rem;
     font-weight: var(--font-light);
     line-height: 1.6;
-    margin-bottom: 0;
+    margin-bottom: .2rem;
 }
 
 main > img {
