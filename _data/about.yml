@@ -41,6 +41,9 @@ team:
     - name: Beatrice Villari
       role: Chief Researcher
       picture: /assets/images/uploads/beatrice-villari-grey.png
+    - name: Bryan Sabin
+      role: Researcher
+      picture: /assets/images/uploads/bryan-sabin.jpg
     - name: Chiara Albanesi
       role: "Researcher "
       picture: /assets/images/uploads/chiara-albanesi-grey.png
@@ -59,16 +62,22 @@ team:
     - name: Raffaela Scognamiglio
       role: External Relations and Communication Manager
       picture: /assets/images/uploads/raffaela-scognamiglio-grey.png
+    - name: Serena Talento
+      role: Researcher
+      picture: /assets/images/uploads/serena.jpg
     - name: Yulya Besplemennova
       role: Scientific Coordinator
       picture: /assets/images/uploads/yulya-besplemennova-grey.png
-    - name: Bryan Sabin
-      role: Researcher
-      picture: /assets/images/uploads/bryan-sabin.jpg
 collaboratorsCurrent:
   title: Current collaborators
   description: Students, researchers and external advisors current partnering with us.
-  members: []
+  members:
+    - name: Cristina Colosi
+      role: Researcher
+      picture: /assets/images/uploads/cristina-colosi.jpg
+    - name: Ilaria Gava
+      role: Researcher
+      picture: /assets/images/uploads/ilaria-gava.jpg
 collaboratorsPast:
   - name: Andrea Pastor
     role: Service design and Circular economy
