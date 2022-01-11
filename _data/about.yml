@@ -35,9 +35,6 @@ team:
     - name: Stefano Maffei
       role: Scientific Director
       picture: /assets/images/uploads/stefano-maffei-grey.png
-    - name: Agata Brilli
-      role: "Researcher "
-      picture: /assets/images/uploads/agata-brilli-grey.png
     - name: Beatrice Villari
       role: Chief Researcher
       picture: /assets/images/uploads/beatrice-villari-grey.png
@@ -53,9 +50,6 @@ team:
     - name: Laura Toffetti
       role: Visual Designer
       picture: /assets/images/uploads/laura-toffetti-grey.png
-    - name: Lisa Cagnin
-      role: Researcher
-      picture: /assets/images/uploads/lisa-cagnin-grey.png
     - name: Michele Invernizzi
       role: Web Developer
       picture: /assets/images/uploads/michele-invernizzi-grey.png
