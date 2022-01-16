@@ -2,6 +2,7 @@
 title: User Scenarios
 subtitle: Explain the envisioned experience by narrating a relevant story of use
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Narrative

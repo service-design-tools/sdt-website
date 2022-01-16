@@ -21,6 +21,7 @@ collections:
       - {label: "title", name: "title", widget: "string"}
       - {label: "subtitle", name: "subtitle", widget: "string"}
       - {label: "show on tools page", name: "publicable", widget: "boolean", default: true}
+      - {label: "is this an enhanced tool?", name: "isEnhanced", widget: "boolean", default: false}
       - label: "tool properties"
         name: "properties"
         widget: "object"
@@ -45,7 +46,7 @@ collections:
             widget: "select"
             multiple: true
             options: ["Narrative", "Map", "Simulation", "Text"]
-      - {label: "also called", name: "synonyms", widget: "string", required: false}
+      - {label: "also called (for normal tools) or inspired by (for enhanced tools)", name: "synonyms", widget: "string", required: false}
       - {label: "svg icon", name: "icon", widget: "text", hint: "Paste here the svg code of the icon."}
       - label: "related content"
         name: "related"

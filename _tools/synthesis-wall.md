@@ -4,6 +4,7 @@ subtitle: >-
   Use a physical wall and post-it notes to debrief the research sessions and
   cluster important insights
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Map

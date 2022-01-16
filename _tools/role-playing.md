@@ -2,6 +2,7 @@
 title: Role Playing
 subtitle: Perform a hypothetical service experience
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Simulation

@@ -2,6 +2,7 @@
 title: Value Proposition Canvas
 subtitle: Describe the value offered by the service in simple words
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Text

@@ -4,6 +4,7 @@ subtitle: >-
   Map out the entire process of service delivery, above and below the line of
   visibility
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Map

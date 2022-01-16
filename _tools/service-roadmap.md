@@ -3,6 +3,7 @@ title: Service Roadmap
 subtitle: Plan the service execution over time, from a minimum set of
   functionalities to delivering the full experience.
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Map

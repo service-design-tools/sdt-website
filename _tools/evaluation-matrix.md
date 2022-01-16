@@ -2,6 +2,7 @@
 title: Evaluation Matrix
 subtitle: Prioritize ideas based on the most relevant success criteria for the project.
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Map

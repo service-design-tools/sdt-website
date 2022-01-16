@@ -2,6 +2,7 @@
 title: Success Metrics
 subtitle: Define a set of KPI to measure the project outcomes and service success
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Map

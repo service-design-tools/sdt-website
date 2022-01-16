@@ -4,6 +4,7 @@ subtitle: >-
   Write down all the hypothesis and assumptions as a starting point for the
   project.
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Text

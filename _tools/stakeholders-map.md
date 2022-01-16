@@ -2,6 +2,7 @@
 title: Stakeholders Map
 subtitle: 'Identify the role of each stakeholder, and relation dynamics'
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Map

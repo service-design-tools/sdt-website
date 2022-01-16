@@ -4,6 +4,7 @@ subtitle: >-
   Describe every touchpoints, features and interaction in details to support
   detailed design and implementation
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Text

@@ -3,6 +3,7 @@ title: Brainstorming
 subtitle: First diverge and generate as many idea as you can, then converge
   around solid concepts.
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Text

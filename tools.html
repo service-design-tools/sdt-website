@@ -92,7 +92,8 @@ desc: Browse the collection to find the best resources and materials, based on y
     </div>
     <div class="tools__gallery">
         {% for tool in site.tools %}
-        {% if tool.publicable == true %}
+        <!-- !!temporary addition!! to filter out enhanced tools -->
+        {% if tool.publicable == true and tool.isEnhanced == false %}
         <a href="{{ tool.title | escape | replace: '&#39;', '' | slugify | prepend: '/tools/' | relative_url }}" class="tool{% for question in tool.properties.when %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.who %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.what %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.how %} {{ question | slugify }}{% endfor %}" data-name="{{ tool.title | slugify }}" data-process="{% for question in tool.properties.when %} {{ question | slugify }}{% endfor %}">
             <div class="card">
                 {{ tool.icon | strip_newlines | normalize_whitespace }}

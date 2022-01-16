@@ -3,6 +3,7 @@ title: Ecosystem Map
 subtitle: Describe all the entities, flows and relationships that characterize
   the surrounding ecosystem.
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Map

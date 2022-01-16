@@ -2,6 +2,7 @@
 title: healthcare journey map
 subtitle: xxx
 publicable: false
+isEnhanced: false
 properties:
   when:
     - Research

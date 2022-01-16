@@ -3,6 +3,7 @@ title: Issue Cards
 subtitle: "Support the conversation around complex matters by breaking down the
   subject into physical cards. "
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Text

@@ -6,8 +6,8 @@ layout: null
     let resizeTimer;
     let carousel;
 
-    const toolsArray = [{% for tool in site.tools %}{'tool': "{{ tool.title }}", 'url': '{{ tool.url }}', 'svg': `{{ tool.icon | strip_newlines | normalize_whitespace }}`}{% unless forloop.last %},{% endunless %}{% endfor %}];
-    const randomToolPicks = d3.shuffle(toolsArray).slice(0,4);
+    const toolsArray = [{% for tool in site.tools %}{'tool': "{{ tool.title }}", 'url': '{{ tool.url }}', 'svg': `{{ tool.icon | strip_newlines | normalize_whitespace }}`, 'isEnhanced': {{ tool.isEnhanced }}}{% unless forloop.last %},{% endunless %}{% endfor %}];
+    const randomToolPicks = d3.shuffle(d3.filter(toolsArray, d => !d.isEnhanced)).slice(0,4);
 
     const $toolCards = document.querySelectorAll('.highlights__tools a');
     $toolCards.forEach((card, index) => {

@@ -2,6 +2,7 @@
 title: Service Safari
 subtitle: Dive into a service experience in first-person
 publicable: true
+isEnhanced: false
 properties:
   when:
     - Research

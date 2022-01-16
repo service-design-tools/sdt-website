@@ -2,6 +2,7 @@
 title: Journey Map
 subtitle: 'Describe how the user interact with the service, throughout its touchpoints'
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Map

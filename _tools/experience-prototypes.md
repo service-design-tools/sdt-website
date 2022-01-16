@@ -2,6 +2,7 @@
 title: Experience Prototypes
 subtitle: Simulate the service experience by prototyping one or more touchpoints.
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Simulation

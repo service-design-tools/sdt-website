@@ -2,6 +2,7 @@
 title: Service Prototype
 subtitle: Test the service by simulating a real interaction with one or more touchpoints
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Simulation

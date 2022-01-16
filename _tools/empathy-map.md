@@ -2,6 +2,7 @@
 title: Empathy Map
 subtitle: Share key assumptions around user attitudes and behaviors
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Text

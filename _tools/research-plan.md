@@ -4,6 +4,7 @@ subtitle: >-
   Define how to conduct a research activity by writing the protocol before
   starting.
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Text

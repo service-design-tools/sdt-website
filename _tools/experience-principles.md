@@ -4,6 +4,7 @@ subtitle: >-
   Identify a set of guiding principles to inspire the design of a specific
   service experience.
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Text

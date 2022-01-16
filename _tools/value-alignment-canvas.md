@@ -2,6 +2,7 @@
 title: Value alignment canvas
 subtitle: xxx
 publicable: false
+isEnhanced: false
 properties:
   when:
     - Evaluation

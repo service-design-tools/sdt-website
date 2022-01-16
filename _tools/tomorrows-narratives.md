@@ -2,6 +2,7 @@
 title: Tomorrow's Narratives
 subtitle: Project into the future to elicit a common vision
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Narrative

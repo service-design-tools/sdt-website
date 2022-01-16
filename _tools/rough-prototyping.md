@@ -4,6 +4,7 @@ subtitle: >-
   Quickly mock-up ideas using simple assets and materials, already available on
   the spot
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Simulation

@@ -2,6 +2,7 @@
 title: Healthcare stakeholder map
 subtitle: xxx
 publicable: false
+isEnhanced: false
 properties:
   when:
     - Ideation

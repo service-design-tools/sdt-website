@@ -2,6 +2,7 @@
 title: User Stories
 subtitle: Detail the features that need to be developed in the form of user interactions
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Text

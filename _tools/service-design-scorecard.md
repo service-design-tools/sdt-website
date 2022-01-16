@@ -2,6 +2,7 @@
 title: Service design scorecard
 subtitle: xxx
 publicable: false
+isEnhanced: false
 properties:
   when:
     - Evaluation

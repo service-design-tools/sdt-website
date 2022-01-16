@@ -2,6 +2,7 @@
 title: Service Image
 subtitle: Capture the essence of a service experience in a single frame.
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Narrative

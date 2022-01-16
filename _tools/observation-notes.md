@@ -2,6 +2,7 @@
 title: Observation Notes
 subtitle: Make contextual observation highly efficient in complex field settings
 publicable: true
+isEnhanced: false
 properties:
   how:
     - Text
