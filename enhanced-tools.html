@@ -1,0 +1,73 @@
+---
+title: Enhanced tools
+desc: An on-going project bridging academic research and professional practices.
+---
+{% assign aboutData = site.data.about %}
+{% include header.html title="Enhanced tools" desc="An on-going project bridging academic research and professional practices." svg="enhanced-tools-svg.html" %}
+<main>
+  <h2>{{ aboutData.timeline.title }}</h2>
+  {{ aboutData.timeline.description | markdownify }}
+  <div class="timeline">
+    {% for event in aboutData.timeline.events %}
+    <div class="event">
+      <p class="event__year">{{ event.year }}</p>
+      {{ event.text | markdownify }}
+    </div>
+    {% endfor %}
+  </div>
+</main>
+<section class="team">
+  <h2>{{ aboutData.team.title }}</h2>
+  {{ aboutData.team.description | markdownify }}
+  <div class="team__members">
+    {% for member in aboutData.team.members %}
+    <div class="member">
+      <img src="{{ member.picture }}" alt="{{ member.name }}'s profile picture">
+      <div>
+        <p class="member__name">{{ member.name }}</p>
+        <h5>{{ member.role }}</h5>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% assign currentCollaboratorsLength = aboutData.collaboratorsCurrent.members | size %}
+{% assign pastCollaboratorsLength = aboutData.collaboratorsPast | size %}
+<section class="collaborators">
+  {% if currentCollaboratorsLength > 0 %}
+  <h2>{{ aboutData.collaboratorsCurrent.title }}</h2>
+  {{ aboutData.collaboratorsCurrent.description | markdownify }}
+  <div class="collaborators__members">
+    {% for member in aboutData.collaboratorsCurrent.members %}
+    <div class="member--collaborator">
+      <img src="{{ member.picture }}" alt="{{ member.name }}'s profile picture">
+      <div>
+        <p>{{ member.name }}</p>
+        <h5>{{ member.role }}</h5>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% if pastCollaboratorsLength > 0 %}
+  <h3>Past collaborators</h3>
+  <p>
+    {% for member in aboutData.collaboratorsPast %}
+    <span>{{ member.name }} ({{ member.role }})</span>
+    {% endfor %}
+  </p>
+  {% endif %}
+</section>
+<section class="curators">
+  <h3>Curated by</h3>
+  <div class="curators__members">
+    {% for curator in aboutData.curators %}
+    <div class="curator">
+      <div>
+        <img src="{{ curator.logo }}" alt="curator's logo">
+      </div>
+      {{ curator.description | markdownify }}
+    </div>
+    {% endfor %}
+  </div>
+</section>

@@ -2,103 +2,147 @@
 title: Service Design Tools | Communication methods supporting design processes
 desc: The open collection of tools and tutorials that help dealing with complex design challenges.
 ---
-{% include header.html title="Service Design Tools" desc="The open collection of tools and tutorials that helps dealing with complex design challenges." svg="home-svg.html" %}
+{% include header.html title="Service Design Tools" desc="The open collection of tools and tutorials that helps dealing
+with complex design challenges." svg="home-svg.html" %}
 <main>
-    <div class="tools__sneakpeak">
-        <div class="questions__section">
-            <div class="question">
-                <div class="question__title">
-                    {% include svgs/clock.html %}
-                    <h3>When</h3>
-                </div>
-                <p>What stage of the design process are you at?</p>
-            </div>
-            <div class="question">
-                <div class="question__title">
-                    {% include svgs/user.html %}
-                    <h3>Who</h3>
-                </div>
-                <p>Who would you like to engage in the design process?</p>
-            </div>
-            <div class="question">
-                <div class="question__title">
-                    {% include svgs/dots.html %}
-                    <h3>What</h3>
-                </div>
-                <p>What aspects of the service are you working on?</p>
-            </div>
-            <div class="question">
-                <div class="question__title">
-                    {% include svgs/network.html %}
-                    <h3>How</h3>
-                </div>
-                <p>What types of representation you'd like to use?</p>
-            </div>
+  <div class="tools__sneakpeak">
+    <div class="questions__section">
+      <div class="question">
+        <div class="question__title">
+          {% include svgs/clock.html %}
+          <h3>When</h3>
         </div>
-        <a href="{{ '/tools' | relative_url }}" class="btn--action">explore tools</a>
+        <p>What stage of the design process are you at?</p>
+      </div>
+      <div class="question">
+        <div class="question__title">
+          {% include svgs/user.html %}
+          <h3>Who</h3>
+        </div>
+        <p>Who would you like to engage in the design process?</p>
+      </div>
+      <div class="question">
+        <div class="question__title">
+          {% include svgs/dots.html %}
+          <h3>What</h3>
+        </div>
+        <p>What aspects of the service are you working on?</p>
+      </div>
+      <div class="question">
+        <div class="question__title">
+          {% include svgs/network.html %}
+          <h3>How</h3>
+        </div>
+        <p>What types of representation you'd like to use?</p>
+      </div>
     </div>
+    <a href="{{ '/tools' | relative_url }}" class="btn--action">explore tools</a>
+  </div>
 
-    <div class="highlights">
-        <h3>Tools & Tutorials</h3>
-        <h2>Highlights</h2>
-        <div class="highlights__cards">
-            <div class="highlights__column">
-                <a href="{{ '/tools' | relative_url }}"><div class="card square--4">
-                    <h2>Tools</h2>
-                    {% include svgs/tools-svg.html %}
-                </div></a>
-                <a href="" class="tutorial__links"><div class="card square--2">
-                    <div class="tutorial__card">
-                        {% include svgs/dotgrid.html class="dotgrid" %}
-                        <h3><span></span>{% include svgs/zigzag.html class="zigzag" %}</h3>
-                        <h4></h4>
-                    </div>
-                </div></a>
-                <div class="highlights__tools">
-                    <a href="">
-                        <div class="card square--1">
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="card square--1">
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="highlights__column">
-                <div class="highlights__tools">
-                    <a href="">
-                        <div class="card square--1">
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="card square--1">
-                        </div>
-                    </a>
-                </div>
-                <a href="" class="tutorial__links"><div class="card square--2">
-                    <div class="tutorial__card">
-                        {% include svgs/dotgrid.html class="dotgrid" %}
-                        <h3><span></span>{% include svgs/zigzag.html class="zigzag" %}</h3>
-                        <h4></h4>
-                    </div>
-                </div></a>
-                <a href="{{ '/tutorials' | relative_url }}"><div class="card square--4">
-                    <h2>Tutorials</h2>
-                    {% include svgs/tutorials-svg.html %}
-                </div></a>
-            </div>
+  <div class="highlights">
+    <h3>Tools & Tutorials</h3>
+    <h2>Highlights</h2>
+    <div class="highlights__container">
+      <a href="{{ '/tools' | relative_url }}" class="square--4">
+        <div class="card">
+          <h2>Tools</h2>
+          {% include svgs/tools-svg.html %}
         </div>
+      </a>
+
+      <a href="" data-type="normal" class="square--1">
+        <div class="card">
+        </div>
+      </a>
+
+      <a href="" data-type="normal" class="square--1">
+        <div class="card">
+        </div>
+      </a>
+
+      <a href="" class="tutorial__links square--2">
+        <div class="card">
+          <div class="tutorial__card">
+            {% include svgs/dotgrid.html class="dotgrid" %}
+            <h3><span></span>{% include svgs/zigzag.html class="zigzag" %}</h3>
+            <h4></h4>
+          </div>
+        </div>
+      </a>
+
+      <a href="" class="tutorial__links square--2">
+        <div class="card">
+          <div class="tutorial__card">
+            {% include svgs/dotgrid.html class="dotgrid" %}
+            <h3><span></span>{% include svgs/zigzag.html class="zigzag" %}</h3>
+            <h4></h4>
+          </div>
+        </div>
+      </a>
+
+      <a href="{{ '/enhanced-tools' | relative_url }}" class="square--4">
+        <div class="card" data-type="enhanced">
+          <h2>Enhanced Tools</h2>
+          {% include svgs/enhanced-tools-svg.html %}
+        </div>
+      </a>
+
+      <a href="" data-type="normal" class="square--1">
+        <div class="card">
+        </div>
+      </a>
+      
+      <a href="" data-type="normal" class="square--1">
+        <div class="card">
+        </div>
+      </a>
+
+      <a href="{{ '/tutorials' | relative_url }}" class="square--4">
+        <div class="card">
+          <h2>Tutorials</h2>
+          {% include svgs/tutorials-svg.html %}
+        </div>
+      </a>
+
+      <a href="" data-type="enhanced" class="square--1">
+        <div class="card">
+        </div>
+      </a>
+      
+      <a href="" data-type="enhanced" class="square--1">
+        <div class="card">
+        </div>
+      </a>
+
+      <a href="" data-type="enhanced" class="square--1">
+        <div class="card">
+        </div>
+      </a>
+      
+      <a href="" data-type="enhanced" class="square--1">
+        <div class="card">
+        </div>
+      </a>
+
     </div>
+  </div>
 </main>
 <section class="home__case-studies">
-    <h3>Case Studies</h3>
-    <h2>Tools in practice</h2>
-    <div class="case-studies__container">
-        <a href=""><div class="card case-studies__card"></div></a>
-        <a href=""><div class="card case-studies__card"></div></a>
-        <a href=""><div class="card case-studies__card"></div></a>
-        <a href=""><div class="card case-studies__card"></div></a>
-    </div>
+  <h3>Case Studies</h3>
+  <h2>Tools in practice</h2>
+  <div class="case-studies__container">
+    <a href="">
+      <div class="card case-studies__card"></div>
+    </a>
+    <a href="">
+      <div class="card case-studies__card"></div>
+    </a>
+    <a href="">
+      <div class="card case-studies__card"></div>
+    </a>
+    <a href="">
+      <div class="card case-studies__card"></div>
+    </a>
+  </div>
 </section>
 {% include contribute.html %}

@@ -6,14 +6,38 @@ layout: null
     let resizeTimer;
     let carousel;
 
-    const toolsArray = [{% for tool in site.tools %}{'tool': "{{ tool.title }}", 'url': '{{ tool.url }}', 'svg': `{{ tool.icon | strip_newlines | normalize_whitespace }}`, 'isEnhanced': {{ tool.isEnhanced }}}{% unless forloop.last %},{% endunless %}{% endfor %}];
-    const randomToolPicks = d3.shuffle(d3.filter(toolsArray, d => !d.isEnhanced)).slice(0,4);
+    const toolsArray = [
+        {% for tool in site.tools %}
+            {
+                'tool': "{{ tool.title }}", 
+                'url': '{{ tool.url }}', 
+                'svg': `{{ tool.icon | strip_newlines | normalize_whitespace }}`, 
+                'isEnhanced': {{ tool.isEnhanced }},
+                'publicable': {{ tool.publicable }}
+            }
+            {% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    ];
+    const randomToolPicks = d3.shuffle(d3.filter(toolsArray, d => !d.isEnhanced && d.publicable)).slice(0,4);
 
-    const $toolCards = document.querySelectorAll('.highlights__tools a');
+    const $toolCards = document.querySelectorAll('.highlights__container a[data-type="normal"]');
     $toolCards.forEach((card, index) => {
         const toolPick = randomToolPicks[index];
         card.href = toolPick.url;
         card.firstElementChild.innerHTML = `
+            ${toolPick.svg}
+            <p>${toolPick.tool}</p>
+        `;
+    });
+
+    const randomEnhancedToolPicks = d3.shuffle(d3.filter(toolsArray, d => d.isEnhanced && d.publicable)).slice(0,4);
+
+    const $enhancedToolCards = document.querySelectorAll('.highlights__container a[data-type="enhanced"]');
+    $enhancedToolCards.forEach((card, index) => {
+        const toolPick = randomEnhancedToolPicks[index];
+        card.href = toolPick.url;
+        card.firstElementChild.innerHTML = `
+            <p class="card__label">enhanced</p>
             ${toolPick.svg}
             <p>${toolPick.tool}</p>
         `;

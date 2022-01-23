@@ -1,283 +1,292 @@
 main {
-    width: var(--container-width);
-    margin: 3rem auto 1rem;
-    display: flex;
-    flex-direction: column-reverse;
+  width: var(--container-width);
+  margin: 3rem auto 1rem;
+  display: flex;
+  flex-direction: column-reverse;
+
+  &[data-type="enhanced"] {
+    --color-main: var(--color-support);
+  }
 }
 
 .related__content {
-    margin-top: 2.5rem;
+  margin-top: 2.5rem;
 }
 
 .related__content h5 {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .related__content .tip {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .tip svg {
-    margin-left: 0.2rem;
-    height: 0.75rem;
+  margin-left: 0.2rem;
+  height: 0.75rem;
 }
 
 .related__tool,
 .related__tutorial {
-    width: 210px;
-    padding: 1.125rem;
-    margin: 1.5rem 0 2.5rem;
-    display: flex;
-    align-items: center;
+  --color-main: #00d2e6;
+  width: 210px;
+  padding: 1.125rem;
+  margin: 1.5rem 0 2.5rem;
+  display: flex;
+  align-items: center;
 }
 
 .related__tutorial {
-    width: 234px;
-    padding: .375rem;
+  width: 234px;
+  padding: 0.375rem;
 }
 
 .related__tool svg {
-    max-width: 60px;
-    height: 46px;
-    margin-left: 0.75rem;
+  max-width: 60px;
+  height: 46px;
+  margin-left: 0.75rem;
 }
 
 .related__tool p,
 .related__tutorial p {
-    font-size: 0.8rem;
-    font-weight: var(--font-medium);
-    text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: var(--font-medium);
+  text-transform: uppercase;
 }
 
 .related__tool p {
-    width: 50%;
-    margin-left: 1.4rem;
+  width: 50%;
+  margin-left: 1.4rem;
 }
 
 .related__tutorial p {
-    padding: .875rem;
-    border: 2px solid var(--color-main);
+  padding: 0.875rem;
+  border: 2px solid var(--color-main);
 }
 
 .main__content {
-    width: calc(var(--column-width) * 6 + var(--container-gap) * 5);
+  width: calc(var(--column-width) * 6 + var(--container-gap) * 5);
 }
 
 .main__content p {
-    font-size: 1.125rem;
-    font-weight: var(--font-light);
-    line-height: 1.6;
+  font-size: 1.125rem;
+  font-weight: var(--font-light);
+  line-height: 1.6;
 }
 
 .additional__content {
-    margin: 2.5rem 0;
+  margin: 2.5rem 0;
 }
 
 .additional__content div {
-    padding: 0 1.5rem;
-    border-left: 0.5px solid var(--color-line-light);
+  padding: 0 1.5rem;
+  border-left: 0.5px solid var(--color-line-light);
 }
 
 .additional__content div:first-child {
-    padding: 0 1.5rem 2rem;
+  padding: 0 1.5rem 2rem;
 }
 
 .additional__content p {
-    width: 95%;
-    font-size: 1rem;
-    font-weight: var(--font-light);
-    line-height: 1.5;
+  width: 95%;
+  font-size: 1rem;
+  font-weight: var(--font-light);
+  line-height: 1.5;
 }
 
 .main__content img {
-    width: 100%;
-    border: 0.5px solid var(--color-line-light);
+  width: 100%;
+  border: 0.5px solid var(--color-line-light);
 }
 
 .download__links {
-    margin: 2rem 0 3.75rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin: 2rem 0 3.75rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .download__links svg {
-    fill-rule: evenodd;
-    width: 1rem;
-    position: relative;
-    top: 2px;
-    right: 4px;
+  fill-rule: evenodd;
+  width: 1rem;
+  position: relative;
+  top: 2px;
+  right: 4px;
 }
 
-.download__links .outside--link{
-    margin-top: 1.25rem;
+.download__links .outside--link {
+  margin-top: 1.25rem;
 }
 
 .guidelines {
-    margin-bottom: 3.75rem;
+  margin-bottom: 3.75rem;
 }
 
 .guideline__step {
-    margin-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .guidelines .guideline__index {
-    margin-right: var(--container-gap);
-    margin-bottom: .625rem;
-    font-size: 2rem;
-    line-height: 1.2;
-    color: var(--color-main);
+  margin-right: var(--container-gap);
+  margin-bottom: 0.625rem;
+  font-size: 2rem;
+  line-height: 1.2;
+  color: var(--color-main);
 }
 
 .guidelines .guideline__text > p {
-    width: calc(var(--column-width) * 6 + var(--container-gap) * 5);
-    font-size: 1rem;
+  width: calc(var(--column-width) * 6 + var(--container-gap) * 5);
+  font-size: 1rem;
 }
 
 .guideline__attention {
-    background-color: rgba(0, 210, 230, .1);
-    display: flex;
-    align-items: flex-start;
-    padding: 1rem;
-    margin-top: 1.4rem;
+  background-color: rgba(0, 210, 230, 0.1);
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  margin-top: 1.4rem;
+}
+
+[data-type="enhanced"] .guideline__attention {
+  background-color: rgba(132, 109, 249, .1);
 }
 
 .guideline__attention svg {
-    width: 22px;
-    margin: .3rem 1rem 0 0;
+  width: 22px;
+  margin: 0.3rem 1rem 0 0;
 }
 
 .guidelines .guideline__attention p {
-    font-size: .875rem;
-    width: 80%;
+  font-size: 0.875rem;
+  width: 80%;
 }
 
 .references {
-    padding-top: 1rem;
+  padding-top: 1rem;
 }
 
 .references p {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    line-height: 1.5;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
 }
 
 .references a {
-    text-decoration: underline;
-    display: block;
-    margin-bottom: 1rem;
-    line-height: 1.5;
+  text-decoration: underline;
+  display: block;
+  margin-bottom: 1rem;
+  line-height: 1.5;
 }
 
 @media (min-width: 576px) {
-    .additional__content p {
-        width: 60%;
-    }
-    .guideline__step {
-        display: flex;
-    }
-    .guidelines .guideline__index {
-        margin-bottom: 0;
-    }
-    .guidelines .guideline__text > p {
-        width: calc(var(--column-width) * 5 + var(--container-gap) * 4);
-        font-size: 1.2rem;
-    }
-    .guidelines .guideline__attention p {
-        font-size: 1rem;
-        width: 98%;
-    }
+  .additional__content p {
+    width: 60%;
+  }
+  .guideline__step {
+    display: flex;
+  }
+  .guidelines .guideline__index {
+    margin-bottom: 0;
+  }
+  .guidelines .guideline__text > p {
+    width: calc(var(--column-width) * 5 + var(--container-gap) * 4);
+    font-size: 1.2rem;
+  }
+  .guidelines .guideline__attention p {
+    font-size: 1rem;
+    width: 98%;
+  }
 }
 
 @media (min-width: 768px) {
-    main {
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 3rem auto 5rem;
-    }
-    .guidelines .guideline__text > p {
-        width: calc(var(--column-width) * 3 + var(--container-gap) * 3);
-    }
-    .related__content {
-        margin-top: 0;
-    }
-    .related__tool {
-        width: calc(var(--column-width) * 2 + var(--container-gap) * 1 - 1.125rem * 2);
-    }
-    .related__tutorial {
-        width: calc(var(--column-width) * 2 + var(--container-gap) * 1 - .375rem * 2);
-    }
-    .main__content {
-        width: calc(var(--column-width) * 4 + var(--container-gap) * 3);
-    }
+  main {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3rem auto 5rem;
+  }
+  .guidelines .guideline__text > p {
+    width: calc(var(--column-width) * 3 + var(--container-gap) * 3);
+  }
+  .related__content {
+    margin-top: 0;
+  }
+  .related__tool {
+    width: calc(var(--column-width) * 2 + var(--container-gap) * 1 - 1.125rem * 2);
+  }
+  .related__tutorial {
+    width: calc(var(--column-width) * 2 + var(--container-gap) * 1 - 0.375rem * 2);
+  }
+  .main__content {
+    width: calc(var(--column-width) * 4 + var(--container-gap) * 3);
+  }
 }
 
 @media (min-width: 992px) {
-    .related__tool {
-        width: 210px;
-    }
-    .related__tutorial {
-        width: 234px;
-    }
-    .main__content {
-        width: calc(var(--column-width) * 8 + var(--container-gap) * 7);
-    }
-    .main__content p {
-        width: 98%;
-        font-size: 1.25rem;
-    }
-    .guidelines .guideline__index {
-        width: var(--column-width);
-    }
-    .guidelines .guideline__text > p {
-        width: calc(var(--column-width) * 6 + var(--container-gap) * 5);
-    }
-    .guidelines .guideline__attention p {
-        width: calc(var(--column-width) * 4 + var(--container-gap) * 5);
-    }
-    .references p {
-        font-size: 1rem;
-    }
-    .additional__content {
-        padding: 1.6rem 0;
-        display: flex;
-        border-top: 0.5px solid var(--color-line-light);
-        border-bottom: 0.5px solid var(--color-line-light);
-    }
-    .additional__content div {
-        width: calc(50% - 1.875rem / 2);
-        padding: 0 1.875rem;
-        border-left: none;
-    }
-    .additional__content div:first-child {
-        padding: 0 1.875rem;
-        border-right: 0.5px solid var(--color-line-light);
-    }
-    .additional__content p {
-        font-size: 1rem;
-    }
+  .related__tool {
+    width: 210px;
+  }
+  .related__tutorial {
+    width: 234px;
+  }
+  .main__content {
+    width: calc(var(--column-width) * 8 + var(--container-gap) * 7);
+  }
+  .main__content p {
+    width: 98%;
+    font-size: 1.25rem;
+  }
+  .guidelines .guideline__index {
+    width: var(--column-width);
+  }
+  .guidelines .guideline__text > p {
+    width: calc(var(--column-width) * 6 + var(--container-gap) * 5);
+  }
+  .guidelines .guideline__attention p {
+    width: calc(var(--column-width) * 4 + var(--container-gap) * 5);
+  }
+  .references p {
+    font-size: 1rem;
+  }
+  .additional__content {
+    padding: 1.6rem 0;
+    display: flex;
+    border-top: 0.5px solid var(--color-line-light);
+    border-bottom: 0.5px solid var(--color-line-light);
+  }
+  .additional__content div {
+    width: calc(50% - 1.875rem / 2);
+    padding: 0 1.875rem;
+    border-left: none;
+  }
+  .additional__content div:first-child {
+    padding: 0 1.875rem;
+    border-right: 0.5px solid var(--color-line-light);
+  }
+  .additional__content p {
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 1200px) {
-    .main__content p {
-        width: 84%;
-    }
+  .main__content p {
+    width: 84%;
+  }
 }
 
 @media (hover: hover) and (pointer: fine) {
-    .related__tool svg .svg--filled-main {
-        opacity: 0;
-        transition: opacity 0.5s;
-    }
-    .related__tool:hover svg .svg--filled-main {
-        opacity: 1;
-    }
-    .related__tool svg .svg--bw {
-        opacity: 1;
-        transition: opacity 0.5s;
-    }
-    .related__tool:hover svg .svg--bw {
-        opacity: 0;
-    }
+  .related__tool svg :is(.svg--filled-main, .svg--filled-support) {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  .related__tool:hover svg :is(.svg--filled-main, .svg--filled-support) {
+    opacity: 1;
+  }
+  .related__tool svg .svg--bw {
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+  .related__tool:hover svg .svg--bw {
+    opacity: 0;
+  }
 }
