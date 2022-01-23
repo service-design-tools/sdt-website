@@ -1,5 +1,5 @@
 # uncomment this line when in development
-local_backend: true
+#local_backend: true
 
 backend:
   name: github
