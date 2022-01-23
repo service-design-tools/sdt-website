@@ -247,8 +247,11 @@
       font-size: 2.25rem;
     }
     svg {
-      height: calc(min(100%, var(--square-module) * 2 + var(--container-gap) - var(--square-4-padding) * 2));
+      height: calc(min(84%, var(--square-module) * 2 + var(--container-gap) - var(--square-4-padding) * 2));
       max-width: 100%;
+    }
+    .card[data-type="enhanced"] svg {
+      height: calc(min(74%, var(--square-module) * 2 + var(--container-gap) - var(--square-4-padding) * 2));
     }
     &[data-type="enhanced"] svg {
       max-width: 80%;
