@@ -2,72 +2,39 @@
 title: Enhanced tools
 desc: An on-going project bridging academic research and professional practices.
 ---
-{% assign aboutData = site.data.about %}
-{% include header.html title="Enhanced tools" desc="An on-going project bridging academic research and professional practices." svg="enhanced-tools-svg.html" %}
+{% assign pageData = site.data.enhanced-page %}
+{% include header.html title=pageData.title desc=pageData.subtitle svg="enhanced-tools-svg.html" %}
 <main>
-  <h2>{{ aboutData.timeline.title }}</h2>
-  {{ aboutData.timeline.description | markdownify }}
-  <div class="timeline">
-    {% for event in aboutData.timeline.events %}
-    <div class="event">
-      <p class="event__year">{{ event.year }}</p>
-      {{ event.text | markdownify }}
+  <section class="introduction">
+    {{ pageData.introduction | markdownify }}
+    {{ pageData.image }}
+  </section>
+  <!-- <section class="diagram">
+    {{ pageData.image }}
+  </section> -->
+  {% for section in pageData.sections %}
+  <section class="group">
+    <h2>{{ section.title }}</h2>
+    <p class="question">{{ section.question }}</p>
+    {{ section.content | markdownify }}
+    {% if section.tools.size > 0 %}
+    <h3 class="h5">Tools</h3>
+    <ul>
+      {% for tool in section.tools %}
+      {% assign match = site.tools | where:"title", tool %}
+      <li><a href="{{ match[0].url }}">{{ tool }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </section>
+  {% endfor %}
+  <section class="masterclass">
+    <div>
+      <h2>{{ pageData.masterclass.title }}</h2>
+      <p>{{ pageData.masterclass.description }}</p>
+      <a href="{{ pageData.masterclass.link.url }}">{{ pageData.masterclass.link.label }}</a>
     </div>
-    {% endfor %}
-  </div>
+    {% include svgs/masterclass-calendar.html %}
+  </section>
+  {% include explore-enhanced.html %}
 </main>
-<section class="team">
-  <h2>{{ aboutData.team.title }}</h2>
-  {{ aboutData.team.description | markdownify }}
-  <div class="team__members">
-    {% for member in aboutData.team.members %}
-    <div class="member">
-      <img src="{{ member.picture }}" alt="{{ member.name }}'s profile picture">
-      <div>
-        <p class="member__name">{{ member.name }}</p>
-        <h5>{{ member.role }}</h5>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</section>
-{% assign currentCollaboratorsLength = aboutData.collaboratorsCurrent.members | size %}
-{% assign pastCollaboratorsLength = aboutData.collaboratorsPast | size %}
-<section class="collaborators">
-  {% if currentCollaboratorsLength > 0 %}
-  <h2>{{ aboutData.collaboratorsCurrent.title }}</h2>
-  {{ aboutData.collaboratorsCurrent.description | markdownify }}
-  <div class="collaborators__members">
-    {% for member in aboutData.collaboratorsCurrent.members %}
-    <div class="member--collaborator">
-      <img src="{{ member.picture }}" alt="{{ member.name }}'s profile picture">
-      <div>
-        <p>{{ member.name }}</p>
-        <h5>{{ member.role }}</h5>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% if pastCollaboratorsLength > 0 %}
-  <h3>Past collaborators</h3>
-  <p>
-    {% for member in aboutData.collaboratorsPast %}
-    <span>{{ member.name }} ({{ member.role }})</span>
-    {% endfor %}
-  </p>
-  {% endif %}
-</section>
-<section class="curators">
-  <h3>Curated by</h3>
-  <div class="curators__members">
-    {% for curator in aboutData.curators %}
-    <div class="curator">
-      <div>
-        <img src="{{ curator.logo }}" alt="curator's logo">
-      </div>
-      {{ curator.description | markdownify }}
-    </div>
-    {% endfor %}
-  </div>
-</section>

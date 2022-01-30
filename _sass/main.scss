@@ -37,7 +37,8 @@ body {
   overflow-y: hidden;
 }
 
-h1 {
+h1,
+.h1 {
   margin: 0 0 1rem;
   font-family: var(--font-display);
   font-size: 2.5rem;
@@ -45,14 +46,16 @@ h1 {
   line-height: 1.2;
 }
 
-h2 {
+h2,
+.h2 {
   margin: 0 0 1.75rem;
   font-family: var(--font-display);
   font-size: 1.75rem;
   font-weight: var(--font-regular);
 }
 
-h3 {
+h3,
+.h3 {
   margin: 0 0 0.875rem;
   font-size: 0.875rem;
   font-weight: var(--font-bold);
@@ -60,14 +63,16 @@ h3 {
   text-transform: uppercase;
 }
 
-h4 {
+h4,
+.h4 {
   margin: 1.25rem 0 0;
   font-family: var(--font-display);
   font-size: 1.25rem;
   font-weight: var(--font-regular);
 }
 
-h5 {
+h5,
+.h5 {
   font-size: 0.8rem;
   font-weight: var(--font-medium);
   text-transform: uppercase;

@@ -45,6 +45,8 @@
         <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js" defer></script>
         <script src="https://unpkg.com/d3-array@3.1.1/dist/d3-array.min.js" defer></script>
         <script src="{{ '/assets/js/tools-index.js' | relative_url }}" type="module" defer></script>
+        {% when '/enhanced-tools.html' %}
+        <link rel="stylesheet" href="{{ '/assets/css/enhanced-tools.css' | relative_url }}">
         {% when '/tutorials.html' %}
         <link rel="stylesheet" href="{{ '/assets/css/tutorials-index.css' | relative_url }}">
         {% when '/about.html' %}
