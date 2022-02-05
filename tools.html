@@ -2,119 +2,141 @@
 title: Tools
 desc: Browse the collection to find the best resources and materials, based on your specific needs.
 ---
-{% include header.html title="Tools" desc="Browse the collection to find the best resources and materials, based on your specific needs." svg="tools-svg.html" %}
+{% include header.html title="Tools" desc="Browse the collection to find the best resources and materials, based on your
+specific needs." svg="tools-svg.html" %}
 <div class="filters__button">
-    <h3>filter tools</h3>
+  <h3>filter tools</h3>
 </div>
 <section class="filters__container">
-    <div class="filters__header">
-        <h3>filter tools</h3>
+  <div class="filters__header">
+    <h3>filter tools</h3>
+  </div>
+  <div class="filter">
+    <div class="filter__title">
+      {% include svgs/clock.html %}
+      <h3>When</h3>
     </div>
-    <div class="filter">
-        <div class="filter__title">
-            {% include svgs/clock.html %}
-            <h3>When</h3>
-        </div>
-        <div class="filter__content container--when">
-            <p>What stage of the design process are you at?</p>
-            <ul>
-                <li><input type="checkbox" name="when" id="research"><label for="research">Research</label></li>
-                <li><input type="checkbox" name="when" id="ideation"><label for="ideation">Ideation</label></li>
-                <li><input type="checkbox" name="when" id="prototyping"><label for="prototyping">Prototyping</label></li>
-                <li><input type="checkbox" name="when" id="implementation"><label for="implementation">Implementation</label></li>
-                <li><input type="checkbox" name="when" id="evaluation"><label for="evaluation">Evaluation</label></li>
-            </ul>
-        </div>
+    <div class="filter__content container--when">
+      <p>What stage of the design process are you at?</p>
+      <ul>
+        <li><input type="checkbox" name="when" id="research"><label for="research">Research</label></li>
+        <li><input type="checkbox" name="when" id="ideation"><label for="ideation">Ideation</label></li>
+        <li><input type="checkbox" name="when" id="prototyping"><label for="prototyping">Prototyping</label></li>
+        <li><input type="checkbox" name="when" id="implementation"><label for="implementation">Implementation</label>
+        </li>
+        <li><input type="checkbox" name="when" id="evaluation"><label for="evaluation">Evaluation</label></li>
+      </ul>
     </div>
-    <div class="filter">
-        <div class="filter__title">
-            {% include svgs/user.html %}
-            <h3>Who</h3>
-        </div>
-        <div class="filter__content">
-            <p>Who would you like to engage in the design process?</p>
-            <ul>
-                <li><input type="checkbox" name="who" id="experts"><label for="experts">Experts</label></li>
-                <li><input type="checkbox" name="who" id="stakeholders"><label for="stakeholders">Stakeholders</label></li>
-                <li><input type="checkbox" name="who" id="service-staff"><label for="service-staff">Service Staff</label></li>
-                <li><input type="checkbox" name="who" id="users"><label for="users">Users</label></li>
-            </ul>
-        </div>
+  </div>
+  <div class="filter">
+    <div class="filter__title">
+      {% include svgs/user.html %}
+      <h3>Who</h3>
     </div>
-    <div class="filter">
-        <div class="filter__title">
-            {% include svgs/dots.html %}
-            <h3>What</h3>
-        </div>
-        <div class="filter__content">
-            <p>What aspects of the service are you working on?</p>
-            <ul>
-                <li><input type="checkbox" name="what" id="context"><label for="context">Context</label></li>
-                <li><input type="checkbox" name="what" id="system"><label for="system">System</label></li>
-                <li><input type="checkbox" name="what" id="experience"><label for="experience">Experience</label></li>
-                <li><input type="checkbox" name="what" id="offering"><label for="offering">Offering</label></li>
-            </ul>
-        </div>
+    <div class="filter__content">
+      <p>Who would you like to engage in the design process?</p>
+      <ul>
+        <li><input type="checkbox" name="who" id="experts"><label for="experts">Experts</label></li>
+        <li><input type="checkbox" name="who" id="stakeholders"><label for="stakeholders">Stakeholders</label></li>
+        <li><input type="checkbox" name="who" id="service-staff"><label for="service-staff">Service Staff</label></li>
+        <li><input type="checkbox" name="who" id="users"><label for="users">Users</label></li>
+      </ul>
     </div>
-    <div class="filter">
-        <div class="filter__title">
-            {% include svgs/network.html %}
-            <h3>How</h3>
-        </div>
-        <div class="filter__content">
-            <p>What types of representation you'd like to use?</p>
-            <ul>
-                <li><input type="checkbox" name="how" id="text"><label for="text">Text</label></li>
-                <li><input type="checkbox" name="how" id="map"><label for="map">Map</label></li>
-                <li><input type="checkbox" name="how" id="narrative"><label for="narrative">Narrative</label></li>
-                <li><input type="checkbox" name="how" id="simulation"><label for="simulation">Simulation</label></li>
-            </ul>
-        </div>
+  </div>
+  <div class="filter">
+    <div class="filter__title">
+      {% include svgs/dots.html %}
+      <h3>What</h3>
     </div>
-    <div class="filters__apply">
-        <p>Apply filters</p>
-        <div></div>
+    <div class="filter__content">
+      <p>What aspects of the service are you working on?</p>
+      <ul>
+        <li><input type="checkbox" name="what" id="context"><label for="context">Context</label></li>
+        <li><input type="checkbox" name="what" id="system"><label for="system">System</label></li>
+        <li><input type="checkbox" name="what" id="experience"><label for="experience">Experience</label></li>
+        <li><input type="checkbox" name="what" id="offering"><label for="offering">Offering</label></li>
+      </ul>
     </div>
+  </div>
+  <div class="filter">
+    <div class="filter__title">
+      {% include svgs/network.html %}
+      <h3>How</h3>
+    </div>
+    <div class="filter__content">
+      <p>What types of representation you'd like to use?</p>
+      <ul>
+        <li><input type="checkbox" name="how" id="text"><label for="text">Text</label></li>
+        <li><input type="checkbox" name="how" id="map"><label for="map">Map</label></li>
+        <li><input type="checkbox" name="how" id="narrative"><label for="narrative">Narrative</label></li>
+        <li><input type="checkbox" name="how" id="simulation"><label for="simulation">Simulation</label></li>
+      </ul>
+    </div>
+  </div>
+  <div class="filters__apply">
+    <p>Apply filters</p>
+    <div></div>
+  </div>
 </section>
 <main>
-    <div class="tools__navigation">
-        <div class="breadcrumb">
-            <h3>You are viewing:</h3>
-            <p>All tools</p>
-        </div>
-        <div class="sorting">
-            <h3>Sort by:</h3>
-            <ul>
-                <li id="process">Workflow</li>
-                <li id="alphabetical">Alphabetical</li>
-            </ul>
-        </div>
+  <div class="tools__search">
+    <div>
+      {% include svgs/search.html %}
     </div>
-    <div class="tools__gallery">
-        {% for tool in site.tools %}
-        {% if tool.publicable %}
-        <a href="{{ tool.title | escape | replace: '&#39;', '' | slugify | prepend: '/tools/' | relative_url }}" class="tool{% for question in tool.properties.when %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.who %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.what %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.how %} {{ question | slugify }}{% endfor %}" data-name="{{ tool.title | slugify }}" data-process="{% for question in tool.properties.when %} {{ question | slugify }}{% endfor %}" data-type="{% if tool.isEnhanced %}enhanced{% else %}normal{% endif %}">
-            <div class="card">
-                {% if tool.isEnhanced %}
-                <p class="card__label">enhanced</p>
-                {% endif %}
-                {{ tool.icon | strip_newlines | normalize_whitespace }}
-                <p>{{ tool.title }}</p>
-            </div>
-        </a>
+    <div>
+      <label for="toolsSearchbar" class="visually-hidden">Search a specific tool</label>
+      <input type="search" name="toolsSearchbar" id="toolsSearchbar" placeholder="Search a specific tool">
+    </div>
+  </div>
+  <div class="tools__navigation">
+    <div class="breadcrumb">
+      <h3>You are viewing:</h3>
+      <p>All tools</p>
+    </div>
+    <div class="filtering">
+      <h3>View:</h3>
+      <div>
+        <input type="checkbox" name="enhanced" id="enhancedCheck"><label for="enhancedCheck">Enhanced</label>
+      </div>
+    </div>
+    <div class="sorting">
+      <h3>Sort by:</h3>
+      <ul>
+        <li id="process">Workflow</li>
+        <li id="alphabetical">Alphabetical</li>
+      </ul>
+    </div>
+  </div>
+  <div class="tools__gallery">
+    {% for tool in site.tools %}
+    {% if tool.publicable %}
+    <a href="{{ tool.title | escape | replace: '&#39;', '' | slugify | prepend: '/tools/' | relative_url }}"
+      class="tool{% for question in tool.properties.when %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.who %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.what %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.how %} {{ question | slugify }}{% endfor %}"
+      data-name="{{ tool.title | slugify }}"
+      data-process="{% for question in tool.properties.when %} {{ question | slugify }}{% endfor %}"
+      data-type="{% if tool.isEnhanced %}enhanced{% else %}normal{% endif %}">
+      <div class="card">
+        {% if tool.isEnhanced %}
+        <p class="card__label">enhanced</p>
         {% endif %}
-        {% endfor %}
-    </div>
+        {{ tool.icon | strip_newlines | normalize_whitespace }}
+        <p>{{ tool.title }}</p>
+      </div>
+    </a>
+    {% endif %}
+    {% endfor %}
+  </div>
 </main>
 <section class="tools__map">
-    <div>
-        <h2>Service Design<br/>Tools map</h2>
-        <p>Download the map to view how the Service Design Tools evolved over time.</p>
-        {% if site.data.tools.file %}
-        <a href="{{ site.data.tools.file | relative_url }}" class="btn--action" download>Download map</a>
-        {% else %}
-        <a href="{{ site.data.tools.map | relative_url }}" class="btn--action" download>Download map</a>
-        {% endif %}
-    </div>
-    <img src="{{ site.data.tools.map | relative_url }}" alt="Summary map of all the tools present in the Service Design Tools website">
+  <div>
+    <h2>Service Design<br />Tools map</h2>
+    <p>Download the map to view how the Service Design Tools evolved over time.</p>
+    {% if site.data.tools.file %}
+    <a href="{{ site.data.tools.file | relative_url }}" class="btn--action" download>Download map</a>
+    {% else %}
+    <a href="{{ site.data.tools.map | relative_url }}" class="btn--action" download>Download map</a>
+    {% endif %}
+  </div>
+  <img src="{{ site.data.tools.map | relative_url }}"
+    alt="Summary map of all the tools present in the Service Design Tools website">
 </section>

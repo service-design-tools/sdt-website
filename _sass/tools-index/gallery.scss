@@ -1,18 +1,49 @@
 main {
   width: calc(var(--container-width) + var(--container-gap));
-  padding: 0 calc((100% - var(--container-width) - var(--container-gap)) / 2);
+  padding: 2.5rem calc((100% - var(--container-width) - var(--container-gap)) / 2) 0;
   background-color: var(--color-background-light);
+}
+
+.tools__search {
+  width: calc(min(var(--column-width) * 8 + var(--container-gap), 100% - var(--container-gap)));
+  margin-left: calc(var(--container-gap) / 2);
+  border-radius: 1.6rem;
+  box-shadow: 2px 2px 20px rgba(26, 59, 94, 0.08);
+  background-color: var(--color-light);
+  display: flex;
+
+  & > div:first-child {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: var(--color-support);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  & > div:last-child {
+    flex: 1;
+  }
+
+  #toolsSearchbar {
+    width: calc(100% - 1.6rem);
+    padding: 0.875rem 1.5rem;
+    border: none;
+    font-size: 1rem;
+  }
 }
 
 .tools__navigation {
   display: flex;
   flex-wrap: wrap;
   padding: 2rem calc(var(--container-gap) / 2) 0;
+  gap: calc(var(--container-gap) / 2);
 
   h3 {
     color: var(--color-dark);
     font-weight: var(--font-medium);
-    margin: 0 0 0.75rem;
+    margin: 0;
     font-size: 0.75rem;
   }
 }
@@ -20,6 +51,10 @@ main {
 .breadcrumb {
   width: 100%;
   margin-bottom: 2rem;
+
+  h3 {
+    margin: 0 0 0.75rem;
+  }
 
   p {
     font-size: 1.5rem;
@@ -41,6 +76,81 @@ main {
         font-size: 1.3rem;
         font-weight: var(--font-light);
       }
+    }
+  }
+}
+
+.filtering {
+  width: 100%;
+  align-self: flex-start;
+  display: flex;
+  justify-content: flex-end;
+
+  input {
+    width: 2.25rem;
+    height: 1.25rem;
+    opacity: 0;
+    margin: 0 .7rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:checked + label {
+      &::before {
+        background-color: var(--color-support);
+      }
+      &::after {
+        transform: translateX(1rem);
+      }
+    }
+
+    &.disabled {
+      pointer-events: none;
+    }
+
+    &.disabled + label {
+      opacity: 0.3;
+      pointer-events: none;
+    }
+  }
+
+  label {
+    position: relative;
+    top: -.4rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    font-weight: var(--font-medium);
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -.1rem;
+      left: -2.9rem;
+      width: 2.25rem;
+      height: 1.25rem;
+      background-color: var(--color-dark);
+      border-radius: .65rem;
+      pointer-events: none;
+      transition: background-color .25s;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -2.8rem;
+      width: 1.05rem;
+      height: 1.05rem;
+      background-color: var(--color-light);
+      border-radius: 50%;
+      pointer-events: none;
+      transform: translateX(0);
+      transition: transform .5s cubic-bezier(0.87, 0, 0.13, 1);
     }
   }
 }
@@ -142,8 +252,20 @@ main {
 
 @media (min-width: 576px) {
   .tools__navigation h3 {
-    margin: 0 0 0.875rem;
     font-size: 0.875rem;
+  }
+  .breadcrumb h3 {
+    margin: 0 0 0.875rem;
+  }
+  .filtering label {
+    top: -.2rem;
+    font-size: 0.875rem;
+    &::before {
+      top: 0;
+    }
+    &::after {
+      top: .1rem;
+    }
   }
   .sorting li {
     font-size: 0.875rem;
@@ -160,14 +282,20 @@ main {
 }
 
 @media (min-width: 768px) {
+  .tools__search {
+    width: calc(min(var(--column-width) * 4 + var(--container-gap) * 3, 100%));
+  }
   .tools__navigation {
     flex-wrap: nowrap;
     justify-content: space-between;
     padding: 2rem calc(var(--container-gap) / 2);
   }
   .breadcrumb {
-    width: 74%;
+    width: 48%;
     margin-bottom: 0;
+  }
+  .filtering {
+    width: 26%;
   }
   .sorting {
     width: 26%;
@@ -179,8 +307,11 @@ main {
 }
 
 @media (min-width: 992px) {
+  .tools__search {
+    width: calc(min(var(--column-width) * 8 + var(--container-gap), 100%));
+  }
   .breadcrumb {
-    width: 80%;
+    width: 60%;
   }
   .breadcrumb p {
     font-size: 2rem;
@@ -188,6 +319,9 @@ main {
   .breadcrumb p span::after {
     top: 0;
     font-size: 1.5rem;
+  }
+  .filtering {
+    width: 20%;
   }
   .sorting {
     width: 20%;
