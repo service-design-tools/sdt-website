@@ -166,6 +166,10 @@ p {
   stroke: var(--color-main);
 }
 
+.svg--stroke-support {
+  stroke: var(--color-support);
+}
+
 .svg--stroke-light {
   stroke: var(--color-light);
 }
