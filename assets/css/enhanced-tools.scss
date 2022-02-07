@@ -61,18 +61,18 @@ section {
         opacity: 0;
         transition: opacity 1s ease;
 
-        // &[data-step="2"] {
-        //   transition-delay: .15s;
-        // }
-        // &[data-step="3"] {
-        //   transition-delay: .3s;
-        // }
-        // &[data-step="4"] {
-        //   transition-delay: .45s;
-        // }
-        // &[data-step="5"] {
-        //   transition-delay: .6s;
-        // }
+        &[data-step="2"] {
+          transition-delay: .075s;
+        }
+        &[data-step="3"] {
+          transition-delay: .15s;
+        }
+        &[data-step="4"] {
+          transition-delay: .225s;
+        }
+        &[data-step="5"] {
+          transition-delay: .3s;
+        }
 
         &.visible {
           opacity: 1;
