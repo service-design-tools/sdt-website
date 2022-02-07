@@ -12,7 +12,9 @@ desc: An on-going project bridging academic research and professional practices.
   {% for section in pageData.sections %}
   <section class="group">
     <h2>{{ section.title }}</h2>
+    {% if section.question %}
     <p class="question">{{ section.question }}</p>
+    {% endif %}
     {{ section.content | markdownify }}
     {% if section.tools.size > 0 %}
     <h3 class="h5">Tools</h3>

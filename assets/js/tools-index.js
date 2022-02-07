@@ -169,8 +169,12 @@ import { debounce, listFormatter } from "/assets/js/utilities.js";
     }
     if (sessionSearchFilter) {
       const searchTermsArray = sessionSearchFilter.split(' ');
-      searchTermsArray.forEach(term => newSelection += `[data-name*="${term}"]`);
+      const searchString = searchTermsArray.reduce((previousValue, currentValue , index) => {
+        return previousValue += `${index > 0 ? ', ' : ''}[data-name*="${currentValue}"]`
+      }, '');
+      newSelection += `:is(${searchString})`;
     }
+    // console.log(newSelection)
 
     iso.arrange({ filter: newSelection });
     $tools.forEach(tool => tool.classList.add('hidden'));

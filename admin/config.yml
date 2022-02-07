@@ -356,7 +356,7 @@ collections:
             widget: "list"
             fields:
               - {label: "title", name: "title", widget: "string"}
-              - {label: "question", name: "question", widget: "text"}
+              - {label: "question", name: "question", widget: "text", required: false}
               - {label: "content", name: "content", widget: "markdown"}
               - label: "tools"
                 label_singular: "tool"
