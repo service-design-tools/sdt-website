@@ -1,390 +1,320 @@
 .highlights h2,
 .highlights h3 {
-    text-align: center;
+  text-align: center;
 }
 
-.highlights__cards {
-    --square-module: calc(var(--column-width) * 3 + var(--container-gap) * 2);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-}
+.highlights__container {
+  --square-module: calc(var(--column-width) * 3 + var(--container-gap) * 2);
+  display: grid;
+  grid-auto-rows: var(--square-module);
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--container-gap);
+  grid-auto-flow: row dense;
 
-.highlights__column {
+  .card{
+    box-sizing: border-box;
+    height: 100%;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+
+    &.card--thematic {
+      background-color: var(--color-main);
+    }
+  }
 }
 
-.highlights__tools {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-}
+.square--1 {
+  grid-row: span 1;
+  grid-column: span 1;
 
-.highlights__tools .card {
-    display: -webkit-box;
-    display: -ms-flexbox;
+  .card {
+    padding: 0.5rem 1.2rem;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: var(--container-gap);
-}
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
 
-.highlights__tools svg {
+  &[data-type="enhanced"] .card {
+    outline: 2px solid var(--color-support);
+    outline-offset: -.75rem;
+  }
+
+  svg {
     height: 58px;
     max-height: 58px;
-}
+    overflow: visible;
+  }
 
-.highlights__tools p {
-    margin-top: 1rem;
+  p {
+    max-width: 85%;
     font-size: 0.75rem;
     font-weight: var(--font-medium);
     text-transform: uppercase;
+    text-align: center;
+
+    &.card__label {
+      display: none;
+      padding: .2rem .4rem;
+      border-radius: var(--radius);
+      background-color: var(--color-support);
+      color: var(--color-light);
+    }
+  }
 }
 
-.highlights__column .card.card--thematic {
-    background-color: var(--color-main);
-}
+.square--2 {
+  --square-2-padding: 1.4rem;
+  grid-row: span 1;
+  grid-column: span 2;
 
-.card.square--1 {
-    width: calc(var(--square-module) - 2.4rem);
-    height: calc(var(--square-module) - 1rem);
-    padding: 0.5rem 1.2rem;
-}
-
-.highlights__column:first-child .tutorial__links {
-    -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-            order: 3;
-}
-.highlights__column:last-child .tutorial__links {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
-}
-
-.card.square--2 {
-    --square-2-padding: 1.4rem;
-    width: calc(var(--square-module) * 2 + var(--container-gap) - var(--square-2-padding) * 2);
-    height: calc(var(--square-module) + 40px - var(--square-2-padding) * 2);
+  .card {
     padding: var(--square-2-padding);
-    margin: 0 0 var(--container-gap);
+  }
 }
 
 .tutorial__card {
-    border: 2px solid var(--color-main);
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-rows: repeat(12, calc(100% / 12));
-    grid-template-columns: repeat(24, calc(100% / 24));
-}
+  border: 2px solid var(--color-main);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(12, calc(100% / 12));
+  grid-template-columns: repeat(24, calc(100% / 24));
 
-.card--thematic .tutorial__card {
-    border: 2px solid var(--color-light);
-    color: var(--color-light);
-}
-
-.tutorial__card h3 {
-    grid-row: 3 / span 2;
+  h3 {
+    grid-row: 2 / span 2;
     grid-column: 2 / span 12;
     align-self: flex-end;
     margin: 0;
     display: flex;
     align-items: center;
-}
+  }
 
-.card--thematic .tutorial__card h3 {
-    color: var(--color-light);
-}
-
-.tutorial__card h4 {
+  h4 {
     grid-row: 4 / span 4;
     grid-column: 2 / -2;
-}
+  }
 
-.tutorial__card .zigzag {
+  .zigzag {
     height: 0.4rem;
     margin-left: 1.2rem;
-}
+  }
 
-.card--thematic .zigzag .svg--stroke-main {
-    stroke: var(--color-light);
-}
-
-.tutorial__card .dotgrid {
+  .dotgrid {
     grid-row: 2 / -3;
     grid-column: -12 / -3;
     max-width: 100%;
     max-height: 100%;
     align-self: flex-end;
     opacity: 0.15;
+
+    .svg--filled-support {
+      fill: var(--color-main);
+    }
+  }
 }
 
-.card--thematic .tutorial__card .dotgrid {
-    opacity: 0.2;
+.card--thematic {
+  .tutorial__card {
+    border: 2px solid var(--color-light);
+    color: var(--color-light);
+
+    h3 {
+      color: var(--color-light);
+    }
+
+    .dotgrid {
+      opacity: 0.2;
+
+      .svg--filled-support {
+        fill: var(--color-light);
+      }
+    }
+  }
+
+  .zigzag .svg--stroke-main {
+    stroke: var(--color-light);
+  }
+
 }
 
-.tutorial__card .dotgrid .svg--filled-support {
-    fill: var(--color-main);
-}
+.square--4 {
+  --square-4-padding: 1.25rem;
+  grid-row: span 1;
+  grid-column: span 2;
 
-.card--thematic .tutorial__card .dotgrid .svg--filled-support {
-    fill: var(--color-light);
-}
-
-.highlights__column:first-child > a:not(.tutorial__links) {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
-}
-
-.highlights__column:last-child > a:not(.tutorial__links) {
-    -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-            order: 3;
-}
-
-.card.square--4 {
-    --square-4-padding: 1.25rem;
-    width: calc(var(--square-module) * 2 + var(--container-gap) - var(--square-4-padding) * 2);
-    height: calc(var(--square-module) + var(--container-gap) - var(--square-4-padding) * 2);
+  .card {
     padding: var(--square-4-padding);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-bottom: var(--container-gap);
-}
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.highlights__column:last-child > a:not(.tutorial__links) .square--4 {
-    margin-bottom: 0;
-}
-
-.square--4 h2 {
+  h2 {
     font-size: 1.75rem;
     margin: 0;
-}
+  }
 
-.square--4 svg {
-    -ms-flex-item-align: end;
-        align-self: flex-end;
-    height: calc(var(--square-module) + var(--container-gap) - var(--square-4-padding) * 2);
+  [data-type="enhanced"] h2 {
+    max-width: 8ch;
+    text-align: left;
+  }
+
+  svg {
+    align-self: flex-end;
+    height: calc(min(100%, var(--square-module) + var(--container-gap) - var(--square-4-padding) * 2));
     max-width: 50%;
-}
-
-.square--4 svg .svg--outline {
-    stroke-width: 1px;
+  
+    .svg--outline {
+      stroke-width: 1px;
+    }
+  }
 }
 
 @media (min-width: 576px) {
-    .square--4 h2 {
-        font-size: 2.5rem;
-        margin: 0 0 2rem;
+  .square--1 {
+    .card {
+      padding: 0;
     }
-    .card.square--4 {
-        --square-4-padding: 2rem;
-        -webkit-box-align: normal;
-            -ms-flex-align: normal;
-                align-items: normal;
+
+    p {
+      font-size: 0.875rem;
+      &.card__label {
+        display: initial;
+      }
     }
-    .tutorial__card h3 {
-        grid-column: 3 / span 12;
+
+    svg {
+      height: 32%;
+      max-height: 32%;
     }
-    .tutorial__card h4 {
-        grid-row: 5 / span 4;
-        grid-column: 3 / -7;
+  }
+  .tutorial__card {
+    h3 {
+      grid-column: 3 / span 12;
     }
-    .tutorial__card .zigzag {
-        height: 0.6rem;
+    h4 {
+      grid-row: 4 / span 4;
+      grid-column: 3 / -6;
     }
-    .tutorial__card .dotgrid {
-        grid-column: -11 / -3;
+    .zigzag {
+      height: 0.6rem;
     }
-    .card.square--1 {
-        width: var(--square-module);
-        height: var(--square-module);
-        padding: 0;
+    .dotgrid {
+      grid-column: -11 / -3;
     }
-    .highlights__tools p {
-        margin-top: 1.2rem;
-        font-size: 0.875rem;
+  }
+  .square--4 {
+    --square-4-padding: 2rem;
+
+    .card {
+      align-items: normal;
     }
-    .highlights__tools svg {
-        height: 32%;
-        max-height: 32%;
+
+    h2 {
+      font-size: 2.5rem;
+      margin: 0 0 2rem;
     }
+  }
 }
 
 @media (min-width: 768px) {
-    .highlights h2,
-    .highlights h3 {
-        text-align: left;
+  .highlights h2,
+  .highlights h3 {
+    text-align: left;
+  }
+  .highlights__container {
+    --square-module: calc(var(--column-width) * 2 + var(--container-gap) * 1);
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .square--2 {
+    grid-column: span 3;
+  }
+  .tutorial__card {
+    h4 {
+      grid-row: 3 / span 4;
+      grid-column: 3 / -9;
     }
-    .highlights__cards {
-        --square-module: calc(var(--column-width) * 2 + var(--container-gap) * 1);
+    .dotgrid {
+      grid-row: 2 / -2;
+      grid-column: -8 / -2;
     }
-    .highlights__column {
-        width: calc(var(--column-width) * 6 + var(--container-gap) * 5);
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+  }
+  .square--4 {
+    --square-4-padding: 3rem;
+    grid-row: span 2;
+    
+    .card {
+      flex-direction: column;
     }
-    .highlights__tools {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+    h2 {
+      font-size: 2.25rem;
     }
-    .card.square--2 {
-        width: calc(var(--square-module) * 3 + var(--container-gap) * 2 - var(--square-2-padding) * 2);
+    svg {
+      height: calc(min(84%, var(--square-module) * 2 + var(--container-gap) - var(--square-4-padding) * 2));
+      max-width: 100%;
     }
-    .tutorial__card h4 {
-        grid-column: 3 / -10;
+    .card[data-type="enhanced"] svg {
+      height: calc(min(74%, var(--square-module) * 2 + var(--container-gap) - var(--square-4-padding) * 2));
     }
-    .tutorial__card .dotgrid {
-        grid-row: 2 / -2;
-        grid-column: -8 / -2;
+    &[data-type="enhanced"] svg {
+      max-width: 80%;
     }
-    .card.square--4 {
-        --square-4-padding: 3rem;
-        height: calc(var(--square-module) * 2 + var(--container-gap) - var(--square-4-padding) * 2);
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-    }
-    .highlights__column:first-child > a:not(.tutorial__links) .square--4 {
-        margin-right: var(--container-gap);
-    }
-    .highlights__column:last-child > a:not(.tutorial__links) .square--4 {
-        margin-left: var(--container-gap);
-    }
-    .square--4 h2 {
-        font-size: 2.25rem;
-    }
-    .square--4 svg {
-        height: calc(var(--square-module) * 2 + var(--container-gap) - var(--square-4-padding) * 2);
-        max-width: 100%;
-    }
+  }
 }
 
 @media (min-width: 992px) {
-    .highlights__cards {
-        --square-module: calc(var(--column-width) * 3 + var(--container-gap) * 2);
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
+  .highlights__container {
+    --square-module: calc(var(--column-width) * 3 + var(--container-gap) * 2);
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .square--2 {
+    grid-column: span 2;
+  }
+  .tutorial__card {
+    h4 {
+      grid-column: 3 / -2;
+      margin-top: 2.25rem;
+      font-size: 1.55rem;
     }
-    .highlights__column {
-        display: block;
+    .zigzag {
+      height: 0.8rem;
     }
-    .highlights__column:first-child .highlights__tools {
-        -webkit-box-ordinal-group: 4;
-            -ms-flex-order: 3;
-                order: 3;
+    .dotgrid {
+      grid-row: 3 / -2;
+      grid-column: -12 / -2;
     }
-    .highlights__column:last-child .highlights__tools {
-        -webkit-box-ordinal-group: 2;
-            -ms-flex-order: 1;
-                order: 1;
-    }
-    .highlights__tools {
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
-    }
-    .highlights__tools .card {
-        margin-bottom: 0;
-    }
-    .tutorial__links {
-        -webkit-box-ordinal-group: 3;
-            -ms-flex-order: 2;
-                order: 2;
-    }
-    .card.square--2 {
-        width: calc(var(--square-module) * 2 + var(--container-gap) - var(--square-2-padding) * 2);
-        margin: var(--container-gap) 0;
-    }
-    .tutorial__card h4 {
-        grid-column: 3 / -2;
-    }
-    .tutorial__card .zigzag {
-        height: 0.8rem;
-    }
-    .tutorial__card .dotgrid {
-        grid-row: 3 / -2;
-        grid-column: -12 / -2;
-    }
-    .card.square--4 {
-        margin: 0;
-    }
-    .highlights__column:first-child > a:not(.tutorial__links) .square--4 {
-        margin-right: 0;
-    }
-    .highlights__column:last-child > a:not(.tutorial__links) .square--4 {
-        margin-left: 0;
-    }
+  }
 }
 
 @media (min-width: 1200px) {
-    .tutorial__card h4 {
-        grid-column: 3 / -5;
-    }
+  .tutorial__card h4 {
+    grid-column: 3 / -5;
+  }
 }
 
 @media (hover: hover) and (pointer: fine) {
-    .highlights__tools svg .svg--filled-main {
+  .square--1 .card {
+    svg {
+      .svg--filled-main,
+      .svg--filled-support {
         opacity: 0;
-        -webkit-transition: opacity 0.5s;
         transition: opacity 0.5s;
-    }
-    .highlights__tools .card:hover .svg--filled-main {
+      }
+      .svg--bw {
         opacity: 1;
-    }
-    .highlights__tools svg .svg--bw {
-        opacity: 1;
-        -webkit-transition: opacity 0.5s;
         transition: opacity 0.5s;
+      }
     }
-    .highlights__tools .card:hover .svg--bw {
+
+    &:hover {
+      .svg--filled-main,
+      .svg--filled-support {
+        opacity: 1;
+      }
+      .svg--bw {
         opacity: 0;
+      }
     }
+  } 
 }

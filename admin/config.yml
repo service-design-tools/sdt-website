@@ -1,7 +1,11 @@
+# uncomment this line when in development
+#local_backend: true
+
 backend:
   name: github
   repo: service-design-tools/sdt-website
   branch: master
+
 
 media_folder: "assets/images/uploads"
 
@@ -329,3 +333,61 @@ collections:
                 widget: "select"
                 options: ["Toolkit", "Magazine", "Event"]
               - {label: "url", name: "url", widget: "string", hint: "Must be a proper url (make sure it works)"}
+
+# enhanced tools page config fields
+  - label: "enhanced tools"
+    name: "enhanced-tools"
+    description: "Here you can edit the content of the Enhanced tools page and banner"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - label: "enhanced page"
+        name: "enhanced-page"
+        file: "_data/enhanced-page.yml"
+        fields:
+          - {label: "title", name: "title", widget: "string"}
+          - {label: "subtitle", name: "subtitle", widget: "string"}
+          - {label: "introduction", name: "introduction", widget: "markdown"}
+          - {label: "svg image", name: "image", widget: "text", hint: "Paste here the svg code for the main image of the page."}
+          - label: "sections"
+            label_singular: "section"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {label: "title", name: "title", widget: "string"}
+              - {label: "question", name: "question", widget: "text", required: false}
+              - {label: "content", name: "content", widget: "markdown"}
+              - label: "tools"
+                label_singular: "tool"
+                name: "tools"
+                widget: "list"
+                required: false
+                hint: "Before publishing, remove any entry that might have been left empty"
+                field:
+                  label: "tool name"
+                  name: "tool"
+                  widget: "relation"
+                  collection: "tools"
+                  search_fields: ["title", "properties.when", "properties.who", "properties.what", "properties.how"]
+                  value_field: "title"
+          - label: "masterclass"
+            name: "masterclass"
+            widget: "object"
+            fields:
+              - {label: "title", name: "title", widget: "string"}
+              - {label: "description", name: "description", widget: "text"}
+              - label: "link"
+                name: "link"
+                widget: "object"
+                fields:
+                  - {label: "label", name: "label", widget: "string"}
+                  - {label: "url", name: "url", widget: "string", hint: "Must be a proper url (make sure it works)"}
+      - label: "enhanced banner"
+        name: "enhanced-banner"
+        file: "_data/enhanced-banner.yml"
+        fields:
+          - {label: "label", name: "label", widget: "string"}
+          - {label: "title", name: "title", widget: "string"}
+          - {label: "subtitle", name: "subtitle", widget: "string"}
+          - {label: "button label", name: "button", widget: "string"}

@@ -5,4 +5,6 @@ Repo for the new website of servicedesigntools.org
 
 
 ## development
-To launch Jekyll run `bundle exec jekyll serve --livereload`
+To launch Jekyll run `bundle exec jekyll serve --livereload`.
+
+If you need to make changes to the backend, you can uncomment the first line on top of `config.yml` and lanch `npx netlify-cms-proxy-server` before starting jekyll

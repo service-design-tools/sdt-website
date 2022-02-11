@@ -1,4 +1,4 @@
-const filterValues = {
+const processFilterValues = {
     "research": {
         "type": "when",
         "checked": false,
@@ -91,4 +91,4 @@ const questions = [
         "text": "that use"
     }];
 
-export {filterValues, sorting, questions};
+export {processFilterValues, sorting, questions};

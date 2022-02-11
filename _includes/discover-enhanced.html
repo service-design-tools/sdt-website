@@ -1,0 +1,11 @@
+{% assign bannerData = site.data.enhanced-banner %}
+
+<section class="banner" data-type="enhanced">
+    {% include svgs/enhanced-tools-svg.html %}
+    <div class="banner__column">
+        <h3>{{ bannerData.label }}</h3>
+        <h2>{{ bannerData.title }}</h2>
+        <p>{{ bannerData.subtitle }}</p>
+        <a href="{{ '/enhanced-tools' | relative_url }}" class="btn--action">{{ bannerData.button }}</a>
+    </div>
+</section>

@@ -1,0 +1,39 @@
+---
+title: Enhanced tools
+desc: An on-going project bridging academic research and professional practices.
+---
+{% assign pageData = site.data.enhanced-page %}
+{% include header.html title=pageData.title desc=pageData.subtitle svg="enhanced-tools-svg.html" %}
+<main>
+  <section class="introduction">
+    {{ pageData.introduction | markdownify }}
+    {{ pageData.image }}
+  </section>
+  {% for section in pageData.sections %}
+  <section class="group">
+    <h2>{{ section.title }}</h2>
+    {% if section.question %}
+    <p class="question">{{ section.question }}</p>
+    {% endif %}
+    {{ section.content | markdownify }}
+    {% if section.tools.size > 0 %}
+    <h3 class="h5">Tools</h3>
+    <ul>
+      {% for tool in section.tools %}
+      {% assign match = site.tools | where:"title", tool %}
+      <li><a href="{{ match[0].url }}">{{ tool }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </section>
+  {% endfor %}
+  <section class="masterclass">
+    <div>
+      <h2>{{ pageData.masterclass.title }}</h2>
+      <p>{{ pageData.masterclass.description }}</p>
+      <a href="{{ pageData.masterclass.link.url }}" target="_blank" rel="noreferrer noopener">{{ pageData.masterclass.link.label }}</a>
+    </div>
+    {% include svgs/masterclass-calendar.html %}
+  </section>
+  {% include explore-enhanced.html %}
+</main>
