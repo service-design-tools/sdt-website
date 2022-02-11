@@ -242,6 +242,7 @@ main {
     text-transform: uppercase;
 
     &.card__label {
+      display: none;
       padding: .2rem .4rem;
       border-radius: var(--radius);
       background-color: var(--color-support);
@@ -274,6 +275,9 @@ main {
     width: calc(var(--column-width) * 3 + var(--container-gap) * 2);
     height: calc(var(--column-width) * 3 + var(--container-gap) * 2);
     padding: 0;
+    .card__label {
+      display: initial;
+    }
   }
   .tool svg {
     height: 32%;

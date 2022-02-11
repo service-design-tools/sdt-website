@@ -10,7 +10,8 @@ introduction: >-
 
   We need to deal with the possible consequences of the services we are building and move towards a more responsible design practice. We should consider the ultimate impact of our design decisions on human behaviours, society and environment.
 image: >
-  <svg xmlns="http://www.w3.org/2000/svg" width="920" height="1214" fill="none" viewBox="0 0 920 1214">
+  <svg xmlns="http://www.w3.org/2000/svg" width="920" height="1214" fill="none"
+  viewBox="0 0 920 1214">
     <circle r="722.5" class="svg--filled-light" fill-opacity=".06" transform="matrix(0 1 1 0 459.5 722.5)"/>
     <circle r="481.5" class="svg--filled-light" fill-opacity=".06" transform="matrix(0 1 1 0 459.5 524.5)"/>
     <circle r="164" class="svg--filled-light" fill-opacity=".06" transform="matrix(0 1 1 0 460 240)"/>
@@ -110,12 +111,14 @@ sections:
       - Future backcasting
       - Signal cards
 masterclass:
-  title: Attend our new masterclass
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus sit
-    orci maecenas adipiscing eu maecenas quis consequat. Nisl pretium vestibulum
-    adipiscing sed mauris, magna turpis malesuada a. Pulvinar suspendisse
-    molestie suspendisse euismod est faucibus morbi. Elementum augue eu amet
-    ipsum nulla sagittis ultricies.
+  title: Attend our first event
+  description: After many experiments with real projects we have synthesised the
+    most interesting elements in a new toolkit that we are finally ready to
+    reveal to public with the first event as a part of Masterclass series by
+    Master Service Design - Politecnico di Milano on Thursday, February 17th.
+    Join our Founder & Scientific Director Roberta Tassi and Scientific
+    Coordinators Yulia Besplemennova and Francesca Foglieni to be the first to
+    learn about this enhanced toolkit.
   link:
-    label: Discover more details
-    url: "#"
+    label: Find all the information to participate
+    url: https://www.servicedesignmaster.com/service-design-masterclasses-2/

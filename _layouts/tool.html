@@ -10,7 +10,7 @@ layout: default
 {% assign guidelinesNumber = page.guidelines | size %}
 {% assign caseStudies = site.case_studies | where_exp:"case", "case.tool contains page.title" %}
 {% assign caseStudiesNumber = caseStudies | size %}
-<header data-type="enhanced">
+<header {% if page.isEnhanced %}data-type="enhanced"{% endif %}>
   <div class="header__icon">
     {{ page.icon }}
   </div>
@@ -57,7 +57,7 @@ layout: default
     </div>
   </div>
 </header>
-<main data-type="enhanced">
+<main {% if page.isEnhanced %}data-type="enhanced"{% endif %}>
   <div class="related__content">
     {% if relatedToolsNumber > 0 or tipsNumber > 0 %}
     <h3>related content</h3>

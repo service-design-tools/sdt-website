@@ -54,6 +54,7 @@
     text-align: center;
 
     &.card__label {
+      display: none;
       padding: .2rem .4rem;
       border-radius: var(--radius);
       background-color: var(--color-support);
@@ -178,6 +179,9 @@
 
     p {
       font-size: 0.875rem;
+      &.card__label {
+        display: initial;
+      }
     }
 
     svg {
