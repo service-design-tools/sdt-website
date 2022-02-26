@@ -65,7 +65,7 @@ layout: null
     const toolMatch = toolsArray.find(tool => tool.tool === caseStudiesPick.tool);
     card.href = toolMatch.url + '#' + caseStudiesPick.slug;
     card.firstElementChild.innerHTML = `
-      <img src="${caseStudiesPick.image}" alt="featured image of the case study: ${caseStudiesPick.title}"/>
+      <img src="${caseStudiesPick.image}" alt="featured image of the case study: ${caseStudiesPick.title}" loading="lazy"/>
       <h3>${caseStudiesPick.tool}</h3>
       <p>${caseStudiesPick.title}</p>
     `;

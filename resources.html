@@ -10,7 +10,7 @@ desc: A selection of links and references to discover more about service design 
         {% for medium in site.data.media.medium %}
             <a href="{{ medium.url }}" target="_blank" rel="noopener noreferrer">
                 <div class="resource">
-                    <img src="{{ medium.image | relative_url }}" alt="Preview image of the {{ medium.type }}">
+                    <img src="{{ medium.image | relative_url }}" alt="Preview image of the {{ medium.type }}" loading="lazy">
                     <h3>{{ medium.type }}</h3>
                     <h4>{{ medium.title }}</h4>
                     <p class="author">{{ medium.author }}</p>

@@ -73,7 +73,7 @@ layout: default
     {% endfor %}
     {% if hasToolkit and page.toolkit.pdf != '' %}
     {% if page.toolkit.image and page.toolkit.image != '' %}
-    <img src="{{ page.toolkit.image }}" alt="Preview image of the template for {{ page.title }}">
+    <img src="{{ page.toolkit.image }}" alt="Preview image of the template for {{ page.title }}" loading="lazy">
     {% endif %}
     <div class="download__links">
         <a href="{{ page.toolkit.pdf }}" class="btn--action" download>download kit</a>  

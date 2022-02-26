@@ -106,7 +106,7 @@ layout: default
       </div>
     </div>
     {% if hasTemplate %}
-    <img src="{{ page.template.image }}" alt="Preview image of the template for {{ page.title }}">
+    <img src="{{ page.template.image }}" alt="Preview image of the template for {{ page.title }}" loading="lazy">
     <div class="download__links">
       <a href="{{ page.template.file }}" class="btn--action" download>download template</a>
       {% if hasPoster and page.poster != '' %}
@@ -159,7 +159,7 @@ layout: default
     <div class="case-study__left-column">
       <div class="case-study__image" data-images="{{ case.images | join: ',' }}" data-title="{{ case.title }}">
         <p class="images__details">{{ case.images | size }} {% include svgs/picture.html %}</p>
-        <img src="{{ case.images[0] }}" alt="feature image of '{{ case.title }}' case study">
+        <img src="{{ case.images[0] }}" alt="feature image of '{{ case.title }}' case study" loading="lazy">
       </div>
       <p>Example by <a href="{{ case.company.link }}" target="_blank" rel="noopener noreferrer"
           class="outside--link">{{ case.company.name }}</a></p>

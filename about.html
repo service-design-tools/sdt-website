@@ -22,7 +22,7 @@ desc: An on-going project bridging academic research and professional practices.
   <div class="team__members">
     {% for member in aboutData.team.members %}
     <div class="member">
-      <img src="{{ member.picture }}" alt="{{ member.name }}'s profile picture">
+      <img src="{{ member.picture }}" alt="{{ member.name }}'s profile picture" loading="lazy">
       <div>
         <p class="member__name">{{ member.name }}</p>
         <h5>{{ member.role }}</h5>
@@ -40,7 +40,7 @@ desc: An on-going project bridging academic research and professional practices.
   <div class="collaborators__members">
     {% for member in aboutData.collaboratorsCurrent.members %}
     <div class="member--collaborator">
-      <img src="{{ member.picture }}" alt="{{ member.name }}'s profile picture">
+      <img src="{{ member.picture }}" alt="{{ member.name }}'s profile picture" loading="lazy">
       <div>
         <p>{{ member.name }}</p>
         <h5>{{ member.role }}</h5>
@@ -64,7 +64,7 @@ desc: An on-going project bridging academic research and professional practices.
     {% for curator in aboutData.curators %}
     <div class="curator">
       <div>
-        <img src="{{ curator.logo }}" alt="curator's logo">
+        <img src="{{ curator.logo }}" alt="curator's logo" loading="lazy">
       </div>
       {{ curator.description | markdownify }}
     </div>

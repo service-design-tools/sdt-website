@@ -48,7 +48,7 @@
                     modal.innerHTML += `
                         <div class="modal__image ${ i == 0 ? 'shown' : '' }">
                             <img src="" data-src="${images[i]}"
-                            alt="Complementary image of the project">
+                            alt="Complementary image of the project" loading="lazy">
                         </div>`; 
                 }
                 if (images.length > 1) {
