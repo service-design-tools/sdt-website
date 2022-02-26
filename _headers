@@ -1,6 +1,6 @@
 /*
   Strict-Transport-Security: max-age=31536000; includeSubDomains
-  Content-Security-Policy-Report-Only: default-src https:;
+  Content-Security-Policy-Report-Only: default-src 'none'; script-src 'self' https://www.googletagmanager.com; connect-src 'self'; img-src 'self' *.cloudfront.net; style-src 'self'; base-uri 'self'; form-action 'self'; font-src 'self';
   X-Frame-Options: SAMEORIGIN
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
