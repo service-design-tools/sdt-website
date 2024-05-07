@@ -88,6 +88,9 @@ guidelines:
       prioritize the most promising ones and proceed with the concept definition
       evaluation their impacts and potential risks as well as the effort needed
       for implementation.
+references:
+  - name: Download the AI design canvases
+    link: https://form.typeform.com/to/FRADJxCv
 socialimage: /assets/images/uploads/brainstorming-social-img.png
 ---
 A crucial step to understand how to integrate AI in the service by ideating and mapping out a comprehensive landscape of opportunities that are based on understanding of service needs and inspired by the technological capabilities.
