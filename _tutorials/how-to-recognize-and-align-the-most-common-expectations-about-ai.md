@@ -3,12 +3,16 @@ title: How to recognize and align the most common expectations about AI?
 subtitle: When you want to use an AI-based solution for your service, but don't
   know what to expect
 category: Thematic
-intro: This process is meant to support organizations in understanding how to
-  improve their front and/or back-end service offer with AI, and become aware of
-  potential impact. Developed through our extensive research of application of
-  AI in service design over the past five years, it guides through a
-  step-by-step process with supporting tools to think through the ways in which
-  both experiences and operations can get enhanced.
+intro: Artificial Intelligence has come to revolutionize the way people interact
+  with technology. By enhancing and augmenting human capabilities into areas
+  that only ten years ago were unimaginable, this unprecedented opportunity also
+  comes with new challenges, especially in the field of Service Design. This
+  tutorial wants to give suggestions to service designers to overcome the most
+  common misconceptions / assumptions / expectations about AI and contrast them
+  with the reality of the common issues emerging during the development of AI
+  projects. This should help designers become better prepared, avoid
+  uncomfortable surprises and facilitate the collaboration with experts when
+  designing for AI.
 steps:
   - title: Make sure AI is required for your defined goal
     description: There is an expectation that stakeholders hold clear objectives and
