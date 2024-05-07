@@ -65,7 +65,7 @@ reminder: "Avoid stereotyping or making personal assumptions: it's always good
   to ground those hypothesis on research around the different behaviours
   (engaging extreme users can help!)"
 template:
-  image: /assets/images/uploads/ai-toolkit.jpg
+  image: ""
   file: ""
 guidelines:
   - step: Analyse the current user behaviour in relation to a specific aspect of
