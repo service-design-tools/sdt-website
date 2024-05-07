@@ -6,6 +6,7 @@ collections:
     output: true
     permalink: /:collection/:name
   case_studies:
+    output: false
 
 sass:
   style: compressed
