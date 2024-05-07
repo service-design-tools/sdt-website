@@ -65,8 +65,8 @@ reminder: "Avoid stereotyping or making personal assumptions: it's always good
   to ground those hypothesis on research around the different behaviours
   (engaging extreme users can help!)"
 template:
-  image: ""
-  file: ""
+  image: /assets/images/uploads/frame-109.png
+  file: /assets/images/uploads/frame-109.png
 guidelines:
   - step: Analyse the current user behaviour in relation to a specific aspect of
       their life, and identify possible end-states that behaviour could evolve
