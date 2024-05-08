@@ -64,7 +64,7 @@ steps:
       development phases.
 toolkit:
   pdf: https://form.typeform.com/to/FRADJxCv
-  image: https://drive.google.com/file/d/1H7r1W9dY2OwJE-vTTz9vgAUCre2kZoI1/view?usp=sharing
+  image: /assets/images/uploads/group-4.jpg
 references:
   - name: 2020 - Future AI experiences @Intersection Conference
     link: https://www.youtube.com/watch?v=SPznV_74evE&t=10s
