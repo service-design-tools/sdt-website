@@ -3,7 +3,7 @@ title: AI Landscape
 subtitle: Ideate a broad variety of possibilities for AI implementations in a
   given service
 publicable: true
-isEnhanced: false
+isEnhanced: true
 properties:
   when:
     - Ideation
