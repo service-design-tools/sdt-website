@@ -29,7 +29,7 @@ steps:
       beneficial.\
 
       Read more on [what AI can do for services.](https://medium.com/ai-and-service-design/designing-ai-experiences-p-1-what-can-ai-do-for-humans-9a507720cbb4)
-    tool: Behaviour Change Wheel
+    tool: AI Landscape
   - title: Evaluate the concepts
     description: Define the details of your concept to better understand what value
       does it bring. Consult the tech team/advisors as well as stakeholders or
