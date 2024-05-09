@@ -8,7 +8,7 @@
         <li><a href="{{ '/tutorials' | relative_url }}" {% if page.url contains "/tutorials" %}class="nav--active"{% endif %}>tutorials</a></li>
         <li><a href="{{ '/about' | relative_url }}" {% if page.url == "/about.html" %}class="nav--active"{% endif %}>about</a></li>
         <li><a href="{{ '/resources' | relative_url }}" {% if page.url == "/resources.html" %}class="nav--active"{% endif %}>resources</a></li>
-        <li><a href="https://oblo.typeform.com/to/zO9uLj" class="btn--action" target="_blank" rel="noreferrer noopener">contribute</a></li>
+        <li><a href="{{ site.data.contribute.link }}" class="btn--action" target="_blank" rel="noreferrer noopener">contribute</a></li>
     </ul>
     <div class="nav__burger">
         <div class="burger__line"></div>

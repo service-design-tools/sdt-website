@@ -1,5 +1,5 @@
 # uncomment this line when in development
-local_backend: true
+# local_backend: true
 
 backend:
   name: github
@@ -421,8 +421,8 @@ collections:
 
 
 # about config fields
-  - label: "miscellaneus"
-    name: "miscellaneus"
+  - label: "miscellaneous"
+    name: "miscellaneous"
     description: "Various info (links, etc.)"
     delete: false
     editor:
