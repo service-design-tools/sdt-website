@@ -1,5 +1,5 @@
 ---
-title: How to design AI-based services in a conscious and responsible way?
+title: How to understand and shape AI-enabled services and operations ?
 subtitle: AI is rapidly transforming services, to navigate this change, we
   propose a framework designed to thoughtfully approach AI implementation.
 category: Thematic
