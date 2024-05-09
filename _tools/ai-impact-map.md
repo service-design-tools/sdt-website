@@ -1,5 +1,5 @@
 ---
-title: AI impact map
+title: AI Impact Map
 subtitle: xx
 publicable: false
 isEnhanced: false
