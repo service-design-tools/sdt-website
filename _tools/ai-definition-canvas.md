@@ -1,5 +1,5 @@
 ---
-title: AI definition canvas
+title: AI Definition Canvas
 subtitle: xx
 publicable: false
 isEnhanced: false
