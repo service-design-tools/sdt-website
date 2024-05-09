@@ -6,10 +6,13 @@
 .highlights__container {
   --square-module: calc(var(--column-width) * 3 + var(--container-gap) * 2);
   display: grid;
-  grid-auto-rows: var(--square-module);
   grid-template-columns: repeat(2, 1fr);
   gap: var(--container-gap);
   grid-auto-flow: row dense;
+
+  & > a {
+    min-block-size: var(--square-module);
+  }
 
   .card{
     box-sizing: border-box;
@@ -91,7 +94,8 @@
   }
 
   h4 {
-    grid-row: 4 / span 4;
+    margin: 0 0 1.5rem;
+    grid-row: 5 / -1;
     grid-column: 2 / -2;
   }
 
@@ -162,7 +166,7 @@
 
   svg {
     align-self: flex-end;
-    height: calc(min(100%, var(--square-module) + var(--container-gap) - var(--square-4-padding) * 2));
+    max-block-size: calc(var(--square-module) - var(--square-4-padding) * 2);
     max-width: 50%;
   
     .svg--outline {
@@ -226,6 +230,7 @@
   .highlights__container {
     --square-module: calc(var(--column-width) * 2 + var(--container-gap) * 1);
     grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: var(--square-module);
   }
   .square--2 {
     grid-column: span 3;
@@ -252,6 +257,7 @@
     }
     svg {
       height: calc(min(84%, var(--square-module) * 2 + var(--container-gap) - var(--square-4-padding) * 2));
+      max-block-size: 100%;
       max-width: 100%;
     }
     .card[data-type="enhanced"] svg {

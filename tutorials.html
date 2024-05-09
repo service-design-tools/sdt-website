@@ -4,7 +4,8 @@ desc: Learn more about how to approach a specific design challenge, following th
 ---
 {% include header.html title="Tutorials" desc="Learn more about how to approach a specific design challenge, following these simple guides." svg="tutorials-svg.html" %}
 <main class="tutorials__gallery">
-    {% for tutorial in site.tutorials %}
+    {% for t in site.data.tutorials.tutorial-list %}
+    {% assign tutorial = site.tutorials | where: "title", t.tutorial | first %}
     <a href="{{ tutorial.url | relative_url }}">
         {% if tutorial.category != "Basics" %}
         <div class="card card--thematic">

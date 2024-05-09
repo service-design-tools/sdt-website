@@ -1,5 +1,5 @@
 # uncomment this line when in development
-#local_backend: true
+local_backend: true
 
 backend:
   name: github
@@ -285,6 +285,33 @@ collections:
           - {label: "map", name: "map", widget: "image", hint: "Pay attention to dimension, size, format and compression of the image, because it will impact the performance of the website."}
           - {label: "original map", name: "file", widget: "file", hint: "Map file that will be downloaded", required: false}
 
+# tutorials index config fields
+  - label: "tutorials page"
+    name: "tutorials-page"
+    description: "Here you can edit the order of tutorials shown in the tutorials page."
+    delete: false
+    editor:
+      preview: false
+    files:
+      - label: "tutorial list"
+        name: "tutorial-list"
+        file: "_data/tutorials.yml"
+        fields:
+          - label: "tutorials"
+            name: "tutorial-list"
+            widget: "list"
+            label_singular: "tutorial"
+            required: false
+            hint: "Before publishing, remove any entry that might have been left empty"
+            fields:
+              - label: "tutorial"
+                name: "tutorial"
+                widget: "relation"
+                collection: "tutorials"
+                search_fields: ["title"]
+                value_field: "title"
+                required: false
+
 # resources config fields
   - label: "resources page"
     name: "resources-page"
@@ -391,3 +418,39 @@ collections:
           - {label: "title", name: "title", widget: "string"}
           - {label: "subtitle", name: "subtitle", widget: "string"}
           - {label: "button label", name: "button", widget: "string"}
+
+
+# about config fields
+  - label: "miscellaneus"
+    name: "miscellaneus"
+    description: "Various info (links, etc.)"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - label: "contribute"
+        name: "contribute"
+        file: "_data/contribute.yml"
+        fields:
+          - label: "contribute link"
+            name: "link"
+            widget: "string"
+            hint: "Must be a proper url (make sure it works)"
+      - label: "footer"
+        name: "footer"
+        file: "_data/footer.yml"
+        fields:
+          - label: "curator list"
+            name: "curators"
+            widget: "list"
+            label_singular: "curator"
+            required: false
+            hint: "Before publishing, remove any entry that might have been left empty"
+            fields:
+              - label: "curator"
+                name: "curator"
+                widget: "object"
+                required: false
+                fields:
+                  - {label: "name", name: "name", widget: "string", hint: "Name shown in footer"}
+                  - {label: "url", name: "url", widget: "string", hint: "Must be a proper url (make sure it works)", required: false}

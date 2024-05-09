@@ -6,9 +6,16 @@
         <div class="info">
             <h3>curated by</h3>
             <ul>
-                <li><a href="http://oblo.design/" target="_blank" rel="noopener noreferrer">oblo.design</a></li>
-                <li><a href="https://www.servicedesignmaster.com/" target="_blank" rel="noopener noreferrer">Master in Service Design</a></li>
-                <li><a href="http://www.serviceinnovationacademy.com/sia/" target="_blank" rel="noopener noreferrer">Service Innovation Academy</a></li>
+                {% for curatorObj in site.data.footer.curators %}
+                {% assign curator = curatorObj.curator %}
+                <li>
+                    {% if curator.url.size > 0 %}
+                    <a href="{{ curator.url }}" target="_blank" rel="noopener noreferrer">{{ curator.name }}</a>
+                    {% else %}
+                    {{ curator.name }}
+                    {% endif %}
+                </li>
+                {% endfor %}
             </ul>
         </div>
         <div class="info">
