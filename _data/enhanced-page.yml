@@ -128,11 +128,15 @@ sections:
       - AI Functionality Cards
 masterclass:
   title: Experiment with us
-  description: "For years, we have been researching new methods of advancing
-    design practice and adjusting the tools to the new challenges. Currently, we
-    are testing the latest framework for the AI-based services. Contact us to
-    learn about different formats in which we can bring this knowledge to your
-    team or organization and apply it to the projects together. "
+  description: >+
+    For years, we have been researching new methods of advancing design practice
+    and adjusting the tools to the new challenges. Currently, we are testing the
+    latest framework for the AI-based services. Contact us to learn about
+    different formats in which we can bring this knowledge to your team or
+    organization and apply it to the projects together. 
+
+
+
   link:
     label: Get in touch
     url: https://www.oblo.design/getintouch
