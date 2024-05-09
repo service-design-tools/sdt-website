@@ -125,7 +125,7 @@ sections:
       Service designers should be conscious of the risks and consequences of this technology application and start evaluating them from the beginning of the design process, putting in practice structured impact metrics.
     tools:
       - AI Landscape
-      - AI Functionality Cards
+      - AI Functionalities Cards
 masterclass:
   title: Experiment with us
   description: >+
