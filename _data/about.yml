@@ -24,13 +24,15 @@ timeline:
         develop the platform and evolve the project, with additional content and
         initiatives.
     - year: "2022"
-      text: I﻿ntroduction of Enhanced Tools as a result of new research on the
-        importance of other disciplines from which to learn and enrich our
-        toolkit.
+      text: I﻿ntroduction of [Enhanced
+        Tools](https://servicedesigntools.org/enhanced-tools) as a result of new
+        research on the importance of other disciplines from which to learn and
+        enrich our toolkit.
     - year: "2024"
-      text: N﻿ew tools to shape AI-based services are introduced in response to the
-        challenge of understanding how to create meaningful experiences with
-        this rapidly advancing technology.
+      text: N﻿ew tools to [shape AI-based
+        services](https://servicedesigntools.org/tutorials/how-to-understand-and-shape-ai-enabled-services-and-operations)
+        are introduced in response to the challenge of understanding how to
+        create meaningful experiences with this rapidly advancing technology.
 team:
   title: Meet our team
   description: We are a multidisciplinary and passionate team of designers,
@@ -55,16 +57,14 @@ team:
     - name: Yulya Besplemennova
       role: Scientific Coordinator
       picture: /assets/images/uploads/yulya-besplemennova-grey.png
-collaboratorsCurrent:
-  title: Current collaborators
-  description: Students, researchers and external advisors current partnering with us.
-  members:
-    - name: Cristina Colosi
-      role: Researcher
-      picture: /assets/images/uploads/cristina-colosi.jpg
     - name: Ilaria Gava
       role: Researcher
       picture: /assets/images/uploads/ilaria-gava.jpg
+collaboratorsCurrent:
+  title: Current collaborators
+  description: "[C﻿ontact us](https://www.oblo.design/getintouch) if you have some
+    collaboration ideas!"
+  members: []
 collaboratorsPast:
   - name: Andrea Pastor
     role: Service design and Circular economy
@@ -98,6 +98,20 @@ collaboratorsPast:
     role: Service design and Data privacy
   - name: Zeynep Sayar
     role: Service design and Healthcare
+  - name: "Cristina Colosi "
+    role: Researcher
+  - name: "Stefano Maffei "
+    role: Scientific Director
+  - name: Agata Brilli
+    role: Researcher
+  - name: "Beatrice Villari "
+    role: Chief Researcher
+  - name: "Francesca Foglieni "
+    role: Scientific Coordinator
+  - name: Lisa Cagnin
+    role: Researcher
+  - name: "Raffaela Scognamiglio "
+    role: External Relations and Communication Manager
 curators:
   - description: "**Oblo** is an hyper-specialized service design studio supporting
       people and organizations along their innovation journeys. Founded in 2017,
