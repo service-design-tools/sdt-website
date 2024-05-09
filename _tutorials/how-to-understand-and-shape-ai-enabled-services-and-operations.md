@@ -10,7 +10,7 @@ intro: This process is meant to support organizations in understanding how to
   step-by-step process with supporting tools to think through the ways in which
   both experiences and operations can get enhanced.
 steps:
-  - title: "Ideate the opportunities "
+  - title: "Identify the opportunities "
     description: >-
       The first phase is crucial for mapping the existing situation of the
       service, understanding its painpoints and bottlenecks and whether AI can
@@ -30,14 +30,14 @@ steps:
 
       Read more on [what AI can do for services.](https://medium.com/ai-and-service-design/designing-ai-experiences-p-1-what-can-ai-do-for-humans-9a507720cbb4)
     tool: AI Landscape
-  - title: Evaluate the concepts
-    description: Define the details of your concept to better understand what value
-      does it bring. Consult the tech team/advisors as well as stakeholders or
-      their representatives to evaluate the feasibility and impact of this
-      hypothesis. Based on the effort and impact assessment evaluate the overall
-      potential of the hypothesis and optional action items to improve this
-      idea. Compare initial hypothesis to select the most promising ones with
-      which to proceed.
+  - title: Prioritize the concepts
+    description: Define the details of your concepts to better understand what value
+      can they bring. Consult the tech team/advisors as well as stakeholders, or
+      their representatives, to evaluate the feasibility and impact of your
+      ideas. Based on the effort and impact assessment, evaluate the overall
+      potential of the hypotheses and optional action items to improve them.
+      Compare initial concepts to select the most promising ones with which to
+      proceed.
     tips: Conduct research with operators, users and stakeholders to be sure about
       the effort and impact assessment's correctness.
   - title: Define the experience
@@ -52,7 +52,7 @@ steps:
       principles](https://medium.com/ai-and-service-design/designing-ai-experiences-p-3-guiding-principles-95b0c745973b)
       and [interaction and relational
       variables.](https://medium.com/ai-and-service-design/designing-ai-experiences-p-2-new-design-grammar-cf779e0c4c4e)
-  - title: Assess  the impacts
+  - title: Assess the impacts
     description: Though often excluded from the realm of design, this step becomes
       more and more crucial with complex systems adoption and understanding of
       intervention impacts that can benefit a lot from involvement of designers.
