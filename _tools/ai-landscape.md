@@ -56,7 +56,7 @@ related:
   tutorials:
     - How to understand and shape AI-enabled services and operations ?
   tools:
-    - AI Functionality Cards
+    - AI Functionalities Cards
 use: Envision the map of multiple possibilities that can inspire new service
   improvements.
 reminder: Include people that have a vision of overall service and its problems
