@@ -1,5 +1,5 @@
 ---
-title: Hypothesis definition canvas
+title: Opportunity assessment canvas
 subtitle: xxx
 publicable: false
 isEnhanced: false
