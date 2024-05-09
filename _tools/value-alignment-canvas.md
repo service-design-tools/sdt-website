@@ -1,5 +1,5 @@
 ---
-title: Value alignment canvas
+title: Hypothesis definition canvas
 subtitle: xxx
 publicable: false
 isEnhanced: false
