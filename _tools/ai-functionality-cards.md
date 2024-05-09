@@ -1,5 +1,5 @@
 ---
-title: AI Functionality cards
+title: AI Functionality Cards
 subtitle: "Get inspired by the existing technologies to ideate service
   operations and experience improvements. "
 publicable: true
