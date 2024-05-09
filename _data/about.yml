@@ -7,14 +7,14 @@ timeline:
   events:
     - year: "2009"
       text: The Service Design Tools project started leveraging the research done by
-        **Roberta Tassi** for her graduation thesis *Communication Tools for
+        **Roberta Tassi** for her graduation thesis *Communication Design and
         Service Design*, in collaboration with POLI.design and Domus Academy
         Research Center.
     - year: "2019"
       text: A new version of Service Design Tools has been launched, with the main
         objective of updating the database, refreshing content and case studies
         and improving the user experience.
-    - year: 2020-2022
+    - year: 2020-2021
       text: The beginning of a new journey, with an increasing involvement and
         participation of **[POLI.design](https://www.polidesign.net/)** (in
         collaboration with the **[Master in Service
@@ -23,6 +23,14 @@ timeline:
         Milano](http://www.serviceinnovationacademy.com/sia/)**) to further
         develop the platform and evolve the project, with additional content and
         initiatives.
+    - year: "2022"
+      text: I﻿ntroduction of Enhanced Tools as a result of new research on the
+        importance of other disciplines from which to learn and enrich our
+        toolkit.
+    - year: "2024"
+      text: N﻿ew tools to shape AI-based services are introduced in response to the
+        challenge of understanding how to create meaningful experiences with
+        this rapidly advancing technology.
 team:
   title: Meet our team
   description: We are a multidisciplinary and passionate team of designers,
