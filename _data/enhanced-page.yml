@@ -110,15 +110,29 @@ sections:
     tools:
       - Future backcasting
       - Signal cards
+  - title: Shaping AI-based services
+    question: "How service designers can navigate the complexity of this rapidly
+      developing technology and help to implement it in a meaningful and
+      constructive way avoiding the hype inflation? "
+    content: >-
+      Service designers need to get informed about AI capabilities and help the
+      organizations envision the impactful ways to apply them, spanning from the
+      back-end operations improvements to the enhancement of the delivered
+      experiences.\
+
+      \
+
+      Service designers should be conscious of the risks and consequences of this technology application and start evaluating them from the beginning of the design process, putting in practice structured impact metrics.
+    tools:
+      - AI Landscape
+      - AI Functionality Cards
 masterclass:
-  title: Attend our first event
-  description: After many experiments with real projects we have synthesised the
-    most interesting elements in a new toolkit that we are finally ready to
-    reveal to public with the first event as a part of Masterclass series by
-    Master Service Design - Politecnico di Milano on Thursday, February 17th.
-    Join our Founder & Scientific Director Roberta Tassi and Scientific
-    Coordinators Yulia Besplemennova and Francesca Foglieni to be the first to
-    learn about this enhanced toolkit.
+  title: Experiment with us
+  description: "For years, we have been researching new methods of advancing
+    design practice and adjusting the tools to the new challenges. Currently, we
+    are testing the latest framework for the AI-based services. Contact us to
+    learn about different formats in which we can bring this knowledge to your
+    team or organization and apply it to the projects together. "
   link:
-    label: Find all the information to participate
-    url: https://www.servicedesignmaster.com/service-design-masterclasses-2/
+    label: Get in touch
+    url: https://www.oblo.design/getintouch
