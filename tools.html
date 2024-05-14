@@ -110,7 +110,7 @@ specific needs." svg="tools-svg.html" %}
   <div class="tools__gallery">
     {% for tool in site.tools %}
     {% if tool.publicable %}
-    <a href="{{ tool.title | escape | replace: '&#39;', '' | slugify | prepend: '/tools/' | relative_url }}"
+    <a href="{{ tool.url | relative_url }}"
       class="tool{% for question in tool.properties.when %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.who %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.what %} {{ question | slugify }}{% endfor %}{% for question in tool.properties.how %} {{ question | slugify }}{% endfor %}"
       data-name="{{ tool.title | slugify }}"
       data-process="{% for question in tool.properties.when %} {{ question | slugify }}{% endfor %}"
