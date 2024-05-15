@@ -32,6 +32,8 @@ icon: >-
 
   <path d="M83.979 107.378H71.9004V92.4668H88.8022V104.463H83.979V107.378Z"  class="svg--filled-support"></path>
 
+  <path d="M141.303 18.0865C141.303 8.65558 133.658 1 124.217 1V94.8271C133.648 94.8271 141.303 102.472 141.303 111.914V18.0865Z" class="svg--outline svg--filled-light "></path>
+
   <path d="M115.3 30.3292H16.6699V128.959H115.3V30.3292Z" class="svg--outline"></path>
 
   <path d="M65.9785 30.3292V128.815"  class="svg--outline"></path>
@@ -50,7 +52,6 @@ icon: >-
 
   <path d="M115.3 30.3292H16.6699V45.2299H115.3V30.3292Z"  class="svg--outline svg--bw"></path>
 
-  <path d="M141.303 18.0865C141.303 8.65558 133.658 1 124.217 1V94.8271C133.648 94.8271 141.303 102.472 141.303 111.914V18.0865Z" stroke="#262D32" stroke-width="1.8" class="svg--outline "></path>
 
   <path d="M83.979 107.378H71.9004V92.4668H88.8022V104.463H83.979V107.378Z"  class="svg--outline svg--bw"></path>
 
