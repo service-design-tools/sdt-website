@@ -49,6 +49,7 @@ nav ul {
 
 .menu--open nav ul {
   height: 100%;
+  overscroll-behavior: contain;
 }
 
 nav li a {

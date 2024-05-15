@@ -333,14 +333,14 @@ main > img {
 }
 
 @media (hover: hover) and (pointer: fine) {
-    .step__tool svg .svg--filled-main {
+    .step__tool svg :is(.svg--filled-main, .svg--filled-support) {
         opacity: 0;
         transition: opacity 0.5s;
     }
-    .step__tool .card:hover svg .svg--filled-main {
+    .step__tool .card:hover svg :is(.svg--filled-main, .svg--filled-support) {
         opacity: 1;
     }
-    .step__tool a[href="#"] > .card:hover svg .svg--filled-main {
+    .step__tool a[href="#"] > .card:hover svg :is(.svg--filled-main, .svg--filled-support) {
         opacity: 0;
     }
     .step__tool svg .svg--bw {

@@ -36,7 +36,7 @@ layout: default
         </div>
         {% for step in page.steps %}
         <div class="timeline__step">
-            <a href="#{{ step.tool | escape | replace: '&#39;', '' | slugify }}">
+            <a href="#chapter{{ forloop.index }}">
                 <p class="timeline__number">0{{ forloop.index }}</p>
                 <p class="timeline__tool">{{ step.title }}</p>
             </a>
@@ -44,22 +44,22 @@ layout: default
         {% endfor %}
     </div>
     {% for step in page.steps %}
-    <div class="step" data-step="{{ forloop.index0 }}" id="{{ step.tool | slugify }}">
+    <div class="step" data-step="{{ forloop.index0 }}" id="chapter{{ forloop.index }}">
         <div class="step__tool">
             <p class="step__number">0{{ forloop.index }}</p>
             {% if step.tool %}
-            {% assign match = site.tools | where:"title",step.tool %}
-            <h5>main tool used</h5>
-            {% if match[0].publicable == true %}
-            <a href="{{ match[0].url }}">
-            {% else %}
-            <a href="#">
-            {% endif %}
-                <div class="card">
-                    {{ match[0].icon | strip_newlines | normalize_whitespace }}
-                    <p>{{ step.tool }}</p>
-                </div>
-            </a>
+                {% assign match = site.tools | where:"title", step.tool | first %}
+                <h5>main tool used</h5>
+                {% if match.publicable == true %}
+                    <a href="{{ match.url }}">
+                    {% else %}
+                    <a href="#">
+                    {% endif %}
+                    <div class="card">
+                        {{ match.icon | strip_newlines | normalize_whitespace }}
+                        <p>{{ step.tool }}</p>
+                    </div>
+                </a>
             {% endif %}
         </div>
         <div class="step__content">
