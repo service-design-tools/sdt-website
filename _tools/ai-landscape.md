@@ -20,39 +20,48 @@ icon: >-
   <svg width="143" height="130" viewBox="0 0 143 130" fill="none"
   xmlns="http://www.w3.org/2000/svg">
 
-  <path d="M1 45.23H16.6703V87.8693H1" class="svg--filled-support"/>
+  <g id="Frame 113">
 
-  <path d="M47.2182 101.036H30.3164V115.936H47.2182V101.036Z"  class="svg--filled-support"/>
+  <path d="M1 45.23H16.6703V87.8693H1" class="svg--filled-support"></path>
 
-  <path d="M100.88 104.463H83.9785V119.364H100.88V104.463Z" class="svg--filled-support"/>
+  <path d="M47.2182 101.036H30.3164V115.936H47.2182V101.036Z"  class="svg--filled-support"></path>
 
-  <path d="M115.3 30.3292H16.6699V45.2299H115.3V30.3292Z"  class="svg--filled-support"/>
+  <path d="M104.98 106.996H88.0781V121.897H104.98V106.996Z" class="svg--filled-support"></path>
 
-  <path d="M83.979 107.378H71.9004V92.4668H88.8022V104.463H83.979V107.378Z"  class="svg--filled-support"/>
+  <path d="M115.3 30.3292H16.6699V45.2299H115.3V30.3292Z"  class="svg--filled-support"></path>
 
-
-  <path d="M115.3 30.3292H16.6699V128.959H115.3V30.3292Z" class="svg--outline"/>
-
-  <path d="M65.9785 30.3292V128.815"  class="svg--outline"/>
-
-  <path d="M16.6699 87.8692H114.089"  class="svg--outline"/>
-
-  <path d="M141.304 111.913C141.304 121.344 133.659 129 124.218 129V128.959H1V18.0864H141.366L141.304 111.913Z" class="svg--outline"/>
-
-  <path d="M1 45.23H16.6703V87.8693H1" class="svg--outline svg--bw"/>
-
-  <path d="M100.88 104.463H83.9785V119.364H100.88V104.463Z" class="svg--outline svg--bw"/>
-
-  <path d="M115.3 30.3292H16.6699V45.2299H115.3V30.3292Z"  class="svg--outline svg--bw"/>
+  <path d="M88.0786 109.911H76V95H92.9018V106.996H88.0786V109.911Z"  class="svg--filled-support"></path>
 
 
-  <path d="M83.979 107.378H71.9004V92.4668H88.8022V104.463H83.979V107.378Z"  class="svg--outline svg--bw"/>
+  <path d="M115.3 30.3292H16.6699V128.959H115.3V30.3292Z" class="svg--outline"></path>
 
-  <path d="M47.2182 101.036H30.3164V115.936H47.2182V101.036Z" class="svg--outline svg--bw"/>
+  <path d="M65.9785 30.3292V128.815"  class="svg--outline"></path>
 
-  <path d="M141.303 18.0865C141.303 8.65558 133.658 1 124.217 1V94.8271C133.648 94.8271 141.303 102.472 141.303 111.914V18.0865Z" class="svg--outline svg--filled-light "/>
+  <path d="M16.6699 87.8692H114.089"  class="svg--outline"></path>
 
-  <path d="M141.303 18.0865C141.303 8.65558 133.658 1 124.217 1V94.8271C133.648 94.8271 141.303 102.472 141.303 111.914V18.0865Z"  class="svg--outline svg--filled-support"/>
+  <path d="M141.304 111.913C141.304 121.344 133.659 129 124.218 129V128.959H1V18.0864H141.366L141.304 111.913Z" class="svg--outline"></path>
+
+
+
+  <path d="M1 45.23H16.6703V87.8693H1" class="svg--outline svg--bw"></path>
+
+  <path d="M104.98 106.996H88.0781V121.897H104.98V106.996Z" class="svg--outline svg--bw"></path>
+
+  <path d="M115.3 30.3292H16.6699V45.2299H115.3V30.3292Z"  class="svg--outline svg--bw"></path>
+
+
+  <path d="M88.0786 109.911H76V95H92.9018V106.996H88.0786V109.911Z"  class="svg--outline svg--bw"></path>
+
+  <path d="M47.2182 101.036H30.3164V115.936H47.2182V101.036Z" class="svg--outline svg--bw"></path>
+
+
+
+  <path d="M141.303 18.0865C141.303 8.65558 133.658 1 124.217 1V94.8271C133.648 94.8271 141.303 102.472 141.303 111.914V18.0865Z" class="svg--outline svg--filled-light "></path>
+
+  <path d="M141.303 18.0865C141.303 8.65558 133.658 1 124.217 1V94.8271C133.648 94.8271 141.303 102.472 141.303 111.914V18.0865Z"  class="svg--outline svg--filled-support"></path>
+
+
+  </g>
 
   </svg>
 related:
