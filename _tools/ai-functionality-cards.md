@@ -53,6 +53,8 @@ related:
 use: Inform the knowledge of AI capabilities and inspire the creative process.
 reminder: Consider them as a starting point in the conversation, but not limit
   the ideation to them and present functionalities.
+template:
+  image: /assets/images/uploads/frame-110.jpg
 guidelines:
   - step: Read through the set of cards to understand variety of technological
       capabilities and eventual connections between them.
