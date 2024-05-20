@@ -74,7 +74,7 @@ use: Envision the map of multiple possibilities that can inspire new service
 reminder: Include people that have a vision of overall service and its problems
   as well as technical roles.
 template:
-  image: /assets/images/uploads/ai-landscape.jpg
+  image: /assets/images/uploads/frame-109.jpg
   file: https://form.typeform.com/to/FRADJxCv
 guidelines:
   - step: Start by filling in the the overview of a current state of the service,
