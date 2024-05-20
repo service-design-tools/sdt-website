@@ -96,15 +96,13 @@ guidelines:
       learn about different technical opportunities and try combining them to
       generate a variety of interventions suitable for each service step."
     warning: >-
-      * **Augmentation:** AI enhances human skills and extends capabilities.
+      **\- Augmentation:** AI enhances human skills and extends capabilities.
 
 
-
-      * **Assistance:** AI and humans work together, with AI serving as a tool or helper.
-
+      **\- Assistance:** AI and humans work together, with AI serving as a tool or helper.
 
 
-      * **Automation:** AI completely replaces a human task or interaction.
+      **\- Automation:** AI completely replaces a human task or interaction.
   - step: Once done with opportunities generation, review them all to filter and
       prioritize the most promising ones and proceed with the concept definition
       evaluation their impacts and potential risks as well as the effort needed
