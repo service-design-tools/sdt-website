@@ -67,7 +67,7 @@ steps:
       process to start gathering the metrics already during design and
       development phases.
 toolkit:
-  pdf: https://form.typeform.com/to/FRADJxCv
+  pdf: https://form.typeform.com/to/imQxs9l6
   image: /assets/images/uploads/group-4.jpg
 references:
   - name: 2020 - Future AI experiences @Intersection Conference
