@@ -98,7 +98,11 @@ guidelines:
     warning: >-
       * **Augmentation:** AI enhances human skills and extends capabilities.
 
+
+
       * **Assistance:** AI and humans work together, with AI serving as a tool or helper.
+
+
 
       * **Automation:** AI completely replaces a human task or interaction.
   - step: Once done with opportunities generation, review them all to filter and
