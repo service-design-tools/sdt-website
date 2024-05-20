@@ -72,6 +72,6 @@ guidelines:
 references:
   - name: Download the AI design tools
     link: https://form.typeform.com/to/FRADJxCv
-socialimage: /assets/images/uploads/brainstorming-social-img.png
+socialimage: /assets/images/uploads/ai-functionalitis-social-media.png
 ---
 A set of cards that is listing a selection of current AI capabilities applicable to the services, which can stimulate the ideation process and inform the generation of opportunities for AI Landscape.
