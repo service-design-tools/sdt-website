@@ -83,17 +83,24 @@ guidelines:
       the most important to focus on in specific situation.
     warning: Ideally conduct some initial overview of the existing process and its
       problems in order to simplify and speed up the session. Involve roles with
-      knowledge of both front and back end processes and issues. (Operational
+      knowledge of both front and back end processes and issues (operational
       managers, etc).
   - step: Fill in the related problems, that you are aware of, for each phase of the
       service value chain, think also about the aspects that are not
       problematic, but could be improved to provide even more value.
-  - step: "Starting from the steps in the service that have the biggest problems,
+  - step: "Starting from the steps in the service, that have the biggest problems,
       think which AI related solutions could help to overcome them: where
-      automation, assistance or augmentation could create the most value. Use
-      the AI functionalities cards to learn about different technical
-      opportunities and try combining them to generate variety of interventions
-      suitable for each service step."
+      automation, assistance, or augmentation could create the most value. Use
+      the [AI Functionalities
+      Cards](https://servicedesigntools.org/tools/ai-functionality-cards) to
+      learn about different technical opportunities and try combining them to
+      generate a variety of interventions suitable for each service step."
+    warning: >-
+      * **Augmentation:** AI enhances human skills and extends capabilities.
+
+      * **Assistance:** AI and humans work together, with AI serving as a tool or helper.
+
+      * **Automation:** AI completely replaces a human task or interaction.
   - step: Once done with opportunities generation, review them all to filter and
       prioritize the most promising ones and proceed with the concept definition
       evaluation their impacts and potential risks as well as the effort needed
