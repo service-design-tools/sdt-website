@@ -75,7 +75,7 @@ reminder: Include people that have a vision of overall service and its problems
   as well as technical roles.
 template:
   image: /assets/images/uploads/frame-109.jpg
-  file: https://form.typeform.com/to/FRADJxCv
+  file: https://form.typeform.com/to/imQxs9l6
 guidelines:
   - step: Start by filling in the the overview of a current state of the service,
       briefly describing the existing actors and interactions. The canvas
