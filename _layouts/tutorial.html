@@ -47,7 +47,7 @@ layout: default
     <div class="step" data-step="{{ forloop.index0 }}" id="chapter{{ forloop.index }}">
         <div class="step__tool">
             <p class="step__number">0{{ forloop.index }}</p>
-            {% if step.tool %}
+            {% if step.tool.size > 0 %}
                 {% assign match = site.tools | where:"title", step.tool | first %}
                 <h5>main tool used</h5>
                 {% if match.publicable == true %}
