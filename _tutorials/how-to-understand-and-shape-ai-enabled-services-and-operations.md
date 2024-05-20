@@ -40,7 +40,7 @@ steps:
       proceed.
     tips: Conduct research with operators, users and stakeholders to be sure about
       the effort and impact assessment's correctness.
-    tool: Opportunity assessment canvas
+    tool: ""
   - title: Define the experience
     description: >-
       Once the AI intervention concept was evaluated and chosen to proceed with,
