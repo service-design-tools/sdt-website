@@ -14,11 +14,13 @@ steps:
     description: >-
       The first phase is crucial for mapping the existing situation of the
       service, understanding its painpoints and bottlenecks and whether AI can
-      be a viable solution for them to consider. Use the AI Landscape canvas and
-      AI Functionalities cards deck to explore the variety of possibilities
-      spanning from the automation of some processes to assistance to workers
-      and users, and eventually augmentation of their capabilities and
-      enhancement of service.\
+      be a viable solution for them to consider. Use the [AI Landscape
+      canvas](https://servicedesigntools.org/tools/ai-landscape) and [AI
+      Functionalities
+      cards](https://servicedesigntools.org/tools/ai-functionality-cards) deck
+      to explore the variety of possibilities spanning from the automation of
+      some processes to assistance to workers and users, and eventually
+      augmentation of their capabilities and enhancement of service.\
 
       \
 
