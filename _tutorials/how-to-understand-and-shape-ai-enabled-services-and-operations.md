@@ -72,4 +72,5 @@ toolkit:
 references:
   - name: 2020 - Future AI experiences @Intersection Conference
     link: https://www.youtube.com/watch?v=SPznV_74evE&t=10s
+socialimage: /assets/images/uploads/tutorial-socials.png
 ---
