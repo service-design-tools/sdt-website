@@ -112,6 +112,8 @@ guidelines:
 references:
   - name: Download the AI design canvases
     link: https://form.typeform.com/to/FRADJxCv
+  - link: https://youtu.be/qckbYUtS9LE?si=_6Icsn5wtgiJbp0b
+    name: "Video explanation of the canvas use "
 socialimage: /assets/images/uploads/ai-lansdcape-social-media1.png
 ---
 A crucial step to understand how to integrate AI in the service by ideating and mapping out a comprehensive landscape of opportunities that are based on understanding of service needs and inspired by the technological capabilities.
