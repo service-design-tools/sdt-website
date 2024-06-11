@@ -70,6 +70,8 @@ toolkit:
   pdf: https://form.typeform.com/to/imQxs9l6
   image: /assets/images/uploads/group-4.jpg
 references:
+  - name: "Video explanation of AI Landscape Canvas "
+    link: https://youtu.be/qckbYUtS9LE?si=_6Icsn5wtgiJbp0b
   - name: 2020 - Future AI experiences @Intersection Conference
     link: https://www.youtube.com/watch?v=SPznV_74evE&t=10s
 socialimage: /assets/images/uploads/tutorial-socials.png
