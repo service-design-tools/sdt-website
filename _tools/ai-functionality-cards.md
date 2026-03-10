@@ -71,7 +71,7 @@ guidelines:
       enabling technologies in order to verify the implementation efforts and
       feasibility in the following steps.
 references:
-  - name: Playbook for AI-based services design
+  - name: Download cards and Playbook for AI-based services design
     link: https://form.typeform.com/to/Iu543Fdr
 socialimage: /assets/images/uploads/ai-functionalitis-social-media.png
 ---
