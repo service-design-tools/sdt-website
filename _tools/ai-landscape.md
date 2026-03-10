@@ -75,7 +75,7 @@ reminder: Include people that have a vision of overall service and its problems
   as well as technical roles.
 template:
   image: /assets/images/uploads/frame-109.jpg
-  file: https://form.typeform.com/to/imQxs9l6
+  file: https://form.typeform.com/to/Iu543Fdr
 guidelines:
   - step: Start by filling in the the overview of a current state of the service,
       briefly describing the existing actors and interactions. The canvas
@@ -111,9 +111,11 @@ guidelines:
       for implementation.
 references:
   - name: Download the AI design canvases
-    link: https://form.typeform.com/to/FRADJxCv
+    link: https://form.typeform.com/to/Iu543Fdr
   - link: https://youtu.be/qckbYUtS9LE?si=_6Icsn5wtgiJbp0b
     name: "Video explanation of the canvas use "
+  - name: Playbook for AI-based services design
+    link: https://form.typeform.com/to/Iu543Fdr
 socialimage: /assets/images/uploads/ai-lansdcape-social-media1.png
 ---
 A crucial step to understand how to integrate AI in the service by ideating and mapping out a comprehensive landscape of opportunities that are based on understanding of service needs and inspired by the technological capabilities.
