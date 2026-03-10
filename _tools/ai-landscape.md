@@ -110,12 +110,10 @@ guidelines:
       evaluation their impacts and potential risks as well as the effort needed
       for implementation.
 references:
-  - name: Download the AI design canvases
+  - name: Download the AI design canvases and playbook
     link: https://form.typeform.com/to/Iu543Fdr
   - link: https://youtu.be/qckbYUtS9LE?si=_6Icsn5wtgiJbp0b
     name: "Video explanation of the canvas use "
-  - name: Playbook for AI-based services design
-    link: https://form.typeform.com/to/Iu543Fdr
 socialimage: /assets/images/uploads/ai-lansdcape-social-media1.png
 ---
 A crucial step to understand how to integrate AI in the service by ideating and mapping out a comprehensive landscape of opportunities that are based on understanding of service needs and inspired by the technological capabilities.
