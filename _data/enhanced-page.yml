@@ -127,16 +127,14 @@ sections:
       - AI Landscape
       - AI Functionalities Cards
 masterclass:
-  title: Experiment with us
+  title: Take part in our Bootcamps
   description: >+
     For years, we have been researching new methods of advancing design practice
     and adjusting the tools to the new challenges. Currently, we are testing the
-    latest framework for the AI-based services. Contact us to learn about
-    different formats in which we can bring this knowledge to your team or
-    organization and apply it to the projects together. 
-
+    latest framework for the AI-based services. Read about our formats to apply
+    new tools to your process. 
 
 
   link:
-    label: Get in touch
-    url: https://www.oblo.design/getintouch
+    label: Book your seat
+    url: https://obloailab.substack.com/p/ai-bootcamp-with-oblo
