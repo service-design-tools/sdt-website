@@ -30,7 +30,7 @@ steps:
       issues (operational managers, etc), technical figures would be very
       beneficial.\
 
-      Read more on [what AI can do for services.](https://medium.com/ai-and-service-design/designing-ai-experiences-p-1-what-can-ai-do-for-humans-9a507720cbb4)
+      Read more on[ what AI can do for services](https://medium.com/ai-and-service-design/designing-ai-experiences-p-1-what-can-ai-do-for-humans-9a507720cbb4) and [download our Designing AI-based Services Playbook. ](https://form.typeform.com/to/Iu543Fdr)
     tool: AI Landscape
   - title: Prioritize the concepts
     description: Define the details of your concepts to better understand what value
