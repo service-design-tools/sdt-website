@@ -67,9 +67,11 @@ steps:
       process to start gathering the metrics already during design and
       development phases.
 toolkit:
-  pdf: https://form.typeform.com/to/imQxs9l6
+  pdf: https://form.typeform.com/to/Iu543Fdr
   image: /assets/images/uploads/group-4.jpg
 references:
+  - name: Playbook for AI-based services design
+    link: https://form.typeform.com/to/Iu543Fdr
   - name: "Video explanation of AI Landscape Canvas "
     link: https://youtu.be/qckbYUtS9LE?si=_6Icsn5wtgiJbp0b
   - name: 2020 - Future AI experiences @Intersection Conference
