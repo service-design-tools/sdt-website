@@ -55,7 +55,7 @@ reminder: Consider them as a starting point in the conversation, but not limit
   the ideation to them and present functionalities.
 template:
   image: /assets/images/uploads/frame-110.jpg
-  file: https://form.typeform.com/to/imQxs9l6
+  file: https://form.typeform.com/to/Iu543Fdr
 guidelines:
   - step: Read through the set of cards to understand variety of technological
       capabilities and eventual connections between them.
@@ -70,7 +70,9 @@ guidelines:
       technologies can enable, and describe them in detail. Note down the
       enabling technologies in order to verify the implementation efforts and
       feasibility in the following steps.
-references: []
+references:
+  - name: Playbook for AI-based services design
+    link: https://form.typeform.com/to/Iu543Fdr
 socialimage: /assets/images/uploads/ai-functionalitis-social-media.png
 ---
 A set of cards that is listing a selection of current AI capabilities applicable to the services, which can stimulate the ideation process and inform the generation of opportunities for AI Landscape.
