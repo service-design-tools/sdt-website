@@ -111,9 +111,9 @@ sections:
       - Future backcasting
       - Signal cards
   - title: Shaping AI-based services
-    question: "How service designers can navigate the complexity of this rapidly
-      developing technology and help to implement it in a meaningful and
-      constructive way avoiding the hype inflation? "
+    question: How can service designers help organizations cut through AI hype and
+      identify where this technology actually creates value—for operations,
+      experiences, and people?
     content: >-
       Service designers need to get informed about AI capabilities and help the
       organizations envision the impactful ways to apply them, spanning from the
@@ -123,6 +123,9 @@ sections:
       \
 
       Service designers should be conscious of the risks and consequences of this technology application and start evaluating them from the beginning of the design process, putting in practice structured impact metrics.
+
+
+      Read more in our [Designing AI-based services playbook](https://form.typeform.com/to/Iu543Fdr)
     tools:
       - AI Landscape
       - AI Functionalities Cards
