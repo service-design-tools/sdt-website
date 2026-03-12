@@ -76,5 +76,7 @@ references:
     link: https://youtu.be/qckbYUtS9LE?si=_6Icsn5wtgiJbp0b
   - name: 2020 - Future AI experiences @Intersection Conference
     link: https://www.youtube.com/watch?v=SPznV_74evE&t=10s
+  - name: "Service Design Meets AI event video "
+    link: https://www.youtube.com/watch?v=h_kn1fime4Y&t=3446s
 socialimage: /assets/images/uploads/tutorial-socials.png
 ---
