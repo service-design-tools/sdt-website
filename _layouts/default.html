@@ -74,6 +74,9 @@
         {% endif %}
     </head>
     <body>
+        {% if page.url == "/" %}
+            {% include ai-banner.html %}
+        {% endif %}
         {% include navigation.html %}
         {{ content }}
         {% include footer.html %}
